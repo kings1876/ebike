@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
-import { NavLink, Link, useNavigate } from 'react-router-dom';
+import { NavLink, Link, useNavigate, useLocation } from 'react-router-dom';
 import { ShoppingBag, Menu, X } from 'lucide-react';
 import { useCart } from '../context/CartContext';
+import { ShopMenuDesktop, ShopMenuMobile } from './ShopMenu';
 
 export const Header: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { totalCount, openCartDrawer } = useCart();
   const navigate = useNavigate();
+  const location = useLocation();
 
   const navItems = [
     { path: '/shop', label: 'Shop' },
@@ -45,7 +47,9 @@ export const Header: React.FC = () => {
 
         {/* Zone 2: 4–5 Clean Single-Line Nav Links with Router URLs */}
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-700">
-          {navItems.map((item) => (
+          {navItems.map((item) => item.path === '/shop' ? (
+            <ShopMenuDesktop key={item.path} isActive={location.pathname.startsWith('/shop')} />
+          ) : (
             <NavLink
               key={item.path}
               to={item.path}
@@ -90,7 +94,9 @@ export const Header: React.FC = () => {
       {/* Mobile Nav Dropdown */}
       {mobileMenuOpen && (
         <div className="md:hidden border-t border-slate-200 bg-white px-4 pt-2 pb-4 space-y-1 shadow-lg">
-          {navItems.map((item) => (
+          {navItems.map((item) => item.path === '/shop' ? (
+            <ShopMenuMobile key={item.path} onNavigate={() => setMobileMenuOpen(false)} />
+          ) : (
             <NavLink
               key={item.path}
               to={item.path}
