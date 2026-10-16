@@ -5,7 +5,7 @@ import { PRODUCTS, CATEGORIES_WITH_SUBCATEGORIES } from '../data/products';
 import { ProductCard } from '../components/ProductCard';
 import { Search, SlidersHorizontal } from 'lucide-react';
 import {
-  USE_CASES, POWER_BANDS, PRICE_BANDS, CONDITIONS, EMPTY_FACETS, matchesFacets, FacetSelection,
+  BRANDS, MOTOR_SYSTEMS, PRICE_BANDS, EMPTY_FACETS, matchesFacets, FacetSelection,
 } from '../data/taxonomy';
 
 export const ShopPage: React.FC = () => {
@@ -25,11 +25,10 @@ export const ShopPage: React.FC = () => {
   const [sortBy, setSortBy] = useState<'featured' | 'price-asc' | 'price-desc'>(sortParam);
 
   const facetsFromUrl = (): FacetSelection => ({
-    use: searchParams.get('use') || 'All',
-    power: searchParams.get('power') || 'All',
+    brand: searchParams.get('brand') || 'All',
+    motor: searchParams.get('motor') || 'All',
     price: searchParams.get('price') || 'All',
-    condition: searchParams.get('condition') || 'All',
-    legal: searchParams.get('legal') === '1',
+    inStock: searchParams.get('instock') === '1',
   });
   const [facets, setFacets] = useState<FacetSelection>(facetsFromUrl);
 
@@ -48,11 +47,10 @@ export const ShopPage: React.FC = () => {
     if (subcat !== 'All') params.subcat = subcat;
     if (query.trim()) params.q = query.trim();
     if (sort !== 'featured') params.sort = sort;
-    if (f.use !== 'All') params.use = f.use;
-    if (f.power !== 'All') params.power = f.power;
+    if (f.brand !== 'All') params.brand = f.brand;
+    if (f.motor !== 'All') params.motor = f.motor;
     if (f.price !== 'All') params.price = f.price;
-    if (f.condition !== 'All') params.condition = f.condition;
-    if (f.legal) params.legal = '1';
+    if (f.inStock) params.instock = '1';
     setSearchParams(params);
   };
 
@@ -62,7 +60,7 @@ export const ShopPage: React.FC = () => {
     updateUrl(selectedCategory, selectedSubcategory, searchQuery, sortBy, next);
   };
 
-  const activeFacetCount = Object.entries(facets).filter(([k, v]) => (k === 'legal' ? v : v !== 'All')).length;
+  const activeFacetCount = Object.entries(facets).filter(([k, v]) => (k === 'inStock' ? v : v !== 'All')).length;
 
   const handleCategorySelect = (cat: ProductCategory | 'All') => {
     setSelectedCategory(cat);
@@ -124,7 +122,7 @@ export const ShopPage: React.FC = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
           <div>
             <div className="text-xs font-semibold text-emerald-700 uppercase tracking-widest">
-              Direct Australian Warehouse Inventory
+              Electric Bikes Superstore Range
             </div>
             <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mt-1">
               E-Bikes for Sale in Australia
@@ -198,10 +196,9 @@ export const ShopPage: React.FC = () => {
         {/* Facets: cross-cutting filters (use, motor, price, condition, road-legal) */}
         <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2">
           {([
-            ['use', 'Use', USE_CASES as readonly string[]],
-            ['power', 'Motor', POWER_BANDS as readonly string[]],
+            ['brand', 'Brand', BRANDS],
+            ['motor', 'Motor', MOTOR_SYSTEMS],
             ['price', 'Price', PRICE_BANDS.map(b => b.label)],
-            ['condition', 'Condition', CONDITIONS as readonly string[]],
           ] as const).map(([key, label, options]) => (
             <label key={key} className="flex items-center gap-1.5 text-xs text-slate-500">
               {label}
@@ -218,11 +215,11 @@ export const ShopPage: React.FC = () => {
           <label className="flex items-center gap-1.5 text-xs text-slate-600 cursor-pointer">
             <input
               type="checkbox"
-              checked={facets.legal}
-              onChange={(e) => handleFacetChange({ legal: e.target.checked })}
+              checked={facets.inStock}
+              onChange={(e) => handleFacetChange({ inStock: e.target.checked })}
               className="accent-emerald-600"
             />
-            Road-legal (25 km/h mode)
+            In stock only
           </label>
           {activeFacetCount > 0 && (
             <button

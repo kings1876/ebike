@@ -36,7 +36,7 @@ export const LiveChatWidget: React.FC = () => {
       } else if (lower.includes('shipping') || lower.includes('delivery') || lower.includes('melbourne') || lower.includes('sydney')) {
         reply = 'We provide 100% Free Nationwide Delivery across Australia. Metro deliveries arrive in 2–4 business days; regional deliveries in 3–6 business days with tracked freight insurance.';
       } else if (lower.includes('hill') || lower.includes('trail') || lower.includes('mountain') || lower.includes('climb')) {
-        reply = 'For steep climbs and off-road tracks, we recommend our Apex Trail Pro 750W (85Nm torque) or Outback Pioneer 500W. They feature dual suspension/lockout forks and heavy-duty hydraulic brakes.';
+        reply = 'For steep climbs and off-road tracks, we recommend browsing our Electric Mountain Bikes range (hardtail and dual-suspension) from brands like Trek, Orbea and Bianchi. Tell us your budget and where you ride and we will point you to the right one.';
       } else if (lower.includes('legal') || lower.includes('road') || lower.includes('250w') || lower.includes('en15194')) {
         reply = 'Yes! All our 250W commuter and step-through models strictly adhere to EN15194 (25km/h motor cutoff), making them 100% street-legal without licence or registration across all Australian states.';
       }

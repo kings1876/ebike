@@ -8,6 +8,7 @@ import { ReviewsSection } from '../components/ReviewsSection';
 
 export const HomePage: React.FC = () => {
   const featuredProducts = PRODUCTS.slice(0, 6);
+  const flagship = PRODUCTS.find(p => p.inStock && p.category === 'Electric Mountain Bikes') ?? PRODUCTS[0];
 
   return (
     <div>
@@ -93,13 +94,13 @@ export const HomePage: React.FC = () => {
                     <div className="text-[11px] font-semibold text-emerald-400 uppercase tracking-wider">
                       Featured Flagship
                     </div>
-                    <div className="text-sm font-bold text-white">Apex Trail Pro 750W Dual-Air</div>
-                    <div className="text-xs text-slate-400 mt-0.5">85Nm Torque · 110km Range</div>
+                    <div className="text-sm font-bold text-white">{flagship.name}</div>
+                    <div className="text-xs text-slate-400 mt-0.5">{flagship.brand}{flagship.details?.['Motor System'] ? ' · ' + flagship.details['Motor System'] + ' motor' : ''}</div>
                   </div>
                   <div className="text-right">
-                    <div className="text-xs text-slate-400 line-through">$2,299</div>
-                    <div className="text-base font-extrabold text-white font-mono tabular-nums">$1,899</div>
-                    <div className="text-[10px] text-emerald-400 font-semibold">$1,709 with Crypto</div>
+                    {flagship.originalPrice && <div className="text-xs text-slate-400 line-through">${flagship.originalPrice.toLocaleString()}</div>}
+                    <div className="text-base font-extrabold text-white font-mono tabular-nums">${flagship.price.toLocaleString()}</div>
+                    <div className="text-[10px] text-emerald-400 font-semibold">${Math.round(flagship.price * 0.9).toLocaleString()} with Crypto</div>
                   </div>
                 </div>
               </div>
@@ -116,7 +117,7 @@ export const HomePage: React.FC = () => {
             Shop by Category
           </div>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mt-1">
-            Shop by Category
+            Find Your Perfect E-Bike
           </h2>
         </div>
 

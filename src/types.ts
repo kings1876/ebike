@@ -1,11 +1,4 @@
-export type ProductCategory = 
-  | 'Electric Mountain Bikes'
-  | 'Electric Commuter Bikes'
-  | 'Folding Electric Bikes'
-  | 'Second Hand & Refurbished'
-  | 'Batteries & Chargers'
-  | 'Parts & Components'
-  | 'Accessories & Safety Gear';
+export type ProductCategory = string;
 
 export type ProductBadge = 'Popular' | 'New' | 'Best Value' | 'Premium' | 'Sale';
 
@@ -35,7 +28,8 @@ export interface Product {
   /** Generic label/value spec rows for non-bike products. */
   details?: Record<string, string>;
   inStock: boolean;
-  warranty: string;
+  brand?: string;
+  warranty?: string;
   imageUrl: string;
   accentColor?: string;
 }

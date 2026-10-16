@@ -65,10 +65,12 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                 <Truck className="w-4 h-4 text-emerald-600 shrink-0" />
                 <span>Free Insured Freight Across Australia</span>
               </div>
+              {product.warranty && (
               <div className="flex items-center gap-2 text-slate-800 font-semibold">
                 <Shield className="w-4 h-4 text-emerald-600 shrink-0" />
                 <span>{product.warranty}</span>
               </div>
+              )}
               <div className="flex items-center gap-2 text-slate-800 font-semibold">
                 <Zap className="w-4 h-4 text-emerald-600 shrink-0" />
                 <span>10% Instant Cash Discount for Crypto / Osko</span>

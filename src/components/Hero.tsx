@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, Zap, Shield, Truck } from 'lucide-react';
 import { ProductCategory } from '../types';
+import { PRODUCTS } from '../data/products';
 
 interface HeroProps {
   onShopClick: () => void;
@@ -8,6 +9,7 @@ interface HeroProps {
 }
 
 export const Hero: React.FC<HeroProps> = ({ onShopClick, onSelectCategory }) => {
+  const flagship = PRODUCTS.find(p => p.inStock && p.category === 'Electric Mountain Bikes') ?? PRODUCTS[0];
   return (
     <section className="relative bg-slate-950 text-white overflow-hidden py-14 lg:py-20">
       {/* Background glow and subtle mesh texture */}
@@ -100,13 +102,13 @@ export const Hero: React.FC<HeroProps> = ({ onShopClick, onSelectCategory }) => 
                   <div className="text-[11px] font-semibold text-emerald-400 uppercase tracking-wider">
                     Featured Flagship
                   </div>
-                  <div className="text-sm font-bold text-white">Apex Trail Pro 750W Dual-Air</div>
-                  <div className="text-xs text-slate-400 mt-0.5">85Nm Torque · 110km Range · 4-Piston Brakes</div>
+                  <div className="text-sm font-bold text-white">{flagship.name}</div>
+                  <div className="text-xs text-slate-400 mt-0.5">{flagship.brand}{flagship.details?.['Motor System'] ? ' · ' + flagship.details['Motor System'] + ' motor' : ''}</div>
                 </div>
                 <div className="text-right">
-                  <div className="text-xs text-slate-400 line-through">$2,299</div>
-                  <div className="text-base font-extrabold text-white font-mono tabular-nums">$1,899</div>
-                  <div className="text-[10px] text-emerald-400 font-semibold">$1,709 with Crypto</div>
+                  {flagship.originalPrice && <div className="text-xs text-slate-400 line-through">${flagship.originalPrice.toLocaleString()}</div>}
+                  <div className="text-base font-extrabold text-white font-mono tabular-nums">${flagship.price.toLocaleString()}</div>
+                  <div className="text-[10px] text-emerald-400 font-semibold">${Math.round(flagship.price * 0.9).toLocaleString()} with Crypto</div>
                 </div>
               </div>
             </div>

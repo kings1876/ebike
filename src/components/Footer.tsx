@@ -140,13 +140,12 @@ export const Footer: React.FC = () => {
             <Link to="/shop?q=ebike+for+sale" className="hover:text-emerald-400">ebike for sale</Link> ·{' '}
             <Link to="/shop?q=buy+e+bike" className="hover:text-emerald-400">buy e bike</Link> ·{' '}
             <Link to="/shop?sort=price-asc" className="hover:text-emerald-400">electric bike price</Link> ·{' '}
-            <Link to="/shop?category=Second+Hand+%26+Refurbished" className="hover:text-emerald-400">second hand electric bikes for sale</Link> ·{' '}
-            <Link to="/shop?category=Electric+Mountain+Bikes" className="hover:text-emerald-400">e mountain bikes for sale</Link> ·{' '}
+                        <Link to="/shop?category=Electric+Mountain+Bikes" className="hover:text-emerald-400">e mountain bikes for sale</Link> ·{' '}
             <Link to="/shop" className="hover:text-emerald-400">electric bikes for sale near me</Link> ·{' '}
             <Link to="/shop?category=Folding+Electric+Bikes" className="hover:text-emerald-400">foldable electric bikes for sale</Link> ·{' '}
             <Link to="/shop" className="hover:text-emerald-400">ebike deals</Link> ·{' '}
             <Link to="/shop?category=Electric+Commuter+Bikes" className="hover:text-emerald-400">electric commuter bike</Link> ·{' '}
-            <Link to="/shop?subcat=Step-Through+Comfort" className="hover:text-emerald-400">step through ebike</Link>.
+            <Link to="/shop?category=Step-Through+Electric+Bikes" className="hover:text-emerald-400">step through ebike</Link>.
           </p>
         </div>
 
