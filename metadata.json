@@ -1,0 +1,6 @@
+{
+  "name": "E Bikes for Sale",
+  "description": "Australia's premier destination for affordable electric bicycles, e-MTB, step-through commuter, and folding electric bikes with free nationwide delivery and 10% crypto discount.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
