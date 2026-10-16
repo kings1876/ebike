@@ -3,10 +3,13 @@ import { useSearchParams } from 'react-router-dom';
 import { ProductCategory } from '../types';
 import { PRODUCTS, CATEGORIES_WITH_SUBCATEGORIES } from '../data/products';
 import { ProductCard } from '../components/ProductCard';
+import { Pagination } from '../components/Pagination';
 import { Search, SlidersHorizontal } from 'lucide-react';
 import {
   BRANDS, MOTOR_SYSTEMS, PRICE_BANDS, EMPTY_FACETS, matchesFacets, FacetSelection,
 } from '../data/taxonomy';
+
+const PAGE_SIZE = 12;
 
 export const ShopPage: React.FC = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -58,6 +61,18 @@ export const ShopPage: React.FC = () => {
     const next = { ...facets, ...patch };
     setFacets(next);
     updateUrl(selectedCategory, selectedSubcategory, searchQuery, sortBy, next);
+  };
+
+  // Page lives in the URL (?page=N). updateUrl() rebuilds the params without it,
+  // so changing any filter, search or sort naturally returns to page 1.
+  const requestedPage = Math.max(1, parseInt(searchParams.get('page') || '1', 10) || 1);
+
+  const handlePageChange = (next: number) => {
+    const params = new URLSearchParams(searchParams);
+    if (next <= 1) params.delete('page');
+    else params.set('page', String(next));
+    setSearchParams(params);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const activeFacetCount = Object.entries(facets).filter(([k, v]) => (k === 'inStock' ? v : v !== 'All')).length;
@@ -113,6 +128,11 @@ export const ShopPage: React.FC = () => {
       return 0;
     });
   }, [selectedCategory, selectedSubcategory, searchQuery, sortBy, facets]);
+
+  const totalPages = Math.max(1, Math.ceil(filteredProducts.length / PAGE_SIZE));
+  const page = Math.min(requestedPage, totalPages);
+  const pageStart = (page - 1) * PAGE_SIZE;
+  const pageProducts = filteredProducts.slice(pageStart, pageStart + PAGE_SIZE);
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -234,7 +254,7 @@ export const ShopPage: React.FC = () => {
         {/* Sort & Count Bar */}
         <div className="mt-4 flex items-center justify-between text-xs text-slate-500">
           <div>
-            Showing <span className="font-bold text-slate-800">{filteredProducts.length}</span> products in stock
+            Showing <span className="font-bold text-slate-800">{filteredProducts.length === 0 ? 0 : pageStart + 1}-{Math.min(pageStart + PAGE_SIZE, filteredProducts.length)}</span> of <span className="font-bold text-slate-800">{filteredProducts.length}</span> products
           </div>
 
           <div className="flex items-center gap-2">
@@ -255,11 +275,14 @@ export const ShopPage: React.FC = () => {
 
       {/* Product Grid */}
       {filteredProducts.length > 0 ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-          {filteredProducts.map((product) => (
-            <ProductCard key={product.id} product={product} />
-          ))}
-        </div>
+        <>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+            {pageProducts.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
+          <Pagination page={page} totalPages={totalPages} onPageChange={handlePageChange} />
+        </>
       ) : (
         <div className="py-16 text-center bg-slate-50 rounded-2xl border border-dashed border-slate-200">
           <p className="text-sm font-semibold text-slate-700">No electric bicycles match your criteria.</p>
