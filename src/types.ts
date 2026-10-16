@@ -2,7 +2,10 @@ export type ProductCategory =
   | 'Electric Mountain Bikes'
   | 'Electric Commuter Bikes'
   | 'Folding Electric Bikes'
-  | 'Second Hand & Refurbished';
+  | 'Second Hand & Refurbished'
+  | 'Batteries & Chargers'
+  | 'Parts & Components'
+  | 'Accessories & Safety Gear';
 
 export type ProductBadge = 'Popular' | 'New' | 'Best Value' | 'Premium' | 'Sale';
 
@@ -17,7 +20,8 @@ export interface Product {
   badge?: ProductBadge;
   description: string;
   keyFeatures: string[];
-  specs: {
+  /** Bike-specific specs. Omitted for batteries, parts and accessories (use `details`). */
+  specs?: {
     motor: string;
     battery: string;
     range: string;
@@ -28,6 +32,8 @@ export interface Product {
     maxLoad: string;
     frame: string;
   };
+  /** Generic label/value spec rows for non-bike products. */
+  details?: Record<string, string>;
   inStock: boolean;
   warranty: string;
   imageUrl: string;

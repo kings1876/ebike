@@ -116,7 +116,7 @@ export const HomePage: React.FC = () => {
             Shop by Category
           </div>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mt-1">
-            Choose Your Riding Style
+            Shop by Category
           </h2>
         </div>
 

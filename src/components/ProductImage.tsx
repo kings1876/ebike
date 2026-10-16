@@ -9,12 +9,12 @@ interface ProductImageProps {
 }
 
 export const ProductImage: React.FC<ProductImageProps> = ({ src, alt, category, className = '' }) => {
-  const [hasError, setHasError] = useState(false);
+  const [hasError, setHasError] = useState(!src);
   const [isLoaded, setIsLoaded] = useState(false);
 
   return (
     <div className={`relative overflow-hidden bg-slate-100 flex items-center justify-center ${className}`}>
-      {!hasError && (
+      {!hasError && src && (
         <img
           src={src}
           alt={alt}

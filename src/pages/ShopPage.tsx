@@ -4,6 +4,9 @@ import { ProductCategory } from '../types';
 import { PRODUCTS, CATEGORIES_WITH_SUBCATEGORIES } from '../data/products';
 import { ProductCard } from '../components/ProductCard';
 import { Search, SlidersHorizontal } from 'lucide-react';
+import {
+  USE_CASES, POWER_BANDS, PRICE_BANDS, CONDITIONS, EMPTY_FACETS, matchesFacets, FacetSelection,
+} from '../data/taxonomy';
 
 export const ShopPage: React.FC = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -21,22 +24,45 @@ export const ShopPage: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState(searchParam);
   const [sortBy, setSortBy] = useState<'featured' | 'price-asc' | 'price-desc'>(sortParam);
 
+  const facetsFromUrl = (): FacetSelection => ({
+    use: searchParams.get('use') || 'All',
+    power: searchParams.get('power') || 'All',
+    price: searchParams.get('price') || 'All',
+    condition: searchParams.get('condition') || 'All',
+    legal: searchParams.get('legal') === '1',
+  });
+  const [facets, setFacets] = useState<FacetSelection>(facetsFromUrl);
+
   // Sync state if URL changes
   useEffect(() => {
     setSelectedCategory((searchParams.get('category') as ProductCategory) || 'All');
     setSelectedSubcategory(searchParams.get('subcat') || 'All');
     setSearchQuery(searchParams.get('q') || '');
     setSortBy((searchParams.get('sort') as any) || 'featured');
+    setFacets(facetsFromUrl());
   }, [searchParams]);
 
-  const updateUrl = (cat: string, subcat: string, query: string, sort: string) => {
+  const updateUrl = (cat: string, subcat: string, query: string, sort: string, f: FacetSelection = facets) => {
     const params: Record<string, string> = {};
     if (cat !== 'All') params.category = cat;
     if (subcat !== 'All') params.subcat = subcat;
     if (query.trim()) params.q = query.trim();
     if (sort !== 'featured') params.sort = sort;
+    if (f.use !== 'All') params.use = f.use;
+    if (f.power !== 'All') params.power = f.power;
+    if (f.price !== 'All') params.price = f.price;
+    if (f.condition !== 'All') params.condition = f.condition;
+    if (f.legal) params.legal = '1';
     setSearchParams(params);
   };
+
+  const handleFacetChange = (patch: Partial<FacetSelection>) => {
+    const next = { ...facets, ...patch };
+    setFacets(next);
+    updateUrl(selectedCategory, selectedSubcategory, searchQuery, sortBy, next);
+  };
+
+  const activeFacetCount = Object.entries(facets).filter(([k, v]) => (k === 'legal' ? v : v !== 'All')).length;
 
   const handleCategorySelect = (cat: ProductCategory | 'All') => {
     setSelectedCategory(cat);
@@ -77,18 +103,18 @@ export const ShopPage: React.FC = () => {
         const matchesName = item.name.toLowerCase().includes(query);
         const matchesDesc = item.description.toLowerCase().includes(query);
         const matchesSubcat = item.subcategory.toLowerCase().includes(query);
-        const matchesMotor = item.specs.motor.toLowerCase().includes(query);
+        const matchesMotor = (item.specs?.motor ?? '').toLowerCase().includes(query);
         if (!matchesName && !matchesDesc && !matchesSubcat && !matchesMotor) {
           return false;
         }
       }
-      return true;
+      return matchesFacets(item, facets);
     }).sort((a, b) => {
       if (sortBy === 'price-asc') return a.price - b.price;
       if (sortBy === 'price-desc') return b.price - a.price;
       return 0;
     });
-  }, [selectedCategory, selectedSubcategory, searchQuery, sortBy]);
+  }, [selectedCategory, selectedSubcategory, searchQuery, sortBy, facets]);
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -131,7 +157,7 @@ export const ShopPage: React.FC = () => {
                 : 'bg-white text-slate-700 border border-slate-200 hover:bg-slate-50'
             }`}
           >
-            All E-Bikes ({PRODUCTS.length})
+            All Products ({PRODUCTS.length})
           </button>
 
           {CATEGORIES_WITH_SUBCATEGORIES.map((cat) => (
@@ -169,10 +195,49 @@ export const ShopPage: React.FC = () => {
           </div>
         )}
 
+        {/* Facets: cross-cutting filters (use, motor, price, condition, road-legal) */}
+        <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2">
+          {([
+            ['use', 'Use', USE_CASES as readonly string[]],
+            ['power', 'Motor', POWER_BANDS as readonly string[]],
+            ['price', 'Price', PRICE_BANDS.map(b => b.label)],
+            ['condition', 'Condition', CONDITIONS as readonly string[]],
+          ] as const).map(([key, label, options]) => (
+            <label key={key} className="flex items-center gap-1.5 text-xs text-slate-500">
+              {label}
+              <select
+                value={facets[key]}
+                onChange={(e) => handleFacetChange({ [key]: e.target.value })}
+                className="bg-white border border-slate-200 rounded-md py-1 px-2 text-xs text-slate-700 focus:outline-none focus:border-emerald-600 cursor-pointer"
+              >
+                <option value="All">All</option>
+                {options.map(o => <option key={o} value={o}>{o}</option>)}
+              </select>
+            </label>
+          ))}
+          <label className="flex items-center gap-1.5 text-xs text-slate-600 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={facets.legal}
+              onChange={(e) => handleFacetChange({ legal: e.target.checked })}
+              className="accent-emerald-600"
+            />
+            Road-legal (25 km/h mode)
+          </label>
+          {activeFacetCount > 0 && (
+            <button
+              onClick={() => handleFacetChange(EMPTY_FACETS)}
+              className="text-xs font-medium text-emerald-700 hover:underline cursor-pointer"
+            >
+              Clear filters
+            </button>
+          )}
+        </div>
+
         {/* Sort & Count Bar */}
         <div className="mt-4 flex items-center justify-between text-xs text-slate-500">
           <div>
-            Showing <span className="font-bold text-slate-800">{filteredProducts.length}</span> electric bicycles in stock
+            Showing <span className="font-bold text-slate-800">{filteredProducts.length}</span> products in stock
           </div>
 
           <div className="flex items-center gap-2">
@@ -203,7 +268,7 @@ export const ShopPage: React.FC = () => {
           <p className="text-sm font-semibold text-slate-700">No electric bicycles match your criteria.</p>
           <p className="text-xs text-slate-500 mt-1">Try clearing your search or selecting a different category.</p>
           <button
-            onClick={() => handleCategorySelect('All')}
+            onClick={() => { setFacets(EMPTY_FACETS); setSelectedCategory('All'); setSelectedSubcategory('All'); setSearchQuery(''); setSearchParams({}); }}
             className="mt-4 px-4 py-2 bg-slate-900 text-white text-xs font-semibold rounded-lg hover:bg-slate-800 transition-colors cursor-pointer"
           >
             Reset Filters

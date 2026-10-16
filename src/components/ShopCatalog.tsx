@@ -49,7 +49,7 @@ export const ShopCatalog: React.FC<ShopCatalogProps> = ({
         const matchesName = item.name.toLowerCase().includes(query);
         const matchesDesc = item.description.toLowerCase().includes(query);
         const matchesSubcat = item.subcategory.toLowerCase().includes(query);
-        const matchesMotor = item.specs.motor.toLowerCase().includes(query);
+        const matchesMotor = (item.specs?.motor ?? '').toLowerCase().includes(query);
         if (!matchesName && !matchesDesc && !matchesSubcat && !matchesMotor) {
           return false;
         }
@@ -103,7 +103,7 @@ export const ShopCatalog: React.FC<ShopCatalogProps> = ({
                 : 'bg-white text-slate-700 border border-slate-200 hover:bg-slate-50'
             }`}
           >
-            All E-Bikes ({PRODUCTS.length})
+            All Products ({PRODUCTS.length})
           </button>
 
           {CATEGORIES_WITH_SUBCATEGORIES.map((cat) => (
@@ -144,7 +144,7 @@ export const ShopCatalog: React.FC<ShopCatalogProps> = ({
         {/* Sort & Results Bar */}
         <div className="mt-4 flex items-center justify-between text-xs text-slate-500">
           <div>
-            Showing <span className="font-bold text-slate-800">{filteredProducts.length}</span> e-bikes in stock
+            Showing <span className="font-bold text-slate-800">{filteredProducts.length}</span> products in stock
           </div>
 
           <div className="flex items-center gap-2">

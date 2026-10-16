@@ -141,7 +141,17 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
 
             {/* Tab Content */}
             <div className="flex-1 mb-6 overflow-y-auto max-h-48 text-xs text-slate-700">
-              {activeTab === 'specs' && (
+              {activeTab === 'specs' && !product.specs && (
+  <div className="grid grid-cols-2 gap-x-4 gap-y-2">
+    {Object.entries(product.details ?? {}).map(([label, value]) => (
+      <div key={label} className="flex justify-between py-1 border-b border-slate-100">
+        <span className="text-slate-500">{label}</span>
+        <span className="font-semibold text-slate-900 text-right">{value}</span>
+      </div>
+    ))}
+  </div>
+)}
+{activeTab === 'specs' && product.specs && (
                 <div className="grid grid-cols-2 gap-x-4 gap-y-2">
                   <div className="flex justify-between py-1 border-b border-slate-100">
                     <span className="text-slate-500">Motor</span>

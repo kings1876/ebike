@@ -329,6 +329,219 @@ export const PRODUCTS: Product[] = [
     warranty: '2-Year Nationwide Factory Warranty',
     imageUrl: 'https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=1000&q=80',
     accentColor: '#2563EB'
+  },
+  {
+    id: 'battery-48v-17ah',
+    name: '48V 17.5Ah Replacement Lithium Battery',
+    tagline: 'Drop-in replacement pack for 48V mid-drive and hub-motor e-bikes',
+    category: 'Batteries & Chargers',
+    subcategory: 'Replacement Batteries',
+    price: 649,
+    badge: 'Popular',
+    description: 'A 840Wh lithium-ion replacement pack with an integrated battery management system. Restore full range on an older bike or carry a spare for long trail days.',
+    keyFeatures: [
+      '840Wh capacity with built-in BMS protection',
+      'Over-charge, over-discharge and short-circuit protection',
+      'Lockable frame-mount design with key'
+    ],
+    details: {
+      'Voltage': '48V',
+      'Capacity': '17.5Ah (840Wh)'
+    },
+    inStock: true,
+    warranty: '12-Month Australian Warranty',
+    imageUrl: ''
+  },
+  {
+    id: 'battery-36v-10ah',
+    name: '36V 10.4Ah Replacement Lithium Battery',
+    tagline: 'Compact replacement pack for 36V commuter and folding e-bikes',
+    category: 'Batteries & Chargers',
+    subcategory: 'Replacement Batteries',
+    price: 449,
+    description: 'A 374Wh lithium-ion pack for 36V city and folding e-bikes, with integrated BMS protection.',
+    keyFeatures: [
+      '374Wh capacity with built-in BMS protection',
+      'Lightweight, easy-release design',
+      'Suits 36V commuter and folding models'
+    ],
+    details: {
+      'Voltage': '36V',
+      'Capacity': '10.4Ah (374Wh)'
+    },
+    inStock: true,
+    warranty: '12-Month Australian Warranty',
+    imageUrl: ''
+  },
+  {
+    id: 'charger-smart-5a',
+    name: 'Smart 5A Fast Charger (48V)',
+    tagline: 'Faster top-ups with automatic cut-off when the battery is full',
+    category: 'Batteries & Chargers',
+    subcategory: 'Chargers',
+    price: 129,
+    badge: 'Best Value',
+    description: 'A smart charger with automatic cut-off and status LEDs. Roughly halves the charge time of a standard 2A charger on 48V packs.',
+    keyFeatures: [
+      '5A fast-charge output',
+      'Automatic cut-off at full charge',
+      'Status LED indicator'
+    ],
+    details: {
+      'Output': '54.6V / 5A',
+      'Plug': 'Australian 3-pin'
+    },
+    inStock: true,
+    warranty: '12-Month Australian Warranty',
+    imageUrl: ''
+  },
+  {
+    id: 'charger-standard-2a',
+    name: 'Standard 2A Charger (36V / 48V)',
+    tagline: 'Spare or replacement charger for home or workshop',
+    category: 'Batteries & Chargers',
+    subcategory: 'Chargers',
+    price: 79,
+    description: 'A reliable standard-rate charger. Keep one at home and one at work, or replace a lost original.',
+    keyFeatures: [
+      '2A standard charge rate',
+      'Status LED indicator',
+      'Compact and travel-friendly'
+    ],
+    details: {
+      'Output': '2A',
+      'Plug': 'Australian 3-pin'
+    },
+    inStock: true,
+    warranty: '12-Month Australian Warranty',
+    imageUrl: ''
+  },
+  {
+    id: 'brake-pads-hydraulic',
+    name: 'Hydraulic Disc Brake Pad Set (2 pairs)',
+    tagline: 'Semi-metallic replacement pads for front and rear',
+    category: 'Parts & Components',
+    subcategory: 'Brakes & Tyres',
+    price: 39,
+    description: 'Semi-metallic pads for strong, consistent stopping in wet and dry. Two pairs cover the front and rear of one bike.',
+    keyFeatures: [
+      'Semi-metallic compound',
+      'Two pairs per pack',
+      'Suits common 2-piston hydraulic calipers'
+    ],
+    details: {
+      'Pack': '2 pairs',
+      'Type': 'Semi-metallic'
+    },
+    inStock: true,
+    warranty: '30-Day Fit Guarantee',
+    imageUrl: ''
+  },
+  {
+    id: 'tyres-puncture-resistant',
+    name: 'Puncture-Resistant e-Bike Tyre (single)',
+    tagline: 'Reinforced tyre with a puncture-protection layer',
+    category: 'Parts & Components',
+    subcategory: 'Brakes & Tyres',
+    price: 59,
+    description: 'A reinforced e-bike tyre with a puncture-protection layer, built for the extra weight and torque of an electric bike.',
+    keyFeatures: [
+      'Puncture-protection layer',
+      'Reflective sidewall',
+      'Check your size before ordering'
+    ],
+    details: {
+      'Pack': '1 tyre',
+      'Sizes': 'Select size on order'
+    },
+    inStock: true,
+    warranty: '30-Day Fit Guarantee',
+    imageUrl: ''
+  },
+  {
+    id: 'drivetrain-chain-kit',
+    name: '10-Speed Chain & Cassette Kit',
+    tagline: 'Replacement drivetrain wear parts for 10-speed e-bikes',
+    category: 'Parts & Components',
+    subcategory: 'Drivetrain',
+    price: 119,
+    description: 'Replace a worn chain and cassette together for crisp shifting. Sized for 10-speed e-bike drivetrains.',
+    keyFeatures: [
+      'Chain and cassette sold together',
+      '10-speed compatible',
+      'Hardened steel for e-bike torque'
+    ],
+    details: {
+      'Speeds': '10',
+      'Contents': 'Chain + cassette'
+    },
+    inStock: true,
+    warranty: '30-Day Fit Guarantee',
+    imageUrl: ''
+  },
+  {
+    id: 'helmet-urban-certified',
+    name: 'Urban e-Bike Helmet (AS/NZS 2063)',
+    tagline: 'Ventilated commuter helmet with rear LED and adjustable fit',
+    category: 'Accessories & Safety Gear',
+    subcategory: 'Helmets & Safety',
+    price: 89,
+    badge: 'Popular',
+    description: 'A ventilated helmet with an adjustable dial fit and a rear LED. Helmets are compulsory when riding in Australia.',
+    keyFeatures: [
+      'Meets AS/NZS 2063',
+      'Rear LED light',
+      'Adjustable dial fit'
+    ],
+    details: {
+      'Standard': 'AS/NZS 2063',
+      'Sizes': 'M / L'
+    },
+    inStock: true,
+    warranty: '12-Month Australian Warranty',
+    imageUrl: ''
+  },
+  {
+    id: 'lock-d-lock-heavy',
+    name: 'Heavy-Duty D-Lock with Cable',
+    tagline: 'Hardened-steel D-lock for urban parking',
+    category: 'Accessories & Safety Gear',
+    subcategory: 'Locks & Security',
+    price: 79,
+    description: 'A hardened-steel D-lock plus a flexible cable for securing wheels. A sensible add-on for any e-bike.',
+    keyFeatures: [
+      'Hardened-steel shackle',
+      'Includes cable for the wheels',
+      'Mounting bracket included'
+    ],
+    details: {
+      'Type': 'D-lock + cable',
+      'Keys': '2 included'
+    },
+    inStock: true,
+    warranty: '12-Month Australian Warranty',
+    imageUrl: ''
+  },
+  {
+    id: 'pannier-bag-rack',
+    name: 'Rear Pannier Bag (Waterproof)',
+    tagline: 'Roll-top commuter pannier for any standard rear rack',
+    category: 'Accessories & Safety Gear',
+    subcategory: 'Bags & Racks',
+    price: 99,
+    description: 'A waterproof roll-top pannier with reflective trim and a quick-release hook system for standard rear racks.',
+    keyFeatures: [
+      'Waterproof roll-top closure',
+      'Reflective trim',
+      'Quick-release mounting'
+    ],
+    details: {
+      'Capacity': '20L',
+      'Material': 'Waterproof fabric'
+    },
+    inStock: true,
+    warranty: '12-Month Australian Warranty',
+    imageUrl: ''
   }
 ];
 
@@ -352,5 +565,20 @@ export const CATEGORIES_WITH_SUBCATEGORIES = [
     category: 'Second Hand & Refurbished' as const,
     description: 'Certified pre-owned and ex-demo electric bikes thoroughly tested by mechanics with warranty.',
     subcategories: ['All', 'Certified Pre-Owned', 'Ex-Demo Fleet Special']
+  },
+  {
+    category: 'Batteries & Chargers' as const,
+    description: 'Replacement lithium packs and chargers to restore range or carry a spare.',
+    subcategories: ['All', 'Replacement Batteries', 'Chargers']
+  },
+  {
+    category: 'Parts & Components' as const,
+    description: 'Brake pads, tyres and drivetrain parts to keep your e-bike running.',
+    subcategories: ['All', 'Brakes & Tyres', 'Drivetrain']
+  },
+  {
+    category: 'Accessories & Safety Gear' as const,
+    description: 'Helmets, locks and bags to ride safe and keep your bike secure.',
+    subcategories: ['All', 'Helmets & Safety', 'Locks & Security', 'Bags & Racks']
   }
 ];

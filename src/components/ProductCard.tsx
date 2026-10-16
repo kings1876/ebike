@@ -70,6 +70,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         </p>
 
         {/* Key Specs Row */}
+        {product.specs ? (
         <div className="py-2.5 px-3 bg-slate-50 rounded-lg border border-slate-100 grid grid-cols-3 gap-2 text-center text-xs mb-4">
           <div>
             <div className="text-[10px] text-slate-600 uppercase font-semibold">Motor</div>
@@ -84,6 +85,16 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             <div className="font-semibold text-slate-800 truncate text-[11px] mt-0.5">{product.specs.topSpeed.split(' ')[0]} km/h</div>
           </div>
         </div>
+        ) : (
+        <div className="py-2.5 px-3 bg-slate-50 rounded-lg border border-slate-100 grid grid-cols-2 gap-2 text-center text-xs mb-4">
+          {Object.entries(product.details ?? {}).slice(0, 2).map(([label, value], i) => (
+            <div key={label} className={i === 1 ? 'border-l border-slate-200' : ''}>
+              <div className="text-[10px] text-slate-600 uppercase font-semibold">{label}</div>
+              <div className="font-semibold text-slate-800 truncate text-[11px] mt-0.5">{value}</div>
+            </div>
+          ))}
+        </div>
+        )}
 
         {/* Price & Action Module */}
         <div className="pt-3 border-t border-slate-100 flex items-center justify-between gap-2 mt-auto">
