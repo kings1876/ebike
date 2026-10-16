@@ -68,7 +68,7 @@ export const CheckoutPage: React.FC = () => {
     setOrderId(generatedOrderId);
 
     const orderItemsSummary = cart
-      .map((item) => `${item.quantity}x ${item.product.name} ($${item.product.price})`)
+      .map((item) => `${item.quantity}x ${item.product.name}${item.variantTitle ? ` [${item.variantTitle}]` : ''} ($${item.product.price})`)
       .join(', ');
 
     const payload = {
@@ -289,10 +289,10 @@ export const CheckoutPage: React.FC = () => {
 
                 <div className="space-y-3 max-h-56 overflow-y-auto pr-1 text-xs">
                   {cart.map((item) => (
-                    <div key={item.product.id} className="flex justify-between items-center text-slate-700">
+                    <div key={item.lineId} className="flex justify-between items-center text-slate-700">
                       <div>
                         <div className="font-bold text-slate-900">{item.quantity}x {item.product.name}</div>
-                        <div className="text-[11px] text-slate-500">{item.product.subcategory}</div>
+                        <div className="text-[11px] text-slate-500">{item.variantTitle ?? item.product.subcategory}</div>
                       </div>
                       <span className="font-mono font-semibold text-slate-900">
                         ${(item.product.price * item.quantity).toLocaleString()}

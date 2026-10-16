@@ -43,7 +43,7 @@ export const CartPage: React.FC = () => {
         <div className="lg:col-span-8 space-y-4">
           <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden divide-y divide-slate-100">
             {cart.map((item) => (
-              <div key={item.product.id} className="p-6 flex flex-col sm:flex-row items-center gap-6">
+              <div key={item.lineId} className="p-6 flex flex-col sm:flex-row items-center gap-6">
                 <div className="w-28 h-28 rounded-xl overflow-hidden bg-slate-100 shrink-0 border border-slate-200">
                   <ProductImage
                     src={item.product.imageUrl}
@@ -55,7 +55,7 @@ export const CartPage: React.FC = () => {
 
                 <div className="flex-1 min-w-0 text-center sm:text-left">
                   <div className="text-xs text-slate-500 font-medium">
-                    {item.product.category} · {item.product.subcategory}
+                    {item.product.category} · {item.variantTitle ?? item.product.subcategory}
                   </div>
                   <h3 className="text-base font-bold text-slate-900 mt-0.5">
                     <Link to={`/product/${item.product.id}`} className="hover:text-emerald-700">
@@ -70,7 +70,7 @@ export const CartPage: React.FC = () => {
                     <div className="flex items-center border border-slate-300 rounded-lg">
                       <button
                         type="button"
-                        onClick={() => updateQuantity(item.product.id, item.quantity - 1)}
+                        onClick={() => updateQuantity(item.lineId, item.quantity - 1)}
                         className="px-3 py-1.5 text-xs text-slate-600 hover:bg-slate-100"
                       >
                         -
@@ -80,7 +80,7 @@ export const CartPage: React.FC = () => {
                       </span>
                       <button
                         type="button"
-                        onClick={() => updateQuantity(item.product.id, item.quantity + 1)}
+                        onClick={() => updateQuantity(item.lineId, item.quantity + 1)}
                         className="px-3 py-1.5 text-xs text-slate-600 hover:bg-slate-100"
                       >
                         +
@@ -93,7 +93,7 @@ export const CartPage: React.FC = () => {
                       </span>
 
                       <button
-                        onClick={() => removeFromCart(item.product.id)}
+                        onClick={() => removeFromCart(item.lineId)}
                         className="text-slate-400 hover:text-red-600 p-1.5 transition-colors"
                         title="Remove"
                       >

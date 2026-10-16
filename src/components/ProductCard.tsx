@@ -4,6 +4,7 @@ import { Product } from '../types';
 import { ProductImage } from './ProductImage';
 import { Eye, ShoppingBag } from 'lucide-react';
 import { useCart } from '../context/CartContext';
+import { hasVariants, priceFrom } from '../data/variants';
 
 interface ProductCardProps {
   product: Product;
@@ -13,6 +14,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const { addToCart } = useCart();
   const navigate = useNavigate();
   const discountedPrice = Math.round(product.price * 0.9);
+  const multi = hasVariants(product);
+  const { varies } = priceFrom(product);
 
   return (
     <div className="group bg-white rounded-xl border border-slate-200 overflow-hidden hover:border-slate-300 transition-all duration-200 flex flex-col h-full shadow-xs hover:shadow-md">
@@ -101,7 +104,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           <div>
             <div className="flex items-baseline gap-2">
               <span className="text-lg font-extrabold text-slate-950 font-mono tabular-nums">
-                ${product.price.toLocaleString()}
+                {varies && <span className="text-[10px] font-semibold text-slate-500 mr-1">From</span>}${product.price.toLocaleString()}
               </span>
               {product.originalPrice && (
                 <span className="text-xs text-slate-500 line-through font-mono tabular-nums">
@@ -114,14 +117,24 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             </div>
           </div>
 
+          {multi ? (
+            <Link
+              to={'/product/' + product.id}
+              className="px-3 py-2 bg-slate-900 hover:bg-slate-800 text-white rounded-lg text-xs font-semibold transition-colors whitespace-nowrap shrink-0"
+            >
+              Select Options
+            </Link>
+          ) : (
           <button
+            disabled={!product.inStock}
             onClick={() => addToCart(product, 1)}
-            className="px-3 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-semibold transition-colors flex items-center gap-1.5 cursor-pointer shadow-xs active:scale-95 whitespace-nowrap shrink-0"
+            className="px-3 py-2 bg-emerald-600 hover:bg-emerald-700 disabled:bg-slate-300 disabled:cursor-not-allowed text-white rounded-lg text-xs font-semibold transition-colors flex items-center gap-1.5 cursor-pointer shadow-xs active:scale-95 whitespace-nowrap shrink-0"
             title="Add to order cart"
           >
             <ShoppingBag className="w-3.5 h-3.5" />
-            <span>Add to Order</span>
+            <span>{product.inStock ? 'Add to Order' : 'Sold Out'}</span>
           </button>
+          )}
         </div>
 
       </div>

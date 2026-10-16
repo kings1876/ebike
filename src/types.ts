@@ -2,6 +2,17 @@ export type ProductCategory = string;
 
 export type ProductBadge = 'Popular' | 'New' | 'Best Value' | 'Premium' | 'Sale';
 
+export interface ProductVariant {
+  id: string;
+  title: string;
+  /** One value per entry in Product.options, in the same order. */
+  options: string[];
+  price: number;
+  compareAtPrice?: number;
+  available: boolean;
+  image?: string;
+}
+
 export interface Product {
   id: string;
   name: string;
@@ -27,6 +38,8 @@ export interface Product {
   };
   /** Generic label/value spec rows for non-bike products. */
   details?: Record<string, string>;
+  options?: { name: string; values: string[] }[];
+  variants?: ProductVariant[];
   inStock: boolean;
   brand?: string;
   warranty?: string;
@@ -35,6 +48,11 @@ export interface Product {
 }
 
 export interface CartItem {
+  /** Unique per product + variant, so two sizes of one bike are separate lines. */
+  lineId: string;
+  variantId?: string;
+  variantTitle?: string;
+  /** Product with price/image/stock overridden by the chosen variant. */
   product: Product;
   quantity: number;
   selectedColor?: string;

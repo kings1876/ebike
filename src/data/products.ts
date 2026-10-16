@@ -42,6 +42,55 @@ export const PRODUCTS: Product[] = [
       "Size": "S, M, L, XL",
       "SKU": "1000000003526"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41230920188037",
+        "title": "S",
+        "options": [
+          "S"
+        ],
+        "price": 12499,
+        "available": true
+      },
+      {
+        "id": "41230920220805",
+        "title": "M",
+        "options": [
+          "M"
+        ],
+        "price": 12499,
+        "available": true
+      },
+      {
+        "id": "41230920253573",
+        "title": "L",
+        "options": [
+          "L"
+        ],
+        "price": 12499,
+        "available": true
+      },
+      {
+        "id": "41230920286341",
+        "title": "XL",
+        "options": [
+          "XL"
+        ],
+        "price": 12499,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Vam2-88.jpg?v=1748154994&width=900"
   },
@@ -89,6 +138,115 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$9,499 - $10,499",
       "SKU": "1000000004180"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Steelgrey",
+          "Magicblack"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41388674056325",
+        "title": "Steelgrey / S",
+        "options": [
+          "Steelgrey",
+          "S"
+        ],
+        "price": 10499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Sam-6-9.png?v=1760268063&width=900"
+      },
+      {
+        "id": "41388674089093",
+        "title": "Steelgrey / M",
+        "options": [
+          "Steelgrey",
+          "M"
+        ],
+        "price": 10499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Sam-6-9.png?v=1760268063&width=900"
+      },
+      {
+        "id": "41388674121861",
+        "title": "Steelgrey / L",
+        "options": [
+          "Steelgrey",
+          "L"
+        ],
+        "price": 10499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Sam-6-9.png?v=1760268063&width=900"
+      },
+      {
+        "id": "41388674154629",
+        "title": "Steelgrey / XL",
+        "options": [
+          "Steelgrey",
+          "XL"
+        ],
+        "price": 10499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Sam-6-9.png?v=1760268063&width=900"
+      },
+      {
+        "id": "41388674187397",
+        "title": "Magicblack / S",
+        "options": [
+          "Magicblack",
+          "S"
+        ],
+        "price": 10499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.9_magic_black_aaa1da81-4789-47bf-a8b5-0737eaefe103.png?v=1760268191&width=900"
+      },
+      {
+        "id": "41388674220165",
+        "title": "Magicblack / M",
+        "options": [
+          "Magicblack",
+          "M"
+        ],
+        "price": 10499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.9_magic_black_aaa1da81-4789-47bf-a8b5-0737eaefe103.png?v=1760268191&width=900"
+      },
+      {
+        "id": "41388674252933",
+        "title": "Magicblack / L",
+        "options": [
+          "Magicblack",
+          "L"
+        ],
+        "price": 9499,
+        "compareAtPrice": 10499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.9_magic_black_aaa1da81-4789-47bf-a8b5-0737eaefe103.png?v=1760268191&width=900"
+      },
+      {
+        "id": "41388674285701",
+        "title": "Magicblack / XL",
+        "options": [
+          "Magicblack",
+          "XL"
+        ],
+        "price": 10499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.9_magic_black_aaa1da81-4789-47bf-a8b5-0737eaefe103.png?v=1760268191&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Sam-6-9.png?v=1760268063&width=900"
   },
@@ -144,6 +302,56 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$8,799 - $9,499",
       "SKU": "1000000004170"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41388670615685",
+        "title": "S",
+        "options": [
+          "S"
+        ],
+        "price": 9499,
+        "available": true
+      },
+      {
+        "id": "41388670648453",
+        "title": "M",
+        "options": [
+          "M"
+        ],
+        "price": 9499,
+        "available": true
+      },
+      {
+        "id": "41388670681221",
+        "title": "L",
+        "options": [
+          "L"
+        ],
+        "price": 8799,
+        "compareAtPrice": 9499,
+        "available": true
+      },
+      {
+        "id": "41388670713989",
+        "title": "XL",
+        "options": [
+          "XL"
+        ],
+        "price": 9499,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-6-9.png?v=1760265831&width=900"
   },
@@ -170,6 +378,55 @@ export const PRODUCTS: Product[] = [
       "Size": "S, M, L, XL",
       "SKU": "1000000004175"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41388671795333",
+        "title": "S",
+        "options": [
+          "S"
+        ],
+        "price": 8499,
+        "available": true
+      },
+      {
+        "id": "41388671828101",
+        "title": "M",
+        "options": [
+          "M"
+        ],
+        "price": 8499,
+        "available": true
+      },
+      {
+        "id": "41388671860869",
+        "title": "L",
+        "options": [
+          "L"
+        ],
+        "price": 8499,
+        "available": true
+      },
+      {
+        "id": "41388671893637",
+        "title": "XL",
+        "options": [
+          "XL"
+        ],
+        "price": 8499,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Sam-6-8.png?v=1760267517&width=900"
   },
@@ -218,6 +475,115 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$7,499 - $7,999",
       "SKU": "1000000004161"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Gold/Black",
+          "Steelgrey"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41388668223621",
+        "title": "Gold/Black / S",
+        "options": [
+          "Gold/Black",
+          "S"
+        ],
+        "price": 7999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-6-8.png?v=1760264042&width=900"
+      },
+      {
+        "id": "41388668256389",
+        "title": "Gold/Black / M",
+        "options": [
+          "Gold/Black",
+          "M"
+        ],
+        "price": 7499,
+        "compareAtPrice": 7999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-6-8.png?v=1760264042&width=900"
+      },
+      {
+        "id": "41388668289157",
+        "title": "Gold/Black / L",
+        "options": [
+          "Gold/Black",
+          "L"
+        ],
+        "price": 7999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-6-8.png?v=1760264042&width=900"
+      },
+      {
+        "id": "41388668321925",
+        "title": "Gold/Black / XL",
+        "options": [
+          "Gold/Black",
+          "XL"
+        ],
+        "price": 7999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-6-8.png?v=1760264042&width=900"
+      },
+      {
+        "id": "41388668354693",
+        "title": "Steelgrey / S",
+        "options": [
+          "Steelgrey",
+          "S"
+        ],
+        "price": 7999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.8_Silver.png?v=1760264247&width=900"
+      },
+      {
+        "id": "41388668387461",
+        "title": "Steelgrey / M",
+        "options": [
+          "Steelgrey",
+          "M"
+        ],
+        "price": 7999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.8_Silver.png?v=1760264247&width=900"
+      },
+      {
+        "id": "41388668420229",
+        "title": "Steelgrey / L",
+        "options": [
+          "Steelgrey",
+          "L"
+        ],
+        "price": 7999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.8_Silver.png?v=1760264247&width=900"
+      },
+      {
+        "id": "41388668452997",
+        "title": "Steelgrey / XL",
+        "options": [
+          "Steelgrey",
+          "XL"
+        ],
+        "price": 7999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.8_Silver.png?v=1760264247&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-6-8.png?v=1760264042&width=900"
   },
@@ -247,6 +613,56 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$7,499 - $7,999",
       "SKU": "1000000004150"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41388666683525",
+        "title": "S",
+        "options": [
+          "S"
+        ],
+        "price": 7999,
+        "available": true
+      },
+      {
+        "id": "41388666716293",
+        "title": "M",
+        "options": [
+          "M"
+        ],
+        "price": 7999,
+        "available": true
+      },
+      {
+        "id": "41388666749061",
+        "title": "L",
+        "options": [
+          "L"
+        ],
+        "price": 7499,
+        "compareAtPrice": 7999,
+        "available": true
+      },
+      {
+        "id": "41388666781829",
+        "title": "XL",
+        "options": [
+          "XL"
+        ],
+        "price": 7999,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Thron-68-ABS-GREY.png?v=1760262318&width=900"
   },
@@ -277,6 +693,107 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$6,999 - $8,999",
       "SKU": "1000000003503"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Blue Green",
+          "Warm Grey"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41230729805957",
+        "title": "Blue Green / S",
+        "options": [
+          "Blue Green",
+          "S"
+        ],
+        "price": 8999,
+        "available": false
+      },
+      {
+        "id": "41230729838725",
+        "title": "Blue Green / M",
+        "options": [
+          "Blue Green",
+          "M"
+        ],
+        "price": 8999,
+        "available": false
+      },
+      {
+        "id": "41230729871493",
+        "title": "Blue Green / L",
+        "options": [
+          "Blue Green",
+          "L"
+        ],
+        "price": 8999,
+        "available": false
+      },
+      {
+        "id": "41230729904261",
+        "title": "Blue Green / XL",
+        "options": [
+          "Blue Green",
+          "XL"
+        ],
+        "price": 8999,
+        "available": false
+      },
+      {
+        "id": "41230729937029",
+        "title": "Warm Grey / S",
+        "options": [
+          "Warm Grey",
+          "S"
+        ],
+        "price": 8999,
+        "available": false
+      },
+      {
+        "id": "41230729969797",
+        "title": "Warm Grey / M",
+        "options": [
+          "Warm Grey",
+          "M"
+        ],
+        "price": 8999,
+        "available": false
+      },
+      {
+        "id": "41230730002565",
+        "title": "Warm Grey / L",
+        "options": [
+          "Warm Grey",
+          "L"
+        ],
+        "price": 8999,
+        "available": false
+      },
+      {
+        "id": "41230730035333",
+        "title": "Warm Grey / XL",
+        "options": [
+          "Warm Grey",
+          "XL"
+        ],
+        "price": 6999,
+        "compareAtPrice": 8999,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/jam_8.7.png?v=1761117237&width=900"
   },
@@ -307,6 +824,113 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$6,999 - $9,999",
       "SKU": "1000000001896"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "Small",
+          "Medium",
+          "Large",
+          "XLarge"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "Lightgrey",
+          "Limeyellow"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40839385677957",
+        "title": "Small / Lightgrey",
+        "options": [
+          "Small",
+          "Lightgrey"
+        ],
+        "price": 6999,
+        "compareAtPrice": 9999,
+        "available": true
+      },
+      {
+        "id": "40839385710725",
+        "title": "Small / Limeyellow",
+        "options": [
+          "Small",
+          "Limeyellow"
+        ],
+        "price": 9999,
+        "available": false
+      },
+      {
+        "id": "40839385743493",
+        "title": "Medium / Lightgrey",
+        "options": [
+          "Medium",
+          "Lightgrey"
+        ],
+        "price": 6999,
+        "compareAtPrice": 9999,
+        "available": true
+      },
+      {
+        "id": "40839385776261",
+        "title": "Medium / Limeyellow",
+        "options": [
+          "Medium",
+          "Limeyellow"
+        ],
+        "price": 6999,
+        "compareAtPrice": 9999,
+        "available": true
+      },
+      {
+        "id": "40839385809029",
+        "title": "Large / Lightgrey",
+        "options": [
+          "Large",
+          "Lightgrey"
+        ],
+        "price": 6999,
+        "compareAtPrice": 9999,
+        "available": true
+      },
+      {
+        "id": "40839385841797",
+        "title": "Large / Limeyellow",
+        "options": [
+          "Large",
+          "Limeyellow"
+        ],
+        "price": 6999,
+        "compareAtPrice": 9999,
+        "available": true
+      },
+      {
+        "id": "40839385874565",
+        "title": "XLarge / Lightgrey",
+        "options": [
+          "XLarge",
+          "Lightgrey"
+        ],
+        "price": 6999,
+        "compareAtPrice": 9999,
+        "available": true
+      },
+      {
+        "id": "40839385907333",
+        "title": "XLarge / Limeyellow",
+        "options": [
+          "XLarge",
+          "Limeyellow"
+        ],
+        "price": 6999,
+        "compareAtPrice": 9999,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Jam2-8-8-SL-Grey.png?v=1722324308&width=900"
   },
@@ -334,6 +958,110 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$6,499 - $8,999",
       "SKU": "1000000003517"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Raw Carbon Grey",
+          "Raw Carbon Green"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41230790426757",
+        "title": "Raw Carbon Grey / S",
+        "options": [
+          "Raw Carbon Grey",
+          "S"
+        ],
+        "price": 6499,
+        "compareAtPrice": 8999,
+        "available": true
+      },
+      {
+        "id": "41230790459525",
+        "title": "Raw Carbon Grey / M",
+        "options": [
+          "Raw Carbon Grey",
+          "M"
+        ],
+        "price": 8999,
+        "available": false
+      },
+      {
+        "id": "41230790492293",
+        "title": "Raw Carbon Grey / L",
+        "options": [
+          "Raw Carbon Grey",
+          "L"
+        ],
+        "price": 6499,
+        "compareAtPrice": 8999,
+        "available": true
+      },
+      {
+        "id": "41230790525061",
+        "title": "Raw Carbon Grey / XL",
+        "options": [
+          "Raw Carbon Grey",
+          "XL"
+        ],
+        "price": 6499,
+        "compareAtPrice": 8999,
+        "available": true
+      },
+      {
+        "id": "41230790557829",
+        "title": "Raw Carbon Green / S",
+        "options": [
+          "Raw Carbon Green",
+          "S"
+        ],
+        "price": 8999,
+        "available": false
+      },
+      {
+        "id": "41230790590597",
+        "title": "Raw Carbon Green / M",
+        "options": [
+          "Raw Carbon Green",
+          "M"
+        ],
+        "price": 8999,
+        "available": false
+      },
+      {
+        "id": "41230790623365",
+        "title": "Raw Carbon Green / L",
+        "options": [
+          "Raw Carbon Green",
+          "L"
+        ],
+        "price": 8999,
+        "available": false
+      },
+      {
+        "id": "41230790656133",
+        "title": "Raw Carbon Green / XL",
+        "options": [
+          "Raw Carbon Green",
+          "XL"
+        ],
+        "price": 6499,
+        "compareAtPrice": 8999,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-SL-87-Dual-suspension-ebike.png?v=1748153692&width=900"
   },
@@ -360,6 +1088,45 @@ export const PRODUCTS: Product[] = [
       "Size": "Medium, Large, Extra Large",
       "SKU": "D644518223"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "Medium",
+          "Large",
+          "Extra Large"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40928003850373",
+        "title": "Medium",
+        "options": [
+          "Medium"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40928017907845",
+        "title": "Large",
+        "options": [
+          "Large"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40928017940613",
+        "title": "Extra Large",
+        "options": [
+          "Extra Large"
+        ],
+        "price": 5999,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FocusJarifa6.8.png?v=1726716951&width=900"
   },
@@ -383,6 +1150,115 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$5,999 - $7,499",
       "SKU": "768682595688"
     },
+    "options": [
+      {
+        "name": "SIZE",
+        "values": [
+          "S",
+          "XL",
+          "L",
+          "M"
+        ]
+      },
+      {
+        "name": "COLOUR",
+        "values": [
+          "GREY MECURY",
+          "RAGE RED"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40255235686533",
+        "title": "S / GREY MECURY",
+        "options": [
+          "S",
+          "GREY MECURY"
+        ],
+        "price": 7499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TrekRail5DeoreDualsuspensionebike2.webp?v=1692101436&width=900"
+      },
+      {
+        "id": "40255235719301",
+        "title": "XL / RAGE RED",
+        "options": [
+          "XL",
+          "RAGE RED"
+        ],
+        "price": 7499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TrekRail5Gen3Fullsupsionelecticbike.webp?v=1692101394&width=900"
+      },
+      {
+        "id": "40255235981445",
+        "title": "L / RAGE RED",
+        "options": [
+          "L",
+          "RAGE RED"
+        ],
+        "price": 7499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TrekRail5Gen3Fullsupsionelecticbike.webp?v=1692101394&width=900"
+      },
+      {
+        "id": "40255236014213",
+        "title": "M / RAGE RED",
+        "options": [
+          "M",
+          "RAGE RED"
+        ],
+        "price": 5999,
+        "compareAtPrice": 7499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TrekRail5Gen3Fullsupsionelecticbike.webp?v=1692101394&width=900"
+      },
+      {
+        "id": "40255236046981",
+        "title": "S / RAGE RED",
+        "options": [
+          "S",
+          "RAGE RED"
+        ],
+        "price": 7499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TrekRail5Gen3Fullsupsionelecticbike.webp?v=1692101394&width=900"
+      },
+      {
+        "id": "40255236079749",
+        "title": "XL / GREY MECURY",
+        "options": [
+          "XL",
+          "GREY MECURY"
+        ],
+        "price": 7499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TrekRail5DeoreDualsuspensionebike2.webp?v=1692101436&width=900"
+      },
+      {
+        "id": "40255236112517",
+        "title": "M / GREY MECURY",
+        "options": [
+          "M",
+          "GREY MECURY"
+        ],
+        "price": 7499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TrekRail5DeoreDualsuspensionebike2.webp?v=1692101436&width=900"
+      },
+      {
+        "id": "40255238930565",
+        "title": "L / GREY MECURY",
+        "options": [
+          "L",
+          "GREY MECURY"
+        ],
+        "price": 7499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TrekRail5DeoreDualsuspensionebike2.webp?v=1692101436&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TrekRail5Gen3Fullsupsionelecticbike.webp?v=1692101394&width=900"
   },
@@ -413,6 +1289,118 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$5,799 - $6,299",
       "SKU": "1000000004141"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Blue",
+          "Green"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41388665340037",
+        "title": "Blue / S",
+        "options": [
+          "Blue",
+          "S"
+        ],
+        "price": 6299,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Thron-67-Blue.png?v=1760260818&width=900"
+      },
+      {
+        "id": "41388665372805",
+        "title": "Blue / M",
+        "options": [
+          "Blue",
+          "M"
+        ],
+        "price": 5799,
+        "compareAtPrice": 6299,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Thron-67-Blue.png?v=1760260818&width=900"
+      },
+      {
+        "id": "41388665405573",
+        "title": "Blue / L",
+        "options": [
+          "Blue",
+          "L"
+        ],
+        "price": 5799,
+        "compareAtPrice": 6299,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Thron-67-Blue.png?v=1760260818&width=900"
+      },
+      {
+        "id": "41388665438341",
+        "title": "Blue / XL",
+        "options": [
+          "Blue",
+          "XL"
+        ],
+        "price": 6299,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Thron-67-Blue.png?v=1760260818&width=900"
+      },
+      {
+        "id": "41388665471109",
+        "title": "Green / S",
+        "options": [
+          "Green",
+          "S"
+        ],
+        "price": 6299,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Thron_67_grey_dd2b3d19-5303-4405-8063-9614e0405ad3.png?v=1760261129&width=900"
+      },
+      {
+        "id": "41388665503877",
+        "title": "Green / M",
+        "options": [
+          "Green",
+          "M"
+        ],
+        "price": 5799,
+        "compareAtPrice": 6299,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Thron_67_grey_dd2b3d19-5303-4405-8063-9614e0405ad3.png?v=1760261129&width=900"
+      },
+      {
+        "id": "41388665536645",
+        "title": "Green / L",
+        "options": [
+          "Green",
+          "L"
+        ],
+        "price": 5799,
+        "compareAtPrice": 6299,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Thron_67_grey_dd2b3d19-5303-4405-8063-9614e0405ad3.png?v=1760261129&width=900"
+      },
+      {
+        "id": "41388665569413",
+        "title": "Green / XL",
+        "options": [
+          "Green",
+          "XL"
+        ],
+        "price": 6299,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Thron_67_grey_dd2b3d19-5303-4405-8063-9614e0405ad3.png?v=1760261129&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Thron-67-Blue.png?v=1760260818&width=900"
   },
@@ -442,6 +1430,58 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$5,500 - $6,499",
       "SKU": "1000000004155"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41388667469957",
+        "title": "S",
+        "options": [
+          "S"
+        ],
+        "price": 5500,
+        "compareAtPrice": 6499,
+        "available": true
+      },
+      {
+        "id": "41388667502725",
+        "title": "M",
+        "options": [
+          "M"
+        ],
+        "price": 5999,
+        "compareAtPrice": 6499,
+        "available": true
+      },
+      {
+        "id": "41388667535493",
+        "title": "L",
+        "options": [
+          "L"
+        ],
+        "price": 5999,
+        "compareAtPrice": 6499,
+        "available": true
+      },
+      {
+        "id": "41388667568261",
+        "title": "XL",
+        "options": [
+          "XL"
+        ],
+        "price": 6499,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-6-7.png?v=1760263171&width=900"
   },
@@ -469,6 +1509,127 @@ export const PRODUCTS: Product[] = [
       "Colour": "Mercury, Purple/Black",
       "SKU": "1000000000921"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "XS (27.5inch)",
+          "S (27.5Inch)",
+          "M (29inch)",
+          "L (29inch)",
+          "XL (29inch)"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "Mercury",
+          "Purple/Black"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40552557936773",
+        "title": "XS (27.5inch) / Mercury",
+        "options": [
+          "XS (27.5inch)",
+          "Mercury"
+        ],
+        "price": 5399,
+        "available": true
+      },
+      {
+        "id": "40552557969541",
+        "title": "S (27.5Inch) / Mercury",
+        "options": [
+          "S (27.5Inch)",
+          "Mercury"
+        ],
+        "price": 5399,
+        "available": true
+      },
+      {
+        "id": "40552558002309",
+        "title": "M (29inch) / Mercury",
+        "options": [
+          "M (29inch)",
+          "Mercury"
+        ],
+        "price": 5399,
+        "available": true
+      },
+      {
+        "id": "40552558035077",
+        "title": "L (29inch) / Mercury",
+        "options": [
+          "L (29inch)",
+          "Mercury"
+        ],
+        "price": 5399,
+        "available": true
+      },
+      {
+        "id": "40552558067845",
+        "title": "XL (29inch) / Mercury",
+        "options": [
+          "XL (29inch)",
+          "Mercury"
+        ],
+        "price": 5399,
+        "available": true
+      },
+      {
+        "id": "40552558100613",
+        "title": "XS (27.5inch) / Purple/Black",
+        "options": [
+          "XS (27.5inch)",
+          "Purple/Black"
+        ],
+        "price": 5399,
+        "available": true
+      },
+      {
+        "id": "40552558133381",
+        "title": "S (27.5Inch) / Purple/Black",
+        "options": [
+          "S (27.5Inch)",
+          "Purple/Black"
+        ],
+        "price": 5399,
+        "available": true
+      },
+      {
+        "id": "40552558166149",
+        "title": "M (29inch) / Purple/Black",
+        "options": [
+          "M (29inch)",
+          "Purple/Black"
+        ],
+        "price": 5399,
+        "available": true
+      },
+      {
+        "id": "40552558198917",
+        "title": "L (29inch) / Purple/Black",
+        "options": [
+          "L (29inch)",
+          "Purple/Black"
+        ],
+        "price": 5399,
+        "available": true
+      },
+      {
+        "id": "40552558231685",
+        "title": "XL (29inch) / Purple/Black",
+        "options": [
+          "XL (29inch)",
+          "Purple/Black"
+        ],
+        "price": 5399,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus8US-24-41706-C-Primary.webp?v=1710159802&width=900"
   },
@@ -496,6 +1657,106 @@ export const PRODUCTS: Product[] = [
       "Colour": "Diamondblack, Bluegreen",
       "SKU": "D663512231"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "Small",
+          "Medium",
+          "Large",
+          "XLarge"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "Diamondblack",
+          "Bluegreen"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40840105492613",
+        "title": "Small / Diamondblack",
+        "options": [
+          "Small",
+          "Diamondblack"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40840105525381",
+        "title": "Small / Bluegreen",
+        "options": [
+          "Small",
+          "Bluegreen"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40840105558149",
+        "title": "Medium / Diamondblack",
+        "options": [
+          "Medium",
+          "Diamondblack"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40840105590917",
+        "title": "Medium / Bluegreen",
+        "options": [
+          "Medium",
+          "Bluegreen"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40840105623685",
+        "title": "Large / Diamondblack",
+        "options": [
+          "Large",
+          "Diamondblack"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40840105656453",
+        "title": "Large / Bluegreen",
+        "options": [
+          "Large",
+          "Bluegreen"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40840105689221",
+        "title": "XLarge / Diamondblack",
+        "options": [
+          "XLarge",
+          "Diamondblack"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40840105721989",
+        "title": "XLarge / Bluegreen",
+        "options": [
+          "XLarge",
+          "Bluegreen"
+        ],
+        "price": 4999,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Jarifa2-6-7-Grey.png?v=1722395109&width=900"
   },
@@ -536,6 +1797,56 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$3,799 - $4,999",
       "SKU": "20190996"
     },
+    "options": [
+      {
+        "name": "SIZE",
+        "values": [
+          "LARGE",
+          "SMALL",
+          "MEDIUM"
+        ]
+      },
+      {
+        "name": "COLOUR",
+        "values": [
+          "BLACK"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "39695136587909",
+        "title": "LARGE / BLACK",
+        "options": [
+          "LARGE",
+          "BLACK"
+        ],
+        "price": 4999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190996_2.jpg?v=1680036497&width=900"
+      },
+      {
+        "id": "39695219490949",
+        "title": "SMALL / BLACK",
+        "options": [
+          "SMALL",
+          "BLACK"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "39695219523717",
+        "title": "MEDIUM / BLACK",
+        "options": [
+          "MEDIUM",
+          "BLACK"
+        ],
+        "price": 3799,
+        "compareAtPrice": 4999,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190996_1_c5a21ca1-faa5-4083-9a3a-0b332f050053.jpg?v=1680036497&width=900"
   },
@@ -556,6 +1867,106 @@ export const PRODUCTS: Product[] = [
       "Colour": "HEX BLUE, GREY",
       "SKU": "601842743133"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "MEDIUM",
+          "SMALL",
+          "LARGE",
+          "XL"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "HEX BLUE",
+          "GREY"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40087817945221",
+        "title": "MEDIUM / HEX BLUE",
+        "options": [
+          "MEDIUM",
+          "HEX BLUE"
+        ],
+        "price": 3499,
+        "available": true
+      },
+      {
+        "id": "40087818469509",
+        "title": "MEDIUM / GREY",
+        "options": [
+          "MEDIUM",
+          "GREY"
+        ],
+        "price": 3499,
+        "available": true
+      },
+      {
+        "id": "40087818567813",
+        "title": "SMALL / GREY",
+        "options": [
+          "SMALL",
+          "GREY"
+        ],
+        "price": 3499,
+        "available": true
+      },
+      {
+        "id": "40102029131909",
+        "title": "LARGE / GREY",
+        "options": [
+          "LARGE",
+          "GREY"
+        ],
+        "price": 3499,
+        "available": true
+      },
+      {
+        "id": "40102029328517",
+        "title": "XL / GREY",
+        "options": [
+          "XL",
+          "GREY"
+        ],
+        "price": 3499,
+        "available": true
+      },
+      {
+        "id": "40102029459589",
+        "title": "SMALL / HEX BLUE",
+        "options": [
+          "SMALL",
+          "HEX BLUE"
+        ],
+        "price": 3499,
+        "available": true
+      },
+      {
+        "id": "40102029525125",
+        "title": "LARGE / HEX BLUE",
+        "options": [
+          "LARGE",
+          "HEX BLUE"
+        ],
+        "price": 3499,
+        "available": true
+      },
+      {
+        "id": "40102029688965",
+        "title": "XL / HEX BLUE",
+        "options": [
+          "XL",
+          "HEX BLUE"
+        ],
+        "price": 3499,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DualSportPlus2_23_35854_A_Primary.jpg?v=1680036608&width=900"
   },
@@ -603,6 +2014,45 @@ export const PRODUCTS: Product[] = [
       "Colour": "BLACK",
       "SKU": "20102494"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "L",
+          "Medium"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLACK"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41841658364037",
+        "title": "L / BLACK",
+        "options": [
+          "L",
+          "BLACK"
+        ],
+        "price": 2599,
+        "compareAtPrice": 3349,
+        "available": false
+      },
+      {
+        "id": "41841658396805",
+        "title": "Medium / BLACK",
+        "options": [
+          "Medium",
+          "BLACK"
+        ],
+        "price": 2599,
+        "compareAtPrice": 3349,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/SMARTMOTION_CATALYST_17.5AH.png?v=1790053915&width=900"
   },
@@ -632,6 +2082,170 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$2,399 - $2,679",
       "SKU": "1000000001545"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "27.5",
+          "29"
+        ]
+      },
+      {
+        "name": "Color",
+        "values": [
+          "Army Green",
+          "Black",
+          "Gun Metal Grey"
+        ]
+      },
+      {
+        "name": "Assembly Package",
+        "values": [
+          "Yes",
+          "No"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40915286065285",
+        "title": "27.5 / Army Green / Yes",
+        "options": [
+          "27.5",
+          "Army Green",
+          "Yes"
+        ],
+        "price": 2399,
+        "compareAtPrice": 2799,
+        "available": true
+      },
+      {
+        "id": "41135953641605",
+        "title": "27.5 / Army Green / No",
+        "options": [
+          "27.5",
+          "Army Green",
+          "No"
+        ],
+        "price": 2679,
+        "available": true
+      },
+      {
+        "id": "41135953674373",
+        "title": "27.5 / Black / Yes",
+        "options": [
+          "27.5",
+          "Black",
+          "Yes"
+        ],
+        "price": 2399,
+        "compareAtPrice": 2799,
+        "available": true
+      },
+      {
+        "id": "41135953707141",
+        "title": "27.5 / Black / No",
+        "options": [
+          "27.5",
+          "Black",
+          "No"
+        ],
+        "price": 2679,
+        "available": true
+      },
+      {
+        "id": "41135953739909",
+        "title": "27.5 / Gun Metal Grey / Yes",
+        "options": [
+          "27.5",
+          "Gun Metal Grey",
+          "Yes"
+        ],
+        "price": 2399,
+        "compareAtPrice": 2799,
+        "available": true
+      },
+      {
+        "id": "41135953772677",
+        "title": "27.5 / Gun Metal Grey / No",
+        "options": [
+          "27.5",
+          "Gun Metal Grey",
+          "No"
+        ],
+        "price": 2679,
+        "available": true
+      },
+      {
+        "id": "40915286098053",
+        "title": "29 / Army Green / Yes",
+        "options": [
+          "29",
+          "Army Green",
+          "Yes"
+        ],
+        "price": 2399,
+        "compareAtPrice": 2799,
+        "available": true
+      },
+      {
+        "id": "41135953805445",
+        "title": "29 / Army Green / No",
+        "options": [
+          "29",
+          "Army Green",
+          "No"
+        ],
+        "price": 2679,
+        "available": true
+      },
+      {
+        "id": "41135953838213",
+        "title": "29 / Black / Yes",
+        "options": [
+          "29",
+          "Black",
+          "Yes"
+        ],
+        "price": 2399,
+        "compareAtPrice": 2799,
+        "available": true
+      },
+      {
+        "id": "41135953870981",
+        "title": "29 / Black / No",
+        "options": [
+          "29",
+          "Black",
+          "No"
+        ],
+        "price": 2679,
+        "available": true
+      },
+      {
+        "id": "41135953903749",
+        "title": "29 / Gun Metal Grey / Yes",
+        "options": [
+          "29",
+          "Gun Metal Grey",
+          "Yes"
+        ],
+        "price": 2399,
+        "compareAtPrice": 2799,
+        "available": true
+      },
+      {
+        "id": "41135953936517",
+        "title": "29 / Gun Metal Grey / No",
+        "options": [
+          "29",
+          "Gun Metal Grey",
+          "No"
+        ],
+        "price": 2679,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ncm-ncm-m7-electric-mountain-bike-electric-bike.jpg?v=1726231558&width=900"
   },
@@ -659,6 +2273,36 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$2,279 - $2,399",
       "SKU": "20102111"
     },
+    "options": [
+      {
+        "name": "Accessory Bundle",
+        "values": [
+          "Yes",
+          "No"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "34727808860293",
+        "title": "Yes",
+        "options": [
+          "Yes"
+        ],
+        "price": 2399,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102111_1.jpg?v=1680029672&width=900"
+      },
+      {
+        "id": "41135952134277",
+        "title": "No",
+        "options": [
+          "No"
+        ],
+        "price": 2279,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102111_1_b1d1a9a2-f20b-44cc-bb84-d507c7bdc18d.jpg?v=1680029672&width=900"
   },
@@ -685,6 +2329,35 @@ export const PRODUCTS: Product[] = [
       "Size": "17\", 19\"",
       "SKU": "1000000005437"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "17\"",
+          "19\""
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41668469194885",
+        "title": "17\"",
+        "options": [
+          "17\""
+        ],
+        "price": 2199,
+        "available": false
+      },
+      {
+        "id": "41668469227653",
+        "title": "19\"",
+        "options": [
+          "19\""
+        ],
+        "price": 2199,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDS-Advance-300-emtb.jpg?v=1779704375&width=900"
   },
@@ -715,6 +2388,241 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$1,799 - $1,899",
       "SKU": "20190422"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "27.5\"",
+          "26\"",
+          "29\""
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLACK",
+          "WHITE",
+          "GREEN"
+        ]
+      },
+      {
+        "name": "Assembly Package",
+        "values": [
+          "Yes",
+          "No"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "39695848931461",
+        "title": "27.5\" / BLACK / Yes",
+        "options": [
+          "27.5\"",
+          "BLACK",
+          "Yes"
+        ],
+        "price": 1799,
+        "compareAtPrice": 1999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190422_1.jpg?v=1680031104&width=900"
+      },
+      {
+        "id": "41135952658565",
+        "title": "27.5\" / BLACK / No",
+        "options": [
+          "27.5\"",
+          "BLACK",
+          "No"
+        ],
+        "price": 1879,
+        "available": true
+      },
+      {
+        "id": "40185112363141",
+        "title": "27.5\" / WHITE / Yes",
+        "options": [
+          "27.5\"",
+          "WHITE",
+          "Yes"
+        ],
+        "price": 1799,
+        "compareAtPrice": 1999,
+        "available": true
+      },
+      {
+        "id": "41135952691333",
+        "title": "27.5\" / WHITE / No",
+        "options": [
+          "27.5\"",
+          "WHITE",
+          "No"
+        ],
+        "price": 1879,
+        "available": true
+      },
+      {
+        "id": "41520201269381",
+        "title": "27.5\" / GREEN / Yes",
+        "options": [
+          "27.5\"",
+          "GREEN",
+          "Yes"
+        ],
+        "price": 1799,
+        "compareAtPrice": 1999,
+        "available": true
+      },
+      {
+        "id": "41520201302149",
+        "title": "27.5\" / GREEN / No",
+        "options": [
+          "27.5\"",
+          "GREEN",
+          "No"
+        ],
+        "price": 1879,
+        "available": true
+      },
+      {
+        "id": "39695848996997",
+        "title": "26\" / BLACK / Yes",
+        "options": [
+          "26\"",
+          "BLACK",
+          "Yes"
+        ],
+        "price": 1799,
+        "compareAtPrice": 1999,
+        "available": true
+      },
+      {
+        "id": "41135952724101",
+        "title": "26\" / BLACK / No",
+        "options": [
+          "26\"",
+          "BLACK",
+          "No"
+        ],
+        "price": 1879,
+        "available": true
+      },
+      {
+        "id": "40185113313413",
+        "title": "26\" / WHITE / Yes",
+        "options": [
+          "26\"",
+          "WHITE",
+          "Yes"
+        ],
+        "price": 1799,
+        "compareAtPrice": 1999,
+        "available": true
+      },
+      {
+        "id": "41135952756869",
+        "title": "26\" / WHITE / No",
+        "options": [
+          "26\"",
+          "WHITE",
+          "No"
+        ],
+        "price": 1879,
+        "available": true
+      },
+      {
+        "id": "41520201334917",
+        "title": "26\" / GREEN / Yes",
+        "options": [
+          "26\"",
+          "GREEN",
+          "Yes"
+        ],
+        "price": 1899,
+        "compareAtPrice": 1999,
+        "available": false
+      },
+      {
+        "id": "41520201367685",
+        "title": "26\" / GREEN / No",
+        "options": [
+          "26\"",
+          "GREEN",
+          "No"
+        ],
+        "price": 1879,
+        "available": false
+      },
+      {
+        "id": "39695851552901",
+        "title": "29\" / BLACK / Yes",
+        "options": [
+          "29\"",
+          "BLACK",
+          "Yes"
+        ],
+        "price": 1899,
+        "compareAtPrice": 1999,
+        "available": true
+      },
+      {
+        "id": "41135952789637",
+        "title": "29\" / BLACK / No",
+        "options": [
+          "29\"",
+          "BLACK",
+          "No"
+        ],
+        "price": 1879,
+        "available": true
+      },
+      {
+        "id": "40185113280645",
+        "title": "29\" / WHITE / Yes",
+        "options": [
+          "29\"",
+          "WHITE",
+          "Yes"
+        ],
+        "price": 1799,
+        "compareAtPrice": 1999,
+        "available": true
+      },
+      {
+        "id": "41135952822405",
+        "title": "29\" / WHITE / No",
+        "options": [
+          "29\"",
+          "WHITE",
+          "No"
+        ],
+        "price": 1879,
+        "available": true
+      },
+      {
+        "id": "41520201400453",
+        "title": "29\" / GREEN / Yes",
+        "options": [
+          "29\"",
+          "GREEN",
+          "Yes"
+        ],
+        "price": 1899,
+        "compareAtPrice": 1999,
+        "available": false
+      },
+      {
+        "id": "41520201433221",
+        "title": "29\" / GREEN / No",
+        "options": [
+          "29\"",
+          "GREEN",
+          "No"
+        ],
+        "price": 1879,
+        "available": false
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190422_1_6e320b17-56e0-4ba9-8c8d-4731e20e42a3.jpg?v=1680031104&width=900"
   },
@@ -743,6 +2651,43 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$1,779 - $1,899",
       "SKU": "20102241"
     },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Black"
+        ]
+      },
+      {
+        "name": "Assembly Package",
+        "values": [
+          "Yes",
+          "No"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "34736121380997",
+        "title": "Black / Yes",
+        "options": [
+          "Black",
+          "Yes"
+        ],
+        "price": 1899,
+        "available": true
+      },
+      {
+        "id": "41135951151237",
+        "title": "Black / No",
+        "options": [
+          "Black",
+          "No"
+        ],
+        "price": 1779,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102241_1_b7f6572c-3798-43c2-b249-488ff4656428.jpg?v=1680029774&width=900"
   },
@@ -763,6 +2708,116 @@ export const PRODUCTS: Product[] = [
       "Colour": "Metal Grey, Celeste Green, Metal Brown",
       "SKU": "1000000000444"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "MEDIUM",
+          "LARGE",
+          "SMALL"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "Metal Grey",
+          "Celeste Green",
+          "Metal Brown"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40400663347333",
+        "title": "MEDIUM / Metal Grey",
+        "options": [
+          "MEDIUM",
+          "Metal Grey"
+        ],
+        "price": 7599,
+        "available": true
+      },
+      {
+        "id": "40400663445637",
+        "title": "MEDIUM / Celeste Green",
+        "options": [
+          "MEDIUM",
+          "Celeste Green"
+        ],
+        "price": 7599,
+        "available": true
+      },
+      {
+        "id": "40400663543941",
+        "title": "MEDIUM / Metal Brown",
+        "options": [
+          "MEDIUM",
+          "Metal Brown"
+        ],
+        "price": 7599,
+        "available": true
+      },
+      {
+        "id": "40400663380101",
+        "title": "LARGE / Metal Grey",
+        "options": [
+          "LARGE",
+          "Metal Grey"
+        ],
+        "price": 7599,
+        "available": true
+      },
+      {
+        "id": "40400663478405",
+        "title": "LARGE / Celeste Green",
+        "options": [
+          "LARGE",
+          "Celeste Green"
+        ],
+        "price": 7599,
+        "available": true
+      },
+      {
+        "id": "40400663576709",
+        "title": "LARGE / Metal Brown",
+        "options": [
+          "LARGE",
+          "Metal Brown"
+        ],
+        "price": 7599,
+        "available": true
+      },
+      {
+        "id": "40400663412869",
+        "title": "SMALL / Metal Grey",
+        "options": [
+          "SMALL",
+          "Metal Grey"
+        ],
+        "price": 7599,
+        "available": true
+      },
+      {
+        "id": "40400663511173",
+        "title": "SMALL / Celeste Green",
+        "options": [
+          "SMALL",
+          "Celeste Green"
+        ],
+        "price": 7599,
+        "available": true
+      },
+      {
+        "id": "40400663609477",
+        "title": "SMALL / Metal Brown",
+        "options": [
+          "SMALL",
+          "Metal Brown"
+        ],
+        "price": 7599,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/BianchittypebeltBrown.jpg?v=1710165055&width=900"
   },
@@ -833,6 +2888,45 @@ export const PRODUCTS: Product[] = [
       "Size": "S, M, L",
       "SKU": "1000000003562"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41233826775173",
+        "title": "S",
+        "options": [
+          "S"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "41233826807941",
+        "title": "M",
+        "options": [
+          "M"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "41233826840709",
+        "title": "L",
+        "options": [
+          "L"
+        ],
+        "price": 5999,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-lb-light-weight-ebike.png?v=1748525418&width=900"
   },
@@ -853,6 +2947,148 @@ export const PRODUCTS: Product[] = [
       "Colour": "BLUE, DARK RED, URBAN GREEN, BLACK",
       "SKU": "20148119"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "LARGE",
+          "M",
+          "L"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLUE",
+          "DARK RED",
+          "URBAN GREEN",
+          "BLACK"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40223822250117",
+        "title": "S / BLUE",
+        "options": [
+          "S",
+          "BLUE"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40223832375429",
+        "title": "S / DARK RED",
+        "options": [
+          "S",
+          "DARK RED"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40223852626053",
+        "title": "S / URBAN GREEN",
+        "options": [
+          "S",
+          "URBAN GREEN"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40223852658821",
+        "title": "LARGE / URBAN GREEN",
+        "options": [
+          "LARGE",
+          "URBAN GREEN"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40223852691589",
+        "title": "M / URBAN GREEN",
+        "options": [
+          "M",
+          "URBAN GREEN"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40223852724357",
+        "title": "L / DARK RED",
+        "options": [
+          "L",
+          "DARK RED"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40223852757125",
+        "title": "M / DARK RED",
+        "options": [
+          "M",
+          "DARK RED"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40223852789893",
+        "title": "L / BLACK",
+        "options": [
+          "L",
+          "BLACK"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40223852822661",
+        "title": "M / BLACK",
+        "options": [
+          "M",
+          "BLACK"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40223852888197",
+        "title": "S / BLACK",
+        "options": [
+          "S",
+          "BLACK"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40223852920965",
+        "title": "L / BLUE",
+        "options": [
+          "L",
+          "BLUE"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40223852953733",
+        "title": "M / BLUE",
+        "options": [
+          "M",
+          "BLUE"
+        ],
+        "price": 5999,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/VIBEMIDH30EQ2023blue.jpg?v=1686201648&width=900"
   },
@@ -873,6 +3109,178 @@ export const PRODUCTS: Product[] = [
       "COLOUR": "BLUE, DARK RED, Night Black, URBAN GREEN",
       "SKU": "20147396"
     },
+    "options": [
+      {
+        "name": "SIZE",
+        "values": [
+          "LARGE",
+          "MEDIUM",
+          "SMALL",
+          "XL"
+        ]
+      },
+      {
+        "name": "COLOUR",
+        "values": [
+          "BLUE",
+          "DARK RED",
+          "Night Black",
+          "URBAN GREEN"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40185101582469",
+        "title": "LARGE / BLUE",
+        "options": [
+          "LARGE",
+          "BLUE"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40185101648005",
+        "title": "MEDIUM / DARK RED",
+        "options": [
+          "MEDIUM",
+          "DARK RED"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40185101713541",
+        "title": "SMALL / DARK RED",
+        "options": [
+          "SMALL",
+          "DARK RED"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40185101779077",
+        "title": "XL / Night Black",
+        "options": [
+          "XL",
+          "Night Black"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40185101844613",
+        "title": "LARGE / Night Black",
+        "options": [
+          "LARGE",
+          "Night Black"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40185101910149",
+        "title": "MEDIUM / Night Black",
+        "options": [
+          "MEDIUM",
+          "Night Black"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40185101975685",
+        "title": "SMALL / Night Black",
+        "options": [
+          "SMALL",
+          "Night Black"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40185102041221",
+        "title": "XL / BLUE",
+        "options": [
+          "XL",
+          "BLUE"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40185102106757",
+        "title": "MEDIUM / BLUE",
+        "options": [
+          "MEDIUM",
+          "BLUE"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40185102172293",
+        "title": "LARGE / DARK RED",
+        "options": [
+          "LARGE",
+          "DARK RED"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40185102336133",
+        "title": "XL / URBAN GREEN",
+        "options": [
+          "XL",
+          "URBAN GREEN"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40185102401669",
+        "title": "LARGE / URBAN GREEN",
+        "options": [
+          "LARGE",
+          "URBAN GREEN"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40185102467205",
+        "title": "MEDIUM / URBAN GREEN",
+        "options": [
+          "MEDIUM",
+          "URBAN GREEN"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40185102532741",
+        "title": "SMALL / URBAN GREEN",
+        "options": [
+          "SMALL",
+          "URBAN GREEN"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40185103974533",
+        "title": "SMALL / BLUE",
+        "options": [
+          "SMALL",
+          "BLUE"
+        ],
+        "price": 5999,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Orbeavibeh30Eqblue.jpg?v=1683515930&width=900"
   },
@@ -898,6 +3306,45 @@ export const PRODUCTS: Product[] = [
       "Size": "Medium, Large, Extra Large",
       "SKU": "D673520771"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "Medium",
+          "Large",
+          "Extra Large"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40931648176261",
+        "title": "Medium",
+        "options": [
+          "Medium"
+        ],
+        "price": 5499,
+        "available": true
+      },
+      {
+        "id": "40931648209029",
+        "title": "Large",
+        "options": [
+          "Large"
+        ],
+        "price": 5499,
+        "available": true
+      },
+      {
+        "id": "40931648241797",
+        "title": "Extra Large",
+        "options": [
+          "Extra Large"
+        ],
+        "price": 5499,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Entice-L-B-di.jpg?v=1726801750&width=900"
   },
@@ -924,6 +3371,45 @@ export const PRODUCTS: Product[] = [
       "Size": "M, L, XL",
       "SKU": "1000000000913"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40552486764677",
+        "title": "M",
+        "options": [
+          "M"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40552486797445",
+        "title": "L",
+        "options": [
+          "L"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40552486830213",
+        "title": "XL",
+        "options": [
+          "XL"
+        ],
+        "price": 4999,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7US-24-40891-A-Primary.webp?v=1710158102&width=900"
   },
@@ -944,6 +3430,203 @@ export const PRODUCTS: Product[] = [
       "Colour": "DARK RED, Night Black, BLUE, URBAN GREEN",
       "SKU": "20147204"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "MEDIUM",
+          "SMALL",
+          "LARGE",
+          "XL"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "DARK RED",
+          "Night Black",
+          "BLUE",
+          "URBAN GREEN"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40185050464389",
+        "title": "MEDIUM / DARK RED",
+        "options": [
+          "MEDIUM",
+          "DARK RED"
+        ],
+        "price": 4999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30DarkRed.jpg?v=1681109649&width=900"
+      },
+      {
+        "id": "40185050497157",
+        "title": "SMALL / DARK RED",
+        "options": [
+          "SMALL",
+          "DARK RED"
+        ],
+        "price": 4999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30DarkRed.jpg?v=1681109649&width=900"
+      },
+      {
+        "id": "40185050529925",
+        "title": "LARGE / DARK RED",
+        "options": [
+          "LARGE",
+          "DARK RED"
+        ],
+        "price": 4999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30DarkRed.jpg?v=1681109649&width=900"
+      },
+      {
+        "id": "40185050562693",
+        "title": "SMALL / Night Black",
+        "options": [
+          "SMALL",
+          "Night Black"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40185050595461",
+        "title": "MEDIUM / Night Black",
+        "options": [
+          "MEDIUM",
+          "Night Black"
+        ],
+        "price": 4999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30Black.jpg?v=1681109713&width=900"
+      },
+      {
+        "id": "40185050628229",
+        "title": "LARGE / Night Black",
+        "options": [
+          "LARGE",
+          "Night Black"
+        ],
+        "price": 4999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30Black.jpg?v=1681109713&width=900"
+      },
+      {
+        "id": "40185050660997",
+        "title": "XL / Night Black",
+        "options": [
+          "XL",
+          "Night Black"
+        ],
+        "price": 4999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30Black.jpg?v=1681109713&width=900"
+      },
+      {
+        "id": "40185050693765",
+        "title": "SMALL / BLUE",
+        "options": [
+          "SMALL",
+          "BLUE"
+        ],
+        "price": 4999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30Blue.jpg?v=1681109758&width=900"
+      },
+      {
+        "id": "40185050824837",
+        "title": "SMALL / URBAN GREEN",
+        "options": [
+          "SMALL",
+          "URBAN GREEN"
+        ],
+        "price": 4999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30UrbanGreen.jpg?v=1681109790&width=900"
+      },
+      {
+        "id": "40185050857605",
+        "title": "XL / URBAN GREEN",
+        "options": [
+          "XL",
+          "URBAN GREEN"
+        ],
+        "price": 4999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30UrbanGreen.jpg?v=1681109790&width=900"
+      },
+      {
+        "id": "40185050890373",
+        "title": "LARGE / URBAN GREEN",
+        "options": [
+          "LARGE",
+          "URBAN GREEN"
+        ],
+        "price": 4999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30UrbanGreen.jpg?v=1681109790&width=900"
+      },
+      {
+        "id": "40185050923141",
+        "title": "MEDIUM / URBAN GREEN",
+        "options": [
+          "MEDIUM",
+          "URBAN GREEN"
+        ],
+        "price": 4999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30UrbanGreen.jpg?v=1681109790&width=900"
+      },
+      {
+        "id": "40185050955909",
+        "title": "XL / DARK RED",
+        "options": [
+          "XL",
+          "DARK RED"
+        ],
+        "price": 4999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30DarkRed.jpg?v=1681109649&width=900"
+      },
+      {
+        "id": "40185051283589",
+        "title": "XL / BLUE",
+        "options": [
+          "XL",
+          "BLUE"
+        ],
+        "price": 4999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30Blue.jpg?v=1681109758&width=900"
+      },
+      {
+        "id": "40185051316357",
+        "title": "LARGE / BLUE",
+        "options": [
+          "LARGE",
+          "BLUE"
+        ],
+        "price": 4999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30Blue.jpg?v=1681109758&width=900"
+      },
+      {
+        "id": "40185051349125",
+        "title": "MEDIUM / BLUE",
+        "options": [
+          "MEDIUM",
+          "BLUE"
+        ],
+        "price": 4999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30Blue.jpg?v=1681109758&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30DarkRed.jpg?v=1681109649&width=900"
   },
@@ -970,6 +3653,45 @@ export const PRODUCTS: Product[] = [
       "Size": "M, L, XL",
       "SKU": "D663521351"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40931564847237",
+        "title": "M",
+        "options": [
+          "M"
+        ],
+        "price": 4499,
+        "available": true
+      },
+      {
+        "id": "40931564880005",
+        "title": "L",
+        "options": [
+          "L"
+        ],
+        "price": 4499,
+        "available": true
+      },
+      {
+        "id": "40931564912773",
+        "title": "XL",
+        "options": [
+          "XL"
+        ],
+        "price": 4499,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-endeavour-1b-smart-Di.png?v=1726799603&width=900"
   },
@@ -990,6 +3712,45 @@ export const PRODUCTS: Product[] = [
       "Colour": "WHITE",
       "SKU": "20000394"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "L",
+          "S"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "WHITE"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "39443642843269",
+        "title": "L / WHITE",
+        "options": [
+          "L",
+          "WHITE"
+        ],
+        "price": 4499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000394_1.jpg?v=1680036255&width=900"
+      },
+      {
+        "id": "39695136686213",
+        "title": "S / WHITE",
+        "options": [
+          "S",
+          "WHITE"
+        ],
+        "price": 4499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20104245_1.jpg?v=1680036255&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20104245_1_3db91e88-5471-4fc2-bb05-13c2784b710f.jpg?v=1680036255&width=900"
   },
@@ -1020,6 +3781,88 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$4,299 - $4,499",
       "SKU": "1000000005277"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "Small",
+          "Medium",
+          "Large"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "Blue",
+          "Sand"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41841652596869",
+        "title": "Small / Blue",
+        "options": [
+          "Small",
+          "Blue"
+        ],
+        "price": 4499,
+        "available": true
+      },
+      {
+        "id": "41841652629637",
+        "title": "Small / Sand",
+        "options": [
+          "Small",
+          "Sand"
+        ],
+        "price": 4499,
+        "available": true
+      },
+      {
+        "id": "41841652662405",
+        "title": "Medium / Blue",
+        "options": [
+          "Medium",
+          "Blue"
+        ],
+        "price": 4299,
+        "compareAtPrice": 4499,
+        "available": true
+      },
+      {
+        "id": "41841652695173",
+        "title": "Medium / Sand",
+        "options": [
+          "Medium",
+          "Sand"
+        ],
+        "price": 4499,
+        "available": true
+      },
+      {
+        "id": "41841652727941",
+        "title": "Large / Blue",
+        "options": [
+          "Large",
+          "Blue"
+        ],
+        "price": 4299,
+        "compareAtPrice": 4499,
+        "available": true
+      },
+      {
+        "id": "41841652760709",
+        "title": "Large / Sand",
+        "options": [
+          "Large",
+          "Sand"
+        ],
+        "price": 4299,
+        "compareAtPrice": 4499,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/K291v2025_2025_27_DI_BLU_090_PRO_ENTICE-L-SEASON-tif.png?v=1788425793&width=900"
   },
@@ -1081,6 +3924,113 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$2,499 - $2,999",
       "SKU": "601842743478"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "SMALL",
+          "MEDIUM",
+          "XL",
+          "LARGE"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLACK",
+          "BLUE"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40087821418629",
+        "title": "SMALL / BLACK",
+        "options": [
+          "SMALL",
+          "BLACK"
+        ],
+        "price": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/TrekFXBlack.jpg?v=1680037723&width=900"
+      },
+      {
+        "id": "40087821516933",
+        "title": "SMALL / BLUE",
+        "options": [
+          "SMALL",
+          "BLUE"
+        ],
+        "price": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/TrekFXblue.jpg?v=1680037723&width=900"
+      },
+      {
+        "id": "40087821451397",
+        "title": "MEDIUM / BLACK",
+        "options": [
+          "MEDIUM",
+          "BLACK"
+        ],
+        "price": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/TrekFXBlack.jpg?v=1680037723&width=900"
+      },
+      {
+        "id": "40087821549701",
+        "title": "MEDIUM / BLUE",
+        "options": [
+          "MEDIUM",
+          "BLUE"
+        ],
+        "price": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/TrekFXblue.jpg?v=1680037723&width=900"
+      },
+      {
+        "id": "40087821484165",
+        "title": "XL / BLACK",
+        "options": [
+          "XL",
+          "BLACK"
+        ],
+        "price": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/TrekFXBlack.jpg?v=1680037723&width=900"
+      },
+      {
+        "id": "40087821582469",
+        "title": "XL / BLUE",
+        "options": [
+          "XL",
+          "BLUE"
+        ],
+        "price": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/TrekFXblue.jpg?v=1680037723&width=900"
+      },
+      {
+        "id": "40119393747077",
+        "title": "LARGE / BLACK",
+        "options": [
+          "LARGE",
+          "BLACK"
+        ],
+        "price": 2499,
+        "compareAtPrice": 2999,
+        "available": true
+      },
+      {
+        "id": "40119393779845",
+        "title": "LARGE / BLUE",
+        "options": [
+          "LARGE",
+          "BLUE"
+        ],
+        "price": 2999,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/TrekFXBlack_1ae8b5c9-8316-4036-bbc6-192f265deacf.jpg?v=1680037723&width=900"
   },
@@ -1102,6 +4052,45 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$2,499 - $2,599",
       "SKU": "20101848"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "28\""
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "WHITE",
+          "BLACK"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "34727808336005",
+        "title": "28\" / WHITE",
+        "options": [
+          "28\"",
+          "WHITE"
+        ],
+        "price": 2499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101848_1.jpg?v=1680038914&width=900"
+      },
+      {
+        "id": "39628125175941",
+        "title": "28\" / BLACK",
+        "options": [
+          "28\"",
+          "BLACK"
+        ],
+        "price": 2599,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187194_1.jpg?v=1680038914&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187194_1_44531229-7a42-46e3-8322-cedccdeb42a4.jpg?v=1680038914&width=900"
   },
@@ -1122,6 +4111,68 @@ export const PRODUCTS: Product[] = [
       "Colour": "BLACK, WHITE",
       "SKU": "20193058"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "28\"",
+          "26\""
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLACK",
+          "WHITE"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "39998862721157",
+        "title": "28\" / BLACK",
+        "options": [
+          "28\"",
+          "BLACK"
+        ],
+        "price": 1999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/28B.jpg?v=1680031167&width=900"
+      },
+      {
+        "id": "39998862786693",
+        "title": "28\" / WHITE",
+        "options": [
+          "28\"",
+          "WHITE"
+        ],
+        "price": 1999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/28W_9d479b32-c364-49be-b3ca-46d81b4b491f.jpg?v=1680031167&width=900"
+      },
+      {
+        "id": "39998871044229",
+        "title": "26\" / BLACK",
+        "options": [
+          "26\"",
+          "BLACK"
+        ],
+        "price": 1999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/26B_d3186743-5f51-4f42-a6bb-47694aaa4f40.jpg?v=1680031167&width=900"
+      },
+      {
+        "id": "39998871011461",
+        "title": "26\" / WHITE",
+        "options": [
+          "26\"",
+          "WHITE"
+        ],
+        "price": 1999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/26W.jpg?v=1680031167&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/28W_73ba28c3-b824-4dd8-b567-e9c104837973.jpg?v=1680031167&width=900"
   },
@@ -1151,6 +4202,36 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$1,599 - $1,699",
       "SKU": "1000000005432"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "17",
+          "18"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41668462575749",
+        "title": "17",
+        "options": [
+          "17"
+        ],
+        "price": 1599,
+        "compareAtPrice": 1699,
+        "available": true
+      },
+      {
+        "id": "41738044604549",
+        "title": "18",
+        "options": [
+          "18"
+        ],
+        "price": 1699,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDS_Icon_EB-One.png?v=1790053864&width=900"
   },
@@ -1171,6 +4252,85 @@ export const PRODUCTS: Product[] = [
       "Colour": "GREEN GLOSS, GREY",
       "SKU": "0000020200725"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "L",
+          "M"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "GREEN GLOSS",
+          "GREY"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40212428980357",
+        "title": "S / GREEN GLOSS",
+        "options": [
+          "S",
+          "GREEN GLOSS"
+        ],
+        "price": 7499,
+        "available": true
+      },
+      {
+        "id": "40212432158853",
+        "title": "S / GREY",
+        "options": [
+          "S",
+          "GREY"
+        ],
+        "price": 7499,
+        "available": true
+      },
+      {
+        "id": "40212432191621",
+        "title": "L / GREEN GLOSS",
+        "options": [
+          "L",
+          "GREEN GLOSS"
+        ],
+        "price": 7499,
+        "available": true
+      },
+      {
+        "id": "40212432093317",
+        "title": "L / GREY",
+        "options": [
+          "L",
+          "GREY"
+        ],
+        "price": 7499,
+        "available": true
+      },
+      {
+        "id": "40212432224389",
+        "title": "M / GREEN GLOSS",
+        "options": [
+          "M",
+          "GREEN GLOSS"
+        ],
+        "price": 7499,
+        "available": true
+      },
+      {
+        "id": "40212432126085",
+        "title": "M / GREY",
+        "options": [
+          "M",
+          "GREY"
+        ],
+        "price": 7499,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/K23ENDEAVOUR7.BMOVE_750WHebiketechgreenkalkhoss.jpg?v=1684407432&width=900"
   },
@@ -1197,6 +4357,54 @@ export const PRODUCTS: Product[] = [
       "Colour": "GREY",
       "SKU": "D644528725"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "GREY"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40278206251141",
+        "title": "S / GREY",
+        "options": [
+          "S",
+          "GREY"
+        ],
+        "price": 7499,
+        "available": true
+      },
+      {
+        "id": "40278206283909",
+        "title": "M / GREY",
+        "options": [
+          "M",
+          "GREY"
+        ],
+        "price": 7499,
+        "available": true
+      },
+      {
+        "id": "40278206316677",
+        "title": "L / GREY",
+        "options": [
+          "L",
+          "GREY"
+        ],
+        "price": 7499,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoffentice7bebike.png?v=1710165802&width=900"
   },
@@ -1224,6 +4432,106 @@ export const PRODUCTS: Product[] = [
       "Colour": "SILVER, Green",
       "SKU": "4000990424677"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "MEDIUM",
+          "SMALL",
+          "LARGE",
+          "XL"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "SILVER",
+          "Green"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40158283104389",
+        "title": "MEDIUM / SILVER",
+        "options": [
+          "MEDIUM",
+          "SILVER"
+        ],
+        "price": 7499,
+        "available": true
+      },
+      {
+        "id": "41075480166533",
+        "title": "MEDIUM / Green",
+        "options": [
+          "MEDIUM",
+          "Green"
+        ],
+        "price": 7499,
+        "available": false
+      },
+      {
+        "id": "40158321213573",
+        "title": "SMALL / SILVER",
+        "options": [
+          "SMALL",
+          "SILVER"
+        ],
+        "price": 7499,
+        "available": true
+      },
+      {
+        "id": "41075480133765",
+        "title": "SMALL / Green",
+        "options": [
+          "SMALL",
+          "Green"
+        ],
+        "price": 7499,
+        "available": false
+      },
+      {
+        "id": "40158321377413",
+        "title": "LARGE / SILVER",
+        "options": [
+          "LARGE",
+          "SILVER"
+        ],
+        "price": 7499,
+        "available": true
+      },
+      {
+        "id": "41075480199301",
+        "title": "LARGE / Green",
+        "options": [
+          "LARGE",
+          "Green"
+        ],
+        "price": 7499,
+        "available": false
+      },
+      {
+        "id": "40158321410181",
+        "title": "XL / SILVER",
+        "options": [
+          "XL",
+          "SILVER"
+        ],
+        "price": 7499,
+        "available": true
+      },
+      {
+        "id": "41075480690821",
+        "title": "XL / Green",
+        "options": [
+          "XL",
+          "Green"
+        ],
+        "price": 7499,
+        "available": false
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/bianchictypeebikestepthroughbrowncopy.jpg?v=1680013561&width=900"
   },
@@ -1250,6 +4558,35 @@ export const PRODUCTS: Product[] = [
       "Color": "Gloss Red, Silver Blue",
       "SKU": "1000000002901"
     },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Gloss Red",
+          "Silver Blue"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41067056136325",
+        "title": "Gloss Red",
+        "options": [
+          "Gloss Red"
+        ],
+        "price": 6595,
+        "available": true
+      },
+      {
+        "id": "41067056169093",
+        "title": "Silver Blue",
+        "options": [
+          "Silver Blue"
+        ],
+        "price": 6595,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TN-photo-NBD_S5i-silver_blue-web-jpg.jpg?v=1733906664&width=900"
   },
@@ -1276,6 +4613,55 @@ export const PRODUCTS: Product[] = [
       "Size": "Small, Medium, Large, Extra Large",
       "SKU": "1000000000466"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "Small",
+          "Medium",
+          "Large",
+          "Extra Large"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40401755504773",
+        "title": "Small",
+        "options": [
+          "Small"
+        ],
+        "price": 6299,
+        "available": true
+      },
+      {
+        "id": "40401755537541",
+        "title": "Medium",
+        "options": [
+          "Medium"
+        ],
+        "price": 6299,
+        "available": true
+      },
+      {
+        "id": "40401755570309",
+        "title": "Large",
+        "options": [
+          "Large"
+        ],
+        "price": 6299,
+        "available": true
+      },
+      {
+        "id": "40401755603077",
+        "title": "Extra Large",
+        "options": [
+          "Extra Large"
+        ],
+        "price": 6299,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/kalkhoff-5b-ebike.png?v=1703036752&width=900"
   },
@@ -1302,6 +4688,85 @@ export const PRODUCTS: Product[] = [
       "Colour": "Green, Black",
       "SKU": "1000000003566"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "Green",
+          "Black"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41233846861957",
+        "title": "S / Green",
+        "options": [
+          "S",
+          "Green"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "41233846894725",
+        "title": "S / Black",
+        "options": [
+          "S",
+          "Black"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "41233846927493",
+        "title": "M / Green",
+        "options": [
+          "M",
+          "Green"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "41233846960261",
+        "title": "M / Black",
+        "options": [
+          "M",
+          "Black"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "41233846993029",
+        "title": "L / Green",
+        "options": [
+          "L",
+          "Green"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "41233847025797",
+        "title": "L / Black",
+        "options": [
+          "L",
+          "Black"
+        ],
+        "price": 5999,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-lb-light-weight-ebike-with-belt-drive-system.jpg?v=1748527286&width=900"
   },
@@ -1327,6 +4792,45 @@ export const PRODUCTS: Product[] = [
       "Size": "S, M, L",
       "SKU": "1000000002612"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41233825366149",
+        "title": "S",
+        "options": [
+          "S"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "41233825398917",
+        "title": "M",
+        "options": [
+          "M"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "41233825431685",
+        "title": "L",
+        "options": [
+          "L"
+        ],
+        "price": 5999,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-lightweight-ebike-bosch-sx.png?v=1748525042&width=900"
   },
@@ -1349,6 +4853,51 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$0 - $5,999",
       "SKU": "1000000001602"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "XL",
+          "Lrg"
+        ]
+      },
+      {
+        "name": "Color",
+        "values": [
+          "Moonstonegrey Matt"
+        ]
+      },
+      {
+        "name": "Type",
+        "values": [
+          "Diamant"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40243316228229",
+        "title": "XL / Moonstonegrey Matt / Diamant",
+        "options": [
+          "XL",
+          "Moonstonegrey Matt",
+          "Diamant"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "41448802844805",
+        "title": "Lrg / Moonstonegrey Matt / Diamant",
+        "options": [
+          "Lrg",
+          "Moonstonegrey Matt",
+          "Diamant"
+        ],
+        "price": 0,
+        "available": false
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/KalkhoffEntice5.bmove.png?v=1689809937&width=900"
   },
@@ -1369,6 +4918,65 @@ export const PRODUCTS: Product[] = [
       "Colour": "GREY",
       "SKU": "20201777"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "XL",
+          "L",
+          "M"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "GREY"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40231359021189",
+        "title": "S / GREY",
+        "options": [
+          "S",
+          "GREY"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40232790163589",
+        "title": "XL / GREY",
+        "options": [
+          "XL",
+          "GREY"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40232790196357",
+        "title": "L / GREY",
+        "options": [
+          "L",
+          "GREY"
+        ],
+        "price": 5999,
+        "available": true
+      },
+      {
+        "id": "40232790229125",
+        "title": "M / GREY",
+        "options": [
+          "M",
+          "GREY"
+        ],
+        "price": 5999,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/lkakhoff1bimageebike.png?v=1689807863&width=900"
   },
@@ -1396,6 +5004,119 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$4,299 - $5,499",
       "SKU": "D673520775"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "Small",
+          "Medium",
+          "Large"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "Moonstonegrey",
+          "Dark Springs Gloss",
+          "Blue"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40931651518597",
+        "title": "Small / Moonstonegrey",
+        "options": [
+          "Small",
+          "Moonstonegrey"
+        ],
+        "price": 5499,
+        "available": true
+      },
+      {
+        "id": "40931651551365",
+        "title": "Small / Dark Springs Gloss",
+        "options": [
+          "Small",
+          "Dark Springs Gloss"
+        ],
+        "price": 5499,
+        "available": true
+      },
+      {
+        "id": "41377253261445",
+        "title": "Small / Blue",
+        "options": [
+          "Small",
+          "Blue"
+        ],
+        "price": 4299,
+        "compareAtPrice": 4499,
+        "available": false
+      },
+      {
+        "id": "40931651584133",
+        "title": "Medium / Moonstonegrey",
+        "options": [
+          "Medium",
+          "Moonstonegrey"
+        ],
+        "price": 5499,
+        "available": true
+      },
+      {
+        "id": "40931651616901",
+        "title": "Medium / Dark Springs Gloss",
+        "options": [
+          "Medium",
+          "Dark Springs Gloss"
+        ],
+        "price": 5499,
+        "available": true
+      },
+      {
+        "id": "41377253294213",
+        "title": "Medium / Blue",
+        "options": [
+          "Medium",
+          "Blue"
+        ],
+        "price": 4299,
+        "compareAtPrice": 4499,
+        "available": false
+      },
+      {
+        "id": "40931651649669",
+        "title": "Large / Moonstonegrey",
+        "options": [
+          "Large",
+          "Moonstonegrey"
+        ],
+        "price": 5499,
+        "available": true
+      },
+      {
+        "id": "40931651682437",
+        "title": "Large / Dark Springs Gloss",
+        "options": [
+          "Large",
+          "Dark Springs Gloss"
+        ],
+        "price": 5499,
+        "available": true
+      },
+      {
+        "id": "41377253326981",
+        "title": "Large / Blue",
+        "options": [
+          "Large",
+          "Blue"
+        ],
+        "price": 4299,
+        "compareAtPrice": 4499,
+        "available": false
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Entice-L-B.png?v=1726802052&width=900"
   },
@@ -1422,6 +5143,85 @@ export const PRODUCTS: Product[] = [
       "Type": "Diamond, Wave",
       "SKU": "D673520760"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "Small",
+          "Medium",
+          "Large"
+        ]
+      },
+      {
+        "name": "Type",
+        "values": [
+          "Diamond",
+          "Wave"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40931610296453",
+        "title": "Small / Diamond",
+        "options": [
+          "Small",
+          "Diamond"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40931610329221",
+        "title": "Small / Wave",
+        "options": [
+          "Small",
+          "Wave"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40931610361989",
+        "title": "Medium / Diamond",
+        "options": [
+          "Medium",
+          "Diamond"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40931610394757",
+        "title": "Medium / Wave",
+        "options": [
+          "Medium",
+          "Wave"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40931610427525",
+        "title": "Large / Diamond",
+        "options": [
+          "Large",
+          "Diamond"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40931610460293",
+        "title": "Large / Wave",
+        "options": [
+          "Large",
+          "Wave"
+        ],
+        "price": 4999,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Endeavour-L-B-move-di.png?v=1726800506&width=900"
   },
@@ -1449,6 +5249,116 @@ export const PRODUCTS: Product[] = [
       "Size": "S, M, L",
       "SKU": "1000000001094"
     },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Black",
+          "Red",
+          "Blue"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40564696711301",
+        "title": "Black / S",
+        "options": [
+          "Black",
+          "S"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40564696744069",
+        "title": "Red / S",
+        "options": [
+          "Red",
+          "S"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40564696776837",
+        "title": "Blue / S",
+        "options": [
+          "Blue",
+          "S"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40564696809605",
+        "title": "Black / M",
+        "options": [
+          "Black",
+          "M"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40564696842373",
+        "title": "Red / M",
+        "options": [
+          "Red",
+          "M"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40564696875141",
+        "title": "Blue / M",
+        "options": [
+          "Blue",
+          "M"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40564696907909",
+        "title": "Black / L",
+        "options": [
+          "Black",
+          "L"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40564696940677",
+        "title": "Red / L",
+        "options": [
+          "Red",
+          "L"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40564696973445",
+        "title": "Blue / L",
+        "options": [
+          "Blue",
+          "L"
+        ],
+        "price": 4999,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/Orbea-Optima-Black-E50.jpg?v=1710931810&width=900"
   },
@@ -1475,6 +5385,45 @@ export const PRODUCTS: Product[] = [
       "Size": "S, M, L",
       "SKU": "1000000000917"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40552506982533",
+        "title": "S",
+        "options": [
+          "S"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40552507015301",
+        "title": "M",
+        "options": [
+          "M"
+        ],
+        "price": 4999,
+        "available": true
+      },
+      {
+        "id": "40552507048069",
+        "title": "L",
+        "options": [
+          "L"
+        ],
+        "price": 4999,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7LowstepUS-24-40892-A-Primary.webp?v=1710164823&width=900"
   },
@@ -1501,6 +5450,54 @@ export const PRODUCTS: Product[] = [
       "Color": "GREY",
       "SKU": "0000020201067"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "L",
+          "M",
+          "S"
+        ]
+      },
+      {
+        "name": "Color",
+        "values": [
+          "GREY"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41233829724293",
+        "title": "L / GREY",
+        "options": [
+          "L",
+          "GREY"
+        ],
+        "price": 4499,
+        "available": true
+      },
+      {
+        "id": "41233829757061",
+        "title": "M / GREY",
+        "options": [
+          "M",
+          "GREY"
+        ],
+        "price": 4499,
+        "available": true
+      },
+      {
+        "id": "41233829789829",
+        "title": "S / GREY",
+        "options": [
+          "S",
+          "GREY"
+        ],
+        "price": 4499,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-1B-electric-bike-German-Made-high-quality-ebike.png?v=1748526066&width=900"
   },
@@ -1550,6 +5547,91 @@ export const PRODUCTS: Product[] = [
       "Colour": "Blue, Sand",
       "SKU": "1000000005685"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "Small",
+          "Medium",
+          "Large"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "Blue",
+          "Sand"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41841652236421",
+        "title": "Small / Blue",
+        "options": [
+          "Small",
+          "Blue"
+        ],
+        "price": 4299,
+        "compareAtPrice": 4499,
+        "available": true
+      },
+      {
+        "id": "41841652269189",
+        "title": "Small / Sand",
+        "options": [
+          "Small",
+          "Sand"
+        ],
+        "price": 4299,
+        "compareAtPrice": 4499,
+        "available": true
+      },
+      {
+        "id": "41841652301957",
+        "title": "Medium / Blue",
+        "options": [
+          "Medium",
+          "Blue"
+        ],
+        "price": 4299,
+        "compareAtPrice": 4499,
+        "available": true
+      },
+      {
+        "id": "41841652334725",
+        "title": "Medium / Sand",
+        "options": [
+          "Medium",
+          "Sand"
+        ],
+        "price": 4299,
+        "compareAtPrice": 4499,
+        "available": true
+      },
+      {
+        "id": "41841652367493",
+        "title": "Large / Blue",
+        "options": [
+          "Large",
+          "Blue"
+        ],
+        "price": 4299,
+        "compareAtPrice": 4499,
+        "available": true
+      },
+      {
+        "id": "41841652400261",
+        "title": "Large / Sand",
+        "options": [
+          "Large",
+          "Sand"
+        ],
+        "price": 4299,
+        "compareAtPrice": 4499,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/K291v2025_2025_27_WA_BLU_090_PRO_ENTICE-L-SEASON-tif.png?v=1788425662&width=900"
   },
@@ -1570,6 +5652,54 @@ export const PRODUCTS: Product[] = [
       "Colour": "GREY",
       "SKU": "0000020200640"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "XS",
+          "S",
+          "M"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "GREY"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40212431962245",
+        "title": "XS / GREY",
+        "options": [
+          "XS",
+          "GREY"
+        ],
+        "price": 3999,
+        "available": true
+      },
+      {
+        "id": "40212432584837",
+        "title": "S / GREY",
+        "options": [
+          "S",
+          "GREY"
+        ],
+        "price": 3999,
+        "available": true
+      },
+      {
+        "id": "40212432617605",
+        "title": "M / GREY",
+        "options": [
+          "M",
+          "GREY"
+        ],
+        "price": 3999,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/K23KalkhoffENDEAVOUR1.BMOVE500WHebikegrey.png?v=1684407238&width=900"
   },
@@ -1623,6 +5753,43 @@ export const PRODUCTS: Product[] = [
       "COLOUR": "GREEN, TEAL",
       "SKU": "20192068"
     },
+    "options": [
+      {
+        "name": "SIZE",
+        "values": [
+          "S/M"
+        ]
+      },
+      {
+        "name": "COLOUR",
+        "values": [
+          "GREEN",
+          "TEAL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40233794601093",
+        "title": "S/M / GREEN",
+        "options": [
+          "S/M",
+          "GREEN"
+        ],
+        "price": 3899,
+        "available": true
+      },
+      {
+        "id": "40234259939461",
+        "title": "S/M / TEAL",
+        "options": [
+          "S/M",
+          "TEAL"
+        ],
+        "price": 3899,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/SM-Xcity-Neo-Teal-03_1080x1080_36ceaaf3-9178-4e64-a450-e63f085062fe.webp?v=1689810684&width=900"
   },
@@ -1672,6 +5839,77 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$3,700 - $4,999",
       "SKU": "0000020200671"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "XS",
+          "L",
+          "M",
+          "S",
+          "XL"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "GREY"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40212428390533",
+        "title": "XS / GREY",
+        "options": [
+          "XS",
+          "GREY"
+        ],
+        "price": 4499,
+        "available": false
+      },
+      {
+        "id": "40212432257157",
+        "title": "L / GREY",
+        "options": [
+          "L",
+          "GREY"
+        ],
+        "price": 4499,
+        "available": false
+      },
+      {
+        "id": "40212432289925",
+        "title": "M / GREY",
+        "options": [
+          "M",
+          "GREY"
+        ],
+        "price": 4499,
+        "available": false
+      },
+      {
+        "id": "40212432322693",
+        "title": "S / GREY",
+        "options": [
+          "S",
+          "GREY"
+        ],
+        "price": 3700,
+        "compareAtPrice": 4499,
+        "available": true
+      },
+      {
+        "id": "41518990950533",
+        "title": "XL / GREY",
+        "options": [
+          "XL",
+          "GREY"
+        ],
+        "price": 4999,
+        "available": false
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/KalkhoffENDEAVOUR1.BMOVE545WH.png?v=1684394962&width=900"
   },
@@ -1710,6 +5948,86 @@ export const PRODUCTS: Product[] = [
       "Colour": "GREY, RED GLOSS",
       "SKU": "0000020200589"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "XS",
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "GREY",
+          "RED GLOSS"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40212431995013",
+        "title": "XS / GREY",
+        "options": [
+          "XS",
+          "GREY"
+        ],
+        "price": 3599,
+        "available": true
+      },
+      {
+        "id": "40212432420997",
+        "title": "S / GREY",
+        "options": [
+          "S",
+          "GREY"
+        ],
+        "price": 3599,
+        "available": true
+      },
+      {
+        "id": "40212432486533",
+        "title": "S / RED GLOSS",
+        "options": [
+          "S",
+          "RED GLOSS"
+        ],
+        "price": 3599,
+        "available": true
+      },
+      {
+        "id": "40212432453765",
+        "title": "M / GREY",
+        "options": [
+          "M",
+          "GREY"
+        ],
+        "price": 3599,
+        "available": true
+      },
+      {
+        "id": "40212432519301",
+        "title": "M / RED GLOSS",
+        "options": [
+          "M",
+          "RED GLOSS"
+        ],
+        "price": 3599,
+        "available": true
+      },
+      {
+        "id": "40212432552069",
+        "title": "L / RED GLOSS",
+        "options": [
+          "L",
+          "RED GLOSS"
+        ],
+        "price": 3599,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/kalkhoff_1b.webp?v=1752223365&width=900"
   },
@@ -1730,6 +6048,85 @@ export const PRODUCTS: Product[] = [
       "Colour": "BLUE, GREY",
       "SKU": "601842743355"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "L",
+          "M"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLUE",
+          "GREY"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40255223857285",
+        "title": "S / BLUE",
+        "options": [
+          "S",
+          "BLUE"
+        ],
+        "price": 3499,
+        "available": true
+      },
+      {
+        "id": "40255223890053",
+        "title": "L / BLUE",
+        "options": [
+          "L",
+          "BLUE"
+        ],
+        "price": 3499,
+        "available": true
+      },
+      {
+        "id": "40255224086661",
+        "title": "L / GREY",
+        "options": [
+          "L",
+          "GREY"
+        ],
+        "price": 3499,
+        "available": true
+      },
+      {
+        "id": "40255227953285",
+        "title": "M / BLUE",
+        "options": [
+          "M",
+          "BLUE"
+        ],
+        "price": 3499,
+        "available": true
+      },
+      {
+        "id": "40255228838021",
+        "title": "S / GREY",
+        "options": [
+          "S",
+          "GREY"
+        ],
+        "price": 3499,
+        "available": true
+      },
+      {
+        "id": "40740128424069",
+        "title": "M / GREY",
+        "options": [
+          "M",
+          "GREY"
+        ],
+        "price": 3499,
+        "available": false
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DualSportPlusStaggertrekgrey.webp?v=1692105836&width=900"
   },
@@ -1767,6 +6164,45 @@ export const PRODUCTS: Product[] = [
       "Colour": "GREY, SAIGE",
       "SKU": "20187521"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "27.5\""
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "GREY",
+          "SAIGE"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "39536109289605",
+        "title": "27.5\" / GREY",
+        "options": [
+          "27.5\"",
+          "GREY"
+        ],
+        "price": 3290,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187521_2.jpg?v=1680007084&width=900"
+      },
+      {
+        "id": "39536109355141",
+        "title": "27.5\" / SAIGE",
+        "options": [
+          "27.5\"",
+          "SAIGE"
+        ],
+        "price": 3290,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188696_1_1dbc3aa9-ee05-43ee-af0d-b13e185fec4d.jpg?v=1680007084&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188696_1_1dbc3aa9-ee05-43ee-af0d-b13e185fec4d.jpg?v=1680007084&width=900"
   },
@@ -1787,6 +6223,54 @@ export const PRODUCTS: Product[] = [
       "Colour": "GREY",
       "SKU": "0000020200558"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "XS",
+          "M",
+          "S"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "GREY"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40212313374853",
+        "title": "XS / GREY",
+        "options": [
+          "XS",
+          "GREY"
+        ],
+        "price": 3199,
+        "available": true
+      },
+      {
+        "id": "40212432027781",
+        "title": "M / GREY",
+        "options": [
+          "M",
+          "GREY"
+        ],
+        "price": 3199,
+        "available": true
+      },
+      {
+        "id": "40212432060549",
+        "title": "S / GREY",
+        "options": [
+          "S",
+          "GREY"
+        ],
+        "price": 3199,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff1bmoveint400wh.png?v=1684394783&width=900"
   },
@@ -1813,6 +6297,35 @@ export const PRODUCTS: Product[] = [
       "Colour": "Latte, Grey",
       "SKU": "1000000002474"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Latte",
+          "Grey"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40962937815173",
+        "title": "Latte",
+        "options": [
+          "Latte"
+        ],
+        "price": 3199,
+        "available": true
+      },
+      {
+        "id": "40962937847941",
+        "title": "Grey",
+        "options": [
+          "Grey"
+        ],
+        "price": 3199,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR28PRO_4_1c8ce24d-0c7b-4cb1-8fbf-6f866267abb8.webp?v=1728030821&width=900"
   },
@@ -1833,6 +6346,91 @@ export const PRODUCTS: Product[] = [
       "Colour": "BLACK, BLUE",
       "SKU": "601842738399"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "MEDIUM",
+          "SMALL",
+          "LARGE"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLACK",
+          "BLUE"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40119393681541",
+        "title": "MEDIUM / BLACK",
+        "options": [
+          "MEDIUM",
+          "BLACK"
+        ],
+        "price": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/FXPlus2Stagger_23_35843_A_Primary.jpg?v=1680037645&width=900"
+      },
+      {
+        "id": "40119393812613",
+        "title": "MEDIUM / BLUE",
+        "options": [
+          "MEDIUM",
+          "BLUE"
+        ],
+        "price": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/FXPlus2Stagger_23_35845_C_Primary.jpg?v=1680037645&width=900"
+      },
+      {
+        "id": "40119393878149",
+        "title": "SMALL / BLACK",
+        "options": [
+          "SMALL",
+          "BLACK"
+        ],
+        "price": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/FXPlus2Stagger_23_35843_A_Primary.jpg?v=1680037645&width=900"
+      },
+      {
+        "id": "40119393714309",
+        "title": "SMALL / BLUE",
+        "options": [
+          "SMALL",
+          "BLUE"
+        ],
+        "price": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/FXPlus2Stagger_23_35845_C_Primary.jpg?v=1680037645&width=900"
+      },
+      {
+        "id": "40119393910917",
+        "title": "LARGE / BLACK",
+        "options": [
+          "LARGE",
+          "BLACK"
+        ],
+        "price": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/FXPlus2Stagger_23_35843_A_Primary.jpg?v=1680037645&width=900"
+      },
+      {
+        "id": "40119393943685",
+        "title": "LARGE / BLUE",
+        "options": [
+          "LARGE",
+          "BLUE"
+        ],
+        "price": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/FXPlus2Stagger_23_35845_C_Primary.jpg?v=1680037645&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/FXPlus2Stagger_23_35843_A_Primary_d699be13-4539-4dc8-8dd9-6347d24a3462.jpg?v=1680037645&width=900"
   },
@@ -1863,6 +6461,87 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$2,899 - $2,999",
       "SKU": "1000000005233"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      {
+        "name": "Color",
+        "values": [
+          "Grey",
+          "Yellow"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41670048612485",
+        "title": "S / Grey",
+        "options": [
+          "S",
+          "Grey"
+        ],
+        "price": 2999,
+        "available": true
+      },
+      {
+        "id": "41778295701637",
+        "title": "S / Yellow",
+        "options": [
+          "S",
+          "Yellow"
+        ],
+        "price": 2999,
+        "available": true
+      },
+      {
+        "id": "41670048645253",
+        "title": "M / Grey",
+        "options": [
+          "M",
+          "Grey"
+        ],
+        "price": 2899,
+        "compareAtPrice": 2999,
+        "available": true
+      },
+      {
+        "id": "41778295734405",
+        "title": "M / Yellow",
+        "options": [
+          "M",
+          "Yellow"
+        ],
+        "price": 2899,
+        "compareAtPrice": 2999,
+        "available": true
+      },
+      {
+        "id": "41670048678021",
+        "title": "L / Grey",
+        "options": [
+          "L",
+          "Grey"
+        ],
+        "price": 2999,
+        "available": false
+      },
+      {
+        "id": "41778295767173",
+        "title": "L / Yellow",
+        "options": [
+          "L",
+          "Yellow"
+        ],
+        "price": 2999,
+        "available": false
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Trek-Verve.jpg?v=1779799678&width=900"
   },
@@ -1886,6 +6565,66 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$2,799 - $4,199",
       "SKU": "0000020201265"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "XS",
+          "M",
+          "L",
+          "S"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "RED"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40243314032773",
+        "title": "XS / RED",
+        "options": [
+          "XS",
+          "RED"
+        ],
+        "price": 4199,
+        "available": false
+      },
+      {
+        "id": "40243314065541",
+        "title": "M / RED",
+        "options": [
+          "M",
+          "RED"
+        ],
+        "price": 2799,
+        "compareAtPrice": 4199,
+        "available": true
+      },
+      {
+        "id": "40243314131077",
+        "title": "L / RED",
+        "options": [
+          "L",
+          "RED"
+        ],
+        "price": 4199,
+        "available": false
+      },
+      {
+        "id": "40243314163845",
+        "title": "S / RED",
+        "options": [
+          "S",
+          "RED"
+        ],
+        "price": 4199,
+        "available": false
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff1binternationhubdrive500wh_4876900d-2d68-49c0-92e6-485cf669da9e.png?v=1689809966&width=900"
   },
@@ -1911,6 +6650,37 @@ export const PRODUCTS: Product[] = [
       "Colour": "Grey, Yellow",
       "SKU": "1000000002477"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Grey",
+          "Yellow"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40962971664517",
+        "title": "Grey",
+        "options": [
+          "Grey"
+        ],
+        "price": 2699,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/1-2.webp?v=1728030933&width=900"
+      },
+      {
+        "id": "40962971697285",
+        "title": "Yellow",
+        "options": [
+          "Yellow"
+        ],
+        "price": 2699,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/1_5.webp?v=1728030911&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/1_5.webp?v=1728030911&width=900"
   },
@@ -1958,6 +6728,45 @@ export const PRODUCTS: Product[] = [
       "Colour": "BLUE, RED",
       "SKU": "20188276"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "MEDIUM"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLUE",
+          "RED"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40162040971397",
+        "title": "MEDIUM / BLUE",
+        "options": [
+          "MEDIUM",
+          "BLUE"
+        ],
+        "price": 2499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/2-DISCOVERY-BLUE-SEP22-2.png?v=1680037287&width=900"
+      },
+      {
+        "id": "40162146549893",
+        "title": "MEDIUM / RED",
+        "options": [
+          "MEDIUM",
+          "RED"
+        ],
+        "price": 2499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/2-DISCOVERY-RED.png?v=1680037287&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/bianchictypeebikestepthroughbrowncopy_9af2751d-0264-4b56-8ffd-c9164218f274.jpg?v=1680037287&width=900"
   },
@@ -1987,6 +6796,88 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$2,399 - $2,649",
       "SKU": "1000000001307"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Blue",
+          "Black",
+          "Sand"
+        ]
+      },
+      {
+        "name": "Assembly Package",
+        "values": [
+          "Yes",
+          "No"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40919335731333",
+        "title": "Blue / Yes",
+        "options": [
+          "Blue",
+          "Yes"
+        ],
+        "price": 2399,
+        "compareAtPrice": 2799,
+        "available": true
+      },
+      {
+        "id": "41524846264453",
+        "title": "Blue / No",
+        "options": [
+          "Blue",
+          "No"
+        ],
+        "price": 2649,
+        "available": true
+      },
+      {
+        "id": "40919335764101",
+        "title": "Black / Yes",
+        "options": [
+          "Black",
+          "Yes"
+        ],
+        "price": 2399,
+        "compareAtPrice": 2799,
+        "available": true
+      },
+      {
+        "id": "41524846297221",
+        "title": "Black / No",
+        "options": [
+          "Black",
+          "No"
+        ],
+        "price": 2649,
+        "available": true
+      },
+      {
+        "id": "40919335796869",
+        "title": "Sand / Yes",
+        "options": [
+          "Sand",
+          "Yes"
+        ],
+        "price": 2399,
+        "compareAtPrice": 2799,
+        "available": true
+      },
+      {
+        "id": "41524846329989",
+        "title": "Sand / No",
+        "options": [
+          "Sand",
+          "No"
+        ],
+        "price": 2649,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/T7s_1-NCM-Ebike.jpg?v=1748172321&width=900"
   },
@@ -2007,6 +6898,45 @@ export const PRODUCTS: Product[] = [
       "Colour": "BLUE, RED",
       "SKU": "20190149"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "27.5\""
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLUE",
+          "RED"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40185050431621",
+        "title": "27.5\" / BLUE",
+        "options": [
+          "27.5\"",
+          "BLUE"
+        ],
+        "price": 2399,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/3-EXPLORER-BLUE.png?v=1681110146&width=900"
+      },
+      {
+        "id": "40185088704645",
+        "title": "27.5\" / RED",
+        "options": [
+          "27.5\"",
+          "RED"
+        ],
+        "price": 2399,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/3-EXPLORER-RED.png?v=1681110146&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/3-EXPLORER-BLUE.png?v=1681110146&width=900"
   },
@@ -2047,6 +6977,46 @@ export const PRODUCTS: Product[] = [
       "Colour": "SKY BLUE, PLUM MAROON",
       "SKU": "20190125"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "MEDIUM",
+          "Medium"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "SKY BLUE",
+          "PLUM MAROON"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40158826922117",
+        "title": "MEDIUM / SKY BLUE",
+        "options": [
+          "MEDIUM",
+          "SKY BLUE"
+        ],
+        "price": 2199,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/SOVEREIGN-SKY-BLUE.png?v=1680037434&width=900"
+      },
+      {
+        "id": "40158828134533",
+        "title": "Medium / PLUM MAROON",
+        "options": [
+          "Medium",
+          "PLUM MAROON"
+        ],
+        "price": 2199,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/SOVEREIGN-PLUM.png?v=1680037434&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/bianchictypeebikestepthroughbrowncopy_cffbb82b-98fe-4713-ac3b-68a2b2d52a8d.jpg?v=1680037434&width=900"
   },
@@ -2066,6 +7036,80 @@ export const PRODUCTS: Product[] = [
       "Colour": "BLUE, RED, WHITE",
       "SKU": "20000233"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "26\"",
+          "24''"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLUE",
+          "RED",
+          "WHITE"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "39694544961669",
+        "title": "26\" / BLUE",
+        "options": [
+          "26\"",
+          "BLUE"
+        ],
+        "price": 1999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000233_1.jpg?v=1680035074&width=900"
+      },
+      {
+        "id": "39694544994437",
+        "title": "24'' / RED",
+        "options": [
+          "24''",
+          "RED"
+        ],
+        "price": 1999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000240_1.jpg?v=1680035074&width=900"
+      },
+      {
+        "id": "39694545027205",
+        "title": "24'' / WHITE",
+        "options": [
+          "24''",
+          "WHITE"
+        ],
+        "price": 1999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000257_1.jpg?v=1680035074&width=900"
+      },
+      {
+        "id": "39694552039557",
+        "title": "26\" / RED",
+        "options": [
+          "26\"",
+          "RED"
+        ],
+        "price": 1999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000219_1.jpg?v=1680035074&width=900"
+      },
+      {
+        "id": "39694552072325",
+        "title": "26\" / WHITE",
+        "options": [
+          "26\"",
+          "WHITE"
+        ],
+        "price": 1999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000226_1.jpg?v=1680035074&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000257_1_d4fc8b1f-a2ca-436a-b6db-1f4e3e714169.jpg?v=1680035087&width=900"
   },
@@ -2095,6 +7139,111 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$1,999 - $2,199",
       "SKU": "20101725"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "28\"",
+          "26\""
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLACK",
+          "WHITE",
+          "Lavender Blue",
+          "Sand"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "34727808041093",
+        "title": "28\" / BLACK",
+        "options": [
+          "28\"",
+          "BLACK"
+        ],
+        "price": 2199,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101725_1.jpg?v=1680031239&width=900"
+      },
+      {
+        "id": "39438661124229",
+        "title": "28\" / WHITE",
+        "options": [
+          "28\"",
+          "WHITE"
+        ],
+        "price": 2199,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101770_1.jpg?v=1680031239&width=900"
+      },
+      {
+        "id": "41097299034245",
+        "title": "28\" / Lavender Blue",
+        "options": [
+          "28\"",
+          "Lavender Blue"
+        ],
+        "price": 2199,
+        "available": false
+      },
+      {
+        "id": "41114200473733",
+        "title": "28\" / Sand",
+        "options": [
+          "28\"",
+          "Sand"
+        ],
+        "price": 2199,
+        "available": false
+      },
+      {
+        "id": "39438661058693",
+        "title": "26\" / BLACK",
+        "options": [
+          "26\"",
+          "BLACK"
+        ],
+        "price": 1999,
+        "compareAtPrice": 2199,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101756_1.jpg?v=1680031239&width=900"
+      },
+      {
+        "id": "39438661091461",
+        "title": "26\" / WHITE",
+        "options": [
+          "26\"",
+          "WHITE"
+        ],
+        "price": 2199,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101763_1.jpg?v=1680031239&width=900"
+      },
+      {
+        "id": "41097299067013",
+        "title": "26\" / Lavender Blue",
+        "options": [
+          "26\"",
+          "Lavender Blue"
+        ],
+        "price": 2199,
+        "available": false
+      },
+      {
+        "id": "41114200506501",
+        "title": "26\" / Sand",
+        "options": [
+          "26\"",
+          "Sand"
+        ],
+        "price": 2199,
+        "available": false
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101770_1_fa44d7d6-713c-4712-bcdd-7ad6d89e7ffe.jpg?v=1680031239&width=900"
   },
@@ -2124,6 +7273,57 @@ export const PRODUCTS: Product[] = [
       "Color": "LAVENDER BLUE, MATT BLACK, SAND",
       "SKU": "0000020201692"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "26\""
+        ]
+      },
+      {
+        "name": "Color",
+        "values": [
+          "LAVENDER BLUE",
+          "MATT BLACK",
+          "SAND"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40914808537221",
+        "title": "26\" / LAVENDER BLUE",
+        "options": [
+          "26\"",
+          "LAVENDER BLUE"
+        ],
+        "price": 1799,
+        "compareAtPrice": 1999,
+        "available": true
+      },
+      {
+        "id": "40914808569989",
+        "title": "26\" / MATT BLACK",
+        "options": [
+          "26\"",
+          "MATT BLACK"
+        ],
+        "price": 1799,
+        "compareAtPrice": 1999,
+        "available": true
+      },
+      {
+        "id": "40914808602757",
+        "title": "26\" / SAND",
+        "options": [
+          "26\"",
+          "SAND"
+        ],
+        "price": 1799,
+        "compareAtPrice": 1999,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/NCM_T3s_Black.png?v=1726226119&width=900"
   },
@@ -2153,6 +7353,120 @@ export const PRODUCTS: Product[] = [
       "Colour": "WHITE, ROSE GOLD, MINT, LAVENDER",
       "SKU": "20188764"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "15\"",
+          "17\""
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "WHITE",
+          "ROSE GOLD",
+          "MINT",
+          "LAVENDER"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41668463427717",
+        "title": "15\" / WHITE",
+        "options": [
+          "15\"",
+          "WHITE"
+        ],
+        "price": 1699,
+        "compareAtPrice": 1999,
+        "available": false
+      },
+      {
+        "id": "39536132423813",
+        "title": "15\" / ROSE GOLD",
+        "options": [
+          "15\"",
+          "ROSE GOLD"
+        ],
+        "price": 1699,
+        "compareAtPrice": 1999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188801_1.jpg?v=1748171647&width=900"
+      },
+      {
+        "id": "39536132456581",
+        "title": "15\" / MINT",
+        "options": [
+          "15\"",
+          "MINT"
+        ],
+        "price": 1699,
+        "compareAtPrice": 1999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188788_2.jpg?v=1748171645&width=900"
+      },
+      {
+        "id": "41230975795333",
+        "title": "15\" / LAVENDER",
+        "options": [
+          "15\"",
+          "LAVENDER"
+        ],
+        "price": 1699,
+        "compareAtPrice": 1999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDEL-CONLA_01_1024x1024_2x_c163d623-db73-49ef-a3b5-73e4338bcdec.webp?v=1748171647&width=900"
+      },
+      {
+        "id": "41668463460485",
+        "title": "17\" / WHITE",
+        "options": [
+          "17\"",
+          "WHITE"
+        ],
+        "price": 1699,
+        "compareAtPrice": 1999,
+        "available": false
+      },
+      {
+        "id": "39536132522117",
+        "title": "17\" / ROSE GOLD",
+        "options": [
+          "17\"",
+          "ROSE GOLD"
+        ],
+        "price": 1699,
+        "compareAtPrice": 1999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188801_2.jpg?v=1748171645&width=900"
+      },
+      {
+        "id": "39536132489349",
+        "title": "17\" / MINT",
+        "options": [
+          "17\"",
+          "MINT"
+        ],
+        "price": 1699,
+        "compareAtPrice": 1999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188795_1_7eef23e7-cc01-416e-95c6-b3a6ce5914d5.jpg?v=1748171645&width=900"
+      },
+      {
+        "id": "41230975828101",
+        "title": "17\" / LAVENDER",
+        "options": [
+          "17\"",
+          "LAVENDER"
+        ],
+        "price": 1699,
+        "compareAtPrice": 1999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDEL-CONLA_01_1024x1024_2x_c163d623-db73-49ef-a3b5-73e4338bcdec.webp?v=1748171647&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188801_1.jpg?v=1748171647&width=900"
   },
@@ -2182,6 +7496,68 @@ export const PRODUCTS: Product[] = [
       "Color": "Glacier Mint, Coffee Black",
       "SKU": "1000000004983"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "15",
+          "18"
+        ]
+      },
+      {
+        "name": "Color",
+        "values": [
+          "Glacier Mint",
+          "Coffee Black"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41668461199493",
+        "title": "15 / Glacier Mint",
+        "options": [
+          "15",
+          "Glacier Mint"
+        ],
+        "price": 1599,
+        "compareAtPrice": 1699,
+        "available": true
+      },
+      {
+        "id": "41668461232261",
+        "title": "15 / Coffee Black",
+        "options": [
+          "15",
+          "Coffee Black"
+        ],
+        "price": 1599,
+        "compareAtPrice": 1699,
+        "available": true
+      },
+      {
+        "id": "41668461265029",
+        "title": "18 / Glacier Mint",
+        "options": [
+          "18",
+          "Glacier Mint"
+        ],
+        "price": 1599,
+        "compareAtPrice": 1699,
+        "available": true
+      },
+      {
+        "id": "41668461297797",
+        "title": "18 / Coffee Black",
+        "options": [
+          "18",
+          "Coffee Black"
+        ],
+        "price": 1599,
+        "compareAtPrice": 1699,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDS-Icon.jpg?v=1779701988&width=900"
   },
@@ -2208,6 +7584,35 @@ export const PRODUCTS: Product[] = [
       "Wheel Size": "29inch, 27.5inch Fat",
       "SKU": "1000000002911"
     },
+    "options": [
+      {
+        "name": "Wheel Size",
+        "values": [
+          "29inch",
+          "27.5inch Fat"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41067060756613",
+        "title": "29inch",
+        "options": [
+          "29inch"
+        ],
+        "price": 13295,
+        "available": true
+      },
+      {
+        "id": "41067060789381",
+        "title": "27.5inch Fat",
+        "options": [
+          "27.5inch Fat"
+        ],
+        "price": 13295,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TN-photo-OROX_R14_275-gen1-LR-profile-v02-web-jpg.jpg?v=1733908321&width=900"
   },
@@ -2260,6 +7665,44 @@ export const PRODUCTS: Product[] = [
       "Size": "L, M",
       "SKU": "1000000002908"
     },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Yellow",
+          "Pine"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "L",
+          "M"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41067058856069",
+        "title": "Yellow / L",
+        "options": [
+          "Yellow",
+          "L"
+        ],
+        "price": 9995,
+        "available": true
+      },
+      {
+        "id": "41067058888837",
+        "title": "Pine / M",
+        "options": [
+          "Pine",
+          "M"
+        ],
+        "price": 9995,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TN-photo-OROX_S12_29-gen1-profile-pine-web-jpg.jpg?v=1733907734&width=900"
   },
@@ -2289,6 +7732,36 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$9,500 - $9,995",
       "SKU": "1000000005933"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Satin Beige",
+          "Silver"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41820701294725",
+        "title": "Satin Beige",
+        "options": [
+          "Satin Beige"
+        ],
+        "price": 9995,
+        "available": true
+      },
+      {
+        "id": "41822216061061",
+        "title": "Silver",
+        "options": [
+          "Silver"
+        ],
+        "price": 9500,
+        "compareAtPrice": 9995,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tern_GSD_P00_Gen_3_Satin_Beige.png?v=1790052952&width=900"
   },
@@ -2315,6 +7788,35 @@ export const PRODUCTS: Product[] = [
       "Color": "Galatic Grey, Red Lava",
       "SKU": "1000000000869"
     },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Galatic Grey",
+          "Red Lava"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40552332722309",
+        "title": "Galatic Grey",
+        "options": [
+          "Galatic Grey"
+        ],
+        "price": 8499,
+        "available": true
+      },
+      {
+        "id": "40552332755077",
+        "title": "Red Lava",
+        "options": [
+          "Red Lava"
+        ],
+        "price": 8499,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FetchPlus2US-24-40925-A-Primary.webp?v=1710149040&width=900"
   },
@@ -2341,6 +7843,37 @@ export const PRODUCTS: Product[] = [
       "Color": "Tabasco, Dark Sage",
       "SKU": "1000000002775"
     },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Tabasco",
+          "Dark Sage"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41062085132421",
+        "title": "Tabasco",
+        "options": [
+          "Tabasco"
+        ],
+        "price": 8295,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/gsd_s10-lx-tabasco-unfold.jpg?v=1733308775&width=900"
+      },
+      {
+        "id": "41062085165189",
+        "title": "Dark Sage",
+        "options": [
+          "Dark Sage"
+        ],
+        "price": 8295,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/gsd_s10-lx-dark_sage-unfold.webp?v=1733308850&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/gsd_s10-lx-tabasco-unfold.jpg?v=1733308775&width=900"
   },
@@ -2392,6 +7925,45 @@ export const PRODUCTS: Product[] = [
       "Colour": "Dragon Fruit, Beetle Blue, Forge Grey",
       "SKU": "1000000002899"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Dragon Fruit",
+          "Beetle Blue",
+          "Forge Grey"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41067051450501",
+        "title": "Dragon Fruit",
+        "options": [
+          "Dragon Fruit"
+        ],
+        "price": 7495,
+        "available": true
+      },
+      {
+        "id": "41406389780613",
+        "title": "Beetle Blue",
+        "options": [
+          "Beetle Blue"
+        ],
+        "price": 7495,
+        "available": false
+      },
+      {
+        "id": "41772734840965",
+        "title": "Forge Grey",
+        "options": [
+          "Forge Grey"
+        ],
+        "price": 7495,
+        "available": false
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TN-photo-HSD_P5i-gen2-seabreeze-web-jpg.jpg?v=1733906103&width=900"
   },
@@ -2472,6 +8044,216 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$5,699 - $6,294",
       "SKU": "1000000005997"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Carbon Black",
+          "Banksia Orange",
+          "Flax Blue",
+          "Limestone Grey"
+        ]
+      },
+      {
+        "name": "Accessory Bundle",
+        "values": [
+          "Safety Rail Pack",
+          "Director's Pack",
+          "Passenger Pack",
+          "None"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41820760768645",
+        "title": "Carbon Black / Safety Rail Pack",
+        "options": [
+          "Carbon Black",
+          "Safety Rail Pack"
+        ],
+        "price": 6294,
+        "compareAtPrice": 6494,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_black_ULTRAG3carbonmetallic2.webp?v=1787295636&width=900"
+      },
+      {
+        "id": "41820760801413",
+        "title": "Carbon Black / Director's Pack",
+        "options": [
+          "Carbon Black",
+          "Director's Pack"
+        ],
+        "price": 6294,
+        "compareAtPrice": 6494,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_black_ULTRAG3carbonmetallic2.webp?v=1787295636&width=900"
+      },
+      {
+        "id": "41820760834181",
+        "title": "Carbon Black / Passenger Pack",
+        "options": [
+          "Carbon Black",
+          "Passenger Pack"
+        ],
+        "price": 6294,
+        "compareAtPrice": 6494,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_black_ULTRAG3carbonmetallic2.webp?v=1787295636&width=900"
+      },
+      {
+        "id": "41820760866949",
+        "title": "Carbon Black / None",
+        "options": [
+          "Carbon Black",
+          "None"
+        ],
+        "price": 5699,
+        "compareAtPrice": 5899,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_black_ULTRAG3carbonmetallic2.webp?v=1787295636&width=900"
+      },
+      {
+        "id": "41820760899717",
+        "title": "Banksia Orange / Safety Rail Pack",
+        "options": [
+          "Banksia Orange",
+          "Safety Rail Pack"
+        ],
+        "price": 6294,
+        "compareAtPrice": 6494,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_organge_ULTRA_Banksia_web.webp?v=1787295655&width=900"
+      },
+      {
+        "id": "41820760932485",
+        "title": "Banksia Orange / Director's Pack",
+        "options": [
+          "Banksia Orange",
+          "Director's Pack"
+        ],
+        "price": 6294,
+        "compareAtPrice": 6494,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_organge_ULTRA_Banksia_web.webp?v=1787295655&width=900"
+      },
+      {
+        "id": "41820760965253",
+        "title": "Banksia Orange / Passenger Pack",
+        "options": [
+          "Banksia Orange",
+          "Passenger Pack"
+        ],
+        "price": 6294,
+        "compareAtPrice": 6494,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_organge_ULTRA_Banksia_web.webp?v=1787295655&width=900"
+      },
+      {
+        "id": "41820760998021",
+        "title": "Banksia Orange / None",
+        "options": [
+          "Banksia Orange",
+          "None"
+        ],
+        "price": 5699,
+        "compareAtPrice": 5899,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_organge_ULTRA_Banksia_web.webp?v=1787295655&width=900"
+      },
+      {
+        "id": "41820761030789",
+        "title": "Flax Blue / Safety Rail Pack",
+        "options": [
+          "Flax Blue",
+          "Safety Rail Pack"
+        ],
+        "price": 6294,
+        "compareAtPrice": 6494,
+        "available": true
+      },
+      {
+        "id": "41820761063557",
+        "title": "Flax Blue / Director's Pack",
+        "options": [
+          "Flax Blue",
+          "Director's Pack"
+        ],
+        "price": 6294,
+        "compareAtPrice": 6494,
+        "available": true
+      },
+      {
+        "id": "41820761096325",
+        "title": "Flax Blue / Passenger Pack",
+        "options": [
+          "Flax Blue",
+          "Passenger Pack"
+        ],
+        "price": 6294,
+        "compareAtPrice": 6494,
+        "available": true
+      },
+      {
+        "id": "41820761129093",
+        "title": "Flax Blue / None",
+        "options": [
+          "Flax Blue",
+          "None"
+        ],
+        "price": 5699,
+        "compareAtPrice": 5899,
+        "available": true
+      },
+      {
+        "id": "41820761161861",
+        "title": "Limestone Grey / Safety Rail Pack",
+        "options": [
+          "Limestone Grey",
+          "Safety Rail Pack"
+        ],
+        "price": 6294,
+        "compareAtPrice": 6494,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_ULTRA_Limestone_web.webp?v=1787295681&width=900"
+      },
+      {
+        "id": "41820761194629",
+        "title": "Limestone Grey / Director's Pack",
+        "options": [
+          "Limestone Grey",
+          "Director's Pack"
+        ],
+        "price": 6294,
+        "compareAtPrice": 6494,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_ULTRA_Limestone_web.webp?v=1787295681&width=900"
+      },
+      {
+        "id": "41820761227397",
+        "title": "Limestone Grey / Passenger Pack",
+        "options": [
+          "Limestone Grey",
+          "Passenger Pack"
+        ],
+        "price": 6294,
+        "compareAtPrice": 6494,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_ULTRA_Limestone_web.webp?v=1787295681&width=900"
+      },
+      {
+        "id": "41820761260165",
+        "title": "Limestone Grey / None",
+        "options": [
+          "Limestone Grey",
+          "None"
+        ],
+        "price": 5699,
+        "compareAtPrice": 5899,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_ULTRA_Limestone_web.webp?v=1787295681&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_black_ULTRAG3carbonmetallic2.webp?v=1787295636&width=900"
   },
@@ -2530,6 +8312,216 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$4,799 - $5,394",
       "SKU": "1000000005947"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Flax Blue",
+          "Limestone Grey",
+          "Banksia Orange",
+          "Carbon Black"
+        ]
+      },
+      {
+        "name": "Accessory Bundle",
+        "values": [
+          "Safety Rail Pack",
+          "Director's Pack",
+          "Passenger Pack",
+          "None"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41820749365381",
+        "title": "Flax Blue / Safety Rail Pack",
+        "options": [
+          "Flax Blue",
+          "Safety Rail Pack"
+        ],
+        "price": 5394,
+        "compareAtPrice": 5494,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_RALLY_G3_Blue_434dbce5-f745-422d-ae6e-3c34ccc1ab78.webp?v=1787357296&width=900"
+      },
+      {
+        "id": "41820749398149",
+        "title": "Flax Blue / Director's Pack",
+        "options": [
+          "Flax Blue",
+          "Director's Pack"
+        ],
+        "price": 5394,
+        "compareAtPrice": 5494,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_RALLY_G3_Blue_434dbce5-f745-422d-ae6e-3c34ccc1ab78.webp?v=1787357296&width=900"
+      },
+      {
+        "id": "41820749430917",
+        "title": "Flax Blue / Passenger Pack",
+        "options": [
+          "Flax Blue",
+          "Passenger Pack"
+        ],
+        "price": 5394,
+        "compareAtPrice": 5494,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_RALLY_G3_Blue_434dbce5-f745-422d-ae6e-3c34ccc1ab78.webp?v=1787357296&width=900"
+      },
+      {
+        "id": "41820749463685",
+        "title": "Flax Blue / None",
+        "options": [
+          "Flax Blue",
+          "None"
+        ],
+        "price": 4799,
+        "compareAtPrice": 4899,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_RALLY_G3_Blue_434dbce5-f745-422d-ae6e-3c34ccc1ab78.webp?v=1787357296&width=900"
+      },
+      {
+        "id": "41820749496453",
+        "title": "Limestone Grey / Safety Rail Pack",
+        "options": [
+          "Limestone Grey",
+          "Safety Rail Pack"
+        ],
+        "price": 5394,
+        "compareAtPrice": 5494,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_RAlly_G3_Limestonge_cargo_ebike_3a0a5bfc-fd99-4989-8991-9d79868fe90e.webp?v=1787357312&width=900"
+      },
+      {
+        "id": "41820749529221",
+        "title": "Limestone Grey / Director's Pack",
+        "options": [
+          "Limestone Grey",
+          "Director's Pack"
+        ],
+        "price": 5394,
+        "compareAtPrice": 5494,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_RAlly_G3_Limestonge_cargo_ebike_3a0a5bfc-fd99-4989-8991-9d79868fe90e.webp?v=1787357312&width=900"
+      },
+      {
+        "id": "41820749561989",
+        "title": "Limestone Grey / Passenger Pack",
+        "options": [
+          "Limestone Grey",
+          "Passenger Pack"
+        ],
+        "price": 5394,
+        "compareAtPrice": 5494,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_RAlly_G3_Limestonge_cargo_ebike_3a0a5bfc-fd99-4989-8991-9d79868fe90e.webp?v=1787357312&width=900"
+      },
+      {
+        "id": "41820749594757",
+        "title": "Limestone Grey / None",
+        "options": [
+          "Limestone Grey",
+          "None"
+        ],
+        "price": 4799,
+        "compareAtPrice": 4899,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_RAlly_G3_Limestonge_cargo_ebike_3a0a5bfc-fd99-4989-8991-9d79868fe90e.webp?v=1787357312&width=900"
+      },
+      {
+        "id": "41820749627525",
+        "title": "Banksia Orange / Safety Rail Pack",
+        "options": [
+          "Banksia Orange",
+          "Safety Rail Pack"
+        ],
+        "price": 5394,
+        "compareAtPrice": 5494,
+        "available": true
+      },
+      {
+        "id": "41820749660293",
+        "title": "Banksia Orange / Director's Pack",
+        "options": [
+          "Banksia Orange",
+          "Director's Pack"
+        ],
+        "price": 5394,
+        "compareAtPrice": 5494,
+        "available": true
+      },
+      {
+        "id": "41820749693061",
+        "title": "Banksia Orange / Passenger Pack",
+        "options": [
+          "Banksia Orange",
+          "Passenger Pack"
+        ],
+        "price": 5394,
+        "compareAtPrice": 5494,
+        "available": true
+      },
+      {
+        "id": "41820749725829",
+        "title": "Banksia Orange / None",
+        "options": [
+          "Banksia Orange",
+          "None"
+        ],
+        "price": 4799,
+        "compareAtPrice": 4899,
+        "available": true
+      },
+      {
+        "id": "41820749758597",
+        "title": "Carbon Black / Safety Rail Pack",
+        "options": [
+          "Carbon Black",
+          "Safety Rail Pack"
+        ],
+        "price": 5394,
+        "compareAtPrice": 5494,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_cargo_ebike_RAlly_G3_carbon_metallic_3680a699-32ba-4e0a-b3e1-87e7cc5ab97c.webp?v=1787357333&width=900"
+      },
+      {
+        "id": "41820749791365",
+        "title": "Carbon Black / Director's Pack",
+        "options": [
+          "Carbon Black",
+          "Director's Pack"
+        ],
+        "price": 5394,
+        "compareAtPrice": 5494,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_cargo_ebike_RAlly_G3_carbon_metallic_3680a699-32ba-4e0a-b3e1-87e7cc5ab97c.webp?v=1787357333&width=900"
+      },
+      {
+        "id": "41820749824133",
+        "title": "Carbon Black / Passenger Pack",
+        "options": [
+          "Carbon Black",
+          "Passenger Pack"
+        ],
+        "price": 5394,
+        "compareAtPrice": 5494,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_cargo_ebike_RAlly_G3_carbon_metallic_3680a699-32ba-4e0a-b3e1-87e7cc5ab97c.webp?v=1787357333&width=900"
+      },
+      {
+        "id": "41820749856901",
+        "title": "Carbon Black / None",
+        "options": [
+          "Carbon Black",
+          "None"
+        ],
+        "price": 4799,
+        "compareAtPrice": 4899,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_cargo_ebike_RAlly_G3_carbon_metallic_3680a699-32ba-4e0a-b3e1-87e7cc5ab97c.webp?v=1787357333&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_RALLY_G3_Blue_434dbce5-f745-422d-ae6e-3c34ccc1ab78.webp?v=1787357296&width=900"
   },
@@ -2559,6 +8551,209 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$0 - $5,490",
       "SKU": "1000000000605"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Black",
+          "Jarrah",
+          "Oak",
+          "White"
+        ]
+      },
+      {
+        "name": "Saddle Colour",
+        "values": [
+          "Black",
+          "Tan"
+        ]
+      },
+      {
+        "name": "Motor",
+        "values": [
+          "Hub",
+          "Mid"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40539770159237",
+        "title": "Black / Black / Hub",
+        "options": [
+          "Black",
+          "Black",
+          "Hub"
+        ],
+        "price": 4490,
+        "available": true
+      },
+      {
+        "id": "40539770355845",
+        "title": "Black / Black / Mid",
+        "options": [
+          "Black",
+          "Black",
+          "Mid"
+        ],
+        "price": 5490,
+        "available": true
+      },
+      {
+        "id": "40539770257541",
+        "title": "Black / Tan / Hub",
+        "options": [
+          "Black",
+          "Tan",
+          "Hub"
+        ],
+        "price": 4490,
+        "available": true
+      },
+      {
+        "id": "40539770454149",
+        "title": "Black / Tan / Mid",
+        "options": [
+          "Black",
+          "Tan",
+          "Mid"
+        ],
+        "price": 5490,
+        "available": true
+      },
+      {
+        "id": "40539770192005",
+        "title": "Jarrah / Black / Hub",
+        "options": [
+          "Jarrah",
+          "Black",
+          "Hub"
+        ],
+        "price": 4490,
+        "available": true
+      },
+      {
+        "id": "40539770388613",
+        "title": "Jarrah / Black / Mid",
+        "options": [
+          "Jarrah",
+          "Black",
+          "Mid"
+        ],
+        "price": 5490,
+        "available": true
+      },
+      {
+        "id": "40539770290309",
+        "title": "Jarrah / Tan / Hub",
+        "options": [
+          "Jarrah",
+          "Tan",
+          "Hub"
+        ],
+        "price": 4490,
+        "available": true
+      },
+      {
+        "id": "40539770486917",
+        "title": "Jarrah / Tan / Mid",
+        "options": [
+          "Jarrah",
+          "Tan",
+          "Mid"
+        ],
+        "price": 5490,
+        "available": true
+      },
+      {
+        "id": "40539770224773",
+        "title": "Oak / Black / Hub",
+        "options": [
+          "Oak",
+          "Black",
+          "Hub"
+        ],
+        "price": 4490,
+        "available": true
+      },
+      {
+        "id": "40539770421381",
+        "title": "Oak / Black / Mid",
+        "options": [
+          "Oak",
+          "Black",
+          "Mid"
+        ],
+        "price": 5490,
+        "available": true
+      },
+      {
+        "id": "40539770323077",
+        "title": "Oak / Tan / Hub",
+        "options": [
+          "Oak",
+          "Tan",
+          "Hub"
+        ],
+        "price": 4490,
+        "available": true
+      },
+      {
+        "id": "40539770519685",
+        "title": "Oak / Tan / Mid",
+        "options": [
+          "Oak",
+          "Tan",
+          "Mid"
+        ],
+        "price": 5490,
+        "available": true
+      },
+      {
+        "id": "41479245430917",
+        "title": "White / Black / Hub",
+        "options": [
+          "White",
+          "Black",
+          "Hub"
+        ],
+        "price": 0,
+        "available": false
+      },
+      {
+        "id": "41479245463685",
+        "title": "White / Black / Mid",
+        "options": [
+          "White",
+          "Black",
+          "Mid"
+        ],
+        "price": 0,
+        "available": false
+      },
+      {
+        "id": "41479245496453",
+        "title": "White / Tan / Hub",
+        "options": [
+          "White",
+          "Tan",
+          "Hub"
+        ],
+        "price": 0,
+        "available": false
+      },
+      {
+        "id": "41479245529221",
+        "title": "White / Tan / Mid",
+        "options": [
+          "White",
+          "Tan",
+          "Mid"
+        ],
+        "price": 0,
+        "available": false
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/Tribe-Original-Black-black.png?v=1709339189&width=900"
   },
@@ -2617,6 +8812,447 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$4,094 - $5,294",
       "SKU": "1000000005964"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Limestone Grey",
+          "Flax Blue",
+          "Banksia Orange",
+          "Carbon Black"
+        ]
+      },
+      {
+        "name": "Suspension",
+        "values": [
+          "Sport No",
+          "Sport Plus Yes"
+        ]
+      },
+      {
+        "name": "Accessory Bundle",
+        "values": [
+          "Safety Rail Pack",
+          "Director's Pack",
+          "Passenger Pack",
+          "None"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41820759359621",
+        "title": "Limestone Grey / Sport No / Safety Rail Pack",
+        "options": [
+          "Limestone Grey",
+          "Sport No",
+          "Safety Rail Pack"
+        ],
+        "price": 4994,
+        "compareAtPrice": 5094,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_no_suspen_SPORT_Limestone_Recolour_web.webp?v=1787356182&width=900"
+      },
+      {
+        "id": "41820759392389",
+        "title": "Limestone Grey / Sport No / Director's Pack",
+        "options": [
+          "Limestone Grey",
+          "Sport No",
+          "Director's Pack"
+        ],
+        "price": 4094,
+        "compareAtPrice": 5094,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_no_suspen_SPORT_Limestone_Recolour_web.webp?v=1787356182&width=900"
+      },
+      {
+        "id": "41820759425157",
+        "title": "Limestone Grey / Sport No / Passenger Pack",
+        "options": [
+          "Limestone Grey",
+          "Sport No",
+          "Passenger Pack"
+        ],
+        "price": 4094,
+        "compareAtPrice": 5094,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_no_suspen_SPORT_Limestone_Recolour_web.webp?v=1787356182&width=900"
+      },
+      {
+        "id": "41820759457925",
+        "title": "Limestone Grey / Sport No / None",
+        "options": [
+          "Limestone Grey",
+          "Sport No",
+          "None"
+        ],
+        "price": 4399,
+        "compareAtPrice": 4499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_no_suspen_SPORT_Limestone_Recolour_web.webp?v=1787356182&width=900"
+      },
+      {
+        "id": "41820759490693",
+        "title": "Limestone Grey / Sport Plus Yes / Safety Rail Pack",
+        "options": [
+          "Limestone Grey",
+          "Sport Plus Yes",
+          "Safety Rail Pack"
+        ],
+        "price": 5294,
+        "compareAtPrice": 5394,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Sport_plus_limestone.webp?v=1787355905&width=900"
+      },
+      {
+        "id": "41820759523461",
+        "title": "Limestone Grey / Sport Plus Yes / Director's Pack",
+        "options": [
+          "Limestone Grey",
+          "Sport Plus Yes",
+          "Director's Pack"
+        ],
+        "price": 5294,
+        "compareAtPrice": 5394,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Sport_plus_limestone.webp?v=1787355905&width=900"
+      },
+      {
+        "id": "41820759556229",
+        "title": "Limestone Grey / Sport Plus Yes / Passenger Pack",
+        "options": [
+          "Limestone Grey",
+          "Sport Plus Yes",
+          "Passenger Pack"
+        ],
+        "price": 5294,
+        "compareAtPrice": 5394,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Sport_plus_limestone.webp?v=1787355905&width=900"
+      },
+      {
+        "id": "41820759588997",
+        "title": "Limestone Grey / Sport Plus Yes / None",
+        "options": [
+          "Limestone Grey",
+          "Sport Plus Yes",
+          "None"
+        ],
+        "price": 4699,
+        "compareAtPrice": 4799,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Sport_plus_limestone.webp?v=1787355905&width=900"
+      },
+      {
+        "id": "41820759621765",
+        "title": "Flax Blue / Sport No / Safety Rail Pack",
+        "options": [
+          "Flax Blue",
+          "Sport No",
+          "Safety Rail Pack"
+        ],
+        "price": 4994,
+        "compareAtPrice": 5094,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_no_sus_SPORT_Flax_Blue_web_06731710-5be6-4805-b964-15938b959c2e.webp?v=1787356318&width=900"
+      },
+      {
+        "id": "41820759654533",
+        "title": "Flax Blue / Sport No / Director's Pack",
+        "options": [
+          "Flax Blue",
+          "Sport No",
+          "Director's Pack"
+        ],
+        "price": 4994,
+        "compareAtPrice": 5094,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_no_sus_SPORT_Flax_Blue_web_06731710-5be6-4805-b964-15938b959c2e.webp?v=1787356318&width=900"
+      },
+      {
+        "id": "41820759687301",
+        "title": "Flax Blue / Sport No / Passenger Pack",
+        "options": [
+          "Flax Blue",
+          "Sport No",
+          "Passenger Pack"
+        ],
+        "price": 4994,
+        "compareAtPrice": 5094,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_no_sus_SPORT_Flax_Blue_web_06731710-5be6-4805-b964-15938b959c2e.webp?v=1787356318&width=900"
+      },
+      {
+        "id": "41820759720069",
+        "title": "Flax Blue / Sport No / None",
+        "options": [
+          "Flax Blue",
+          "Sport No",
+          "None"
+        ],
+        "price": 4399,
+        "compareAtPrice": 4499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_no_sus_SPORT_Flax_Blue_web_06731710-5be6-4805-b964-15938b959c2e.webp?v=1787356318&width=900"
+      },
+      {
+        "id": "41820759752837",
+        "title": "Flax Blue / Sport Plus Yes / Safety Rail Pack",
+        "options": [
+          "Flax Blue",
+          "Sport Plus Yes",
+          "Safety Rail Pack"
+        ],
+        "price": 5294,
+        "compareAtPrice": 5394,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_Sport_plus_blue.webp?v=1787355924&width=900"
+      },
+      {
+        "id": "41820759785605",
+        "title": "Flax Blue / Sport Plus Yes / Director's Pack",
+        "options": [
+          "Flax Blue",
+          "Sport Plus Yes",
+          "Director's Pack"
+        ],
+        "price": 5294,
+        "compareAtPrice": 5394,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_Sport_plus_blue.webp?v=1787355924&width=900"
+      },
+      {
+        "id": "41820759818373",
+        "title": "Flax Blue / Sport Plus Yes / Passenger Pack",
+        "options": [
+          "Flax Blue",
+          "Sport Plus Yes",
+          "Passenger Pack"
+        ],
+        "price": 5294,
+        "compareAtPrice": 5394,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_Sport_plus_blue.webp?v=1787355924&width=900"
+      },
+      {
+        "id": "41820759851141",
+        "title": "Flax Blue / Sport Plus Yes / None",
+        "options": [
+          "Flax Blue",
+          "Sport Plus Yes",
+          "None"
+        ],
+        "price": 4699,
+        "compareAtPrice": 4799,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_Sport_plus_blue.webp?v=1787355924&width=900"
+      },
+      {
+        "id": "41820759883909",
+        "title": "Banksia Orange / Sport No / Safety Rail Pack",
+        "options": [
+          "Banksia Orange",
+          "Sport No",
+          "Safety Rail Pack"
+        ],
+        "price": 4994,
+        "compareAtPrice": 5094,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_SPORT_Banksia_web_7dca772e-d2f5-4d30-b76c-cc60273db211.webp?v=1787355945&width=900"
+      },
+      {
+        "id": "41820759916677",
+        "title": "Banksia Orange / Sport No / Director's Pack",
+        "options": [
+          "Banksia Orange",
+          "Sport No",
+          "Director's Pack"
+        ],
+        "price": 4994,
+        "compareAtPrice": 5094,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_SPORT_Banksia_web_7dca772e-d2f5-4d30-b76c-cc60273db211.webp?v=1787355945&width=900"
+      },
+      {
+        "id": "41820759949445",
+        "title": "Banksia Orange / Sport No / Passenger Pack",
+        "options": [
+          "Banksia Orange",
+          "Sport No",
+          "Passenger Pack"
+        ],
+        "price": 4994,
+        "compareAtPrice": 5094,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_SPORT_Banksia_web_7dca772e-d2f5-4d30-b76c-cc60273db211.webp?v=1787355945&width=900"
+      },
+      {
+        "id": "41820759982213",
+        "title": "Banksia Orange / Sport No / None",
+        "options": [
+          "Banksia Orange",
+          "Sport No",
+          "None"
+        ],
+        "price": 4399,
+        "compareAtPrice": 4499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_SPORT_Banksia_web_7dca772e-d2f5-4d30-b76c-cc60273db211.webp?v=1787355945&width=900"
+      },
+      {
+        "id": "41820760014981",
+        "title": "Banksia Orange / Sport Plus Yes / Safety Rail Pack",
+        "options": [
+          "Banksia Orange",
+          "Sport Plus Yes",
+          "Safety Rail Pack"
+        ],
+        "price": 5294,
+        "compareAtPrice": 5394,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_sport_plus_orange.webp?v=1787356599&width=900"
+      },
+      {
+        "id": "41820760047749",
+        "title": "Banksia Orange / Sport Plus Yes / Director's Pack",
+        "options": [
+          "Banksia Orange",
+          "Sport Plus Yes",
+          "Director's Pack"
+        ],
+        "price": 5294,
+        "compareAtPrice": 5394,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_sport_plus_orange.webp?v=1787356599&width=900"
+      },
+      {
+        "id": "41820760080517",
+        "title": "Banksia Orange / Sport Plus Yes / Passenger Pack",
+        "options": [
+          "Banksia Orange",
+          "Sport Plus Yes",
+          "Passenger Pack"
+        ],
+        "price": 5294,
+        "compareAtPrice": 5394,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_sport_plus_orange.webp?v=1787356599&width=900"
+      },
+      {
+        "id": "41820760113285",
+        "title": "Banksia Orange / Sport Plus Yes / None",
+        "options": [
+          "Banksia Orange",
+          "Sport Plus Yes",
+          "None"
+        ],
+        "price": 4699,
+        "compareAtPrice": 4799,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_sport_plus_orange.webp?v=1787356599&width=900"
+      },
+      {
+        "id": "41820760146053",
+        "title": "Carbon Black / Sport No / Safety Rail Pack",
+        "options": [
+          "Carbon Black",
+          "Sport No",
+          "Safety Rail Pack"
+        ],
+        "price": 4994,
+        "compareAtPrice": 5094,
+        "available": true
+      },
+      {
+        "id": "41820760178821",
+        "title": "Carbon Black / Sport No / Director's Pack",
+        "options": [
+          "Carbon Black",
+          "Sport No",
+          "Director's Pack"
+        ],
+        "price": 4994,
+        "compareAtPrice": 5094,
+        "available": true
+      },
+      {
+        "id": "41820760211589",
+        "title": "Carbon Black / Sport No / Passenger Pack",
+        "options": [
+          "Carbon Black",
+          "Sport No",
+          "Passenger Pack"
+        ],
+        "price": 4994,
+        "compareAtPrice": 5094,
+        "available": true
+      },
+      {
+        "id": "41820760244357",
+        "title": "Carbon Black / Sport No / None",
+        "options": [
+          "Carbon Black",
+          "Sport No",
+          "None"
+        ],
+        "price": 4399,
+        "compareAtPrice": 4499,
+        "available": true
+      },
+      {
+        "id": "41820760277125",
+        "title": "Carbon Black / Sport Plus Yes / Safety Rail Pack",
+        "options": [
+          "Carbon Black",
+          "Sport Plus Yes",
+          "Safety Rail Pack"
+        ],
+        "price": 5294,
+        "compareAtPrice": 5394,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_sport_plus_carbon.webp?v=1787356937&width=900"
+      },
+      {
+        "id": "41820760309893",
+        "title": "Carbon Black / Sport Plus Yes / Director's Pack",
+        "options": [
+          "Carbon Black",
+          "Sport Plus Yes",
+          "Director's Pack"
+        ],
+        "price": 5294,
+        "compareAtPrice": 5394,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_sport_plus_carbon.webp?v=1787356937&width=900"
+      },
+      {
+        "id": "41820760342661",
+        "title": "Carbon Black / Sport Plus Yes / Passenger Pack",
+        "options": [
+          "Carbon Black",
+          "Sport Plus Yes",
+          "Passenger Pack"
+        ],
+        "price": 5294,
+        "compareAtPrice": 5394,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_sport_plus_carbon.webp?v=1787356937&width=900"
+      },
+      {
+        "id": "41820760375429",
+        "title": "Carbon Black / Sport Plus Yes / None",
+        "options": [
+          "Carbon Black",
+          "Sport Plus Yes",
+          "None"
+        ],
+        "price": 4699,
+        "compareAtPrice": 4799,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_sport_plus_carbon.webp?v=1787356937&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Sport_plus_limestone.webp?v=1787355905&width=900"
   },
@@ -2640,6 +9276,55 @@ export const PRODUCTS: Product[] = [
       "Color": "Aqua, Black, Coral, White",
       "SKU": "1000000000554"
     },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Aqua",
+          "Black",
+          "Coral",
+          "White"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40539786870917",
+        "title": "Aqua",
+        "options": [
+          "Aqua"
+        ],
+        "price": 3999,
+        "available": true
+      },
+      {
+        "id": "40539786903685",
+        "title": "Black",
+        "options": [
+          "Black"
+        ],
+        "price": 3999,
+        "available": true
+      },
+      {
+        "id": "40539786936453",
+        "title": "Coral",
+        "options": [
+          "Coral"
+        ],
+        "price": 3999,
+        "available": true
+      },
+      {
+        "id": "40539786969221",
+        "title": "White",
+        "options": [
+          "White"
+        ],
+        "price": 3999,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/tribe-longtail-aqua.png?v=1709340565&width=900"
   },
@@ -2668,6 +9353,48 @@ export const PRODUCTS: Product[] = [
       "Color": "Sea Blue, Blue Grey, Tebasco",
       "SKU": "1000000002892"
     },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Sea Blue",
+          "Blue Grey",
+          "Tebasco"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41067020419205",
+        "title": "Sea Blue",
+        "options": [
+          "Sea Blue"
+        ],
+        "price": 3995,
+        "compareAtPrice": 4995,
+        "available": true
+      },
+      {
+        "id": "41067020451973",
+        "title": "Blue Grey",
+        "options": [
+          "Blue Grey"
+        ],
+        "price": 3995,
+        "compareAtPrice": 4995,
+        "available": true
+      },
+      {
+        "id": "41067020484741",
+        "title": "Tebasco",
+        "options": [
+          "Tebasco"
+        ],
+        "price": 3995,
+        "compareAtPrice": 4995,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tern_Quick_Haul_P9_Performance.png?v=1790052951&width=900"
   },
@@ -2698,6 +9425,120 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$3,899 - $4,349",
       "SKU": "1000000005938"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Banksia Orange",
+          "Flax Blue",
+          "Limestone Grey",
+          "Carbon Black"
+        ]
+      },
+      {
+        "name": "Accessory Bundle",
+        "values": [
+          "Compact SUV Pack",
+          "None"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41820747989125",
+        "title": "Banksia Orange / Compact SUV Pack",
+        "options": [
+          "Banksia Orange",
+          "Compact SUV Pack"
+        ],
+        "price": 4349,
+        "compareAtPrice": 4449,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_ebike_COmpactworkingcolourdoc.webp?v=1787357444&width=900"
+      },
+      {
+        "id": "41820748021893",
+        "title": "Banksia Orange / None",
+        "options": [
+          "Banksia Orange",
+          "None"
+        ],
+        "price": 3899,
+        "compareAtPrice": 3999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_ebike_COmpactworkingcolourdoc.webp?v=1787357444&width=900"
+      },
+      {
+        "id": "41820748054661",
+        "title": "Flax Blue / Compact SUV Pack",
+        "options": [
+          "Flax Blue",
+          "Compact SUV Pack"
+        ],
+        "price": 4349,
+        "compareAtPrice": 4499,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_ebike_COmpactBluenew.webp?v=1787357459&width=900"
+      },
+      {
+        "id": "41820748087429",
+        "title": "Flax Blue / None",
+        "options": [
+          "Flax Blue",
+          "None"
+        ],
+        "price": 3899,
+        "compareAtPrice": 3999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_ebike_COmpactBluenew.webp?v=1787357459&width=900"
+      },
+      {
+        "id": "41820748120197",
+        "title": "Limestone Grey / Compact SUV Pack",
+        "options": [
+          "Limestone Grey",
+          "Compact SUV Pack"
+        ],
+        "price": 4349,
+        "compareAtPrice": 4449,
+        "available": true
+      },
+      {
+        "id": "41820748152965",
+        "title": "Limestone Grey / None",
+        "options": [
+          "Limestone Grey",
+          "None"
+        ],
+        "price": 3899,
+        "compareAtPrice": 3999,
+        "available": true
+      },
+      {
+        "id": "41820748185733",
+        "title": "Carbon Black / Compact SUV Pack",
+        "options": [
+          "Carbon Black",
+          "Compact SUV Pack"
+        ],
+        "price": 4349,
+        "compareAtPrice": 4449,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_cargo_ebike_RAlly_G3_carbon_metallic_2acd3284-93ef-4d18-8f5f-51e7ac881de7.webp?v=1787357508&width=900"
+      },
+      {
+        "id": "41820748218501",
+        "title": "Carbon Black / None",
+        "options": [
+          "Carbon Black",
+          "None"
+        ],
+        "price": 3899,
+        "compareAtPrice": 3999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_cargo_ebike_RAlly_G3_carbon_metallic_2acd3284-93ef-4d18-8f5f-51e7ac881de7.webp?v=1787357508&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Compact_SUV_Limestone_Grey.png?v=1790052758&width=900"
   },
@@ -2723,6 +9564,45 @@ export const PRODUCTS: Product[] = [
       "Colour": "Sage Green, Blue, Sand",
       "SKU": "9003250006"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Sage Green",
+          "Blue",
+          "Sand"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41424216227973",
+        "title": "Sage Green",
+        "options": [
+          "Sage Green"
+        ],
+        "price": 3499,
+        "available": true
+      },
+      {
+        "id": "41424216260741",
+        "title": "Blue",
+        "options": [
+          "Blue"
+        ],
+        "price": 3499,
+        "available": true
+      },
+      {
+        "id": "41424216293509",
+        "title": "Sand",
+        "options": [
+          "Sand"
+        ],
+        "price": 3499,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/CG7-ncm.jpg?v=1762861450&width=900"
   },
@@ -2751,6 +9631,128 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$3,000 - $3,320",
       "SKU": "1000000004595"
     },
+    "options": [
+      {
+        "name": "Frame",
+        "values": [
+          "Step Over"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLACK",
+          "GREY",
+          "RED",
+          "BLUE"
+        ]
+      },
+      {
+        "name": "Suspension",
+        "values": [
+          "Suspension",
+          "Rigid Fork"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41479143063685",
+        "title": "Step Over / BLACK / Suspension",
+        "options": [
+          "Step Over",
+          "BLACK",
+          "Suspension"
+        ],
+        "price": 3320,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DiroDi-Rover-Standard---Plus-Gen-6--Black--Standard--Step-Over--250W.jpg?v=1767316825&width=900"
+      },
+      {
+        "id": "41479143096453",
+        "title": "Step Over / BLACK / Rigid Fork",
+        "options": [
+          "Step Over",
+          "BLACK",
+          "Rigid Fork"
+        ],
+        "price": 3000,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DiroDi-Rover-Standard---Plus-Gen-6--Black--Standard--Step-Over--250W.jpg?v=1767316825&width=900"
+      },
+      {
+        "id": "41479143129221",
+        "title": "Step Over / GREY / Suspension",
+        "options": [
+          "Step Over",
+          "GREY",
+          "Suspension"
+        ],
+        "price": 3320,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Dirodi_Rover_Steph_over_grey.webp?v=1767318619&width=900"
+      },
+      {
+        "id": "41479143161989",
+        "title": "Step Over / GREY / Rigid Fork",
+        "options": [
+          "Step Over",
+          "GREY",
+          "Rigid Fork"
+        ],
+        "price": 3000,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Dirodi_Rover_Steph_over_grey.webp?v=1767318619&width=900"
+      },
+      {
+        "id": "41479143194757",
+        "title": "Step Over / RED / Suspension",
+        "options": [
+          "Step Over",
+          "RED",
+          "Suspension"
+        ],
+        "price": 3320,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Dirodi_Rover_Red.webp?v=1767318810&width=900"
+      },
+      {
+        "id": "41479143227525",
+        "title": "Step Over / RED / Rigid Fork",
+        "options": [
+          "Step Over",
+          "RED",
+          "Rigid Fork"
+        ],
+        "price": 3000,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Dirodi_Rover_Red.webp?v=1767318810&width=900"
+      },
+      {
+        "id": "41479143260293",
+        "title": "Step Over / BLUE / Suspension",
+        "options": [
+          "Step Over",
+          "BLUE",
+          "Suspension"
+        ],
+        "price": 3320,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Dirodi_Rover_Blue_step_over.webp?v=1767318619&width=900"
+      },
+      {
+        "id": "41479143293061",
+        "title": "Step Over / BLUE / Rigid Fork",
+        "options": [
+          "Step Over",
+          "BLUE",
+          "Rigid Fork"
+        ],
+        "price": 3000,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Dirodi_Rover_Blue_step_over.webp?v=1767318619&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DiroDi-Rover-Standard---Plus-Gen-6--Black--Standard--Step-Over--250W.jpg?v=1767316825&width=900"
   },
@@ -2779,6 +9781,46 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$1,999 - $2,099",
       "SKU": "0000020198060"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Black",
+          "White",
+          "Silver"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40915098108037",
+        "title": "Black",
+        "options": [
+          "Black"
+        ],
+        "price": 1999,
+        "compareAtPrice": 2099,
+        "available": true
+      },
+      {
+        "id": "40915098140805",
+        "title": "White",
+        "options": [
+          "White"
+        ],
+        "price": 2099,
+        "available": false
+      },
+      {
+        "id": "40915098206341",
+        "title": "Silver",
+        "options": [
+          "Silver"
+        ],
+        "price": 2099,
+        "available": false
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/t720_white.jpg?v=1726229321&width=900"
   },
@@ -2805,6 +9847,37 @@ export const PRODUCTS: Product[] = [
       "Color": "Forest, Silver",
       "SKU": "1000000002780"
     },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Forest",
+          "Silver"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41062104301701",
+        "title": "Forest",
+        "options": [
+          "Forest"
+        ],
+        "price": 5995,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/vektron_s10-g3-forest-grey-unfold.jpg?v=1733313036&width=900"
+      },
+      {
+        "id": "41062104334469",
+        "title": "Silver",
+        "options": [
+          "Silver"
+        ],
+        "price": 5995,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/vektrons10-g2-unfold-lr-silver-silver.webp?v=1733313086&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/vektrons10-g2-unfold-lr-silver-silver.webp?v=1733313086&width=900"
   },
@@ -2828,6 +9901,35 @@ export const PRODUCTS: Product[] = [
       "Colour": "Amble Latte, Black",
       "SKU": "1000000003501"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Amble Latte",
+          "Black"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41230583103621",
+        "title": "Amble Latte",
+        "options": [
+          "Amble Latte"
+        ],
+        "price": 3799,
+        "available": true
+      },
+      {
+        "id": "41738051944581",
+        "title": "Black",
+        "options": [
+          "Black"
+        ],
+        "price": 3799,
+        "available": false
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ADO_Air_Carbon_folding_ebike_2.webp?v=1748150154&width=900"
   },
@@ -2856,6 +9958,37 @@ export const PRODUCTS: Product[] = [
       "Colour": "Grey, Blue",
       "SKU": "1000000002465"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Grey",
+          "Blue"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40962539225221",
+        "title": "Grey",
+        "options": [
+          "Grey"
+        ],
+        "price": 2900,
+        "compareAtPrice": 2999,
+        "available": true
+      },
+      {
+        "id": "40962539257989",
+        "title": "Blue",
+        "options": [
+          "Blue"
+        ],
+        "price": 2900,
+        "compareAtPrice": 2999,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR20PRO_2.webp?v=1728025040&width=900"
   },
@@ -2883,6 +10016,35 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$2,790 - $3,450",
       "SKU": "1000000002499"
     },
+    "options": [
+      {
+        "name": "Battery",
+        "values": [
+          "Single",
+          "Dual"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40985338085509",
+        "title": "Single",
+        "options": [
+          "Single"
+        ],
+        "price": 2790,
+        "available": true
+      },
+      {
+        "id": "40985338118277",
+        "title": "Dual",
+        "options": [
+          "Dual"
+        ],
+        "price": 3450,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Rilu-Pogo.jpg?v=1729142626&width=900"
   },
@@ -2905,6 +10067,100 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$2,690 - $2,990",
       "SKU": "20193966"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "20\""
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "WHITE",
+          "BLACK",
+          "GREY"
+        ]
+      },
+      {
+        "name": "Battery",
+        "values": [
+          "36V14Ah 504Wh",
+          "36V17Ah 612Wh"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40162151399557",
+        "title": "20\" / WHITE / 36V14Ah 504Wh",
+        "options": [
+          "20\"",
+          "WHITE",
+          "36V14Ah 504Wh"
+        ],
+        "price": 2690,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/earth-ant-fat-folding-ebike-1-600x600-1.jpg?v=1678789701&width=900"
+      },
+      {
+        "id": "40162152120453",
+        "title": "20\" / BLACK / 36V14Ah 504Wh",
+        "options": [
+          "20\"",
+          "BLACK",
+          "36V14Ah 504Wh"
+        ],
+        "price": 2690,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/eart-fat-tire-folding-ebike-black-without-basket-1-600x600-1.jpg?v=1678789701&width=900"
+      },
+      {
+        "id": "40162152153221",
+        "title": "20\" / GREY / 36V14Ah 504Wh",
+        "options": [
+          "20\"",
+          "GREY",
+          "36V14Ah 504Wh"
+        ],
+        "price": 2690,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/earth-20inch-fat-tire-folding-ebike-charcoal-without-basket-600x600-1.jpg?v=1678789700&width=900"
+      },
+      {
+        "id": "40428373344389",
+        "title": "20\" / BLACK / 36V17Ah 612Wh",
+        "options": [
+          "20\"",
+          "BLACK",
+          "36V17Ah 612Wh"
+        ],
+        "price": 2990,
+        "available": false
+      },
+      {
+        "id": "40428373377157",
+        "title": "20\" / WHITE / 36V17Ah 612Wh",
+        "options": [
+          "20\"",
+          "WHITE",
+          "36V17Ah 612Wh"
+        ],
+        "price": 2990,
+        "available": false
+      },
+      {
+        "id": "40428373409925",
+        "title": "20\" / GREY / 36V17Ah 612Wh",
+        "options": [
+          "20\"",
+          "GREY",
+          "36V17Ah 612Wh"
+        ],
+        "price": 2990,
+        "available": false
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/eart-fat-tire-folding-ebike-black-without-basket-1-600x600-1.jpg?v=1678789701&width=900"
   },
@@ -2928,6 +10184,35 @@ export const PRODUCTS: Product[] = [
       "Colour": "Grey, Blue",
       "SKU": "1000000002453"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Grey",
+          "Blue"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40962534080645",
+        "title": "Grey",
+        "options": [
+          "Grey"
+        ],
+        "price": 2499,
+        "available": true
+      },
+      {
+        "id": "40962534113413",
+        "title": "Blue",
+        "options": [
+          "Blue"
+        ],
+        "price": 2499,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Ivory-02.png?v=1728024845&width=900"
   },
@@ -2956,6 +10241,67 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$2,459 - $2,549",
       "SKU": "20187583"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Black",
+          "Sage Green"
+        ]
+      },
+      {
+        "name": "Assembly Package",
+        "values": [
+          "Yes",
+          "No"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "39514036699269",
+        "title": "Black / Yes",
+        "options": [
+          "Black",
+          "Yes"
+        ],
+        "price": 2499,
+        "compareAtPrice": 2699,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187583_2_3bad350c-f14c-4945-bac0-80a2f74e3139.jpg?v=1680011121&width=900"
+      },
+      {
+        "id": "41524847345797",
+        "title": "Black / No",
+        "options": [
+          "Black",
+          "No"
+        ],
+        "price": 2459,
+        "available": false
+      },
+      {
+        "id": "41524847378565",
+        "title": "Sage Green / Yes",
+        "options": [
+          "Sage Green",
+          "Yes"
+        ],
+        "price": 2499,
+        "compareAtPrice": 2799,
+        "available": false
+      },
+      {
+        "id": "41524847411333",
+        "title": "Sage Green / No",
+        "options": [
+          "Sage Green",
+          "No"
+        ],
+        "price": 2549,
+        "available": false
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187583_1_384d65a5-6e3f-496c-8ae9-c74ee8bb31e4.jpg?v=1680011121&width=900"
   },
@@ -2979,6 +10325,45 @@ export const PRODUCTS: Product[] = [
       "Colour": "Ivory, Blue, Grey",
       "SKU": "1000000002459"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Ivory",
+          "Blue",
+          "Grey"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40962533589125",
+        "title": "Ivory",
+        "options": [
+          "Ivory"
+        ],
+        "price": 2350,
+        "available": true
+      },
+      {
+        "id": "40962533621893",
+        "title": "Blue",
+        "options": [
+          "Blue"
+        ],
+        "price": 2350,
+        "available": true
+      },
+      {
+        "id": "40962533654661",
+        "title": "Grey",
+        "options": [
+          "Grey"
+        ],
+        "price": 2350,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Ivory-02.png?v=1728024845&width=900"
   },
@@ -3000,6 +10385,37 @@ export const PRODUCTS: Product[] = [
       "Colour": "Silver, Cherry",
       "SKU": "1000000002471"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Silver",
+          "Cherry"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "39695136784517",
+        "title": "Silver",
+        "options": [
+          "Silver"
+        ],
+        "price": 2299,
+        "compareAtPrice": 2399,
+        "available": true
+      },
+      {
+        "id": "40962689859717",
+        "title": "Cherry",
+        "options": [
+          "Cherry"
+        ],
+        "price": 2299,
+        "compareAtPrice": 2399,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tebco_WANDERER_Cherry_Red_ebike_adelaide.png?v=1728025884&width=900"
   },
@@ -3020,6 +10436,54 @@ export const PRODUCTS: Product[] = [
       "Colour": "RED, WHITE, NAVY BLUE",
       "SKU": "20000578"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "20\""
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "RED",
+          "WHITE",
+          "NAVY BLUE"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "39347282706565",
+        "title": "20\" / RED",
+        "options": [
+          "20\"",
+          "RED"
+        ],
+        "price": 2199,
+        "available": true
+      },
+      {
+        "id": "39347282739333",
+        "title": "20\" / WHITE",
+        "options": [
+          "20\"",
+          "WHITE"
+        ],
+        "price": 2199,
+        "available": true
+      },
+      {
+        "id": "40162168701061",
+        "title": "20\" / NAVY BLUE",
+        "options": [
+          "20\"",
+          "NAVY BLUE"
+        ],
+        "price": 2199,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/9003180000_ea45fde6-91cb-4c09-845a-ac285d5fb595.jpg?v=1680035224&width=900"
   },
@@ -3094,6 +10558,100 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$1,899 - $2,049",
       "SKU": "20191306"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "20\""
+        ]
+      },
+      {
+        "name": "Color",
+        "values": [
+          "VOLCANO BLACK",
+          "white",
+          "Blue"
+        ]
+      },
+      {
+        "name": "Assembly Package",
+        "values": [
+          "Yes",
+          "No"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40915168723077",
+        "title": "20\" / VOLCANO BLACK / Yes",
+        "options": [
+          "20\"",
+          "VOLCANO BLACK",
+          "Yes"
+        ],
+        "price": 1899,
+        "compareAtPrice": 2199,
+        "available": true
+      },
+      {
+        "id": "41524842594437",
+        "title": "20\" / VOLCANO BLACK / No",
+        "options": [
+          "20\"",
+          "VOLCANO BLACK",
+          "No"
+        ],
+        "price": 2049,
+        "available": true
+      },
+      {
+        "id": "40915168755845",
+        "title": "20\" / white / Yes",
+        "options": [
+          "20\"",
+          "white",
+          "Yes"
+        ],
+        "price": 1899,
+        "compareAtPrice": 2199,
+        "available": true
+      },
+      {
+        "id": "41524842627205",
+        "title": "20\" / white / No",
+        "options": [
+          "20\"",
+          "white",
+          "No"
+        ],
+        "price": 2049,
+        "available": true
+      },
+      {
+        "id": "40915168788613",
+        "title": "20\" / Blue / Yes",
+        "options": [
+          "20\"",
+          "Blue",
+          "Yes"
+        ],
+        "price": 1899,
+        "compareAtPrice": 2199,
+        "available": true
+      },
+      {
+        "id": "41524842659973",
+        "title": "20\" / Blue / No",
+        "options": [
+          "20\"",
+          "Blue",
+          "No"
+        ],
+        "price": 2049,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/PAris_PLus_Black.webp?v=1726230223&width=900"
   },
@@ -3139,6 +10697,48 @@ export const PRODUCTS: Product[] = [
       "Color": "Red, Black, White",
       "SKU": "9003180045"
     },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Red",
+          "Black",
+          "White"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40915405537413",
+        "title": "Red",
+        "options": [
+          "Red"
+        ],
+        "price": 1799,
+        "compareAtPrice": 2699,
+        "available": true
+      },
+      {
+        "id": "41358966194309",
+        "title": "Black",
+        "options": [
+          "Black"
+        ],
+        "price": 1799,
+        "compareAtPrice": 2699,
+        "available": true
+      },
+      {
+        "id": "41380171579525",
+        "title": "White",
+        "options": [
+          "White"
+        ],
+        "price": 1799,
+        "compareAtPrice": 2699,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/NCM_Paris_Max_2.png?v=1790054620&width=900"
   },
@@ -3158,6 +10758,68 @@ export const PRODUCTS: Product[] = [
       "Colour": "BLACK, WHITE, DARK BLUE, GREY",
       "SKU": "20102036"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "20\""
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLACK",
+          "WHITE",
+          "DARK BLUE",
+          "GREY"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "39438660829317",
+        "title": "20\" / BLACK",
+        "options": [
+          "20\"",
+          "BLACK"
+        ],
+        "price": 1799,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londons_std_black.jpg?v=1680030277&width=900"
+      },
+      {
+        "id": "39438660862085",
+        "title": "20\" / WHITE",
+        "options": [
+          "20\"",
+          "WHITE"
+        ],
+        "price": 1799,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londons_std_white.jpg?v=1680030277&width=900"
+      },
+      {
+        "id": "39438660894853",
+        "title": "20\" / DARK BLUE",
+        "options": [
+          "20\"",
+          "DARK BLUE"
+        ],
+        "price": 1799,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londons_std_navy.jpg?v=1680030277&width=900"
+      },
+      {
+        "id": "39438913503365",
+        "title": "20\" / GREY",
+        "options": [
+          "20\"",
+          "GREY"
+        ],
+        "price": 1799,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londons_std_black_263ce6fc-2b3f-4c1a-a62f-0df9b505dac1.jpg?v=1680030277&width=900"
   },
@@ -3180,6 +10842,45 @@ export const PRODUCTS: Product[] = [
       "Colour": "WHITE, GREEN",
       "SKU": "20101824"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "20\""
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "WHITE",
+          "GREEN"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "34727808204933",
+        "title": "20\" / WHITE",
+        "options": [
+          "20\"",
+          "WHITE"
+        ],
+        "price": 1690,
+        "compareAtPrice": 1790,
+        "available": true
+      },
+      {
+        "id": "39347567919237",
+        "title": "20\" / GREEN",
+        "options": [
+          "20\"",
+          "GREEN"
+        ],
+        "price": 1690,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103347_1_f97d7a7c-6659-4514-840b-0124a9078b99.jpg?v=1680034650&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103347_1_6ca9ea81-9eec-439f-94a9-d05db6d6f974.jpg?v=1680034650&width=900"
   },
@@ -3210,6 +10911,127 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$1,499 - $1,679",
       "SKU": "20102678"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "20\""
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLACK",
+          "WHITE",
+          "DARK BLUE",
+          "SILVER"
+        ]
+      },
+      {
+        "name": "Assembly Package",
+        "values": [
+          "Yes",
+          "No"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "34805844082821",
+        "title": "20\" / BLACK / Yes",
+        "options": [
+          "20\"",
+          "BLACK",
+          "Yes"
+        ],
+        "price": 1499,
+        "compareAtPrice": 1799,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/GREY.jpg?v=1680030633&width=900"
+      },
+      {
+        "id": "41524842922117",
+        "title": "20\" / BLACK / No",
+        "options": [
+          "20\"",
+          "BLACK",
+          "No"
+        ],
+        "price": 1679,
+        "available": true
+      },
+      {
+        "id": "39347283656837",
+        "title": "20\" / WHITE / Yes",
+        "options": [
+          "20\"",
+          "WHITE",
+          "Yes"
+        ],
+        "price": 1499,
+        "compareAtPrice": 1799,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/WHITEE.jpg?v=1680030633&width=900"
+      },
+      {
+        "id": "41524842954885",
+        "title": "20\" / WHITE / No",
+        "options": [
+          "20\"",
+          "WHITE",
+          "No"
+        ],
+        "price": 1679,
+        "available": true
+      },
+      {
+        "id": "39347283689605",
+        "title": "20\" / DARK BLUE / Yes",
+        "options": [
+          "20\"",
+          "DARK BLUE",
+          "Yes"
+        ],
+        "price": 1499,
+        "compareAtPrice": 1799,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/NAVYY.jpg?v=1680030633&width=900"
+      },
+      {
+        "id": "41524842987653",
+        "title": "20\" / DARK BLUE / No",
+        "options": [
+          "20\"",
+          "DARK BLUE",
+          "No"
+        ],
+        "price": 1679,
+        "available": true
+      },
+      {
+        "id": "39438661189765",
+        "title": "20\" / SILVER / Yes",
+        "options": [
+          "20\"",
+          "SILVER",
+          "Yes"
+        ],
+        "price": 1499,
+        "compareAtPrice": 1799,
+        "available": true
+      },
+      {
+        "id": "41524843020421",
+        "title": "20\" / SILVER / No",
+        "options": [
+          "20\"",
+          "SILVER",
+          "No"
+        ],
+        "price": 1679,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/GREY_ac85b65d-d30e-4861-b49d-1b0b1cf95b3d.jpg?v=1680030633&width=900"
   },
@@ -3236,6 +11058,85 @@ export const PRODUCTS: Product[] = [
       "Size": "50, 52, 54, 56, 58, 60, 62",
       "SKU": "1000000000951"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "50",
+          "52",
+          "54",
+          "56",
+          "58",
+          "60",
+          "62"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40552604532869",
+        "title": "50",
+        "options": [
+          "50"
+        ],
+        "price": 11499,
+        "available": true
+      },
+      {
+        "id": "40552604565637",
+        "title": "52",
+        "options": [
+          "52"
+        ],
+        "price": 11499,
+        "available": true
+      },
+      {
+        "id": "40552604598405",
+        "title": "54",
+        "options": [
+          "54"
+        ],
+        "price": 11499,
+        "available": true
+      },
+      {
+        "id": "40552604631173",
+        "title": "56",
+        "options": [
+          "56"
+        ],
+        "price": 11499,
+        "available": true
+      },
+      {
+        "id": "40552604663941",
+        "title": "58",
+        "options": [
+          "58"
+        ],
+        "price": 11499,
+        "available": true
+      },
+      {
+        "id": "40552604696709",
+        "title": "60",
+        "options": [
+          "60"
+        ],
+        "price": 11499,
+        "available": true
+      },
+      {
+        "id": "40552604729477",
+        "title": "62",
+        "options": [
+          "62"
+        ],
+        "price": 11499,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusSLR7_23_36711_A_Primary.webp?v=1710164651&width=900"
   },
@@ -3263,6 +11164,76 @@ export const PRODUCTS: Product[] = [
       "Size": "S, M, L, XL, XS",
       "SKU": "1000000001482"
     },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Celeste"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XS"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40785796595845",
+        "title": "Celeste / S",
+        "options": [
+          "Celeste",
+          "S"
+        ],
+        "price": 9999,
+        "available": false
+      },
+      {
+        "id": "40785796628613",
+        "title": "Celeste / M",
+        "options": [
+          "Celeste",
+          "M"
+        ],
+        "price": 9999,
+        "available": true
+      },
+      {
+        "id": "40785796661381",
+        "title": "Celeste / L",
+        "options": [
+          "Celeste",
+          "L"
+        ],
+        "price": 9999,
+        "available": false
+      },
+      {
+        "id": "40785796694149",
+        "title": "Celeste / XL",
+        "options": [
+          "Celeste",
+          "XL"
+        ],
+        "price": 9999,
+        "available": false
+      },
+      {
+        "id": "41738048536709",
+        "title": "Celeste / XS",
+        "options": [
+          "Celeste",
+          "XS"
+        ],
+        "price": 9999,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bianchi_E-Arcadex_EKAR_1x13sp.png?v=1790052611&width=900"
   },
@@ -3292,6 +11263,87 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$7,499 - $10,499",
       "SKU": "1000000005441"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "47",
+          "50",
+          "53",
+          "55",
+          "57",
+          "59",
+          "61"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41670032195717",
+        "title": "47",
+        "options": [
+          "47"
+        ],
+        "price": 10499,
+        "available": false
+      },
+      {
+        "id": "41670032228485",
+        "title": "50",
+        "options": [
+          "50"
+        ],
+        "price": 10499,
+        "available": false
+      },
+      {
+        "id": "41670032261253",
+        "title": "53",
+        "options": [
+          "53"
+        ],
+        "price": 10499,
+        "available": false
+      },
+      {
+        "id": "41670032294021",
+        "title": "55",
+        "options": [
+          "55"
+        ],
+        "price": 7499,
+        "compareAtPrice": 10499,
+        "available": true
+      },
+      {
+        "id": "41670032326789",
+        "title": "57",
+        "options": [
+          "57"
+        ],
+        "price": 7499,
+        "compareAtPrice": 10499,
+        "available": true
+      },
+      {
+        "id": "41670032359557",
+        "title": "59",
+        "options": [
+          "59"
+        ],
+        "price": 10499,
+        "available": false
+      },
+      {
+        "id": "41670032392325",
+        "title": "61",
+        "options": [
+          "61"
+        ],
+        "price": 10499,
+        "available": false
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bianchi-E-Oltre-road-bike-di2.jpg?v=1779796151&width=900"
   },
@@ -3339,6 +11391,43 @@ export const PRODUCTS: Product[] = [
       "Colour": "BLACK",
       "SKU": "20171360"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "MEDIUM",
+          "LARGE"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLACK"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40229952258181",
+        "title": "MEDIUM / BLACK",
+        "options": [
+          "MEDIUM",
+          "BLACK"
+        ],
+        "price": 6899,
+        "available": true
+      },
+      {
+        "id": "40229952749701",
+        "title": "LARGE / BLACK",
+        "options": [
+          "LARGE",
+          "BLACK"
+        ],
+        "price": 6899,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/M322TTCC-YM-SIDE-GAIN_D30_2.jpg?v=1689810387&width=900"
   },
@@ -3376,6 +11465,160 @@ export const PRODUCTS: Product[] = [
       "Colour": "BLACK, RED",
       "SKU": "601842749302"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "49",
+          "52",
+          "54",
+          "56",
+          "58",
+          "61"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLACK",
+          "RED"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40185137954949",
+        "title": "49 / BLACK",
+        "options": [
+          "49",
+          "BLACK"
+        ],
+        "price": 4999,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_A_Primary.jpg?v=1681128300&width=900"
+      },
+      {
+        "id": "40185138282629",
+        "title": "49 / RED",
+        "options": [
+          "49",
+          "RED"
+        ],
+        "price": 4999,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_B_Primary.jpg?v=1681128300&width=900"
+      },
+      {
+        "id": "40185137987717",
+        "title": "52 / BLACK",
+        "options": [
+          "52",
+          "BLACK"
+        ],
+        "price": 4999,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_A_Primary.jpg?v=1681128300&width=900"
+      },
+      {
+        "id": "40185138151557",
+        "title": "52 / RED",
+        "options": [
+          "52",
+          "RED"
+        ],
+        "price": 4999,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_B_Primary.jpg?v=1681128300&width=900"
+      },
+      {
+        "id": "40185138020485",
+        "title": "54 / BLACK",
+        "options": [
+          "54",
+          "BLACK"
+        ],
+        "price": 4999,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_A_Primary.jpg?v=1681128300&width=900"
+      },
+      {
+        "id": "40185138184325",
+        "title": "54 / RED",
+        "options": [
+          "54",
+          "RED"
+        ],
+        "price": 4999,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_B_Primary.jpg?v=1681128300&width=900"
+      },
+      {
+        "id": "40185138053253",
+        "title": "56 / BLACK",
+        "options": [
+          "56",
+          "BLACK"
+        ],
+        "price": 4999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_A_Primary.jpg?v=1681128300&width=900"
+      },
+      {
+        "id": "40185138217093",
+        "title": "56 / RED",
+        "options": [
+          "56",
+          "RED"
+        ],
+        "price": 4999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_B_Primary.jpg?v=1681128300&width=900"
+      },
+      {
+        "id": "40185138086021",
+        "title": "58 / BLACK",
+        "options": [
+          "58",
+          "BLACK"
+        ],
+        "price": 4999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_A_Primary.jpg?v=1681128300&width=900"
+      },
+      {
+        "id": "40185138249861",
+        "title": "58 / RED",
+        "options": [
+          "58",
+          "RED"
+        ],
+        "price": 4999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_B_Primary.jpg?v=1681128300&width=900"
+      },
+      {
+        "id": "40185138118789",
+        "title": "61 / BLACK",
+        "options": [
+          "61",
+          "BLACK"
+        ],
+        "price": 4999,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_A_Primary.jpg?v=1681128300&width=900"
+      },
+      {
+        "id": "40185138315397",
+        "title": "61 / RED",
+        "options": [
+          "61",
+          "RED"
+        ],
+        "price": 4999,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_B_Primary.jpg?v=1681128300&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_B_Primary.jpg?v=1681128300&width=900"
   },
@@ -3403,6 +11646,260 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$3,690 - $4,490",
       "SKU": "1000000005536"
     },
+    "options": [
+      {
+        "name": "Type",
+        "values": [
+          "V3 EN15194 CERTIFIED",
+          "V2 PRIVATE",
+          "V3 PERFORMANCE PRIVATE",
+          "V3 ULTRA PRIVATE"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "Nardo Grey",
+          "Gloss Black",
+          "White Noise",
+          "Midnight Blue",
+          "Desert Sand",
+          "Brushed Alloy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41719157751941",
+        "title": "V3 EN15194 CERTIFIED / Nardo Grey",
+        "options": [
+          "V3 EN15194 CERTIFIED",
+          "Nardo Grey"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41719157784709",
+        "title": "V3 EN15194 CERTIFIED / Gloss Black",
+        "options": [
+          "V3 EN15194 CERTIFIED",
+          "Gloss Black"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41719157817477",
+        "title": "V3 EN15194 CERTIFIED / White Noise",
+        "options": [
+          "V3 EN15194 CERTIFIED",
+          "White Noise"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41719157850245",
+        "title": "V3 EN15194 CERTIFIED / Midnight Blue",
+        "options": [
+          "V3 EN15194 CERTIFIED",
+          "Midnight Blue"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41719157883013",
+        "title": "V3 EN15194 CERTIFIED / Desert Sand",
+        "options": [
+          "V3 EN15194 CERTIFIED",
+          "Desert Sand"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41719157915781",
+        "title": "V3 EN15194 CERTIFIED / Brushed Alloy",
+        "options": [
+          "V3 EN15194 CERTIFIED",
+          "Brushed Alloy"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41719157948549",
+        "title": "V2 PRIVATE / Nardo Grey",
+        "options": [
+          "V2 PRIVATE",
+          "Nardo Grey"
+        ],
+        "price": 3690,
+        "available": true
+      },
+      {
+        "id": "41719157981317",
+        "title": "V2 PRIVATE / Gloss Black",
+        "options": [
+          "V2 PRIVATE",
+          "Gloss Black"
+        ],
+        "price": 3690,
+        "available": true
+      },
+      {
+        "id": "41719158014085",
+        "title": "V2 PRIVATE / White Noise",
+        "options": [
+          "V2 PRIVATE",
+          "White Noise"
+        ],
+        "price": 3690,
+        "available": true
+      },
+      {
+        "id": "41719158046853",
+        "title": "V2 PRIVATE / Midnight Blue",
+        "options": [
+          "V2 PRIVATE",
+          "Midnight Blue"
+        ],
+        "price": 3690,
+        "available": true
+      },
+      {
+        "id": "41719158079621",
+        "title": "V2 PRIVATE / Desert Sand",
+        "options": [
+          "V2 PRIVATE",
+          "Desert Sand"
+        ],
+        "price": 3690,
+        "available": true
+      },
+      {
+        "id": "41719158112389",
+        "title": "V3 PERFORMANCE PRIVATE / Nardo Grey",
+        "options": [
+          "V3 PERFORMANCE PRIVATE",
+          "Nardo Grey"
+        ],
+        "price": 4290,
+        "available": true
+      },
+      {
+        "id": "41719158145157",
+        "title": "V3 PERFORMANCE PRIVATE / Gloss Black",
+        "options": [
+          "V3 PERFORMANCE PRIVATE",
+          "Gloss Black"
+        ],
+        "price": 4290,
+        "available": true
+      },
+      {
+        "id": "41719158177925",
+        "title": "V3 PERFORMANCE PRIVATE / White Noise",
+        "options": [
+          "V3 PERFORMANCE PRIVATE",
+          "White Noise"
+        ],
+        "price": 4290,
+        "available": true
+      },
+      {
+        "id": "41719158210693",
+        "title": "V3 PERFORMANCE PRIVATE / Midnight Blue",
+        "options": [
+          "V3 PERFORMANCE PRIVATE",
+          "Midnight Blue"
+        ],
+        "price": 4290,
+        "available": true
+      },
+      {
+        "id": "41719158243461",
+        "title": "V3 PERFORMANCE PRIVATE / Desert Sand",
+        "options": [
+          "V3 PERFORMANCE PRIVATE",
+          "Desert Sand"
+        ],
+        "price": 4290,
+        "available": true
+      },
+      {
+        "id": "41719158276229",
+        "title": "V3 PERFORMANCE PRIVATE / Brushed Alloy",
+        "options": [
+          "V3 PERFORMANCE PRIVATE",
+          "Brushed Alloy"
+        ],
+        "price": 4290,
+        "available": true
+      },
+      {
+        "id": "41719158308997",
+        "title": "V3 ULTRA PRIVATE / Nardo Grey",
+        "options": [
+          "V3 ULTRA PRIVATE",
+          "Nardo Grey"
+        ],
+        "price": 4490,
+        "available": true
+      },
+      {
+        "id": "41719158341765",
+        "title": "V3 ULTRA PRIVATE / Gloss Black",
+        "options": [
+          "V3 ULTRA PRIVATE",
+          "Gloss Black"
+        ],
+        "price": 4490,
+        "available": true
+      },
+      {
+        "id": "41719158374533",
+        "title": "V3 ULTRA PRIVATE / White Noise",
+        "options": [
+          "V3 ULTRA PRIVATE",
+          "White Noise"
+        ],
+        "price": 4490,
+        "available": true
+      },
+      {
+        "id": "41719158407301",
+        "title": "V3 ULTRA PRIVATE / Midnight Blue",
+        "options": [
+          "V3 ULTRA PRIVATE",
+          "Midnight Blue"
+        ],
+        "price": 4490,
+        "available": true
+      },
+      {
+        "id": "41719158440069",
+        "title": "V3 ULTRA PRIVATE / Desert Sand",
+        "options": [
+          "V3 ULTRA PRIVATE",
+          "Desert Sand"
+        ],
+        "price": 4490,
+        "available": true
+      },
+      {
+        "id": "41719158472837",
+        "title": "V3 ULTRA PRIVATE / Brushed Alloy",
+        "options": [
+          "V3 ULTRA PRIVATE",
+          "Brushed Alloy"
+        ],
+        "price": 4490,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Bagus_EN_Certified_Desert_Sand.png?v=1790056328&width=900"
   },
@@ -3429,6 +11926,301 @@ export const PRODUCTS: Product[] = [
       "Colour": "Gloss Black, Desert Sand, Sage Green, Jungle Green, White Noise, Blush Pink, Brushed Alloy",
       "SKU": "1000000005597"
     },
+    "options": [
+      {
+        "name": "Type",
+        "values": [
+          "V3 EN15194 CERTIFIED",
+          "V2 PRIVATE",
+          "V3 PERFORMANCE PRIVATE",
+          "V3 ULTRA PRIVATE"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "Gloss Black",
+          "Desert Sand",
+          "Sage Green",
+          "Jungle Green",
+          "White Noise",
+          "Blush Pink",
+          "Brushed Alloy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41841661739141",
+        "title": "V3 EN15194 CERTIFIED / Gloss Black",
+        "options": [
+          "V3 EN15194 CERTIFIED",
+          "Gloss Black"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841661771909",
+        "title": "V3 EN15194 CERTIFIED / Desert Sand",
+        "options": [
+          "V3 EN15194 CERTIFIED",
+          "Desert Sand"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841661804677",
+        "title": "V3 EN15194 CERTIFIED / Sage Green",
+        "options": [
+          "V3 EN15194 CERTIFIED",
+          "Sage Green"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841661837445",
+        "title": "V3 EN15194 CERTIFIED / Jungle Green",
+        "options": [
+          "V3 EN15194 CERTIFIED",
+          "Jungle Green"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841661870213",
+        "title": "V3 EN15194 CERTIFIED / White Noise",
+        "options": [
+          "V3 EN15194 CERTIFIED",
+          "White Noise"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841661902981",
+        "title": "V3 EN15194 CERTIFIED / Blush Pink",
+        "options": [
+          "V3 EN15194 CERTIFIED",
+          "Blush Pink"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841661935749",
+        "title": "V3 EN15194 CERTIFIED / Brushed Alloy",
+        "options": [
+          "V3 EN15194 CERTIFIED",
+          "Brushed Alloy"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841661968517",
+        "title": "V2 PRIVATE / Gloss Black",
+        "options": [
+          "V2 PRIVATE",
+          "Gloss Black"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841662001285",
+        "title": "V2 PRIVATE / Desert Sand",
+        "options": [
+          "V2 PRIVATE",
+          "Desert Sand"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841662034053",
+        "title": "V2 PRIVATE / Sage Green",
+        "options": [
+          "V2 PRIVATE",
+          "Sage Green"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841662066821",
+        "title": "V2 PRIVATE / Jungle Green",
+        "options": [
+          "V2 PRIVATE",
+          "Jungle Green"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841662099589",
+        "title": "V2 PRIVATE / White Noise",
+        "options": [
+          "V2 PRIVATE",
+          "White Noise"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841662132357",
+        "title": "V2 PRIVATE / Blush Pink",
+        "options": [
+          "V2 PRIVATE",
+          "Blush Pink"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841662165125",
+        "title": "V3 PERFORMANCE PRIVATE / Gloss Black",
+        "options": [
+          "V3 PERFORMANCE PRIVATE",
+          "Gloss Black"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841662197893",
+        "title": "V3 PERFORMANCE PRIVATE / Desert Sand",
+        "options": [
+          "V3 PERFORMANCE PRIVATE",
+          "Desert Sand"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841662230661",
+        "title": "V3 PERFORMANCE PRIVATE / Sage Green",
+        "options": [
+          "V3 PERFORMANCE PRIVATE",
+          "Sage Green"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841662263429",
+        "title": "V3 PERFORMANCE PRIVATE / Jungle Green",
+        "options": [
+          "V3 PERFORMANCE PRIVATE",
+          "Jungle Green"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841662296197",
+        "title": "V3 PERFORMANCE PRIVATE / White Noise",
+        "options": [
+          "V3 PERFORMANCE PRIVATE",
+          "White Noise"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841662328965",
+        "title": "V3 PERFORMANCE PRIVATE / Blush Pink",
+        "options": [
+          "V3 PERFORMANCE PRIVATE",
+          "Blush Pink"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841662361733",
+        "title": "V3 PERFORMANCE PRIVATE / Brushed Alloy",
+        "options": [
+          "V3 PERFORMANCE PRIVATE",
+          "Brushed Alloy"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841662394501",
+        "title": "V3 ULTRA PRIVATE / Gloss Black",
+        "options": [
+          "V3 ULTRA PRIVATE",
+          "Gloss Black"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841662427269",
+        "title": "V3 ULTRA PRIVATE / Desert Sand",
+        "options": [
+          "V3 ULTRA PRIVATE",
+          "Desert Sand"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841662460037",
+        "title": "V3 ULTRA PRIVATE / Sage Green",
+        "options": [
+          "V3 ULTRA PRIVATE",
+          "Sage Green"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841662492805",
+        "title": "V3 ULTRA PRIVATE / Jungle Green",
+        "options": [
+          "V3 ULTRA PRIVATE",
+          "Jungle Green"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841662525573",
+        "title": "V3 ULTRA PRIVATE / White Noise",
+        "options": [
+          "V3 ULTRA PRIVATE",
+          "White Noise"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841662558341",
+        "title": "V3 ULTRA PRIVATE / Blush Pink",
+        "options": [
+          "V3 ULTRA PRIVATE",
+          "Blush Pink"
+        ],
+        "price": 4090,
+        "available": true
+      },
+      {
+        "id": "41841662591109",
+        "title": "V3 ULTRA PRIVATE / Brushed Alloy",
+        "options": [
+          "V3 ULTRA PRIVATE",
+          "Brushed Alloy"
+        ],
+        "price": 4090,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Harlem_EN_Certified_White_Noise.png?v=1790055638&width=900"
   },
@@ -3456,6 +12248,283 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$3,890 - $4,290",
       "SKU": "1000000005575"
     },
+    "options": [
+      {
+        "name": "Type",
+        "values": [
+          "V3 EN15194 CERTIFIED",
+          "V2 PRIVATE",
+          "V3 PERFORMANCE PRIVATE",
+          "V3 ULTRA PRIVATE"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "Jungle Green",
+          "Gloss Black",
+          "Desert Sand",
+          "White Noise",
+          "Midnight Blue",
+          "Brushed Alloy"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41801864151173",
+        "title": "V3 EN15194 CERTIFIED / Jungle Green",
+        "options": [
+          "V3 EN15194 CERTIFIED",
+          "Jungle Green"
+        ],
+        "price": 3890,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0001_JUNGLE_GREEN.webp?v=1787644609&width=900"
+      },
+      {
+        "id": "41801864183941",
+        "title": "V3 EN15194 CERTIFIED / Gloss Black",
+        "options": [
+          "V3 EN15194 CERTIFIED",
+          "Gloss Black"
+        ],
+        "price": 3890,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0002_GLOSS_BLACK.webp?v=1787644609&width=900"
+      },
+      {
+        "id": "41801864216709",
+        "title": "V3 EN15194 CERTIFIED / Desert Sand",
+        "options": [
+          "V3 EN15194 CERTIFIED",
+          "Desert Sand"
+        ],
+        "price": 3890,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0005_SAND.webp?v=1787644609&width=900"
+      },
+      {
+        "id": "41801864249477",
+        "title": "V3 EN15194 CERTIFIED / White Noise",
+        "options": [
+          "V3 EN15194 CERTIFIED",
+          "White Noise"
+        ],
+        "price": 3890,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0004_WHITE.webp?v=1787644609&width=900"
+      },
+      {
+        "id": "41801864282245",
+        "title": "V3 EN15194 CERTIFIED / Midnight Blue",
+        "options": [
+          "V3 EN15194 CERTIFIED",
+          "Midnight Blue"
+        ],
+        "price": 3890,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0003_MIDNIGHT_BLUE.webp?v=1787644609&width=900"
+      },
+      {
+        "id": "41801864315013",
+        "title": "V3 EN15194 CERTIFIED / Brushed Alloy",
+        "options": [
+          "V3 EN15194 CERTIFIED",
+          "Brushed Alloy"
+        ],
+        "price": 3890,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_SCRAMBLER_V3_BRUSHED_ALLOY.webp?v=1787644609&width=900"
+      },
+      {
+        "id": "41801864347781",
+        "title": "V2 PRIVATE / Jungle Green",
+        "options": [
+          "V2 PRIVATE",
+          "Jungle Green"
+        ],
+        "price": 4290,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FATBOY_ECOM_SCRAMBLER_V2__0002_JUNGLE_GREEN.webp?v=1787645370&width=900"
+      },
+      {
+        "id": "41801864380549",
+        "title": "V2 PRIVATE / Gloss Black",
+        "options": [
+          "V2 PRIVATE",
+          "Gloss Black"
+        ],
+        "price": 4290,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FATBOY_ECOM_SCRAMBLER_V2__0001_GLOSS_BLACK.webp?v=1787645385&width=900"
+      },
+      {
+        "id": "41801864413317",
+        "title": "V2 PRIVATE / Desert Sand",
+        "options": [
+          "V2 PRIVATE",
+          "Desert Sand"
+        ],
+        "price": 4290,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FATBOY_ECOM_SCRAMBLER_V2__0000_DESERT_SAND.webp?v=1787645406&width=900"
+      },
+      {
+        "id": "41801864446085",
+        "title": "V2 PRIVATE / White Noise",
+        "options": [
+          "V2 PRIVATE",
+          "White Noise"
+        ],
+        "price": 4290,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FATBOY_ECOM_SCRAMBLER_V2__0003_WHITE_NOISE.webp?v=1787645422&width=900"
+      },
+      {
+        "id": "41801864478853",
+        "title": "V2 PRIVATE / Midnight Blue",
+        "options": [
+          "V2 PRIVATE",
+          "Midnight Blue"
+        ],
+        "price": 4290,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FATBOY_ECOM_SCRAMBLER_V2__0004_MIDNIGHT_BLUE.webp?v=1787645436&width=900"
+      },
+      {
+        "id": "41801864511621",
+        "title": "V3 PERFORMANCE PRIVATE / Jungle Green",
+        "options": [
+          "V3 PERFORMANCE PRIVATE",
+          "Jungle Green"
+        ],
+        "price": 4090,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0001_JUNGLE_GREEN.webp?v=1787644609&width=900"
+      },
+      {
+        "id": "41801864544389",
+        "title": "V3 PERFORMANCE PRIVATE / Gloss Black",
+        "options": [
+          "V3 PERFORMANCE PRIVATE",
+          "Gloss Black"
+        ],
+        "price": 4090,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0002_GLOSS_BLACK.webp?v=1787644609&width=900"
+      },
+      {
+        "id": "41801864577157",
+        "title": "V3 PERFORMANCE PRIVATE / Desert Sand",
+        "options": [
+          "V3 PERFORMANCE PRIVATE",
+          "Desert Sand"
+        ],
+        "price": 4090,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0005_SAND.webp?v=1787644609&width=900"
+      },
+      {
+        "id": "41801864609925",
+        "title": "V3 PERFORMANCE PRIVATE / White Noise",
+        "options": [
+          "V3 PERFORMANCE PRIVATE",
+          "White Noise"
+        ],
+        "price": 4090,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0004_WHITE.webp?v=1787644609&width=900"
+      },
+      {
+        "id": "41801864642693",
+        "title": "V3 PERFORMANCE PRIVATE / Midnight Blue",
+        "options": [
+          "V3 PERFORMANCE PRIVATE",
+          "Midnight Blue"
+        ],
+        "price": 4090,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0003_MIDNIGHT_BLUE.webp?v=1787644609&width=900"
+      },
+      {
+        "id": "41801864675461",
+        "title": "V3 PERFORMANCE PRIVATE / Brushed Alloy",
+        "options": [
+          "V3 PERFORMANCE PRIVATE",
+          "Brushed Alloy"
+        ],
+        "price": 4090,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_SCRAMBLER_V3_BRUSHED_ALLOY.webp?v=1787644609&width=900"
+      },
+      {
+        "id": "41801864708229",
+        "title": "V3 ULTRA PRIVATE / Jungle Green",
+        "options": [
+          "V3 ULTRA PRIVATE",
+          "Jungle Green"
+        ],
+        "price": 4290,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0002_GLOSS_BLACK.webp?v=1787644609&width=900"
+      },
+      {
+        "id": "41801864740997",
+        "title": "V3 ULTRA PRIVATE / Gloss Black",
+        "options": [
+          "V3 ULTRA PRIVATE",
+          "Gloss Black"
+        ],
+        "price": 4290,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0002_GLOSS_BLACK.webp?v=1787644609&width=900"
+      },
+      {
+        "id": "41801864773765",
+        "title": "V3 ULTRA PRIVATE / Desert Sand",
+        "options": [
+          "V3 ULTRA PRIVATE",
+          "Desert Sand"
+        ],
+        "price": 4290,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0005_SAND.webp?v=1787644609&width=900"
+      },
+      {
+        "id": "41801864806533",
+        "title": "V3 ULTRA PRIVATE / White Noise",
+        "options": [
+          "V3 ULTRA PRIVATE",
+          "White Noise"
+        ],
+        "price": 4290,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0004_WHITE.webp?v=1787644609&width=900"
+      },
+      {
+        "id": "41801864839301",
+        "title": "V3 ULTRA PRIVATE / Midnight Blue",
+        "options": [
+          "V3 ULTRA PRIVATE",
+          "Midnight Blue"
+        ],
+        "price": 4290,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0003_MIDNIGHT_BLUE.webp?v=1787644609&width=900"
+      },
+      {
+        "id": "41801864872069",
+        "title": "V3 ULTRA PRIVATE / Brushed Alloy",
+        "options": [
+          "V3 ULTRA PRIVATE",
+          "Brushed Alloy"
+        ],
+        "price": 4290,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_SCRAMBLER_V3_BRUSHED_ALLOY.webp?v=1787644609&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy-scrambler-image.jpg?v=1787644461&width=900"
   },
@@ -3483,6 +12552,148 @@ export const PRODUCTS: Product[] = [
       "Type": "EN15194, EPAC",
       "SKU": "1000000004460"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "White",
+          "Army Green",
+          "Black",
+          "Holographic Grey",
+          "Smoke Grey",
+          "Dark 5.0"
+        ]
+      },
+      {
+        "name": "Type",
+        "values": [
+          "EN15194",
+          "EPAC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41479517634693",
+        "title": "White / EN15194",
+        "options": [
+          "White",
+          "EN15194"
+        ],
+        "price": 2799,
+        "available": true
+      },
+      {
+        "id": "41833513189509",
+        "title": "White / EPAC",
+        "options": [
+          "White",
+          "EPAC"
+        ],
+        "price": 2799,
+        "available": true
+      },
+      {
+        "id": "41479517667461",
+        "title": "Army Green / EN15194",
+        "options": [
+          "Army Green",
+          "EN15194"
+        ],
+        "price": 2799,
+        "available": true
+      },
+      {
+        "id": "41833513222277",
+        "title": "Army Green / EPAC",
+        "options": [
+          "Army Green",
+          "EPAC"
+        ],
+        "price": 2799,
+        "available": true
+      },
+      {
+        "id": "41479517700229",
+        "title": "Black / EN15194",
+        "options": [
+          "Black",
+          "EN15194"
+        ],
+        "price": 2799,
+        "available": true
+      },
+      {
+        "id": "41833513255045",
+        "title": "Black / EPAC",
+        "options": [
+          "Black",
+          "EPAC"
+        ],
+        "price": 2799,
+        "available": true
+      },
+      {
+        "id": "41479517732997",
+        "title": "Holographic Grey / EN15194",
+        "options": [
+          "Holographic Grey",
+          "EN15194"
+        ],
+        "price": 2799,
+        "available": true
+      },
+      {
+        "id": "41833513287813",
+        "title": "Holographic Grey / EPAC",
+        "options": [
+          "Holographic Grey",
+          "EPAC"
+        ],
+        "price": 2799,
+        "available": true
+      },
+      {
+        "id": "41479517765765",
+        "title": "Smoke Grey / EN15194",
+        "options": [
+          "Smoke Grey",
+          "EN15194"
+        ],
+        "price": 2799,
+        "available": true
+      },
+      {
+        "id": "41833513320581",
+        "title": "Smoke Grey / EPAC",
+        "options": [
+          "Smoke Grey",
+          "EPAC"
+        ],
+        "price": 2799,
+        "available": true
+      },
+      {
+        "id": "41962670424197",
+        "title": "Dark 5.0 / EN15194",
+        "options": [
+          "Dark 5.0",
+          "EN15194"
+        ],
+        "price": 2799,
+        "available": false
+      },
+      {
+        "id": "41962670456965",
+        "title": "Dark 5.0 / EPAC",
+        "options": [
+          "Dark 5.0",
+          "EPAC"
+        ],
+        "price": 2799,
+        "available": false
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish_OG_2.0_Army_Green.png?v=1790054198&width=900"
   },
@@ -3502,6 +12713,35 @@ export const PRODUCTS: Product[] = [
       "Type": "Step Over, Step-Through",
       "SKU": "1000000001636"
     },
+    "options": [
+      {
+        "name": "Type",
+        "values": [
+          "Step Over",
+          "Step-Through"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40915345145989",
+        "title": "Step Over",
+        "options": [
+          "Step Over"
+        ],
+        "price": 2799,
+        "available": true
+      },
+      {
+        "id": "41229648560261",
+        "title": "Step-Through",
+        "options": [
+          "Step-Through"
+        ],
+        "price": 2799,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Cru7.jpg?v=1748173280&width=900"
   },
@@ -3532,6 +12772,195 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$2,499 - $2,799",
       "SKU": "1000000004520"
     },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Army Green",
+          "Black",
+          "Holographic Grey",
+          "Smoke Grey",
+          "White",
+          "Pink",
+          "Purple Haze"
+        ]
+      },
+      {
+        "name": "Type",
+        "values": [
+          "EN15194",
+          "EPAC"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41479513374853",
+        "title": "Army Green / EN15194",
+        "options": [
+          "Army Green",
+          "EN15194"
+        ],
+        "price": 2499,
+        "compareAtPrice": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatfish_ebike_BIGGIEGreen1.webp?v=1787821322&width=900"
+      },
+      {
+        "id": "41833494085765",
+        "title": "Army Green / EPAC",
+        "options": [
+          "Army Green",
+          "EPAC"
+        ],
+        "price": 2799,
+        "compareAtPrice": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatfish_ebike_BIGGIEGreen1.webp?v=1787821322&width=900"
+      },
+      {
+        "id": "41479513407621",
+        "title": "Black / EN15194",
+        "options": [
+          "Black",
+          "EN15194"
+        ],
+        "price": 2499,
+        "compareAtPrice": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FatfishBIGGIEBlack1.webp?v=1787821267&width=900"
+      },
+      {
+        "id": "41833494118533",
+        "title": "Black / EPAC",
+        "options": [
+          "Black",
+          "EPAC"
+        ],
+        "price": 2799,
+        "compareAtPrice": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FatfishBIGGIEBlack1.webp?v=1787821267&width=900"
+      },
+      {
+        "id": "41479513440389",
+        "title": "Holographic Grey / EN15194",
+        "options": [
+          "Holographic Grey",
+          "EN15194"
+        ],
+        "price": 2499,
+        "compareAtPrice": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FatfishBIGGIEBlack1.webp?v=1787821267&width=900"
+      },
+      {
+        "id": "41833494151301",
+        "title": "Holographic Grey / EPAC",
+        "options": [
+          "Holographic Grey",
+          "EPAC"
+        ],
+        "price": 2799,
+        "compareAtPrice": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FatfishBIGGIEBlack1.webp?v=1787821267&width=900"
+      },
+      {
+        "id": "41479513473157",
+        "title": "Smoke Grey / EN15194",
+        "options": [
+          "Smoke Grey",
+          "EN15194"
+        ],
+        "price": 2499,
+        "compareAtPrice": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish-Biggie-Smoke-Grey-01_1200x1200_f3b39997-eb3c-4494-a290-ade7bd2d867d.jpg?v=1787821206&width=900"
+      },
+      {
+        "id": "41833494184069",
+        "title": "Smoke Grey / EPAC",
+        "options": [
+          "Smoke Grey",
+          "EPAC"
+        ],
+        "price": 2799,
+        "compareAtPrice": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish-Biggie-Smoke-Grey-01_1200x1200_f3b39997-eb3c-4494-a290-ade7bd2d867d.jpg?v=1787821206&width=900"
+      },
+      {
+        "id": "41479513505925",
+        "title": "White / EN15194",
+        "options": [
+          "White",
+          "EN15194"
+        ],
+        "price": 2499,
+        "compareAtPrice": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish_BIGGIEWhite1.webp?v=1787821245&width=900"
+      },
+      {
+        "id": "41833494216837",
+        "title": "White / EPAC",
+        "options": [
+          "White",
+          "EPAC"
+        ],
+        "price": 2799,
+        "compareAtPrice": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish_BIGGIEWhite1.webp?v=1787821245&width=900"
+      },
+      {
+        "id": "41479513538693",
+        "title": "Pink / EN15194",
+        "options": [
+          "Pink",
+          "EN15194"
+        ],
+        "price": 2499,
+        "compareAtPrice": 2999,
+        "available": false
+      },
+      {
+        "id": "41833494249605",
+        "title": "Pink / EPAC",
+        "options": [
+          "Pink",
+          "EPAC"
+        ],
+        "price": 2799,
+        "compareAtPrice": 2999,
+        "available": false
+      },
+      {
+        "id": "41479513571461",
+        "title": "Purple Haze / EN15194",
+        "options": [
+          "Purple Haze",
+          "EN15194"
+        ],
+        "price": 2499,
+        "compareAtPrice": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatfish_BIGGIEPurpleHaze3_1.webp?v=1787821298&width=900"
+      },
+      {
+        "id": "41833494282373",
+        "title": "Purple Haze / EPAC",
+        "options": [
+          "Purple Haze",
+          "EPAC"
+        ],
+        "price": 2799,
+        "compareAtPrice": 2999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatfish_BIGGIEPurpleHaze3_1.webp?v=1787821298&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish-Biggie-Smoke-Grey-01_1200x1200_f3b39997-eb3c-4494-a290-ade7bd2d867d.jpg?v=1787821206&width=900"
   },
@@ -3587,6 +13016,220 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$2,390 - $3,199",
       "SKU": "1000000005301"
     },
+    "options": [
+      {
+        "name": "Type",
+        "values": [
+          "V3 EN15194 Certified",
+          "PERFORMANCE PRIVATE"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "Brushed Alloy",
+          "Gloss Black",
+          "Jungle Green",
+          "Desert Sand",
+          "White Noise",
+          "Midnight Blue",
+          "Sage Green",
+          "Nardo Grey",
+          "Blush Pink"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41827888529541",
+        "title": "V3 EN15194 Certified / Brushed Alloy",
+        "options": [
+          "V3 EN15194 Certified",
+          "Brushed Alloy"
+        ],
+        "price": 2390,
+        "compareAtPrice": 2999,
+        "available": true
+      },
+      {
+        "id": "41827888562309",
+        "title": "V3 EN15194 Certified / Gloss Black",
+        "options": [
+          "V3 EN15194 Certified",
+          "Gloss Black"
+        ],
+        "price": 2390,
+        "compareAtPrice": 2999,
+        "available": true
+      },
+      {
+        "id": "41827888595077",
+        "title": "V3 EN15194 Certified / Jungle Green",
+        "options": [
+          "V3 EN15194 Certified",
+          "Jungle Green"
+        ],
+        "price": 2390,
+        "compareAtPrice": 2999,
+        "available": true
+      },
+      {
+        "id": "41827888627845",
+        "title": "V3 EN15194 Certified / Desert Sand",
+        "options": [
+          "V3 EN15194 Certified",
+          "Desert Sand"
+        ],
+        "price": 2390,
+        "compareAtPrice": 2999,
+        "available": true
+      },
+      {
+        "id": "41827888660613",
+        "title": "V3 EN15194 Certified / White Noise",
+        "options": [
+          "V3 EN15194 Certified",
+          "White Noise"
+        ],
+        "price": 2390,
+        "compareAtPrice": 2999,
+        "available": true
+      },
+      {
+        "id": "41827888693381",
+        "title": "V3 EN15194 Certified / Midnight Blue",
+        "options": [
+          "V3 EN15194 Certified",
+          "Midnight Blue"
+        ],
+        "price": 2390,
+        "compareAtPrice": 2999,
+        "available": true
+      },
+      {
+        "id": "41827888726149",
+        "title": "V3 EN15194 Certified / Sage Green",
+        "options": [
+          "V3 EN15194 Certified",
+          "Sage Green"
+        ],
+        "price": 2390,
+        "compareAtPrice": 2999,
+        "available": true
+      },
+      {
+        "id": "41827888758917",
+        "title": "V3 EN15194 Certified / Nardo Grey",
+        "options": [
+          "V3 EN15194 Certified",
+          "Nardo Grey"
+        ],
+        "price": 2390,
+        "compareAtPrice": 2999,
+        "available": true
+      },
+      {
+        "id": "41827888791685",
+        "title": "V3 EN15194 Certified / Blush Pink",
+        "options": [
+          "V3 EN15194 Certified",
+          "Blush Pink"
+        ],
+        "price": 2390,
+        "compareAtPrice": 2999,
+        "available": true
+      },
+      {
+        "id": "41827888824453",
+        "title": "PERFORMANCE PRIVATE / Brushed Alloy",
+        "options": [
+          "PERFORMANCE PRIVATE",
+          "Brushed Alloy"
+        ],
+        "price": 3199,
+        "available": true
+      },
+      {
+        "id": "41827888857221",
+        "title": "PERFORMANCE PRIVATE / Gloss Black",
+        "options": [
+          "PERFORMANCE PRIVATE",
+          "Gloss Black"
+        ],
+        "price": 3199,
+        "available": true
+      },
+      {
+        "id": "41827888889989",
+        "title": "PERFORMANCE PRIVATE / Jungle Green",
+        "options": [
+          "PERFORMANCE PRIVATE",
+          "Jungle Green"
+        ],
+        "price": 3199,
+        "available": true
+      },
+      {
+        "id": "41827888922757",
+        "title": "PERFORMANCE PRIVATE / Desert Sand",
+        "options": [
+          "PERFORMANCE PRIVATE",
+          "Desert Sand"
+        ],
+        "price": 3199,
+        "available": true
+      },
+      {
+        "id": "41827888955525",
+        "title": "PERFORMANCE PRIVATE / White Noise",
+        "options": [
+          "PERFORMANCE PRIVATE",
+          "White Noise"
+        ],
+        "price": 3199,
+        "available": true
+      },
+      {
+        "id": "41827888988293",
+        "title": "PERFORMANCE PRIVATE / Midnight Blue",
+        "options": [
+          "PERFORMANCE PRIVATE",
+          "Midnight Blue"
+        ],
+        "price": 3199,
+        "available": true
+      },
+      {
+        "id": "41827889021061",
+        "title": "PERFORMANCE PRIVATE / Sage Green",
+        "options": [
+          "PERFORMANCE PRIVATE",
+          "Sage Green"
+        ],
+        "price": 3199,
+        "available": true
+      },
+      {
+        "id": "41827889053829",
+        "title": "PERFORMANCE PRIVATE / Nardo Grey",
+        "options": [
+          "PERFORMANCE PRIVATE",
+          "Nardo Grey"
+        ],
+        "price": 3199,
+        "available": true
+      },
+      {
+        "id": "41827889086597",
+        "title": "PERFORMANCE PRIVATE / Blush Pink",
+        "options": [
+          "PERFORMANCE PRIVATE",
+          "Blush Pink"
+        ],
+        "price": 3199,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_DNA_EN_Certified_Brushed_Alloy.png?v=1790054446&width=900"
   },
@@ -3624,6 +13267,45 @@ export const PRODUCTS: Product[] = [
       "Colour": "BLACK",
       "SKU": "20102906"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "19\"",
+          "17\""
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLACK"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40158246666373",
+        "title": "19\" / BLACK",
+        "options": [
+          "19\"",
+          "BLACK"
+        ],
+        "price": 1999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102906_1.jpg?v=1680013178&width=900"
+      },
+      {
+        "id": "40158246764677",
+        "title": "17\" / BLACK",
+        "options": [
+          "17\"",
+          "BLACK"
+        ],
+        "price": 1999,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188825_1.jpg?v=1680013178&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188825_2_b932c5d7-b525-4b55-90d1-f15533b56bcb.jpg?v=1680013178&width=900"
   },
@@ -3674,6 +13356,68 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$5,395 - $5,895",
       "SKU": "1000000000140"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Red",
+          "Grey"
+        ]
+      },
+      {
+        "name": "Battery",
+        "values": [
+          "20Ah",
+          "25Ah"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40383409422469",
+        "title": "Red / 20Ah",
+        "options": [
+          "Red",
+          "20Ah"
+        ],
+        "price": 5395,
+        "compareAtPrice": 6395,
+        "available": true
+      },
+      {
+        "id": "40383409488005",
+        "title": "Red / 25Ah",
+        "options": [
+          "Red",
+          "25Ah"
+        ],
+        "price": 5895,
+        "compareAtPrice": 6895,
+        "available": true
+      },
+      {
+        "id": "40383409455237",
+        "title": "Grey / 20Ah",
+        "options": [
+          "Grey",
+          "20Ah"
+        ],
+        "price": 5395,
+        "compareAtPrice": 6395,
+        "available": true
+      },
+      {
+        "id": "40383409520773",
+        "title": "Grey / 25Ah",
+        "options": [
+          "Grey",
+          "25Ah"
+        ],
+        "price": 5895,
+        "compareAtPrice": 6895,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Vamos_Papa_Grande_Pro_-_3_Wheel_E-Trike.png?v=1790054119&width=900"
   },
@@ -3700,6 +13444,45 @@ export const PRODUCTS: Product[] = [
       "Colour": "Black, Blue, Silver",
       "SKU": "1000000000133"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Black",
+          "Blue",
+          "Silver"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40383408898181",
+        "title": "Black",
+        "options": [
+          "Black"
+        ],
+        "price": 4400,
+        "available": true
+      },
+      {
+        "id": "40383408930949",
+        "title": "Blue",
+        "options": [
+          "Blue"
+        ],
+        "price": 4400,
+        "available": true
+      },
+      {
+        "id": "40383408963717",
+        "title": "Silver",
+        "options": [
+          "Silver"
+        ],
+        "price": 4400,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/CARRRO-BLACK-WITH-BACKGROUND-removebg-preview-1-uai-1440x1070.jpg?v=1710150729&width=900"
   },
@@ -3719,6 +13502,45 @@ export const PRODUCTS: Product[] = [
       "Colour": "BLUE, RED",
       "SKU": "20190439"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "24\""
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLUE",
+          "RED"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "39693963329669",
+        "title": "24\" / BLUE",
+        "options": [
+          "24\"",
+          "BLUE"
+        ],
+        "price": 3749,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190439_2.jpg?v=1680036869&width=900"
+      },
+      {
+        "id": "39693963362437",
+        "title": "24\" / RED",
+        "options": [
+          "24\"",
+          "RED"
+        ],
+        "price": 3749,
+        "available": true,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190156_1.jpg?v=1680036869&width=900"
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190439_1_1419ce35-1dae-4c3e-ac50-e6d8c5059aaa.jpg?v=1680036869&width=900"
   },
@@ -3992,6 +13814,35 @@ export const PRODUCTS: Product[] = [
       "Size": "24inch, 26inch",
       "SKU": "1000000003536"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "24inch",
+          "26inch"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41230975533189",
+        "title": "24inch",
+        "options": [
+          "24inch"
+        ],
+        "price": 2199,
+        "available": true
+      },
+      {
+        "id": "41230975565957",
+        "title": "26inch",
+        "options": [
+          "26inch"
+        ],
+        "price": 2199,
+        "available": true
+      }
+    ],
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDS-Advance-300.jpg?v=1748172263&width=900"
   },
@@ -4483,6 +14334,35 @@ export const PRODUCTS: Product[] = [
       "Size": "Small, Medium",
       "SKU": "D680511000"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "Small",
+          "Medium"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41496147067013",
+        "title": "Small",
+        "options": [
+          "Small"
+        ],
+        "price": 12499,
+        "available": false
+      },
+      {
+        "id": "41496147099781",
+        "title": "Medium",
+        "options": [
+          "Medium"
+        ],
+        "price": 12499,
+        "available": false
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Sam-6-0.png?v=1768971741&width=900"
   },
@@ -4534,6 +14414,55 @@ export const PRODUCTS: Product[] = [
       "Size": "Small, Medium, Large, XLarge",
       "SKU": "1000000001715"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "Small",
+          "Medium",
+          "Large",
+          "XLarge"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40839057539205",
+        "title": "Small",
+        "options": [
+          "Small"
+        ],
+        "price": 6499,
+        "available": false
+      },
+      {
+        "id": "40839057571973",
+        "title": "Medium",
+        "options": [
+          "Medium"
+        ],
+        "price": 6499,
+        "available": false
+      },
+      {
+        "id": "40839057604741",
+        "title": "Large",
+        "options": [
+          "Large"
+        ],
+        "price": 6499,
+        "available": false
+      },
+      {
+        "id": "40839057637509",
+        "title": "XLarge",
+        "options": [
+          "XLarge"
+        ],
+        "price": 6499,
+        "available": false
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Aventura2-6-8.png?v=1722313139&width=900"
   },
@@ -4561,6 +14490,106 @@ export const PRODUCTS: Product[] = [
       "Colour": "Diamondblack, Bluegreen",
       "SKU": "1000000001695"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "Small",
+          "Medium",
+          "Large",
+          "XLarge"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "Diamondblack",
+          "Bluegreen"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40839023886469",
+        "title": "Small / Diamondblack",
+        "options": [
+          "Small",
+          "Diamondblack"
+        ],
+        "price": 5499,
+        "available": false
+      },
+      {
+        "id": "40839023919237",
+        "title": "Small / Bluegreen",
+        "options": [
+          "Small",
+          "Bluegreen"
+        ],
+        "price": 5499,
+        "available": false
+      },
+      {
+        "id": "40839023952005",
+        "title": "Medium / Diamondblack",
+        "options": [
+          "Medium",
+          "Diamondblack"
+        ],
+        "price": 5499,
+        "available": false
+      },
+      {
+        "id": "40839023984773",
+        "title": "Medium / Bluegreen",
+        "options": [
+          "Medium",
+          "Bluegreen"
+        ],
+        "price": 5499,
+        "available": false
+      },
+      {
+        "id": "40839024017541",
+        "title": "Large / Diamondblack",
+        "options": [
+          "Large",
+          "Diamondblack"
+        ],
+        "price": 5499,
+        "available": false
+      },
+      {
+        "id": "40839024050309",
+        "title": "Large / Bluegreen",
+        "options": [
+          "Large",
+          "Bluegreen"
+        ],
+        "price": 5499,
+        "available": false
+      },
+      {
+        "id": "40839024083077",
+        "title": "XLarge / Diamondblack",
+        "options": [
+          "XLarge",
+          "Diamondblack"
+        ],
+        "price": 5499,
+        "available": false
+      },
+      {
+        "id": "40839024115845",
+        "title": "XLarge / Bluegreen",
+        "options": [
+          "XLarge",
+          "Bluegreen"
+        ],
+        "price": 5499,
+        "available": false
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Aventura-6-7-Green.jpg?v=1722312561&width=900"
   },
@@ -4588,6 +14617,127 @@ export const PRODUCTS: Product[] = [
       "Colour": "Dnister Black, Crimson",
       "SKU": "1000000000932"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "XS (27.5\")",
+          "S (27.5\")",
+          "M (29\")",
+          "L (29\")",
+          "XL (29\")"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "Dnister Black",
+          "Crimson"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40552565768325",
+        "title": "XS (27.5\") / Dnister Black",
+        "options": [
+          "XS (27.5\")",
+          "Dnister Black"
+        ],
+        "price": 4299,
+        "available": false
+      },
+      {
+        "id": "40552565801093",
+        "title": "S (27.5\") / Dnister Black",
+        "options": [
+          "S (27.5\")",
+          "Dnister Black"
+        ],
+        "price": 4299,
+        "available": false
+      },
+      {
+        "id": "40552565833861",
+        "title": "M (29\") / Dnister Black",
+        "options": [
+          "M (29\")",
+          "Dnister Black"
+        ],
+        "price": 4299,
+        "available": false
+      },
+      {
+        "id": "40552565866629",
+        "title": "L (29\") / Dnister Black",
+        "options": [
+          "L (29\")",
+          "Dnister Black"
+        ],
+        "price": 4299,
+        "available": false
+      },
+      {
+        "id": "40552565899397",
+        "title": "XL (29\") / Dnister Black",
+        "options": [
+          "XL (29\")",
+          "Dnister Black"
+        ],
+        "price": 4299,
+        "available": false
+      },
+      {
+        "id": "40552565932165",
+        "title": "XS (27.5\") / Crimson",
+        "options": [
+          "XS (27.5\")",
+          "Crimson"
+        ],
+        "price": 4299,
+        "available": false
+      },
+      {
+        "id": "40552565964933",
+        "title": "S (27.5\") / Crimson",
+        "options": [
+          "S (27.5\")",
+          "Crimson"
+        ],
+        "price": 4299,
+        "available": false
+      },
+      {
+        "id": "40552565997701",
+        "title": "M (29\") / Crimson",
+        "options": [
+          "M (29\")",
+          "Crimson"
+        ],
+        "price": 4299,
+        "available": false
+      },
+      {
+        "id": "40552566030469",
+        "title": "L (29\") / Crimson",
+        "options": [
+          "L (29\")",
+          "Crimson"
+        ],
+        "price": 4299,
+        "available": false
+      },
+      {
+        "id": "40552566063237",
+        "title": "XL (29\") / Crimson",
+        "options": [
+          "XL (29\")",
+          "Crimson"
+        ],
+        "price": 4299,
+        "available": false
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus6US-24-41009-B-Primary.webp?v=1710161946&width=900"
   },
@@ -4608,6 +14758,44 @@ export const PRODUCTS: Product[] = [
       "Colour": "RED",
       "SKU": "123218230123848"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "27.5\"",
+          "29\""
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "RED"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "39472163160197",
+        "title": "27.5\" / RED",
+        "options": [
+          "27.5\"",
+          "RED"
+        ],
+        "price": 3590,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/123218230123848_1.jpg?v=1680009231&width=900"
+      },
+      {
+        "id": "39472163192965",
+        "title": "29\" / RED",
+        "options": [
+          "29\"",
+          "RED"
+        ],
+        "price": 3590,
+        "available": false
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000615_1_200165e1-d367-4a1a-b499-2a4c20888195.jpg?v=1680009231&width=900"
   },
@@ -4635,6 +14823,357 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$2,079 - $2,199",
       "SKU": "20101862"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "27.5\"",
+          "29\"",
+          "26\""
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLACK",
+          "WHITE",
+          "Army Green",
+          "Black/Black",
+          "Gun Metal Silver"
+        ]
+      },
+      {
+        "name": "Assembly Package",
+        "values": [
+          "Yes",
+          "No"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "34727808532613",
+        "title": "27.5\" / BLACK / Yes",
+        "options": [
+          "27.5\"",
+          "BLACK",
+          "Yes"
+        ],
+        "price": 2199,
+        "available": false
+      },
+      {
+        "id": "41135952920709",
+        "title": "27.5\" / BLACK / No",
+        "options": [
+          "27.5\"",
+          "BLACK",
+          "No"
+        ],
+        "price": 2079,
+        "available": false
+      },
+      {
+        "id": "39437513195653",
+        "title": "27.5\" / WHITE / Yes",
+        "options": [
+          "27.5\"",
+          "WHITE",
+          "Yes"
+        ],
+        "price": 2199,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101947_1.jpg?v=1680030928&width=900"
+      },
+      {
+        "id": "41135952953477",
+        "title": "27.5\" / WHITE / No",
+        "options": [
+          "27.5\"",
+          "WHITE",
+          "No"
+        ],
+        "price": 2079,
+        "available": false
+      },
+      {
+        "id": "41058314780805",
+        "title": "27.5\" / Army Green / Yes",
+        "options": [
+          "27.5\"",
+          "Army Green",
+          "Yes"
+        ],
+        "price": 2199,
+        "available": false
+      },
+      {
+        "id": "41135952986245",
+        "title": "27.5\" / Army Green / No",
+        "options": [
+          "27.5\"",
+          "Army Green",
+          "No"
+        ],
+        "price": 2079,
+        "available": false
+      },
+      {
+        "id": "41083622916229",
+        "title": "27.5\" / Black/Black / Yes",
+        "options": [
+          "27.5\"",
+          "Black/Black",
+          "Yes"
+        ],
+        "price": 2199,
+        "available": false
+      },
+      {
+        "id": "41135953019013",
+        "title": "27.5\" / Black/Black / No",
+        "options": [
+          "27.5\"",
+          "Black/Black",
+          "No"
+        ],
+        "price": 2079,
+        "available": false
+      },
+      {
+        "id": "41135953313925",
+        "title": "27.5\" / Gun Metal Silver / Yes",
+        "options": [
+          "27.5\"",
+          "Gun Metal Silver",
+          "Yes"
+        ],
+        "price": 2199,
+        "available": false
+      },
+      {
+        "id": "41135953346693",
+        "title": "27.5\" / Gun Metal Silver / No",
+        "options": [
+          "27.5\"",
+          "Gun Metal Silver",
+          "No"
+        ],
+        "price": 2079,
+        "available": false
+      },
+      {
+        "id": "39437513228421",
+        "title": "29\" / BLACK / Yes",
+        "options": [
+          "29\"",
+          "BLACK",
+          "Yes"
+        ],
+        "price": 2199,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102432_1_d1061788-8c37-4910-8838-aafbf50056d7.jpg?v=1680030928&width=900"
+      },
+      {
+        "id": "41135953051781",
+        "title": "29\" / BLACK / No",
+        "options": [
+          "29\"",
+          "BLACK",
+          "No"
+        ],
+        "price": 2079,
+        "available": false
+      },
+      {
+        "id": "39437513261189",
+        "title": "29\" / WHITE / Yes",
+        "options": [
+          "29\"",
+          "WHITE",
+          "Yes"
+        ],
+        "price": 2199,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102869_1.jpg?v=1680030928&width=900"
+      },
+      {
+        "id": "41135953084549",
+        "title": "29\" / WHITE / No",
+        "options": [
+          "29\"",
+          "WHITE",
+          "No"
+        ],
+        "price": 2079,
+        "available": false
+      },
+      {
+        "id": "41058314813573",
+        "title": "29\" / Army Green / Yes",
+        "options": [
+          "29\"",
+          "Army Green",
+          "Yes"
+        ],
+        "price": 2199,
+        "available": false
+      },
+      {
+        "id": "41135953117317",
+        "title": "29\" / Army Green / No",
+        "options": [
+          "29\"",
+          "Army Green",
+          "No"
+        ],
+        "price": 2079,
+        "available": false
+      },
+      {
+        "id": "41083622883461",
+        "title": "29\" / Black/Black / Yes",
+        "options": [
+          "29\"",
+          "Black/Black",
+          "Yes"
+        ],
+        "price": 2199,
+        "available": false
+      },
+      {
+        "id": "41135953150085",
+        "title": "29\" / Black/Black / No",
+        "options": [
+          "29\"",
+          "Black/Black",
+          "No"
+        ],
+        "price": 2079,
+        "available": false
+      },
+      {
+        "id": "41135953379461",
+        "title": "29\" / Gun Metal Silver / Yes",
+        "options": [
+          "29\"",
+          "Gun Metal Silver",
+          "Yes"
+        ],
+        "price": 2199,
+        "available": false
+      },
+      {
+        "id": "41135953412229",
+        "title": "29\" / Gun Metal Silver / No",
+        "options": [
+          "29\"",
+          "Gun Metal Silver",
+          "No"
+        ],
+        "price": 2079,
+        "available": false
+      },
+      {
+        "id": "40233799647365",
+        "title": "26\" / BLACK / Yes",
+        "options": [
+          "26\"",
+          "BLACK",
+          "Yes"
+        ],
+        "price": 2199,
+        "available": false
+      },
+      {
+        "id": "41135953182853",
+        "title": "26\" / BLACK / No",
+        "options": [
+          "26\"",
+          "BLACK",
+          "No"
+        ],
+        "price": 2079,
+        "available": false
+      },
+      {
+        "id": "41135953215621",
+        "title": "26\" / WHITE / No",
+        "options": [
+          "26\"",
+          "WHITE",
+          "No"
+        ],
+        "price": 2079,
+        "available": false
+      },
+      {
+        "id": "41058314846341",
+        "title": "26\" / Army Green / Yes",
+        "options": [
+          "26\"",
+          "Army Green",
+          "Yes"
+        ],
+        "price": 2199,
+        "available": false
+      },
+      {
+        "id": "41135953248389",
+        "title": "26\" / Army Green / No",
+        "options": [
+          "26\"",
+          "Army Green",
+          "No"
+        ],
+        "price": 2079,
+        "available": false
+      },
+      {
+        "id": "41083622850693",
+        "title": "26\" / Black/Black / Yes",
+        "options": [
+          "26\"",
+          "Black/Black",
+          "Yes"
+        ],
+        "price": 2199,
+        "available": false
+      },
+      {
+        "id": "41135953281157",
+        "title": "26\" / Black/Black / No",
+        "options": [
+          "26\"",
+          "Black/Black",
+          "No"
+        ],
+        "price": 2079,
+        "available": false
+      },
+      {
+        "id": "41135953444997",
+        "title": "26\" / Gun Metal Silver / Yes",
+        "options": [
+          "26\"",
+          "Gun Metal Silver",
+          "Yes"
+        ],
+        "price": 2199,
+        "available": false
+      },
+      {
+        "id": "41135953477765",
+        "title": "26\" / Gun Metal Silver / No",
+        "options": [
+          "26\"",
+          "Gun Metal Silver",
+          "No"
+        ],
+        "price": 2079,
+        "available": false
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102432_1_5745152d-85fc-4814-ab49-c59d88bee1b1.jpg?v=1680030928&width=900"
   },
@@ -4664,6 +15203,168 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$1,299 - $1,499",
       "SKU": "20101718"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "27.5\"",
+          "26\"",
+          "29\""
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLACK",
+          "WHITE"
+        ]
+      },
+      {
+        "name": "Assembly Package",
+        "values": [
+          "Yes",
+          "No"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40915415269509",
+        "title": "27.5\" / BLACK / Yes",
+        "options": [
+          "27.5\"",
+          "BLACK",
+          "Yes"
+        ],
+        "price": 1499,
+        "available": false
+      },
+      {
+        "id": "41135953969285",
+        "title": "27.5\" / BLACK / No",
+        "options": [
+          "27.5\"",
+          "BLACK",
+          "No"
+        ],
+        "price": 1429,
+        "available": false
+      },
+      {
+        "id": "40915415367813",
+        "title": "27.5\" / WHITE / Yes",
+        "options": [
+          "27.5\"",
+          "WHITE",
+          "Yes"
+        ],
+        "price": 1499,
+        "available": false
+      },
+      {
+        "id": "41135954002053",
+        "title": "27.5\" / WHITE / No",
+        "options": [
+          "27.5\"",
+          "WHITE",
+          "No"
+        ],
+        "price": 1429,
+        "available": false
+      },
+      {
+        "id": "40915415302277",
+        "title": "26\" / BLACK / Yes",
+        "options": [
+          "26\"",
+          "BLACK",
+          "Yes"
+        ],
+        "price": 1499,
+        "available": false
+      },
+      {
+        "id": "41135954034821",
+        "title": "26\" / BLACK / No",
+        "options": [
+          "26\"",
+          "BLACK",
+          "No"
+        ],
+        "price": 1429,
+        "available": false
+      },
+      {
+        "id": "40915415335045",
+        "title": "26\" / WHITE / Yes",
+        "options": [
+          "26\"",
+          "WHITE",
+          "Yes"
+        ],
+        "price": 1499,
+        "available": false
+      },
+      {
+        "id": "41135954067589",
+        "title": "26\" / WHITE / No",
+        "options": [
+          "26\"",
+          "WHITE",
+          "No"
+        ],
+        "price": 1429,
+        "available": false
+      },
+      {
+        "id": "40915415400581",
+        "title": "29\" / BLACK / Yes",
+        "options": [
+          "29\"",
+          "BLACK",
+          "Yes"
+        ],
+        "price": 1299,
+        "compareAtPrice": 1499,
+        "available": false
+      },
+      {
+        "id": "41135954100357",
+        "title": "29\" / BLACK / No",
+        "options": [
+          "29\"",
+          "BLACK",
+          "No"
+        ],
+        "price": 1299,
+        "compareAtPrice": 1429,
+        "available": false
+      },
+      {
+        "id": "40915415433349",
+        "title": "29\" / WHITE / Yes",
+        "options": [
+          "29\"",
+          "WHITE",
+          "Yes"
+        ],
+        "price": 1299,
+        "compareAtPrice": 1499,
+        "available": false
+      },
+      {
+        "id": "41135954133125",
+        "title": "29\" / WHITE / No",
+        "options": [
+          "29\"",
+          "WHITE",
+          "No"
+        ],
+        "price": 1299,
+        "compareAtPrice": 1429,
+        "available": false
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/NCMEbikeprague.jpg?v=1726396624&width=900"
   },
@@ -4688,6 +15389,55 @@ export const PRODUCTS: Product[] = [
       "Size": "S, M, L, XL",
       "SKU": "1000000003531"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41230924873861",
+        "title": "S",
+        "options": [
+          "S"
+        ],
+        "price": 7499,
+        "available": false
+      },
+      {
+        "id": "41230924906629",
+        "title": "M",
+        "options": [
+          "M"
+        ],
+        "price": 7499,
+        "available": false
+      },
+      {
+        "id": "41230924939397",
+        "title": "L",
+        "options": [
+          "L"
+        ],
+        "price": 7499,
+        "available": false
+      },
+      {
+        "id": "41230924972165",
+        "title": "XL",
+        "options": [
+          "XL"
+        ],
+        "price": 7499,
+        "available": false
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/focus-aventura2-ebike-commuting-electric-bike.png?v=1748156072&width=900"
   },
@@ -4712,6 +15462,45 @@ export const PRODUCTS: Product[] = [
       "Size": "Small, Medium, Large",
       "SKU": "CDC66101U10SM"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "Small",
+          "Medium",
+          "Large"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41670048284805",
+        "title": "Small",
+        "options": [
+          "Small"
+        ],
+        "price": 5099,
+        "available": false
+      },
+      {
+        "id": "41670048317573",
+        "title": "Medium",
+        "options": [
+          "Medium"
+        ],
+        "price": 5099,
+        "available": false
+      },
+      {
+        "id": "41670048350341",
+        "title": "Large",
+        "options": [
+          "Large"
+        ],
+        "price": 5099,
+        "available": false
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Cannondale-Eq-ebike.jpg?v=1779799277&width=900"
   },
@@ -4758,6 +15547,43 @@ export const PRODUCTS: Product[] = [
       "Colour": "BLUE",
       "SKU": "601842124857"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "L",
+          "M"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLUE"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40057911410821",
+        "title": "L / BLUE",
+        "options": [
+          "L",
+          "BLUE"
+        ],
+        "price": 4199,
+        "available": false
+      },
+      {
+        "id": "40057913344133",
+        "title": "M / BLUE",
+        "options": [
+          "M",
+          "BLUE"
+        ],
+        "price": 4199,
+        "available": false
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VervePlusMensUS_20_28299_B_Primary_b8fb9453-2a1c-42f5-b199-b4739f2a9ec4.jpg?v=1680038417&width=900"
   },
@@ -4784,6 +15610,55 @@ export const PRODUCTS: Product[] = [
       "Size": "16, 18, 20, 17",
       "SKU": "1000000004954"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "16",
+          "18",
+          "20",
+          "17"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41668463722629",
+        "title": "16",
+        "options": [
+          "16"
+        ],
+        "price": 2999,
+        "available": false
+      },
+      {
+        "id": "41668463755397",
+        "title": "18",
+        "options": [
+          "18"
+        ],
+        "price": 2999,
+        "available": false
+      },
+      {
+        "id": "41668463788165",
+        "title": "20",
+        "options": [
+          "20"
+        ],
+        "price": 2999,
+        "available": false
+      },
+      {
+        "id": "41825938276485",
+        "title": "17",
+        "options": [
+          "17"
+        ],
+        "price": 2999,
+        "available": false
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDS-Advance-600-step-over-commuting-ebike.jpg?v=1779703393&width=900"
   },
@@ -4852,6 +15727,45 @@ export const PRODUCTS: Product[] = [
       "Color": "Green, Grey, Red",
       "SKU": "D663520610"
     },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Green",
+          "Grey",
+          "Red"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40931664167045",
+        "title": "Green",
+        "options": [
+          "Green"
+        ],
+        "price": 4999,
+        "available": false
+      },
+      {
+        "id": "40931664199813",
+        "title": "Grey",
+        "options": [
+          "Grey"
+        ],
+        "price": 4999,
+        "available": false
+      },
+      {
+        "id": "41233822646405",
+        "title": "Red",
+        "options": [
+          "Red"
+        ],
+        "price": 4999,
+        "available": false
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-C-B--green.png?v=1726805312&width=900"
   },
@@ -4879,6 +15793,125 @@ export const PRODUCTS: Product[] = [
       "Colour": "BLACK, BLUE, DARK RED",
       "SKU": "20103170"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "L",
+          "M"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLACK",
+          "BLUE",
+          "DARK RED"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40221288005765",
+        "title": "S / BLACK",
+        "options": [
+          "S",
+          "BLACK"
+        ],
+        "price": 4699,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaBlackE50.jpg?v=1685964494&width=900"
+      },
+      {
+        "id": "40221289676933",
+        "title": "S / BLUE",
+        "options": [
+          "S",
+          "BLUE"
+        ],
+        "price": 4699,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaBlueE50.jpg?v=1685964493&width=900"
+      },
+      {
+        "id": "40221696852101",
+        "title": "S / DARK RED",
+        "options": [
+          "S",
+          "DARK RED"
+        ],
+        "price": 4699,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaRedE50.jpg?v=1685964494&width=900"
+      },
+      {
+        "id": "40221696884869",
+        "title": "L / BLACK",
+        "options": [
+          "L",
+          "BLACK"
+        ],
+        "price": 4699,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaBlackE50.jpg?v=1685964494&width=900"
+      },
+      {
+        "id": "40221289709701",
+        "title": "L / BLUE",
+        "options": [
+          "L",
+          "BLUE"
+        ],
+        "price": 4699,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaBlueE50.jpg?v=1685964493&width=900"
+      },
+      {
+        "id": "40221696786565",
+        "title": "L / DARK RED",
+        "options": [
+          "L",
+          "DARK RED"
+        ],
+        "price": 4699,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaRedE50.jpg?v=1685964494&width=900"
+      },
+      {
+        "id": "40221696917637",
+        "title": "M / BLACK",
+        "options": [
+          "M",
+          "BLACK"
+        ],
+        "price": 4699,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaBlackE50.jpg?v=1685964494&width=900"
+      },
+      {
+        "id": "40221696753797",
+        "title": "M / BLUE",
+        "options": [
+          "M",
+          "BLUE"
+        ],
+        "price": 4699,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaBlueE50.jpg?v=1685964493&width=900"
+      },
+      {
+        "id": "40221696819333",
+        "title": "M / DARK RED",
+        "options": [
+          "M",
+          "DARK RED"
+        ],
+        "price": 4699,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaRedE50.jpg?v=1685964494&width=900"
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaBlackE50.jpg?v=1685964494&width=900"
   },
@@ -4906,6 +15939,64 @@ export const PRODUCTS: Product[] = [
       "Colour": "Teal, Forest Green",
       "SKU": "1000000003393"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "15",
+          "17"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "Teal",
+          "Forest Green"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41668463558789",
+        "title": "15 / Teal",
+        "options": [
+          "15",
+          "Teal"
+        ],
+        "price": 2999,
+        "available": false
+      },
+      {
+        "id": "41668463591557",
+        "title": "15 / Forest Green",
+        "options": [
+          "15",
+          "Forest Green"
+        ],
+        "price": 2999,
+        "available": false
+      },
+      {
+        "id": "41668463624325",
+        "title": "17 / Teal",
+        "options": [
+          "17",
+          "Teal"
+        ],
+        "price": 2999,
+        "available": false
+      },
+      {
+        "id": "41668463657093",
+        "title": "17 / Forest Green",
+        "options": [
+          "17",
+          "Forest Green"
+        ],
+        "price": 2999,
+        "available": false
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDS-Advance-600-step-through.jpg?v=1779703102&width=900"
   },
@@ -4932,6 +16023,35 @@ export const PRODUCTS: Product[] = [
       "Size": "15inch, 17inch",
       "SKU": "1000000003541"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "15inch",
+          "17inch"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41230976024709",
+        "title": "15inch",
+        "options": [
+          "15inch"
+        ],
+        "price": 2999,
+        "available": false
+      },
+      {
+        "id": "41230976057477",
+        "title": "17inch",
+        "options": [
+          "17inch"
+        ],
+        "price": 2999,
+        "available": false
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDS-E-Street-step-through-ebike.jpg?v=1748172223&width=900"
   },
@@ -4952,6 +16072,81 @@ export const PRODUCTS: Product[] = [
       "Colour": "CITRON, LUNAR GREY, TAHITI BLUE, MANGO, GUAVA",
       "SKU": "601842602133"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "26\""
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "CITRON",
+          "LUNAR GREY",
+          "TAHITI BLUE",
+          "MANGO",
+          "GUAVA"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "39693970669701",
+        "title": "26\" / CITRON",
+        "options": [
+          "26\"",
+          "CITRON"
+        ],
+        "price": 2399,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190057_1_8dbdc1fc-6705-48b9-a9fc-392cea3a0ac2.jpg?v=1680010268&width=900"
+      },
+      {
+        "id": "39693970702469",
+        "title": "26\" / LUNAR GREY",
+        "options": [
+          "26\"",
+          "LUNAR GREY"
+        ],
+        "price": 2399,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190002_1.jpg?v=1680010268&width=900"
+      },
+      {
+        "id": "39693970735237",
+        "title": "26\" / TAHITI BLUE",
+        "options": [
+          "26\"",
+          "TAHITI BLUE"
+        ],
+        "price": 2399,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190019_1.jpg?v=1680010268&width=900"
+      },
+      {
+        "id": "39695136620677",
+        "title": "26\" / MANGO",
+        "options": [
+          "26\"",
+          "MANGO"
+        ],
+        "price": 2399,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190712_1.jpg?v=1680010268&width=900"
+      },
+      {
+        "id": "39695136653445",
+        "title": "26\" / GUAVA",
+        "options": [
+          "26\"",
+          "GUAVA"
+        ],
+        "price": 2399,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190729_1.jpg?v=1680010268&width=900"
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190019_1_412ae696-24b8-459c-b40e-2e8fdb24cf09.jpg?v=1680010268&width=900"
   },
@@ -4981,6 +16176,36 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$1,999 - $2,999",
       "SKU": "1000000001303"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "15\"",
+          "17\""
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41668468768901",
+        "title": "15\"",
+        "options": [
+          "15\""
+        ],
+        "price": 2999,
+        "available": false
+      },
+      {
+        "id": "41668468801669",
+        "title": "17\"",
+        "options": [
+          "17\""
+        ],
+        "price": 1999,
+        "compareAtPrice": 2999,
+        "available": false
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDS-Espresso-S2.jpg?v=1779703774&width=900"
   },
@@ -5007,6 +16232,35 @@ export const PRODUCTS: Product[] = [
       "Colour": "Black, White",
       "SKU": "1000000002344"
     },
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Black",
+          "White"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "40915444957317",
+        "title": "Black",
+        "options": [
+          "Black"
+        ],
+        "price": 1799,
+        "available": false
+      },
+      {
+        "id": "40915444990085",
+        "title": "White",
+        "options": [
+          "White"
+        ],
+        "price": 1799,
+        "available": false
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/T3s-NCM-Ebike.jpg?v=1726233306&width=900"
   },
@@ -5026,6 +16280,45 @@ export const PRODUCTS: Product[] = [
       "Colour": "WHITE",
       "SKU": "20103637"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "26\"",
+          "28\""
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "WHITE"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "39437512802437",
+        "title": "26\" / WHITE",
+        "options": [
+          "26\"",
+          "WHITE"
+        ],
+        "price": 1499,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103637_1_822b4c02-bbcc-4c7e-865e-e57a89674de3.jpg?v=1680030866&width=900"
+      },
+      {
+        "id": "39437512835205",
+        "title": "28\" / WHITE",
+        "options": [
+          "28\"",
+          "WHITE"
+        ],
+        "price": 1499,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103804_1.jpg?v=1680030866&width=900"
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103637_1_a5ad7e7e-c207-4102-ae29-92c411728a43.jpg?v=1680030866&width=900"
   },
@@ -5054,6 +16347,209 @@ export const PRODUCTS: Product[] = [
       "Price Range": "$3,000 - $3,320",
       "SKU": "20197643"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "STEP-OVER",
+          "STEP-THRU"
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLACK",
+          "GREY",
+          "RED",
+          "BLUE"
+        ]
+      },
+      {
+        "name": "Suspension",
+        "values": [
+          "Suspension",
+          "Rigid Fork"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41479162265733",
+        "title": "STEP-OVER / BLACK / Suspension",
+        "options": [
+          "STEP-OVER",
+          "BLACK",
+          "Suspension"
+        ],
+        "price": 3320,
+        "available": false
+      },
+      {
+        "id": "41479162298501",
+        "title": "STEP-OVER / BLACK / Rigid Fork",
+        "options": [
+          "STEP-OVER",
+          "BLACK",
+          "Rigid Fork"
+        ],
+        "price": 3000,
+        "available": false
+      },
+      {
+        "id": "41479162331269",
+        "title": "STEP-OVER / GREY / Suspension",
+        "options": [
+          "STEP-OVER",
+          "GREY",
+          "Suspension"
+        ],
+        "price": 3320,
+        "available": false
+      },
+      {
+        "id": "41479162364037",
+        "title": "STEP-OVER / GREY / Rigid Fork",
+        "options": [
+          "STEP-OVER",
+          "GREY",
+          "Rigid Fork"
+        ],
+        "price": 3000,
+        "available": false
+      },
+      {
+        "id": "41479162396805",
+        "title": "STEP-OVER / RED / Suspension",
+        "options": [
+          "STEP-OVER",
+          "RED",
+          "Suspension"
+        ],
+        "price": 3320,
+        "available": false
+      },
+      {
+        "id": "41479162429573",
+        "title": "STEP-OVER / RED / Rigid Fork",
+        "options": [
+          "STEP-OVER",
+          "RED",
+          "Rigid Fork"
+        ],
+        "price": 3000,
+        "available": false
+      },
+      {
+        "id": "41479162462341",
+        "title": "STEP-OVER / BLUE / Suspension",
+        "options": [
+          "STEP-OVER",
+          "BLUE",
+          "Suspension"
+        ],
+        "price": 3320,
+        "available": false
+      },
+      {
+        "id": "41479162495109",
+        "title": "STEP-OVER / BLUE / Rigid Fork",
+        "options": [
+          "STEP-OVER",
+          "BLUE",
+          "Rigid Fork"
+        ],
+        "price": 3000,
+        "available": false
+      },
+      {
+        "id": "41479162527877",
+        "title": "STEP-THRU / BLACK / Suspension",
+        "options": [
+          "STEP-THRU",
+          "BLACK",
+          "Suspension"
+        ],
+        "price": 3320,
+        "available": false
+      },
+      {
+        "id": "41479162560645",
+        "title": "STEP-THRU / BLACK / Rigid Fork",
+        "options": [
+          "STEP-THRU",
+          "BLACK",
+          "Rigid Fork"
+        ],
+        "price": 3000,
+        "available": false
+      },
+      {
+        "id": "41479162593413",
+        "title": "STEP-THRU / GREY / Suspension",
+        "options": [
+          "STEP-THRU",
+          "GREY",
+          "Suspension"
+        ],
+        "price": 3320,
+        "available": false
+      },
+      {
+        "id": "41479162626181",
+        "title": "STEP-THRU / GREY / Rigid Fork",
+        "options": [
+          "STEP-THRU",
+          "GREY",
+          "Rigid Fork"
+        ],
+        "price": 3000,
+        "available": false
+      },
+      {
+        "id": "41479162658949",
+        "title": "STEP-THRU / RED / Suspension",
+        "options": [
+          "STEP-THRU",
+          "RED",
+          "Suspension"
+        ],
+        "price": 3320,
+        "available": false
+      },
+      {
+        "id": "41479162691717",
+        "title": "STEP-THRU / RED / Rigid Fork",
+        "options": [
+          "STEP-THRU",
+          "RED",
+          "Rigid Fork"
+        ],
+        "price": 3000,
+        "available": false
+      },
+      {
+        "id": "41479162724485",
+        "title": "STEP-THRU / BLUE / Suspension",
+        "options": [
+          "STEP-THRU",
+          "BLUE",
+          "Suspension"
+        ],
+        "price": 3320,
+        "available": false
+      },
+      {
+        "id": "41479162757253",
+        "title": "STEP-THRU / BLUE / Rigid Fork",
+        "options": [
+          "STEP-THRU",
+          "BLUE",
+          "Rigid Fork"
+        ],
+        "price": 3000,
+        "available": false
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/7257462716571--DiroDi-Rover-Standard---Plus-Gen-6--Black--Standard--Step-Thru--250W-500W.jpg?v=1767319525&width=900"
   },
@@ -5130,6 +16626,45 @@ export const PRODUCTS: Product[] = [
       "Colour": "RED, SILVER",
       "SKU": "20187200"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "16\""
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "RED",
+          "SILVER"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "39472167288965",
+        "title": "16\" / RED",
+        "options": [
+          "16\"",
+          "RED"
+        ],
+        "price": 2249,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187200_1.jpg?v=1680038981&width=900"
+      },
+      {
+        "id": "39472167321733",
+        "title": "16\" / SILVER",
+        "options": [
+          "16\"",
+          "SILVER"
+        ],
+        "price": 2249,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187217_1.jpg?v=1680038981&width=900"
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187217_1.jpg?v=1680038981&width=900"
   },
@@ -5149,6 +16684,45 @@ export const PRODUCTS: Product[] = [
       "Colour": "BLACK, WHITE",
       "SKU": "20103187"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "20\""
+        ]
+      },
+      {
+        "name": "Colour",
+        "values": [
+          "BLACK",
+          "WHITE"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "39346843680901",
+        "title": "20\" / BLACK",
+        "options": [
+          "20\"",
+          "BLACK"
+        ],
+        "price": 2199,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/9003180000.jpg?v=1680030173&width=900"
+      },
+      {
+        "id": "39347274317957",
+        "title": "20\" / WHITE",
+        "options": [
+          "20\"",
+          "WHITE"
+        ],
+        "price": 2199,
+        "available": false,
+        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londonplus_650796fb-7e5b-4768-82c5-ddad288e9c36.jpg?v=1680030173&width=900"
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londonplus_650796fb-7e5b-4768-82c5-ddad288e9c36.jpg?v=1680030173&width=900"
   },
@@ -5168,6 +16742,55 @@ export const PRODUCTS: Product[] = [
       "Size": "Small, Medium, Large, Extra Large",
       "SKU": "1000000000454"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "Small",
+          "Medium",
+          "Large",
+          "Extra Large"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41424225992837",
+        "title": "Small",
+        "options": [
+          "Small"
+        ],
+        "price": 5949,
+        "available": false
+      },
+      {
+        "id": "41424226025605",
+        "title": "Medium",
+        "options": [
+          "Medium"
+        ],
+        "price": 5949,
+        "available": false
+      },
+      {
+        "id": "41424226058373",
+        "title": "Large",
+        "options": [
+          "Large"
+        ],
+        "price": 5949,
+        "available": false
+      },
+      {
+        "id": "41424226091141",
+        "title": "Extra Large",
+        "options": [
+          "Extra Large"
+        ],
+        "price": 5949,
+        "available": false
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/YRBM6IXLIG_5-gravel.jpg?v=1762867722&width=900"
   },
@@ -5239,6 +16862,45 @@ export const PRODUCTS: Product[] = [
       "Color": "Blue, Green, Black",
       "SKU": "1000000003970"
     },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Blue",
+          "Green",
+          "Black"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "41501962698885",
+        "title": "Blue",
+        "options": [
+          "Blue"
+        ],
+        "price": 3999,
+        "available": false
+      },
+      {
+        "id": "41505392754821",
+        "title": "Green",
+        "options": [
+          "Green"
+        ],
+        "price": 3999,
+        "available": false
+      },
+      {
+        "id": "41505392787589",
+        "title": "Black",
+        "options": [
+          "Black"
+        ],
+        "price": 3999,
+        "available": false
+      }
+    ],
     "inStock": false,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/20250218_044412099_iOS-removebg-preview.png?v=1769490604&width=900"
   },
@@ -5577,6 +17239,45 @@ export const PRODUCTS: Product[] = [
       "Size": "Small, Medium, Large",
       "SKU": "4260477061034"
     },
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "Small",
+          "Medium",
+          "Large"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "34804395868293",
+        "title": "Small",
+        "options": [
+          "Small"
+        ],
+        "price": 110,
+        "available": false
+      },
+      {
+        "id": "40994921250949",
+        "title": "Medium",
+        "options": [
+          "Medium"
+        ],
+        "price": 110,
+        "available": false
+      },
+      {
+        "id": "40994921283717",
+        "title": "Large",
+        "options": [
+          "Large"
+        ],
+        "price": 110,
+        "available": false
+      }
+    ],
     "inStock": false,
     "imageUrl": ""
   },

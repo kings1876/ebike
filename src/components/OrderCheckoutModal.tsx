@@ -144,9 +144,9 @@ export const OrderCheckoutModal: React.FC<OrderCheckoutModalProps> = ({
               </div>
               <div className="space-y-1.5 max-h-28 overflow-y-auto pr-1">
                 {cart.map((item) => (
-                  <div key={item.product.id} className="flex justify-between text-slate-600">
+                  <div key={item.lineId} className="flex justify-between text-slate-600">
                     <span className="truncate pr-2">
-                      {item.quantity}x {item.product.name}
+                      {item.quantity}x {item.product.name}{item.variantTitle ? ` (${item.variantTitle})` : ''}
                     </span>
                     <span className="font-mono tabular-nums font-medium text-slate-900 shrink-0">
                       ${(item.product.price * item.quantity).toLocaleString()}

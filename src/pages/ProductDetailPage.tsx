@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { PRODUCTS } from '../data/products';
+import { VariantPicker } from '../components/VariantPicker';
+import { hasVariants, defaultSelection, findVariant } from '../data/variants';
 import { ProductImage } from '../components/ProductImage';
 import { ProductCard } from '../components/ProductCard';
 import { useCart } from '../context/CartContext';
@@ -14,7 +16,17 @@ export const ProductDetailPage: React.FC = () => {
   const [quantity, setQuantity] = useState(1);
   const [activeTab, setActiveTab] = useState<'specs' | 'features' | 'shipping'>('specs');
 
-  const product = PRODUCTS.find((p) => p.id === productId);
+  const baseProduct = PRODUCTS.find((p) => p.id === productId);
+  const [selection, setSelection] = useState<string[]>(() => (baseProduct ? defaultSelection(baseProduct) : []));
+  useEffect(() => {
+    setSelection(baseProduct ? defaultSelection(baseProduct) : []);
+    setQuantity(1);
+  }, [productId]);
+  const variant = baseProduct ? findVariant(baseProduct, selection) : undefined;
+  // Price, image and stock follow the selected variant
+  const product = baseProduct && variant
+    ? { ...baseProduct, price: variant.price, originalPrice: variant.compareAtPrice, imageUrl: variant.image ?? baseProduct.imageUrl, inStock: variant.available }
+    : baseProduct;
 
   if (!product) {
     return (
@@ -36,7 +48,8 @@ export const ProductDetailPage: React.FC = () => {
   const relatedProducts = PRODUCTS.filter((p) => p.category === product.category && p.id !== product.id).slice(0, 3);
 
   const handleBuyNow = () => {
-    addToCart(product, quantity);
+    if (!product.inStock) return;
+    addToCart(baseProduct!, quantity, variant);
     navigate('/checkout');
   };
 
@@ -247,6 +260,13 @@ export const ProductDetailPage: React.FC = () => {
             )}
           </div>
 
+          {/* Variant picker */}
+          {baseProduct && hasVariants(baseProduct) && (
+            <div className="pb-4">
+              <VariantPicker product={baseProduct} selection={selection} onChange={setSelection} />
+            </div>
+          )}
+
           {/* Quantity and Actions */}
           <div className="space-y-3 pt-4 border-t border-slate-200 mt-auto">
             <div className="flex items-center gap-3">
@@ -271,11 +291,12 @@ export const ProductDetailPage: React.FC = () => {
               </div>
 
               <button
-                onClick={() => addToCart(product, quantity)}
+                disabled={!product.inStock}
+                onClick={() => addToCart(baseProduct!, quantity, variant)}
                 className="flex-1 py-3 px-4 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-lg transition-colors flex items-center justify-center gap-2 cursor-pointer text-xs sm:text-sm shadow-md active:scale-95"
               >
                 <ShoppingBag className="w-4 h-4" />
-                <span>Add to Cart · ${(product.price * quantity).toLocaleString()}</span>
+                <span>{product.inStock ? `Add to Cart · $${(product.price * quantity).toLocaleString()}` : 'Sold Out'}</span>
               </button>
             </div>
 

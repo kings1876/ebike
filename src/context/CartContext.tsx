@@ -1,11 +1,11 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { CartItem, Product } from '../types';
+import { CartItem, Product, ProductVariant } from '../types';
 
 interface CartContextType {
   cart: CartItem[];
-  addToCart: (product: Product, quantity?: number) => void;
-  updateQuantity: (productId: string, quantity: number) => void;
-  removeFromCart: (productId: string) => void;
+  addToCart: (product: Product, quantity?: number, variant?: ProductVariant) => void;
+  updateQuantity: (lineId: string, quantity: number) => void;
+  removeFromCart: (lineId: string) => void;
   clearCart: () => void;
   totalCount: number;
   subtotal: number;
@@ -22,7 +22,8 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [cart, setCart] = useState<CartItem[]>(() => {
     try {
       const saved = localStorage.getItem('ebikes_cart');
-      return saved ? JSON.parse(saved) : [];
+      // Carts saved before variants existed have no lineId
+      return saved ? (JSON.parse(saved) as CartItem[]).map(i => ({ ...i, lineId: i.lineId ?? i.product.id })) : [];
     } catch {
       return [];
     }
@@ -38,35 +39,51 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }
   }, [cart]);
 
-  const addToCart = (product: Product, quantity = 1) => {
+  const addToCart = (product: Product, quantity = 1, variant?: ProductVariant) => {
+    const lineId = variant ? product.id + ':' + variant.id : product.id;
     setCart((prev) => {
-      const existing = prev.find((item) => item.product.id === product.id);
+      const existing = prev.find((item) => item.lineId === lineId);
       if (existing) {
         return prev.map((item) =>
-          item.product.id === product.id
-            ? { ...item, quantity: item.quantity + quantity }
-            : item
+          item.lineId === lineId ? { ...item, quantity: item.quantity + quantity } : item
         );
       }
-      return [...prev, { product, quantity }];
+      const line: CartItem = variant
+        ? {
+            lineId,
+            variantId: variant.id,
+            variantTitle: variant.title,
+            product: {
+              ...product,
+              price: variant.price,
+              originalPrice: variant.compareAtPrice,
+              imageUrl: variant.image ?? product.imageUrl,
+              // keep the stored cart small: the full variant list is not needed once chosen
+              options: undefined,
+              variants: undefined,
+            },
+            quantity,
+          }
+        : { lineId, product, quantity };
+      return [...prev, line];
     });
     setIsCartDrawerOpen(true);
   };
 
-  const updateQuantity = (productId: string, quantity: number) => {
+  const updateQuantity = (lineId: string, quantity: number) => {
     if (quantity <= 0) {
-      removeFromCart(productId);
+      removeFromCart(lineId);
       return;
     }
     setCart((prev) =>
       prev.map((item) =>
-        item.product.id === productId ? { ...item, quantity } : item
+        item.lineId === lineId ? { ...item, quantity } : item
       )
     );
   };
 
-  const removeFromCart = (productId: string) => {
-    setCart((prev) => prev.filter((item) => item.product.id !== productId));
+  const removeFromCart = (lineId: string) => {
+    setCart((prev) => prev.filter((item) => item.lineId !== lineId));
   };
 
   const clearCart = () => {

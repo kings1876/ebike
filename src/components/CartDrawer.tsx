@@ -75,7 +75,7 @@ export const CartDrawer: React.FC = () => {
             ) : (
               cart.map((item) => (
                 <div
-                  key={item.product.id}
+                  key={item.lineId}
                   className="flex gap-4 p-3 rounded-xl border border-slate-200/80 bg-slate-50/50"
                 >
                   <Link
@@ -99,7 +99,7 @@ export const CartDrawer: React.FC = () => {
                         </Link>
                       </h4>
                       <button
-                        onClick={() => removeFromCart(item.product.id)}
+                        onClick={() => removeFromCart(item.lineId)}
                         className="text-slate-400 hover:text-red-600 p-1 transition-colors cursor-pointer"
                         title="Remove item"
                       >
@@ -108,14 +108,14 @@ export const CartDrawer: React.FC = () => {
                     </div>
 
                     <div className="text-[11px] text-slate-500 line-clamp-1 mt-0.5">
-                      {item.product.subcategory}
+                      {item.variantTitle ? item.variantTitle : item.product.subcategory}
                     </div>
 
                     <div className="flex items-center justify-between mt-3">
                       <div className="flex items-center border border-slate-300 rounded-md bg-white">
                         <button
                           type="button"
-                          onClick={() => updateQuantity(item.product.id, item.quantity - 1)}
+                          onClick={() => updateQuantity(item.lineId, item.quantity - 1)}
                           className="px-2 py-0.5 text-xs text-slate-600 hover:bg-slate-100 cursor-pointer"
                         >
                           -
@@ -125,7 +125,7 @@ export const CartDrawer: React.FC = () => {
                         </span>
                         <button
                           type="button"
-                          onClick={() => updateQuantity(item.product.id, item.quantity + 1)}
+                          onClick={() => updateQuantity(item.lineId, item.quantity + 1)}
                           className="px-2 py-0.5 text-xs text-slate-600 hover:bg-slate-100 cursor-pointer"
                         >
                           +
