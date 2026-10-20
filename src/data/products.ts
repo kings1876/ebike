@@ -111,7 +111,13 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Trail & Off-Road"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Vam2-88.jpg?v=1748154994&width=900",
+      "/images/products/focus-vam2-sl-99-2.webp",
+      "/images/products/focus-vam2-sl-99-3.webp",
+      "/images/products/focus-vam2-sl-99-4.webp"
+    ]
   },
   {
     "id": "orbea-rise-h30-blue-grey-large",
@@ -327,7 +333,13 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Trail & Off-Road"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Thron-6-9-cream.jpg?v=1726711228&width=900",
+      "/images/products/focus-thron2-69-cremewhite-2.webp",
+      "/images/products/focus-thron2-69-cremewhite-3.webp",
+      "/images/products/focus-thron2-69-cremewhite-4.webp"
+    ]
   },
   {
     "id": "focus-jam-69",
@@ -920,7 +932,13 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Trail & Off-Road"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/jam_8.7.png?v=1761117237&width=900",
+      "/images/products/focus-jam2-87-2.webp",
+      "/images/products/focus-jam2-87-3.webp",
+      "/images/products/focus-jam2-87-4.webp"
+    ]
   },
   {
     "id": "f24-focus-jam2-sl",
@@ -1278,7 +1296,13 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Trail & Off-Road"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FocusJarifa6.8.png?v=1726716951&width=900",
+      "/images/products/focus-jarifa-68-xl-goldbrown-2.webp",
+      "/images/products/focus-jarifa-68-xl-goldbrown-3.webp",
+      "/images/products/focus-jarifa-68-xl-goldbrown-4.webp"
+    ]
   },
   {
     "id": "trek-rail-5",
@@ -3607,7 +3631,11 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Touring & Adventure"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/K23ENDEAVOUR7.BMOVE_750WHebiketechgreenkalkhoss.jpg?v=1684407432&width=900",
+      "/images/products/kalkoff-endeavour-7b-move-750w-2.webp"
+    ]
   },
   {
     "id": "kalkhoff-entice-7b-move-750-wh",
@@ -4132,7 +4160,11 @@ export const PRODUCTS: Product[] = [
         "Commuting",
         "Fitness & Sport"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-lb-light-weight-ebike-with-belt-drive-system.jpg?v=1748527286&width=900",
+      "/images/products/kalkhoff-image-lb-advance-400wh-2.webp"
+    ]
   },
   {
     "id": "kalkhoff-endeavour-lb-excite-1",
@@ -5806,7 +5838,11 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Touring & Adventure"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-1B-electric-bike-German-Made-high-quality-ebike.png?v=1748526066&width=900",
+      "/images/products/entice-1b-move-545wh-2.webp"
+    ]
   },
   {
     "id": "endeavour-1b-move-545wh-diamon",
@@ -5911,7 +5947,11 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Touring & Adventure"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/KalkhoffEntice1.bmovesilver.png?v=1689809553&width=900",
+      "/images/products/entice-1-b-move-545wh-2.webp"
+    ]
   },
   {
     "id": "smartmotion-pacer-gt",
@@ -8009,7 +8049,15 @@ export const PRODUCTS: Product[] = [
         "Commuting",
         "Fitness & Sport"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Trek-Verve.jpg?v=1779799678&width=900",
+      "/images/products/trek-verve-2.webp",
+      "/images/products/trek-verve-3.webp",
+      "/images/products/trek-verve-4.webp",
+      "/images/products/trek-verve-5.webp",
+      "/images/products/trek-verve-6.webp"
+    ]
   },
   {
     "id": "fatfish-og-20-fat-tyre-e-bike",
@@ -16155,7 +16203,12 @@ export const PRODUCTS: Product[] = [
       "Model": "567851"
     },
     "inStock": true,
-    "imageUrl": "/images/products/kryptonite-new-u-keeper-standard-u-lock.webp"
+    "imageUrl": "/images/products/kryptonite-new-u-keeper-standard-u-lock.webp",
+    "images": [
+      "/images/products/kryptonite-new-u-keeper-standard-u-lock.webp",
+      "/images/products/kryptonite-new-u-keeper-standard-u-lock-2.webp",
+      "/images/products/kryptonite-new-u-keeper-standard-u-lock-3.webp"
+    ]
   },
   {
     "id": "onguard-ebike-8003e-pitbull-std-u-lock",
@@ -16398,7 +16451,13 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Trail & Off-Road"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Sam-6-0.png?v=1768971741&width=900",
+      "/images/products/focus-sam-60-ltd-my26-2.webp",
+      "/images/products/focus-sam-60-ltd-my26-3.webp",
+      "/images/products/focus-sam-60-ltd-my26-4.webp"
+    ]
   },
   {
     "id": "f24-focus-thron2-68eqp-med",
@@ -16430,7 +16489,13 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Trail & Off-Road"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FocusThron26.8Eqp.jpg?v=1726718730&width=900",
+      "/images/products/f24-focus-thron2-68eqp-med-2.webp",
+      "/images/products/f24-focus-thron2-68eqp-med-3.webp",
+      "/images/products/f24-focus-thron2-68eqp-med-4.webp"
+    ]
   },
   {
     "id": "marlin-6",
@@ -17341,7 +17406,14 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Touring & Adventure"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/focus-aventura2-ebike-commuting-electric-bike.png?v=1748156072&width=900",
+      "/images/products/focus-aventura2-69-2.webp",
+      "/images/products/focus-aventura2-69-3.webp",
+      "/images/products/focus-aventura2-69-4.webp",
+      "/images/products/focus-aventura2-69-5.webp"
+    ]
   },
   {
     "id": "f24-focus-aventura2-68-grey-750wh",
@@ -17422,7 +17494,13 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Touring & Adventure"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Aventura2-6-8.png?v=1722313139&width=900",
+      "/images/products/f24-focus-aventura2-68-grey-750wh-2.webp",
+      "/images/products/f24-focus-aventura2-68-grey-750wh-3.webp",
+      "/images/products/f24-focus-aventura2-68-grey-750wh-4.webp"
+    ]
   },
   {
     "id": "f24-focus-aventura2-67",
@@ -17630,7 +17708,11 @@ export const PRODUCTS: Product[] = [
         "Commuting",
         "Fitness & Sport"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Cannondale-Eq-ebike.jpg?v=1779799277&width=900",
+      "/images/products/cannondale-tesoro-neo-sl-eq-bpl-sm-2.webp"
+    ]
   },
   {
     "id": "kalkhoff-endeavour-cb-grey",
@@ -17700,7 +17782,12 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Touring & Adventure"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-C-B--green.png?v=1726805312&width=900",
+      "/images/products/kalkhoff-endeavour-cb-grey-2.webp",
+      "/images/products/kalkhoff-endeavour-cb-grey-3.webp"
+    ]
   },
   {
     "id": "bianchi-e-omnia-ttype-nex-5-625-wh",
@@ -17995,7 +18082,7 @@ export const PRODUCTS: Product[] = [
       "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VervePlusMensUS_20_28299_B_Primary_b8fb9453-2a1c-42f5-b199-b4739f2a9ec4.jpg?v=1680038417&width=900",
       "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VervePlusMensUS_20_28299_B_Primary.jpg?v=1680038417&width=900"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VervePlusMensUS_20_28299_B_Primary_b8fb9453-2a1c-42f5-b199-b4739f2a9ec4.jpg?v=1680038417&width=900",
+    "imageUrl": "/images/products/trek-verve-2.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -19182,7 +19269,15 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Leisure & Comfort"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Scoobo_plus_seitlich.png?v=1714354706&width=900",
+      "/images/products/pfautec-scoobo-trike-2.webp",
+      "/images/products/pfautec-scoobo-trike-3.webp",
+      "/images/products/pfautec-scoobo-trike-4.webp",
+      "/images/products/pfautec-scoobo-trike-5.webp",
+      "/images/products/pfautec-scoobo-trike-6.webp"
+    ]
   },
   {
     "id": "ryder-drover",
@@ -19461,7 +19556,11 @@ export const PRODUCTS: Product[] = [
       "Availability": "In-store only"
     },
     "inStock": false,
-    "imageUrl": "/images/products/hyena-gen-2-in-tube-250wh-battery.webp"
+    "imageUrl": "/images/products/hyena-gen-2-in-tube-250wh-battery.webp",
+    "images": [
+      "/images/products/hyena-gen-2-in-tube-250wh-battery.webp",
+      "/images/products/hyena-gen-2-in-tube-250wh-battery-2.webp"
+    ]
   },
   {
     "id": "suspesion-seatpost-by-schulz-g-2-st-parallelogram-suspension-black",
@@ -19637,7 +19736,14 @@ export const PRODUCTS: Product[] = [
       "SKU": "601842192672"
     },
     "inStock": false,
-    "imageUrl": "/images/products/bontrager-solstice-mips-bike-helmet.webp"
+    "imageUrl": "/images/products/bontrager-solstice-mips-bike-helmet.webp",
+    "images": [
+      "/images/products/bontrager-solstice-mips-bike-helmet.webp",
+      "/images/products/bontrager-solstice-mips-bike-helmet-2.webp",
+      "/images/products/bontrager-solstice-mips-bike-helmet-3.webp",
+      "/images/products/bontrager-solstice-mips-bike-helmet-4.webp",
+      "/images/products/bontrager-solstice-mips-bike-helmet-5.webp"
+    ]
   },
   {
     "id": "ergons-gp5-grips",
