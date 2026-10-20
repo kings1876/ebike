@@ -9522,7 +9522,14 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Leisure & Comfort"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/CRUZE.jpg?v=1686201902&width=900",
+      "/images/products/rilu-cruze-2.webp",
+      "/images/products/rilu-cruze-3.webp",
+      "/images/products/rilu-cruze-4.webp",
+      "/images/products/rilu-cruze-5.webp"
+    ]
   },
   {
     "id": "rilu-onyx",
@@ -13770,7 +13777,11 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Family & Cargo"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/Blue-amigo-vamos.jpg?v=1704754247&width=900",
+      "/images/products/vamos-el-amigo-cargo-bike-2.webp"
+    ]
   },
   {
     "id": "wombat-sport-g3",
@@ -14339,7 +14350,15 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Family & Cargo"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/tribe-longtail-aqua.png?v=1709340565&width=900",
+      "/images/products/tribe-evamos-longtail-2.webp",
+      "/images/products/tribe-evamos-longtail-3.webp",
+      "/images/products/tribe-evamos-longtail-4.webp",
+      "/images/products/tribe-evamos-longtail-5.webp",
+      "/images/products/tribe-evamos-longtail-6.webp"
+    ]
   },
   {
     "id": "quick-haul-p9-performance",
@@ -15024,7 +15043,11 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Leisure & Comfort"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Vamos_Papa_Grande_Pro_-_3_Wheel_E-Trike.png?v=1790054119&width=900",
+      "/images/products/papa-grande-pro-2024-3-wheel-e-trike-2.webp"
+    ]
   },
   {
     "id": "tribe-cargo-electric-plus",
@@ -15262,7 +15285,12 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Leisure & Comfort"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/Tribe-Original-Black-black.png?v=1709339189&width=900",
+      "/images/products/tribe-cargo-electric-plus-2.webp",
+      "/images/products/tribe-cargo-electric-plus-3.webp"
+    ]
   },
   {
     "id": "ezee-ryder-carro-trike",
@@ -15941,7 +15969,13 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000000802"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/Tribe-Acc-pic-1.jpg?v=1709097267&width=900"
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/Tribe-Acc-pic-1.jpg?v=1709097267&width=900",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/Tribe-Acc-pic-1.jpg?v=1709097267&width=900",
+      "/images/products/tribe-evamos-accessory-bundle-2.webp",
+      "/images/products/tribe-evamos-accessory-bundle-3.webp",
+      "/images/products/tribe-evamos-accessory-bundle-4.webp"
+    ]
   },
   {
     "id": "tq-hpr50-4a-charger-au-nz-cable",
@@ -16178,7 +16212,14 @@ export const PRODUCTS: Product[] = [
       "SKU": "5400974015522"
     },
     "inStock": true,
-    "imageUrl": "/images/products/helmet-lazer-led-universal-all-helmets.webp"
+    "imageUrl": "/images/products/helmet-lazer-led-universal-all-helmets.webp",
+    "images": [
+      "/images/products/helmet-lazer-led-universal-all-helmets.webp",
+      "/images/products/helmet-lazer-led-universal-all-helmets-2.webp",
+      "/images/products/helmet-lazer-led-universal-all-helmets-3.webp",
+      "/images/products/helmet-lazer-led-universal-all-helmets-4.webp",
+      "/images/products/helmet-lazer-led-universal-all-helmets-5.webp"
+    ]
   },
   {
     "id": "bbb-pump-windgun-s",
@@ -16218,7 +16259,11 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000001637"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/schwalbe-kojax-tyre.jpg?v=1785541608&width=900"
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/schwalbe-kojax-tyre.jpg?v=1785541608&width=900",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/schwalbe-kojax-tyre.jpg?v=1785541608&width=900",
+      "/images/products/schwalbe-kojak-16x1-14-perf-race-guard-2.webp"
+    ]
   },
   {
     "id": "tribe-seat-pad",
@@ -16235,7 +16280,11 @@ export const PRODUCTS: Product[] = [
       "SKU": "1234567891"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/seat-pad.jpg?v=1709339260&width=900"
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/seat-pad.jpg?v=1709339260&width=900",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/seat-pad.jpg?v=1709339260&width=900",
+      "/images/products/tribe-seat-pad-2.webp"
+    ]
   },
   {
     "id": "bontrager-bidon-sl-3",
@@ -19312,7 +19361,13 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Performance"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/stealth-fluro-B52.jpg?v=1709617861&width=900",
+      "/images/products/stealth-b52-new-model-2.webp",
+      "/images/products/stealth-b52-new-model-3.webp",
+      "/images/products/stealth-b52-new-model-4.webp"
+    ]
   },
   {
     "id": "ezi-grip-electric-e-rack-2-pro-hitch-mount",
@@ -19329,7 +19384,14 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000002161"
     },
     "inStock": false,
-    "imageUrl": "/images/products/ezi-grip-electric-e-rack-2-pro-hitch-mount.webp"
+    "imageUrl": "/images/products/ezi-grip-electric-e-rack-2-pro-hitch-mount.webp",
+    "images": [
+      "/images/products/ezi-grip-electric-e-rack-2-pro-hitch-mount.webp",
+      "/images/products/ezi-grip-electric-e-rack-2-pro-hitch-mount-2.webp",
+      "/images/products/ezi-grip-electric-e-rack-2-pro-hitch-mount-3.webp",
+      "/images/products/ezi-grip-electric-e-rack-2-pro-hitch-mount-4.webp",
+      "/images/products/ezi-grip-electric-e-rack-2-pro-hitch-mount-5.webp"
+    ]
   },
   {
     "id": "ezi-grip-electric-e-rack-2-pro-tow-ball-mount",
@@ -19346,7 +19408,15 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000002160"
     },
     "inStock": false,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ezigrip_rack.jpg?v=1725954777&width=900"
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ezigrip_rack.jpg?v=1725954777&width=900",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ezigrip_rack.jpg?v=1725954777&width=900",
+      "/images/products/ezi-grip-electric-e-rack-2-pro-tow-ball-mount-2.webp",
+      "/images/products/ezi-grip-electric-e-rack-2-pro-tow-ball-mount-3.webp",
+      "/images/products/ezi-grip-electric-e-rack-2-pro-tow-ball-mount-4.webp",
+      "/images/products/ezi-grip-electric-e-rack-2-pro-tow-ball-mount-5.webp",
+      "/images/products/ezi-grip-electric-e-rack-2-pro-tow-ball-mount-6.webp"
+    ]
   },
   {
     "id": "ezi-grip-bike-rack-e-rack-2",
@@ -19411,7 +19481,14 @@ export const PRODUCTS: Product[] = [
       "SKU": "4251239307491"
     },
     "inStock": false,
-    "imageUrl": "/images/products/suspesion-seatpost-by-schulz-g-2-st-parallelogram-suspension-black.webp"
+    "imageUrl": "/images/products/suspesion-seatpost-by-schulz-g-2-st-parallelogram-suspension-black.webp",
+    "images": [
+      "/images/products/suspesion-seatpost-by-schulz-g-2-st-parallelogram-suspension-black.webp",
+      "/images/products/suspesion-seatpost-by-schulz-g-2-st-parallelogram-suspension-black-2.webp",
+      "/images/products/suspesion-seatpost-by-schulz-g-2-st-parallelogram-suspension-black-3.webp",
+      "/images/products/suspesion-seatpost-by-schulz-g-2-st-parallelogram-suspension-black-4.webp",
+      "/images/products/suspesion-seatpost-by-schulz-g-2-st-parallelogram-suspension-black-5.webp"
+    ]
   },
   {
     "id": "bontrager-rally-wavecel-mountain-bike-helmet",
@@ -19663,7 +19740,14 @@ export const PRODUCTS: Product[] = [
       "SKU": "9328389031103"
     },
     "inStock": false,
-    "imageUrl": "/images/products/knog-blinder-link-saddle-100-lumen.webp"
+    "imageUrl": "/images/products/knog-blinder-link-saddle-100-lumen.webp",
+    "images": [
+      "/images/products/knog-blinder-link-saddle-100-lumen.webp",
+      "/images/products/knog-blinder-link-saddle-100-lumen-2.webp",
+      "/images/products/knog-blinder-link-saddle-100-lumen-3.webp",
+      "/images/products/knog-blinder-link-saddle-100-lumen-4.webp",
+      "/images/products/knog-blinder-link-saddle-100-lumen-5.webp"
+    ]
   },
   {
     "id": "knog-blinder-link-rear-rack-100-lumen",
@@ -19680,7 +19764,14 @@ export const PRODUCTS: Product[] = [
       "SKU": "932838903762"
     },
     "inStock": false,
-    "imageUrl": "/images/products/knog-blinder-link-rear-rack-100-lumen.webp"
+    "imageUrl": "/images/products/knog-blinder-link-rear-rack-100-lumen.webp",
+    "images": [
+      "/images/products/knog-blinder-link-rear-rack-100-lumen.webp",
+      "/images/products/knog-blinder-link-rear-rack-100-lumen-2.webp",
+      "/images/products/knog-blinder-link-rear-rack-100-lumen-3.webp",
+      "/images/products/knog-blinder-link-rear-rack-100-lumen-4.webp",
+      "/images/products/knog-blinder-link-rear-rack-100-lumen-5.webp"
+    ]
   },
   {
     "id": "topeak-uni-super-tourist-disc",
@@ -19823,7 +19914,13 @@ export const PRODUCTS: Product[] = [
       "SKU": "4712123268194"
     },
     "inStock": false,
-    "imageUrl": "/images/products/infini-safety-front-rear-light-usb.webp"
+    "imageUrl": "/images/products/infini-safety-front-rear-light-usb.webp",
+    "images": [
+      "/images/products/infini-safety-front-rear-light-usb.webp",
+      "/images/products/infini-safety-front-rear-light-usb-2.webp",
+      "/images/products/infini-safety-front-rear-light-usb-3.webp",
+      "/images/products/infini-safety-front-rear-light-usb-4.webp"
+    ]
   },
   {
     "id": "infini-light-mini-luxo",
