@@ -2834,7 +2834,14 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Trail & Off-Road"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ncm-ncm-m7-electric-mountain-bike-electric-bike.jpg?v=1726231558&width=900",
+      "/images/products/ncm-m7-2.webp",
+      "/images/products/ncm-m7-3.webp",
+      "/images/products/ncm-m7-4.webp",
+      "/images/products/ncm-m7-5.webp"
+    ]
   },
   {
     "id": "ncm-aspen-plus-48v-16ah-black",
@@ -3680,7 +3687,11 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Touring & Adventure"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoffentice7bebike.png?v=1710165802&width=900",
+      "/images/products/kalkhoff-entice-7b-move-750-wh-2.webp"
+    ]
   },
   {
     "id": "kalkhoff-endeavour-7-b-move-750-grey",
@@ -3878,7 +3889,15 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Commuting"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TN-photo-NBD_S5i-silver_blue-web-jpg.jpg?v=1733906664&width=900",
+      "/images/products/tern-nbd-s5i-2.webp",
+      "/images/products/tern-nbd-s5i-3.webp",
+      "/images/products/tern-nbd-s5i-4.webp",
+      "/images/products/tern-nbd-s5i-5.webp",
+      "/images/products/tern-nbd-s5i-6.webp"
+    ]
   },
   {
     "id": "k24-kalkhoff-entice-5b-move-625wh",
@@ -3910,7 +3929,11 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Touring & Adventure"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-5b-Electric-bike-commuting.png?v=1748522566&width=900",
+      "/images/products/k24-kalkhoff-entice-5b-move-625wh-2.webp"
+    ]
   },
   {
     "id": "kalkhoff-image-5b-move-625-grey-wave",
@@ -3991,7 +4014,12 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Commuting"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/kalkhoff-5b-ebike.png?v=1703036752&width=900",
+      "/images/products/kalkhoff-image-5b-move-625-grey-wave-2.webp",
+      "/images/products/kalkhoff-image-5b-move-625-grey-wave-3.webp"
+    ]
   },
   {
     "id": "kalkhoff-image-lb-advance-400wh",
@@ -4176,7 +4204,12 @@ export const PRODUCTS: Product[] = [
         "Touring & Adventure",
         "Fitness & Sport"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-lb-light-weight-ebike.png?v=1748525418&width=900",
+      "/images/products/kalkhoff-endeavour-lb-excite-1-2.webp",
+      "/images/products/kalkhoff-endeavour-lb-excite-1-3.webp"
+    ]
   },
   {
     "id": "kalkhoff-endeavour-lb-excite",
@@ -4248,7 +4281,11 @@ export const PRODUCTS: Product[] = [
         "Touring & Adventure",
         "Fitness & Sport"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-lightweight-ebike-bosch-sx.png?v=1748525042&width=900",
+      "/images/products/kalkhoff-endeavour-lb-excite-2.webp"
+    ]
   },
   {
     "id": "kalkhoff-entice-5b-move-625w",
@@ -4327,7 +4364,11 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Touring & Adventure"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/KalkhoffEntice5.bmove.png?v=1689809937&width=900",
+      "/images/products/kalkhoff-entice-5b-move-625w-2.webp"
+    ]
   },
   {
     "id": "kalkhoff-endeavour-5-b",
@@ -4948,7 +4989,11 @@ export const PRODUCTS: Product[] = [
         "Touring & Adventure",
         "Fitness & Sport"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Entice-L-B.png?v=1726802052&width=900",
+      "/images/products/kalkhoff-entice-lb-advance-400wh-wave-2.webp"
+    ]
   },
   {
     "id": "kalkhoff-entice-lb-advance-400wh-diamond-moonstonegrey",
@@ -5020,7 +5065,12 @@ export const PRODUCTS: Product[] = [
         "Touring & Adventure",
         "Fitness & Sport"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Entice-L-B-di.jpg?v=1726801750&width=900",
+      "/images/products/kalkhoff-entice-lb-advance-400wh-diamond-moonstonegrey-2.webp",
+      "/images/products/kalkhoff-entice-lb-advance-400wh-diamond-moonstonegrey-3.webp"
+    ]
   },
   {
     "id": "kalkhoff-endeavour-lb-move-400wh",
@@ -5133,7 +5183,11 @@ export const PRODUCTS: Product[] = [
         "Touring & Adventure",
         "Fitness & Sport"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Endeavour-L-B-move-di.png?v=1726800506&width=900",
+      "/images/products/kalkhoff-endeavour-lb-move-400wh-2.webp"
+    ]
   },
   {
     "id": "orbea-optima-e40",
@@ -5823,7 +5877,12 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Touring & Adventure"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-endeavour-1b-smart-Di.png?v=1726799603&width=900",
+      "/images/products/endeavour-1b-move-545wh-diamon-2.webp",
+      "/images/products/endeavour-1b-move-545wh-diamon-3.webp"
+    ]
   },
   {
     "id": "entice-1-b-move-545wh",
@@ -6046,7 +6105,12 @@ export const PRODUCTS: Product[] = [
         "Touring & Adventure",
         "Fitness & Sport"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/K291v2025_2025_27_DI_BLU_090_PRO_ENTICE-L-SEASON-tif.png?v=1788425793&width=900",
+      "/images/products/kalkhoff-entice-l-my26-2.webp",
+      "/images/products/kalkhoff-entice-l-my26-3.webp"
+    ]
   },
   {
     "id": "kalkhoff-entice-l-wave-my26",
@@ -6166,7 +6230,11 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Touring & Adventure"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/K291v2025_2025_27_WA_BLU_090_PRO_ENTICE-L-SEASON-tif.png?v=1788425662&width=900",
+      "/images/products/kalkhoff-entice-l-wave-my26-2.webp"
+    ]
   },
   {
     "id": "fatboy-harlem-v3-ultra",
@@ -6583,7 +6651,12 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Touring & Adventure"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/K23KalkhoffENDEAVOUR1.BMOVE500WHebikegrey.png?v=1684407238&width=900",
+      "/images/products/kalkoff-endeavour-1b-move-500w-2.webp",
+      "/images/products/kalkoff-endeavour-1b-move-500w-3.webp"
+    ]
   },
   {
     "id": "kalkhoff-endeavor-1b-move",
@@ -6608,7 +6681,12 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Touring & Adventure"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/K23ENDEAVOUR1.BMOVE400WHGreyebike_1619a9c3-168c-476a-865f-4d28141e78fb.jpg?v=1689809801&width=900",
+      "/images/products/kalkhoff-endeavor-1b-move-2.webp",
+      "/images/products/kalkhoff-endeavor-1b-move-3.webp"
+    ]
   },
   {
     "id": "smartmotion-x-city-neo-1",
@@ -7126,7 +7204,12 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Touring & Adventure"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/KalkhoffENDEAVOUR1.BMOVE545WH.png?v=1684394962&width=900",
+      "/images/products/kalkoff-endeavour-1b-move-545w-2.webp",
+      "/images/products/kalkoff-endeavour-1b-move-545w-3.webp"
+    ]
   },
   {
     "id": "e-spresso-s2i8-17inch",
@@ -7270,7 +7353,12 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Touring & Adventure"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/kalkhoff_1b.webp?v=1752223365&width=900",
+      "/images/products/kalkoff-endeavour-1b-move-400w-performance-line-2.webp",
+      "/images/products/kalkoff-endeavour-1b-move-400w-performance-line-3.webp"
+    ]
   },
   {
     "id": "dual-sport-2-stagger",
@@ -7602,7 +7690,12 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Touring & Adventure"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff1bmoveint400wh.png?v=1684394783&width=900",
+      "/images/products/kalkhoff-endeavour-1-b-move-int-400w-2.webp",
+      "/images/products/kalkhoff-endeavour-1-b-move-int-400w-3.webp"
+    ]
   },
   {
     "id": "ado-air-28-pro",
@@ -8156,7 +8249,15 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Leisure & Comfort"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Cru7.jpg?v=1748173280&width=900",
+      "/images/products/ncm-cru7-cruiser-matt-black-912wh-2.webp",
+      "/images/products/ncm-cru7-cruiser-matt-black-912wh-3.webp",
+      "/images/products/ncm-cru7-cruiser-matt-black-912wh-4.webp",
+      "/images/products/ncm-cru7-cruiser-matt-black-912wh-5.webp",
+      "/images/products/ncm-cru7-cruiser-matt-black-912wh-6.webp"
+    ]
   },
   {
     "id": "kalkhoff-image-1-b-advance-500wh",
@@ -8250,7 +8351,12 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Commuting"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff1binternationhubdrive500wh_4876900d-2d68-49c0-92e6-485cf669da9e.png?v=1689809966&width=900",
+      "/images/products/kalkhoff-image-1-b-advance-500wh-2.webp",
+      "/images/products/kalkhoff-image-1-b-advance-500wh-3.webp"
+    ]
   },
   {
     "id": "ado-air28",
@@ -8354,7 +8460,12 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Commuting"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff_Image_1.B_Move_500whactive_drive.png?v=1790054694&width=900",
+      "/images/products/kalkhoff-image-1b-move-500wh-active-line-40nm-2.webp",
+      "/images/products/kalkhoff-image-1b-move-500wh-active-line-40nm-3.webp"
+    ]
   },
   {
     "id": "fatfish-biggie",
@@ -8619,7 +8730,15 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Leisure & Comfort"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/9003210014_a.jpg?v=1748173013&width=900",
+      "/images/products/ncm-cru7s-2.webp",
+      "/images/products/ncm-cru7s-3.webp",
+      "/images/products/ncm-cru7s-4.webp",
+      "/images/products/ncm-cru7s-5.webp",
+      "/images/products/ncm-cru7s-6.webp"
+    ]
   },
   {
     "id": "tebco-discovery",
@@ -9036,7 +9155,15 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Touring & Adventure"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/T7s_1-NCM-Ebike.jpg?v=1748172321&width=900",
+      "/images/products/ncm-t7s-step-thru-trekking-48v19ah-912wh-2.webp",
+      "/images/products/ncm-t7s-step-thru-trekking-48v19ah-912wh-3.webp",
+      "/images/products/ncm-t7s-step-thru-trekking-48v19ah-912wh-4.webp",
+      "/images/products/ncm-t7s-step-thru-trekking-48v19ah-912wh-5.webp",
+      "/images/products/ncm-t7s-step-thru-trekking-48v19ah-912wh-6.webp"
+    ]
   },
   {
     "id": "tebco-explorer",
@@ -10696,7 +10823,11 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Fitness & Sport"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bianchi-E-Oltre-road-bike-di2.jpg?v=1779796151&width=900",
+      "/images/products/bianchi-e-oltre-ultegra-di2-2.webp"
+    ]
   },
   {
     "id": "bianchi-e-arcadex-tourer-apex-xplr",
@@ -12542,7 +12673,15 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Family & Cargo"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TN-photo-OROX_R14_275-gen1-LR-profile-v02-web-jpg.jpg?v=1733908321&width=900",
+      "/images/products/tern-orox-r14-275-2.webp",
+      "/images/products/tern-orox-r14-275-3.webp",
+      "/images/products/tern-orox-r14-275-4.webp",
+      "/images/products/tern-orox-r14-275-5.webp",
+      "/images/products/tern-orox-r14-275-6.webp"
+    ]
   },
   {
     "id": "tern-gsd-r14",
@@ -12573,7 +12712,15 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Family & Cargo"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/gsd_r14-lx-forge_gray-unfold.jpg?v=1733312296&width=900",
+      "/images/products/tern-gsd-r14-2.webp",
+      "/images/products/tern-gsd-r14-3.webp",
+      "/images/products/tern-gsd-r14-4.webp",
+      "/images/products/tern-gsd-r14-5.webp",
+      "/images/products/tern-gsd-r14-6.webp"
+    ]
   },
   {
     "id": "tern-orox-s12",
@@ -12644,7 +12791,13 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Family & Cargo"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TN-photo-OROX_S12_29-gen1-profile-pine-web-jpg.jpg?v=1733907734&width=900",
+      "/images/products/tern-orox-s12-2.webp",
+      "/images/products/tern-orox-s12-3.webp",
+      "/images/products/tern-orox-s12-4.webp"
+    ]
   },
   {
     "id": "gsd-p00-gen-3-satin-beige",
@@ -12881,7 +13034,14 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Family & Cargo"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/gsd_s10-lr-beetle_blue-unfold-min.jpg?v=1733309481&width=900",
+      "/images/products/tern-gsd-s10-2.webp",
+      "/images/products/tern-gsd-s10-3.webp",
+      "/images/products/tern-gsd-s10-4.webp",
+      "/images/products/tern-gsd-s10-5.webp"
+    ]
   },
   {
     "id": "tern-hsd-p5i",
@@ -12952,7 +13112,15 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Family & Cargo"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TN-photo-HSD_P5i-gen2-seabreeze-web-jpg.jpg?v=1733906103&width=900",
+      "/images/products/tern-hsd-p5i-2.webp",
+      "/images/products/tern-hsd-p5i-3.webp",
+      "/images/products/tern-hsd-p5i-4.webp",
+      "/images/products/tern-hsd-p5i-5.webp",
+      "/images/products/tern-hsd-p5i-6.webp"
+    ]
   },
   {
     "id": "tern-hsd-p10-gen-2-performance-545w",
@@ -12983,7 +13151,15 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Family & Cargo"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tern-Cargo-Ebike-TN-photo-HSD_P10-gen2-bluegreen-web.jpg?v=1733904722&width=900",
+      "/images/products/tern-hsd-p10-gen-2-performance-545w-2.webp",
+      "/images/products/tern-hsd-p10-gen-2-performance-545w-3.webp",
+      "/images/products/tern-hsd-p10-gen-2-performance-545w-4.webp",
+      "/images/products/tern-hsd-p10-gen-2-performance-545w-5.webp",
+      "/images/products/tern-hsd-p10-gen-2-performance-545w-6.webp"
+    ]
   },
   {
     "id": "tern-hsd-p9",
@@ -13300,7 +13476,15 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Family & Cargo"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tern_Tern_Quick_Haul_Long_D9.png?v=1790052952&width=900",
+      "/images/products/quick-haul-long-d9-2.webp",
+      "/images/products/quick-haul-long-d9-3.webp",
+      "/images/products/quick-haul-long-d9-4.webp",
+      "/images/products/quick-haul-long-d9-5.webp",
+      "/images/products/quick-haul-long-d9-6.webp"
+    ]
   },
   {
     "id": "wombat-rally-g3",
@@ -14231,7 +14415,12 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Family & Cargo"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tern_Quick_Haul_P9_Performance.png?v=1790052951&width=900",
+      "/images/products/quick-haul-p9-performance-2.webp",
+      "/images/products/quick-haul-p9-performance-3.webp"
+    ]
   },
   {
     "id": "wombat-compact-suv",
@@ -15549,7 +15738,15 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Performance"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Phoenix1-bolzzen-Scooter.jpg?v=1756602222&width=900",
+      "/images/products/bolzzen-phoenix-5223-dual-motor-performance-e-scooter-2.webp",
+      "/images/products/bolzzen-phoenix-5223-dual-motor-performance-e-scooter-3.webp",
+      "/images/products/bolzzen-phoenix-5223-dual-motor-performance-e-scooter-4.webp",
+      "/images/products/bolzzen-phoenix-5223-dual-motor-performance-e-scooter-5.webp",
+      "/images/products/bolzzen-phoenix-5223-dual-motor-performance-e-scooter-6.webp"
+    ]
   },
   {
     "id": "bolzzen-superstreet-4816-with-seat-dual-motor",
@@ -15579,7 +15776,15 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Performance"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/2_8c349f5a-f3a9-4e4f-8c0f-8bdb0abd6fa4.jpg?v=1756601147&width=900",
+      "/images/products/bolzzen-superstreet-4816-with-seat-dual-motor-2.webp",
+      "/images/products/bolzzen-superstreet-4816-with-seat-dual-motor-3.webp",
+      "/images/products/bolzzen-superstreet-4816-with-seat-dual-motor-4.webp",
+      "/images/products/bolzzen-superstreet-4816-with-seat-dual-motor-5.webp",
+      "/images/products/bolzzen-superstreet-4816-with-seat-dual-motor-6.webp"
+    ]
   },
   {
     "id": "bolzzen-superstreet-4816-dual-motor-performance-commuter-e-scooter",
@@ -15611,7 +15816,15 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Performance"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/BolzzenSuperStreet-scooter.jpg?v=1756602277&width=900",
+      "/images/products/bolzzen-superstreet-4816-dual-motor-performance-commuter-e-scooter-2.webp",
+      "/images/products/bolzzen-superstreet-4816-dual-motor-performance-commuter-e-scooter-3.webp",
+      "/images/products/bolzzen-superstreet-4816-dual-motor-performance-commuter-e-scooter-4.webp",
+      "/images/products/bolzzen-superstreet-4816-dual-motor-performance-commuter-e-scooter-5.webp",
+      "/images/products/bolzzen-superstreet-4816-dual-motor-performance-commuter-e-scooter-6.webp"
+    ]
   },
   {
     "id": "bolzzen-hustler-4816-performance-commuter-e-scooter",
@@ -17470,7 +17683,12 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Commuting"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bianchi_E-Omnia_T-Type_NEX_5_625_Wh.png?v=1790052611&width=900",
+      "/images/products/bianchi-e-omnia-ttype-nex-5-625-wh-2.webp",
+      "/images/products/bianchi-e-omnia-ttype-nex-5-625-wh-3.webp"
+    ]
   },
   {
     "id": "orbea-optima-e50",
@@ -18273,7 +18491,14 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Commuting"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/T3s-NCM-Ebike.jpg?v=1726233306&width=900",
+      "/images/products/ncm-t3s-trapeze-2.webp",
+      "/images/products/ncm-t3s-trapeze-3.webp",
+      "/images/products/ncm-t3s-trapeze-4.webp",
+      "/images/products/ncm-t3s-trapeze-5.webp"
+    ]
   },
   {
     "id": "ncm-munich",
