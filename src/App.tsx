@@ -8,7 +8,6 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
 import { ScrollToTop } from './components/ScrollToTop';
 import { Header } from './components/Header';
-import { TrustPilotBar } from './components/TrustPilotBar';
 import { CartDrawer } from './components/CartDrawer';
 import { LiveChatWidget } from './components/LiveChatWidget';
 import { Footer } from './components/Footer';
@@ -36,9 +35,6 @@ export default function App() {
           
           {/* Global Header adhering to Top Bar Contract */}
           <Header />
-
-          {/* Trustpilot 4.9/5 Rating Bar based on 2,480+ Australian reviews */}
-          <TrustPilotBar />
 
           {/* Routed Page Content with Dedicated URLs */}
           <main className="flex-1">
