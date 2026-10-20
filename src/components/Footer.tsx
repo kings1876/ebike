@@ -142,10 +142,10 @@ export const Footer: React.FC = () => {
             <Link to="/shop?sort=price-asc" className="hover:text-emerald-400">electric bike price</Link> ·{' '}
                         <Link to="/shop?category=Electric+Mountain+Bikes" className="hover:text-emerald-400">e mountain bikes for sale</Link> ·{' '}
             <Link to="/shop" className="hover:text-emerald-400">electric bikes for sale near me</Link> ·{' '}
-            <Link to="/shop?category=Folding+Electric+Bikes" className="hover:text-emerald-400">foldable electric bikes for sale</Link> ·{' '}
+            <Link to="/shop?category=Folding+%26+Compact+Bikes" className="hover:text-emerald-400">foldable electric bikes for sale</Link> ·{' '}
             <Link to="/shop" className="hover:text-emerald-400">ebike deals</Link> ·{' '}
-            <Link to="/shop?category=Electric+Commuter+Bikes" className="hover:text-emerald-400">electric commuter bike</Link> ·{' '}
-            <Link to="/shop?category=Step-Through+Electric+Bikes" className="hover:text-emerald-400">step through ebike</Link>.
+            <Link to="/shop?category=Commuter+%26+City+Bikes" className="hover:text-emerald-400">electric commuter bike</Link> ·{' '}
+            <Link to="/shop?category=Commuter+%26+City+Bikes&frame=Step-Through" className="hover:text-emerald-400">step through ebike</Link>.
           </p>
         </div>
 

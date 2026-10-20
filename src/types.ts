@@ -42,6 +42,14 @@ export interface Product {
   variants?: ProductVariant[];
   inStock: boolean;
   brand?: string;
+  /** Filterable attributes for bikes (not set for parts and accessories). */
+  attributes?: {
+    frame?: string;
+    tyres?: string;
+    suspension?: string;
+    lightweight?: boolean;
+    uses?: string[];
+  };
   warranty?: string;
   imageUrl: string;
   /** All product photos (first is imageUrl). Present only when there is more than one. */

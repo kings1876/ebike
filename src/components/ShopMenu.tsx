@@ -13,10 +13,18 @@ const useMenuCategories = () =>
       CATEGORIES_WITH_SUBCATEGORIES.map((c) => ({
         category: c.category,
         count: PRODUCTS.filter((p) => p.category === c.category).length,
-        subcategories: c.subcategories.filter((s) => s !== 'All' && !s.startsWith('All ')),
+        subcategories: c.subcategories.filter((s) => s !== 'All' && !s.startsWith('All ')).filter((_, __, arr) => arr.length > 1),
       })),
     []
   );
+
+/** Bike brands with the most products, for the "Shop by brand" menu column. */
+const TOP_BRANDS = (() => {
+  const m = new Map<string, number>();
+  PRODUCTS.filter((p) => p.attributes).forEach((p) => m.set(p.brand ?? 'Other', (m.get(p.brand ?? 'Other') ?? 0) + 1));
+  return [...m.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12);
+})();
+const SALE_COUNT = PRODUCTS.filter((p) => p.originalPrice).length;
 
 /** Desktop: "Shop" with a hover / focus / click dropdown of every product category. */
 export const ShopMenuDesktop: React.FC<{ isActive: boolean }> = ({ isActive }) => {
@@ -98,7 +106,7 @@ export const ShopMenuDesktop: React.FC<{ isActive: boolean }> = ({ isActive }) =
                     <span className="ml-1.5 text-[11px] font-medium text-slate-400">{c.count}</span>
                   </Link>
                   <ul className="mt-1.5 space-y-1">
-                    {c.subcategories.slice(0, 5).map((s) => (
+                    {c.subcategories.slice(0, 10).map((s) => (
                       <li key={s}>
                         <Link
                           to={shopUrl(c.category, s)}
@@ -111,6 +119,22 @@ export const ShopMenuDesktop: React.FC<{ isActive: boolean }> = ({ isActive }) =
                   </ul>
                 </div>
               ))}
+              <div className="col-span-3 lg:col-span-1">
+                <div className="text-sm font-bold text-slate-900">Shop by brand</div>
+                <ul className="mt-1.5 grid grid-cols-2 lg:grid-cols-1 gap-x-4 gap-y-1">
+                  {TOP_BRANDS.map(([brand, n]) => (
+                    <li key={brand}>
+                      <Link to={'/shop?brand=' + encodeURIComponent(brand)} className="text-xs text-slate-600 hover:text-emerald-700 transition-colors">
+                        {brand} <span className="text-slate-400">{n}</span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+                <div className="mt-3 flex flex-col gap-1">
+                  <Link to="/shop?sale=1" className="text-xs font-semibold text-rose-600 hover:underline">Sale &amp; clearance ({SALE_COUNT})</Link>
+                  <Link to="/shop?instock=1" className="text-xs font-semibold text-emerald-700 hover:underline">In stock now</Link>
+                </div>
+              </div>
             </div>
             <div className="mt-5 pt-4 border-t border-slate-100 flex items-center justify-between text-xs">
               <span className="text-slate-500">{PRODUCTS.length} products across {categories.length} categories</span>
@@ -145,6 +169,9 @@ export const ShopMenuMobile: React.FC<{ onNavigate: () => void }> = ({ onNavigat
         <div className="ml-3 pl-3 border-l border-slate-200 mt-1 mb-2 space-y-0.5 max-h-[55vh] overflow-y-auto">
           <Link to="/shop" onClick={onNavigate} className="block px-3 py-1.5 text-sm font-semibold text-emerald-700">
             All products ({PRODUCTS.length})
+          </Link>
+          <Link to="/shop?sale=1" onClick={onNavigate} className="block px-3 py-1.5 text-sm font-semibold text-rose-600">
+            Sale &amp; clearance ({SALE_COUNT})
           </Link>
           {categories.map((c) => (
             <Link
