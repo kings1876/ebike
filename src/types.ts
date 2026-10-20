@@ -44,6 +44,8 @@ export interface Product {
   brand?: string;
   warranty?: string;
   imageUrl: string;
+  /** All product photos (first is imageUrl). Present only when there is more than one. */
+  images?: string[];
   accentColor?: string;
 }
 

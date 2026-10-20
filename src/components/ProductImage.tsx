@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { ProductCategory } from '../types';
 
 interface ProductImageProps {
@@ -6,20 +6,30 @@ interface ProductImageProps {
   alt: string;
   category: ProductCategory;
   className?: string;
+  /** Load immediately (use for the main product-page image, which is the LCP element). */
+  eager?: boolean;
 }
 
-export const ProductImage: React.FC<ProductImageProps> = ({ src, alt, category, className = '' }) => {
+export const ProductImage: React.FC<ProductImageProps> = ({ src, alt, category, className = '', eager = false }) => {
   const [hasError, setHasError] = useState(!src);
   const [isLoaded, setIsLoaded] = useState(false);
+  const imgRef = useRef<HTMLImageElement>(null);
+
+  // A cached image can finish loading before React attaches onLoad, which would leave it invisible
+  useEffect(() => {
+    const img = imgRef.current;
+    if (img?.complete && img.naturalWidth > 0) setIsLoaded(true);
+  }, [src]);
 
   return (
     <div className={`relative overflow-hidden bg-slate-100 flex items-center justify-center ${className}`}>
       {!hasError && src && (
         <img
+          ref={imgRef}
           src={src}
           alt={alt}
           referrerPolicy="no-referrer"
-          loading="lazy"
+          loading={eager ? 'eager' : 'lazy'}
           onLoad={() => setIsLoaded(true)}
           onError={() => setHasError(true)}
           className={`w-full h-full object-cover transition-all duration-300 ${

@@ -17,6 +17,10 @@ export const PRODUCTS: Product[] = [
       "SKU": "20187552"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187552_1_0003562a-c3cf-4b37-99ba-c9422d95eca0.jpg?v=1680031640&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187552_1.jpg?v=1680031640&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187552_1_0003562a-c3cf-4b37-99ba-c9422d95eca0.jpg?v=1680031640&width=900"
   },
   {
@@ -109,6 +113,10 @@ export const PRODUCTS: Product[] = [
       "SKU": "20190897"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/OrbeaRiseH30ebikeelectricbikegluegrey.jpg?v=1680031767&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/OrbeaRiseH30ebikeelectricbikegluegrey.webp?v=1680031767&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/OrbeaRiseH30ebikeelectricbikegluegrey.jpg?v=1680031767&width=900"
   },
   {
@@ -248,6 +256,15 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Sam-6-9.png?v=1760268063&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.9_magic_black_aaa1da81-4789-47bf-a8b5-0737eaefe103.png?v=1760268191&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.9_1.png?v=1760268176&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.9_2.png?v=1760268175&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.9_3.png?v=1760268174&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.9_magic_black.png?v=1760268175&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.9.png?v=1760268175&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Sam-6-9.png?v=1760268063&width=900"
   },
   {
@@ -353,6 +370,12 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-6-9.png?v=1760265831&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.9_3.png?v=1760265862&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.9_1.png?v=1760265863&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.9_2.png?v=1760265863&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-6-9.png?v=1760265831&width=900"
   },
   {
@@ -428,6 +451,12 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Sam-6-8.png?v=1760267517&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.8_1.png?v=1760268112&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.8_2.png?v=1760268112&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.8_3.png?v=1760268112&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Sam-6-8.png?v=1760267517&width=900"
   },
   {
@@ -585,6 +614,16 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-6-8.png?v=1760264042&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.8_Silver_3.png?v=1760264243&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.8_1.png?v=1760264246&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.8_2.png?v=1760264246&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.8_3.png?v=1760264245&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.8_Silver_1.png?v=1760264247&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.8_Silver_2.png?v=1760264246&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.8_Silver.png?v=1760264247&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-6-8.png?v=1760264042&width=900"
   },
   {
@@ -664,6 +703,12 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Thron-68-ABS-GREY.png?v=1760262318&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Thron_68_ABS_GREY_1.png?v=1760263033&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Thron_68_ABS_GREY_2.png?v=1760263032&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Thron_68_ABS_GREY_3.png?v=1760263032&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Thron-68-ABS-GREY.png?v=1760262318&width=900"
   },
   {
@@ -932,6 +977,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Jam2-8-8-SL-Grey.png?v=1722324308&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Jam_2_8.8_SL_yellow.png?v=1722324396&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Jam2-8-8-SL-Grey.png?v=1722324308&width=900"
   },
   {
@@ -1260,6 +1309,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TrekRail5Gen3Fullsupsionelecticbike.webp?v=1692101394&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TrekRail5DeoreDualsuspensionebike2.webp?v=1692101436&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TrekRail5Gen3Fullsupsionelecticbike.webp?v=1692101394&width=900"
   },
   {
@@ -1402,6 +1455,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Thron-67-Blue.png?v=1760260818&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Thron_67_grey_dd2b3d19-5303-4405-8063-9614e0405ad3.png?v=1760261129&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Thron_67_grey.png?v=1760261098&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Thron-67-Blue.png?v=1760260818&width=900"
   },
   {
@@ -1483,6 +1541,12 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-6-7.png?v=1760263171&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.7_1.png?v=1760263228&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.7_2.png?v=1760263228&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.7_3.png?v=1760263227&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-6-7.png?v=1760263171&width=900"
   },
   {
@@ -1631,6 +1695,15 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus8US-24-41706-C-Primary.webp?v=1710159802&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus8US-24-41706-A-Primary.webp?v=1710159802&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus8US-24-41706-A-Alt8.webp?v=1710159802&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus8US-24-41706-A-Alt3.webp?v=1710159802&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus8US-24-41706-C-Alt5.webp?v=1710159802&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus8US-24-41706-C-Alt8.jpg?v=1710159802&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus8US-24-41706-C-Alt2.webp?v=1710159802&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus8US-24-41706-C-Primary.webp?v=1710159802&width=900"
   },
   {
@@ -1758,6 +1831,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Jarifa2-6-7-Grey.png?v=1722395109&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Jarifa2_6.7_green.png?v=1722395907&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Jarifa2-6-7-Grey.png?v=1722395109&width=900"
   },
   {
@@ -1776,6 +1853,10 @@ export const PRODUCTS: Product[] = [
       "SKU": "20103088"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103088_1.jpg?v=1680009454&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/rhino.jpg?v=1680009454&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103088_1.jpg?v=1680009454&width=900"
   },
   {
@@ -1848,6 +1929,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190996_1_c5a21ca1-faa5-4083-9a3a-0b332f050053.jpg?v=1680036497&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190996_2.jpg?v=1680036497&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190996_1.jpg?v=1680036497&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190996_1_c5a21ca1-faa5-4083-9a3a-0b332f050053.jpg?v=1680036497&width=900"
   },
   {
@@ -1968,6 +2054,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DualSportPlus2_23_35854_A_Primary.jpg?v=1680036608&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DualSportPlus2_23_35854_A_Primary.webp?v=1680036608&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DualSportPlus2_23_35854_B_Primary_1.webp?v=1680036608&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DualSportPlus2_23_35854_A_Primary.jpg?v=1680036608&width=900"
   },
   {
@@ -2304,6 +2395,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102111_1_b1d1a9a2-f20b-44cc-bb84-d507c7bdc18d.jpg?v=1680029672&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102111_1.jpg?v=1680029672&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102111_1_b1d1a9a2-f20b-44cc-bb84-d507c7bdc18d.jpg?v=1680029672&width=900"
   },
   {
@@ -2624,6 +2719,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190422_1_6e320b17-56e0-4ba9-8c8d-4731e20e42a3.jpg?v=1680031104&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190422_1.jpg?v=1680031104&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/NCMM3ebike.webp?v=1726227479&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190422_1_6e320b17-56e0-4ba9-8c8d-4731e20e42a3.jpg?v=1680031104&width=900"
   },
   {
@@ -2689,6 +2789,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102241_1_b7f6572c-3798-43c2-b249-488ff4656428.jpg?v=1680029774&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/aspenstd.jpg?v=1680029774&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/aspenstd2.jpg?v=1680029774&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102241_1_b7f6572c-3798-43c2-b249-488ff4656428.jpg?v=1680029774&width=900"
   },
   {
@@ -2819,6 +2924,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/BianchittypebeltBrown.jpg?v=1710165055&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/BianchittypebeltCelesteGreen.jpg?v=1710165055&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bianchittypebeltsilver.jpg?v=1710165055&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/BianchittypebeltBrown.jpg?v=1710165055&width=900"
   },
   {
@@ -3090,6 +3200,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/VIBEMIDH30EQ2023blue.jpg?v=1686201648&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaVIBE_MID_H30_EQurbangreen.jpg?v=1686201648&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/VIBEMIDH30EQ2023DarkRed.jpg?v=1686201644&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/VIBEMIDH30EQ2023blue.jpg?v=1686201648&width=900"
   },
   {
@@ -3411,6 +3526,13 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7US-24-40891-A-Primary.webp?v=1710158102&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7US-24-40891-A-Accessory1.webp?v=1710158102&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7US-24-40891-A-Alt1.webp?v=1710158102&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7LowstepUS-24-40892-A-Alt4.webp?v=1710158096&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7LowstepUS-24-40892-A-Alt6.webp?v=1710158096&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7US-24-40891-A-Primary.webp?v=1710158102&width=900"
   },
   {
@@ -3628,6 +3750,12 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30DarkRed.jpg?v=1681109649&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30Black.jpg?v=1681109713&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30Blue.jpg?v=1681109758&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30UrbanGreen.jpg?v=1681109790&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30DarkRed.jpg?v=1681109649&width=900"
   },
   {
@@ -3752,6 +3880,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20104245_1_3db91e88-5471-4fc2-bb05-13c2784b710f.jpg?v=1680036255&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20104245_1.jpg?v=1680036255&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000394_1.jpg?v=1680036255&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20104245_1_3db91e88-5471-4fc2-bb05-13c2784b710f.jpg?v=1680036255&width=900"
   },
   {
@@ -3902,6 +4035,10 @@ export const PRODUCTS: Product[] = [
       "SKU": "20188702"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188719_1.jpg?v=1680007188&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188719_2.jpg?v=1680007188&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188719_1.jpg?v=1680007188&width=900"
   },
   {
@@ -4032,6 +4169,12 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/TrekFXBlack_1ae8b5c9-8316-4036-bbc6-192f265deacf.jpg?v=1680037723&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/TrekFXBlack.jpg?v=1680037723&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/TrekFXblue.jpg?v=1680037723&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/TrekFXblue_e4dc9bb2-b91a-4e5b-b2a1-733acff09aa0.jpg?v=1680037723&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/TrekFXBlack_1ae8b5c9-8316-4036-bbc6-192f265deacf.jpg?v=1680037723&width=900"
   },
   {
@@ -4092,6 +4235,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187194_1_44531229-7a42-46e3-8322-cedccdeb42a4.jpg?v=1680038914&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101848_1.jpg?v=1680038914&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187194_1.jpg?v=1680038914&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187194_1_44531229-7a42-46e3-8322-cedccdeb42a4.jpg?v=1680038914&width=900"
   },
   {
@@ -4174,6 +4322,15 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/28W_73ba28c3-b824-4dd8-b567-e9c104837973.jpg?v=1680031167&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/28W.jpg?v=1680031167&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/28B.jpg?v=1680031167&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/26W.jpg?v=1680031167&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/26B.jpg?v=1680031167&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/26B_d3186743-5f51-4f42-a6bb-47694aaa4f40.jpg?v=1680031167&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/28W_9d479b32-c364-49be-b3ca-46d81b4b491f.jpg?v=1680031167&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/28W_73ba28c3-b824-4dd8-b567-e9c104837973.jpg?v=1680031167&width=900"
   },
   {
@@ -4233,6 +4390,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDS_Icon_EB-One.png?v=1790053864&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDS_Icon_EB-One_2.png?v=1790053864&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDS_Icon_EB-One_3.png?v=1790053863&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDS_Icon_EB-One.png?v=1790053864&width=900"
   },
   {
@@ -4533,6 +4695,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/bianchictypeebikestepthroughbrowncopy.jpg?v=1680013561&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/Endeavourimage7.5kalkhoff.png?v=1680013561&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/bianchictypeebikestepthroughbrowncopy.jpg?v=1680013561&width=900"
   },
   {
@@ -4978,6 +5144,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/lkakhoff1bimageebike.png?v=1689807863&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/KalkhoffENDEAVOUR5.b.png?v=1689807863&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/lkakhoff1bimageebike.png?v=1689807863&width=900"
   },
   {
@@ -5360,6 +5530,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/Orbea-Optima-Black-E50.jpg?v=1710931810&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaBlueE50_a5f1093e-57fb-4495-bf30-1a6c3f1ed762.jpg?v=1710932180&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaRedE50_886769c1-297a-4853-856e-4cb5b070143e.jpg?v=1710932179&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/Orbea-Optima-Black-E50.jpg?v=1710931810&width=900"
   },
   {
@@ -5425,6 +5600,13 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7LowstepUS-24-40892-A-Primary.webp?v=1710164823&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/AllantPlus7LowstepUS-24-40892-A-Alt4.jpg?v=1710164823&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7LowstepUS-24-40892-A-Accessory1.webp?v=1710164823&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7LowstepUS-24-40892-A-Alt6_1546018e-51c2-4073-93ab-1ae95d0208fb.webp?v=1710164823&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7LowstepUS-24-40892-A-Alt1.webp?v=1710164823&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7LowstepUS-24-40892-A-Primary.webp?v=1710164823&width=900"
   },
   {
@@ -5735,6 +5917,10 @@ export const PRODUCTS: Product[] = [
       "SKU": "20199494"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Smartmotion-Xcity-Neo-Camo-01.webp?v=1689810664&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/SM-Xcity-Neo-Teal-03_1080x1080_c0741258-77d1-4b22-9c1a-4a6e41a32ebc.webp?v=1689810664&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Smartmotion-Xcity-Neo-Camo-01.webp?v=1689810664&width=900"
   },
   {
@@ -5791,6 +5977,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/SM-Xcity-Neo-Teal-03_1080x1080_36ceaaf3-9178-4e64-a450-e63f085062fe.webp?v=1689810684&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Smartmotion-Xcity-Neo-Camo-01_95a9b1d9-18c7-4ca1-995e-6cadf19ef419.webp?v=1689810684&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/SM-Xcity-Neo-Teal-03_1080x1080_36ceaaf3-9178-4e64-a450-e63f085062fe.webp?v=1689810684&width=900"
   },
   {
@@ -5811,6 +6001,11 @@ export const PRODUCTS: Product[] = [
       "SKU": "20102401"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EARTH-T-REX-Mixie-Electric-Bike-New-2021-Model-600x600-1.jpg?v=1699496822&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EARTH-2023-TREX-MIXIE-OLI-LOW-RESS-1536x1025_adcf17ae-903c-4e70-b161-c901cdce415e.jpg?v=1699496822&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EARTH-2023-TREX-MIXIE-NEON-LOW-RESS-1536x1025.jpg?v=1680009329&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EARTH-T-REX-Mixie-Electric-Bike-New-2021-Model-600x600-1.jpg?v=1699496822&width=900"
   },
   {
@@ -5929,6 +6124,12 @@ export const PRODUCTS: Product[] = [
       "SKU": "20189006"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EBIKESPRESSOS2IBK_01_900x_b7c0459f-1ac0-40df-8c47-08cd3a00fb6e.jpg?v=1680039153&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/XDSEspressoebikestepthroughcommutingbike.webp?v=1680039153&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EBIKESPRESSOS2IBK_01_900x_b7c0459f-1ac0-40df-8c47-08cd3a00fb6e.webp?v=1680039153&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/XDSEspressoebikestepthroughcommutingbikeintegratedbattery.webp?v=1680039153&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EBIKESPRESSOS2IBK_01_900x_b7c0459f-1ac0-40df-8c47-08cd3a00fb6e.jpg?v=1680039153&width=900"
   },
   {
@@ -6145,6 +6346,11 @@ export const PRODUCTS: Product[] = [
       "SKU": "20190132"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/bianchictypeebikestepthroughbrowncopy_639abee3-3b76-4da6-8d5a-5c7af2aba8f0.jpg?v=1680036952&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/1-SUBURBAN-RED.png?v=1680036952&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/1-SUBURBAN-BLUE.png?v=1680036952&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/bianchictypeebikestepthroughbrowncopy_639abee3-3b76-4da6-8d5a-5c7af2aba8f0.jpg?v=1680036952&width=900"
   },
   {
@@ -6204,6 +6410,12 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188696_1_1dbc3aa9-ee05-43ee-af0d-b13e185fec4d.jpg?v=1680007084&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188696_2.jpg?v=1680007084&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187521_1.jpg?v=1680007084&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187521_2.jpg?v=1680007084&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188696_1_1dbc3aa9-ee05-43ee-af0d-b13e185fec4d.jpg?v=1680007084&width=900"
   },
   {
@@ -6327,6 +6539,16 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR28PRO_4_1c8ce24d-0c7b-4cb1-8fbf-6f866267abb8.webp?v=1728030821&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR28PRO_3_8884c0a3-0cc6-4bd5-bf4d-434eced65ed2.webp?v=1728030854&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR28PRO_2_57d92e1e-bd67-412a-afd3-273c5e945777.webp?v=1728030829&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR28PRO_1_8947854b-dccb-447c-b989-9566c7bb86c8.webp?v=1728030836&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR28PRO_1.webp?v=1728030845&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR28PRO_2.webp?v=1728030849&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR28PRO_6_f3685fd2-5bb4-4ea3-95a1-2e4ede134aaa.webp?v=1728030865&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ADO-Air-28-pro-ebike.jpg?v=1728030202&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR28PRO_4_1c8ce24d-0c7b-4cb1-8fbf-6f866267abb8.webp?v=1728030821&width=900"
   },
   {
@@ -6432,6 +6654,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/FXPlus2Stagger_23_35843_A_Primary_d699be13-4539-4dc8-8dd9-6347d24a3462.jpg?v=1680037645&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/FXPlus2Stagger_23_35843_A_Primary.jpg?v=1680037645&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/FXPlus2Stagger_23_35845_C_Primary.jpg?v=1680037645&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/FXPlus2Stagger_23_35843_A_Primary_d699be13-4539-4dc8-8dd9-6347d24a3462.jpg?v=1680037645&width=900"
   },
   {
@@ -6682,6 +6909,15 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/1_5.webp?v=1728030911&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/1-2.webp?v=1728030933&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/3-1.webp?v=1728030915&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/1-1.webp?v=1728030920&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/2-2.webp?v=1728030925&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A28Air-05-Grey.webp?v=1728030928&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ADO-Air-28.jpg?v=1728030748&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/1_5.webp?v=1728030911&width=900"
   },
   {
@@ -6768,6 +7004,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/bianchictypeebikestepthroughbrowncopy_9af2751d-0264-4b56-8ffd-c9164218f274.jpg?v=1680037287&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/2-DISCOVERY-RED.png?v=1680037287&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/2-DISCOVERY-BLUE-SEP22-2.png?v=1680037287&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/bianchictypeebikestepthroughbrowncopy_9af2751d-0264-4b56-8ffd-c9164218f274.jpg?v=1680037287&width=900"
   },
   {
@@ -6938,6 +7179,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/3-EXPLORER-BLUE.png?v=1681110146&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/3-EXPLORER-RED.png?v=1681110146&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/3-EXPLORER-BLUE.png?v=1681110146&width=900"
   },
   {
@@ -6958,6 +7203,10 @@ export const PRODUCTS: Product[] = [
       "SKU": "20102623"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102623_1_99baaf6a-3a0d-4c10-8b59-af3928f4ae46.jpg?v=1680034773&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102623_1.jpg?v=1680034773&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102623_1_99baaf6a-3a0d-4c10-8b59-af3928f4ae46.jpg?v=1680034773&width=900"
   },
   {
@@ -7018,6 +7267,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/bianchictypeebikestepthroughbrowncopy_cffbb82b-98fe-4713-ac3b-68a2b2d52a8d.jpg?v=1680037434&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/SOVEREIGN-PLUM.png?v=1680037434&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/SOVEREIGN-SKY-BLUE.png?v=1680037434&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/bianchictypeebikestepthroughbrowncopy_cffbb82b-98fe-4713-ac3b-68a2b2d52a8d.jpg?v=1680037434&width=900"
   },
   {
@@ -7111,6 +7365,14 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000257_1_d4fc8b1f-a2ca-436a-b6db-1f4e3e714169.jpg?v=1680035087&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000257_1.jpg?v=1680035074&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000240_1.jpg?v=1680035074&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000233_1.jpg?v=1680035074&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000226_1.jpg?v=1680035074&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000219_1.jpg?v=1680035074&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000257_1_d4fc8b1f-a2ca-436a-b6db-1f4e3e714169.jpg?v=1680035087&width=900"
   },
   {
@@ -7245,6 +7507,13 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101770_1_fa44d7d6-713c-4712-bcdd-7ad6d89e7ffe.jpg?v=1680031239&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101770_1.jpg?v=1680031239&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101763_1.jpg?v=1680031239&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101756_1.jpg?v=1680031239&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101725_1.jpg?v=1680031239&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101770_1_fa44d7d6-713c-4712-bcdd-7ad6d89e7ffe.jpg?v=1680031239&width=900"
   },
   {
@@ -7325,6 +7594,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/NCM_T3s_Black.png?v=1726226119&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/NCM_t3S_Sand.webp?v=1726226118&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/NCM_T3S_Step_Through_Lavendar_Blue.png?v=1790054619&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/NCM_T3s_Black.png?v=1726226119&width=900"
   },
   {
@@ -7468,6 +7742,13 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188801_1.jpg?v=1748171647&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDEL-CONLA_01_1024x1024_2x_c163d623-db73-49ef-a3b5-73e4338bcdec.webp?v=1748171647&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188801_2.jpg?v=1748171645&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188795_1_7eef23e7-cc01-416e-95c6-b3a6ce5914d5.jpg?v=1748171645&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188788_2.jpg?v=1748171645&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188801_1.jpg?v=1748171647&width=900"
   },
   {
@@ -7763,6 +8044,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tern_GSD_P00_Gen_3_Satin_Beige.png?v=1790052952&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tern_GSD_P00_Gen_3_Satin_Beige_2.png?v=1790052952&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tern_GSD_P00_Gen_3_Satin_Beige_3.png?v=1790052952&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tern_GSD_P00_Gen_3_Satin_Beige.png?v=1790052952&width=900"
   },
   {
@@ -7818,6 +8104,14 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FetchPlus2US-24-40925-A-Primary.webp?v=1710149040&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/FetchPlus2US-24-40925-A-Primary.jpg?v=1710149040&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FetchPlus2US-24-40925-A-Accessory2.webp?v=1710149037&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FetchPlus2US-24-40925-A-Accessory1.webp?v=1710149036&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FetchPlus2US-24-40925-A-Alt3.jpg?v=1710149036&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FetchPlus2US-24-40925-B-Primary.webp?v=1710149036&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FetchPlus2US-24-40925-A-Primary.webp?v=1710149040&width=900"
   },
   {
@@ -7875,6 +8169,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/gsd_s10-lx-tabasco-unfold.jpg?v=1733308775&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/gsd_s10-lx-dark_sage-unfold.webp?v=1733308850&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/gsd_s10-lx-tabasco-unfold.jpg?v=1733308775&width=900"
   },
   {
@@ -8255,6 +8553,12 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_black_ULTRAG3carbonmetallic2.webp?v=1787295636&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_organge_ULTRA_Banksia_web.webp?v=1787295655&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_ULTRA_Limestone_web.webp?v=1787295681&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Ultra_G3.png?v=1790052758&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_black_ULTRAG3carbonmetallic2.webp?v=1787295636&width=900"
   },
   {
@@ -8523,6 +8827,12 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_RALLY_G3_Blue_434dbce5-f745-422d-ae6e-3c34ccc1ab78.webp?v=1787357296&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_RAlly_G3_Limestonge_cargo_ebike_3a0a5bfc-fd99-4989-8991-9d79868fe90e.webp?v=1787357312&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_cargo_ebike_RAlly_G3_carbon_metallic_3680a699-32ba-4e0a-b3e1-87e7cc5ab97c.webp?v=1787357333&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Rally_G3.png?v=1790052758&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_RALLY_G3_Blue_434dbce5-f745-422d-ae6e-3c34ccc1ab78.webp?v=1787357296&width=900"
   },
   {
@@ -9254,6 +9564,16 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Sport_plus_limestone.webp?v=1787355905&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_Sport_plus_blue.webp?v=1787355924&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_SPORT_Banksia_web_7dca772e-d2f5-4d30-b76c-cc60273db211.webp?v=1787355945&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_no_suspen_SPORT_Limestone_Recolour_web.webp?v=1787356182&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_no_sus_SPORT_Flax_Blue_web_06731710-5be6-4805-b964-15938b959c2e.webp?v=1787356318&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_sport_plus_orange.webp?v=1787356599&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_sport_plus_carbon.webp?v=1787356937&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Sport_G3.png?v=1790052758&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Sport_plus_limestone.webp?v=1787355905&width=900"
   },
   {
@@ -9540,6 +9860,12 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Compact_SUV_Limestone_Grey.png?v=1790052758&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_ebike_COmpactworkingcolourdoc.webp?v=1787357444&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_ebike_COmpactBluenew.webp?v=1787357459&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_cargo_ebike_RAlly_G3_carbon_metallic_2acd3284-93ef-4d18-8f5f-51e7ac881de7.webp?v=1787357508&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Compact_SUV_Limestone_Grey.png?v=1790052758&width=900"
   },
   {
@@ -9754,6 +10080,12 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DiroDi-Rover-Standard---Plus-Gen-6--Black--Standard--Step-Over--250W.jpg?v=1767316825&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Dirodi_Rover_Blue_step_over.webp?v=1767318619&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Dirodi_Rover_Steph_over_grey.webp?v=1767318619&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Dirodi_Rover_Red.webp?v=1767318810&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DiroDi-Rover-Standard---Plus-Gen-6--Black--Standard--Step-Over--250W.jpg?v=1767316825&width=900"
   },
   {
@@ -9822,6 +10154,15 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/t720_white.jpg?v=1726229321&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/EtCycle15_t720_silver.webp?v=1726229321&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ETCYCLEBLACk_ebike.webp?v=1726229321&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ET-CYCLE_T720_bike_right.png?v=1790054359&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ET-CYCLE_T720_front_profile.png?v=1790054358&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ET-CYCLE_T720.png?v=1790054360&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ET-CYCLE_T720_handle.png?v=1790054360&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/t720_white.jpg?v=1726229321&width=900"
   },
   {
@@ -9879,6 +10220,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/vektrons10-g2-unfold-lr-silver-silver.webp?v=1733313086&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/vektron_s10-g3-forest-grey-unfold.jpg?v=1733313036&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/vektrons10-g2-unfold-lr-silver-silver.webp?v=1733313086&width=900"
   },
   {
@@ -9931,6 +10276,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ADO_Air_Carbon_folding_ebike_2.webp?v=1748150154&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ADO-Air-Carbon-folding-ebike.jpg?v=1748150154&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ADO_Air_Carbon_folding_ebike_2.webp?v=1748150154&width=900"
   },
   {
@@ -9990,6 +10339,16 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR20PRO_2.webp?v=1728025040&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR20PRO_5_38d4df60-a9d7-458c-ad81-319a540baa2d.webp?v=1728025034&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR20PRO_1_90f0c9c9-39b5-451d-aba0-3281957a9a44.webp?v=1728025065&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR20PRO_4.webp?v=1728025070&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR20PRO_3.webp?v=1728025074&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR20PRO_1.webp?v=1728025079&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR20PRO_1Blueelectricbike.webp?v=1728025085&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR20PRO_1-Blue-electric-bike.jpg?v=1728015572&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR20PRO_2.webp?v=1728025040&width=900"
   },
   {
@@ -10046,6 +10405,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Rilu-Pogo.jpg?v=1729142626&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Rilu_Pogo_1_ebik.jpg?v=1729142789&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Rilu-Pogo.jpg?v=1729142626&width=900"
   },
   {
@@ -10162,6 +10525,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/eart-fat-tire-folding-ebike-black-without-basket-1-600x600-1.jpg?v=1678789701&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/earth-20inch-fat-tire-folding-ebike-charcoal-without-basket-600x600-1.jpg?v=1678789700&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/earth-ant-fat-folding-ebike-1-600x600-1.jpg?v=1678789701&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/eart-fat-tire-folding-ebike-black-without-basket-1-600x600-1.jpg?v=1678789701&width=900"
   },
   {
@@ -10214,6 +10582,13 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Ivory-02.png?v=1728024845&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-01-Grey.jpg?v=1728015068&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Ivory-06.png?v=1728024792&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Grey-03.png?v=1728024844&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Ivory-04.png?v=1728024792&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Ivory-02.png?v=1728024845&width=900"
   },
   {
@@ -10303,6 +10678,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187583_1_384d65a5-6e3f-496c-8ae9-c74ee8bb31e4.jpg?v=1680011121&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187583_1.jpg?v=1680011121&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187583_2_3bad350c-f14c-4945-bac0-80a2f74e3139.jpg?v=1680011121&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187583_1_384d65a5-6e3f-496c-8ae9-c74ee8bb31e4.jpg?v=1680011121&width=900"
   },
   {
@@ -10365,6 +10745,13 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Ivory-02.png?v=1728024845&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Ivory-04.png?v=1728024792&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Ivory-06.png?v=1728024792&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Grey-03.png?v=1728024844&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Ivory--folding-Ebike.jpg?v=1728014906&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Ivory-02.png?v=1728024845&width=900"
   },
   {
@@ -10417,6 +10804,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tebco_WANDERER_Cherry_Red_ebike_adelaide.png?v=1728025884&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tebco_WANDERER_SILVER_ebike_adelaide.png?v=1728025885&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tebco_WANDERER_Cherry_Red_ebike_adelaide.png?v=1728025884&width=900"
   },
   {
@@ -10485,6 +10876,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/9003180000_ea45fde6-91cb-4c09-845a-ac285d5fb595.jpg?v=1680035224&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/9003180000_db3e58cd-39e8-48ba-80cd-52e5fa3e92b6.jpg?v=1680035224&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/9003180000_ea45fde6-91cb-4c09-845a-ac285d5fb595.jpg?v=1680035224&width=900"
   },
   {
@@ -10505,6 +10900,10 @@ export const PRODUCTS: Product[] = [
       "SKU": "0000020193614"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/bianchictypeebikestepthroughbrown2.jpg?v=1680034846&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/NOMAD_35-DEG.png?v=1680034846&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/bianchictypeebikestepthroughbrown2.jpg?v=1680034846&width=900"
   },
   {
@@ -10530,6 +10929,11 @@ export const PRODUCTS: Product[] = [
       "SKU": "20188474"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188474_1_7e6ad7a3-c818-4955-9c38-6b91d7ee5aad.jpg?v=1680011735&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188474_1.jpg?v=1680011735&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188474_2_a34530d9-44ad-41d2-8f04-1b8ea223045c.jpg?v=1680011735&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188474_1_7e6ad7a3-c818-4955-9c38-6b91d7ee5aad.jpg?v=1680011735&width=900"
   },
   {
@@ -10653,6 +11057,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/PAris_PLus_Black.webp?v=1726230223&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Paris_PLus_ebike_folding_bike.webp?v=1726230224&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/PAris_PLus_Black.webp?v=1726230223&width=900"
   },
   {
@@ -10671,6 +11079,10 @@ export const PRODUCTS: Product[] = [
       "SKU": "20103118"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EBIKELECTRON20_01_720x_564d2550-80be-4aee-8c68-bfa6a840d7f2.jpg?v=1680013068&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EBIKELECTRON20_01_720x_580dafaf-61d0-48ff-beb4-1ee1977a3633.jpg?v=1680013068&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EBIKELECTRON20_01_720x_564d2550-80be-4aee-8c68-bfa6a840d7f2.jpg?v=1680013068&width=900"
   },
   {
@@ -10740,6 +11152,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/NCM_Paris_Max_2.png?v=1790054620&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/NCM_Paris_Max.png?v=1790054619&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/NCM_Paris_Max_2.png?v=1790054620&width=900"
   },
   {
@@ -10821,6 +11237,12 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londons_std_black_263ce6fc-2b3f-4c1a-a62f-0df9b505dac1.jpg?v=1680030277&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londons_std_black.jpg?v=1680030277&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londons_std_navy.jpg?v=1680030277&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londons_std_white.jpg?v=1680030277&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londons_std_black_263ce6fc-2b3f-4c1a-a62f-0df9b505dac1.jpg?v=1680030277&width=900"
   },
   {
@@ -10882,6 +11304,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103347_1_6ca9ea81-9eec-439f-94a9-d05db6d6f974.jpg?v=1680034650&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103347_1_f97d7a7c-6659-4514-840b-0124a9078b99.jpg?v=1680034650&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103347_1_6ca9ea81-9eec-439f-94a9-d05db6d6f974.jpg?v=1680034650&width=900"
   },
   {
@@ -11033,6 +11459,13 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/GREY_ac85b65d-d30e-4861-b49d-1b0b1cf95b3d.jpg?v=1680030633&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/GREY.jpg?v=1680030633&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/NAVYY.jpg?v=1680030633&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/SILVER.jpg?v=1680030633&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/WHITEE.jpg?v=1680030633&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/GREY_ac85b65d-d30e-4861-b49d-1b0b1cf95b3d.jpg?v=1680030633&width=900"
   },
   {
@@ -11138,6 +11571,15 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusSLR7_23_36711_A_Primary.webp?v=1710164651&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusSLR7_23_36711_A_Alt8_208a2b49-7d62-42e3-be1b-081e1aa3f9de.webp?v=1710164651&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusSLR7_23_36711_A_Alt7_bfe8ef59-df9b-46e6-a2ea-98b07a954e0a.webp?v=1710164651&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusSLR7_23_36711_A_Alt5_8c53ca52-8e23-43c0-8d26-f5f5612657cb.webp?v=1710164651&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusSLR7_23_36711_A_Alt4_11933e86-52d6-4a03-a795-1e4f6945f92c.webp?v=1710164651&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusSLR7_23_36711_A_Alt2_a997c2c3-c332-4610-b8ea-7666b0e1e23c.webp?v=1710164651&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusSLR7_23_36711_A_Alt1.webp?v=1710164651&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusSLR7_23_36711_A_Primary.webp?v=1710164651&width=900"
   },
   {
@@ -11446,6 +11888,10 @@ export const PRODUCTS: Product[] = [
       "SKU": "20103194"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103194_1_c08e0219-6ead-45b0-81d6-d1f02c9a485a.jpg?v=1680031909&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103194_1.jpg?v=1680031909&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103194_1_c08e0219-6ead-45b0-81d6-d1f02c9a485a.jpg?v=1680031909&width=900"
   },
   {
@@ -11620,6 +12066,16 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_B_Primary.jpg?v=1681128300&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_A_Primary.jpg?v=1681128300&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusAL5_23_36145_B_Alt6.webp?v=1710160925&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusAL5_23_36145_B_Alt5.webp?v=1710160926&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusAL5_23_36145_B_Alt3.webp?v=1710160926&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusAL5_23_36145_A_Accessory1.webp?v=1710160927&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusAL5_23_36145_A_Alt4.webp?v=1710160927&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusAL5_23_36145_A_Alt7.webp?v=1710160926&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_B_Primary.jpg?v=1681128300&width=900"
   },
   {
@@ -11901,6 +12357,16 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Bagus_EN_Certified_Desert_Sand.png?v=1790056328&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Bagus_EN_Certified_Black.png?v=1790056328&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Bagus_EN_Certified_Brushed_Aluminium.png?v=1790056327&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Bagus_EN_Certified_Brushed_Aluminium_2.png?v=1790056329&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Bagus_EN_Certified_Brushed_Aluminium_3.png?v=1790056328&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Bagus_EN_Certified_Midnight_Blue.png?v=1790056328&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Bagus_EN_Certified_Nardon_Grey.png?v=1790056328&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Bagus_EN_Certified_White_Noise.png?v=1790056328&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Bagus_EN_Certified_Desert_Sand.png?v=1790056328&width=900"
   },
   {
@@ -12222,6 +12688,16 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Harlem_EN_Certified_White_Noise.png?v=1790055638&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Harlem_EN_Certified_Army_Green.png?v=1790055639&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Harlem_EN_Certified_Black.png?v=1790055639&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Harlem_EN_Certified_Brushed_Aluminium_2.png?v=1790055639&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Harlem_EN_Certified_Brushed_Aluminium_3.png?v=1790055639&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Harlem_EN_Certified_Brushed_Aluminium.png?v=1790055638&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Harlem_EN_Certified_Brushed_Pink.png?v=1790055639&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Harlem_EN_Certified_Desert_Sand.png?v=1790055639&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Harlem_EN_Certified_White_Noise.png?v=1790055638&width=900"
   },
   {
@@ -12526,6 +13002,16 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy-scrambler-image.jpg?v=1787644461&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0001_JUNGLE_GREEN.webp?v=1787644609&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0002_GLOSS_BLACK.webp?v=1787644609&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0005_SAND.webp?v=1787644609&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0004_WHITE.webp?v=1787644609&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0003_MIDNIGHT_BLUE.webp?v=1787644609&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_SCRAMBLER_V3_BRUSHED_ALLOY.webp?v=1787644609&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FATBOY_ECOM_SCRAMBLER_V2__0002_JUNGLE_GREEN.webp?v=1787645370&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy-scrambler-image.jpg?v=1787644461&width=900"
   },
   {
@@ -12695,6 +13181,13 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish_OG_2.0_Army_Green.png?v=1790054198&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish_OG_2.0_Black.png?v=1790054197&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish_OG_2.0_Holographic_Grey.png?v=1790054198&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish_OG_2.0_Smoke_Grey.png?v=1790054198&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish_OG_2.0_White.png?v=1790054197&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish_OG_2.0_Army_Green.png?v=1790054198&width=900"
   },
   {
@@ -12962,6 +13455,13 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish-Biggie-Smoke-Grey-01_1200x1200_f3b39997-eb3c-4494-a290-ade7bd2d867d.jpg?v=1787821206&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish_BIGGIEWhite1.webp?v=1787821245&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FatfishBIGGIEBlack1.webp?v=1787821267&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatfish_BIGGIEPurpleHaze3_1.webp?v=1787821298&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatfish_ebike_BIGGIEGreen1.webp?v=1787821322&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish-Biggie-Smoke-Grey-01_1200x1200_f3b39997-eb3c-4494-a290-ade7bd2d867d.jpg?v=1787821206&width=900"
   },
   {
@@ -13231,6 +13731,16 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_DNA_EN_Certified_Brushed_Alloy.png?v=1790054446&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_DNA_EN_Certified_Brushed_Alloy_2.png?v=1790054448&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_DNA_EN_Certified_Brushed_Alloy_3.png?v=1790054448&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_DNA_EN_Certified_Blush_Pink.png?v=1790054447&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_DNA_EN_Certified_Desert_Sand.png?v=1790054447&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_DNA_EN_Certified_Gloss_Black.png?v=1790054447&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_DNA_EN_Certified_Jungle_Green.png?v=1790054447&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_DNA_EN_Certified_Midnight_Blue.png?v=1790054447&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_DNA_EN_Certified_Brushed_Alloy.png?v=1790054446&width=900"
   },
   {
@@ -13307,6 +13817,13 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188825_2_b932c5d7-b525-4b55-90d1-f15533b56bcb.jpg?v=1680013178&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188825_1.jpg?v=1680013178&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188825_2.jpg?v=1680013178&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102906_1.jpg?v=1680013178&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102906_2.jpg?v=1680013178&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188825_2_b932c5d7-b525-4b55-90d1-f15533b56bcb.jpg?v=1680013178&width=900"
   },
   {
@@ -13327,6 +13844,10 @@ export const PRODUCTS: Product[] = [
       "SKU": "0000020198008"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/scoobo1_e5d452e3-2de2-4860-bd75-86789936cdd0.jpg?v=1680035515&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/scoobo1.jpg?v=1680035515&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/scoobo1_e5d452e3-2de2-4860-bd75-86789936cdd0.jpg?v=1680035515&width=900"
   },
   {
@@ -13484,6 +14005,12 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/CARRRO-BLACK-WITH-BACKGROUND-removebg-preview-1-uai-1440x1070.jpg?v=1710150729&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/IMG_4710.jpg?v=1710150729&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/IMG_4715.jpg?v=1710150729&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/IMG_4711.jpg?v=1710150729&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/CARRRO-BLACK-WITH-BACKGROUND-removebg-preview-1-uai-1440x1070.jpg?v=1710150729&width=900"
   },
   {
@@ -13542,6 +14069,12 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190439_1_1419ce35-1dae-4c3e-ac50-e6d8c5059aaa.jpg?v=1680036869&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190439_2.jpg?v=1680036869&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190156_1.jpg?v=1680036869&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190439_1.jpg?v=1680036869&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190439_1_1419ce35-1dae-4c3e-ac50-e6d8c5059aaa.jpg?v=1680036869&width=900"
   },
   {
@@ -13559,6 +14092,10 @@ export const PRODUCTS: Product[] = [
       "SKU": "20190958"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190958_1_c3597898-ff07-46f7-9e9f-4b8d585cb2b6.jpg?v=1680037542&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190958_1.jpg?v=1680037542&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190958_1_c3597898-ff07-46f7-9e9f-4b8d585cb2b6.jpg?v=1680037542&width=900"
   },
   {
@@ -13585,6 +14122,14 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000004013"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Phoenix_6026_Dual_Motor_Performance_Electric_Scooter_2.png?v=1790053978&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Phoenix_6026_Dual_Motor_Performance_Electric_Scooter_3.png?v=1790053978&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Phoenix_6026_Dual_Motor_Performance_Electric_Scooter.png?v=1790053978&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Phoenix_6026_Dual_Motor_Performance_Electric_Scooter_4.png?v=1790053978&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Phoenix_6026_Dual_Motor_Performance_Electric_Scooter_5.png?v=1790053978&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Phoenix_6026_Dual_Motor_Performance_Electric_Scooter_6.png?v=1790053978&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Phoenix_6026_Dual_Motor_Performance_Electric_Scooter_2.png?v=1790053978&width=900"
   },
   {
@@ -13687,6 +14232,12 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000004082"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Hustler_4816_Performance_Commuter_E-Scooter_3.png?v=1790053977&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Hustler_4816_Performance_Commuter_E-Scooter_4.png?v=1790053977&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Hustler_4816_Performance_Commuter_E-Scooter.png?v=1790053978&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Hustler_4816_Performance_Commuter_E-Scooter_2.png?v=1790053978&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Hustler_4816_Performance_Commuter_E-Scooter_3.png?v=1790053977&width=900"
   },
   {
@@ -13704,6 +14255,11 @@ export const PRODUCTS: Product[] = [
       "SKU": "20187712"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187712_1_f4bd7b72-c4b3-4273-81de-dec1c4710975.jpg?v=1680012940&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187712_1.jpg?v=1680012940&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187712_2_5781de87-0a70-46db-a448-3e0e7c520339.jpg?v=1680012940&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187712_1_f4bd7b72-c4b3-4273-81de-dec1c4710975.jpg?v=1680012940&width=900"
   },
   {
@@ -13738,6 +14294,11 @@ export const PRODUCTS: Product[] = [
       "SKU": "20187736"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187736_1_12de682f-93bc-4c82-a0db-fbfa244b461a.jpg?v=1680012858&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187736_1.jpg?v=1680012858&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187736_2.jpg?v=1680012858&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187736_1_12de682f-93bc-4c82-a0db-fbfa244b461a.jpg?v=1680012858&width=900"
   },
   {
@@ -13755,6 +14316,12 @@ export const PRODUCTS: Product[] = [
       "SKU": "20187385"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187385_1_31c7cd7e-ba52-4169-9f54-c51dc7af83bf.jpg?v=1680012657&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187385_1.jpg?v=1680012657&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187385_2.jpg?v=1680012657&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187385_1_a15bad50-d3a6-4d23-8150-a40eb0f637b9.jpg?v=1680012657&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187385_1_31c7cd7e-ba52-4169-9f54-c51dc7af83bf.jpg?v=1680012657&width=900"
   },
   {
@@ -13772,6 +14339,12 @@ export const PRODUCTS: Product[] = [
       "SKU": "20102425"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102425_1_ed9fa0e4-145c-4e9f-afc8-a65829742244.jpg?v=1680012093&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102425_1.jpg?v=1680012093&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102425_2.jpg?v=1680012093&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102425_1_c9cdedf2-2d26-403c-a236-88fa10d7707d.jpg?v=1680012093&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102425_1_ed9fa0e4-145c-4e9f-afc8-a65829742244.jpg?v=1680012093&width=900"
   },
   {
@@ -13789,6 +14362,12 @@ export const PRODUCTS: Product[] = [
       "SKU": "20102173"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102173_1_3cb0aabe-b89b-45bc-b98e-8f60deeebcee.jpg?v=1680011868&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102173_1.jpg?v=1680011868&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102173_2.jpg?v=1680011868&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102173_1_a7ed6a6a-fc31-4b0a-82d2-98be5bdb5241.jpg?v=1680011868&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102173_1_3cb0aabe-b89b-45bc-b98e-8f60deeebcee.jpg?v=1680011868&width=900"
   },
   {
@@ -13861,6 +14440,12 @@ export const PRODUCTS: Product[] = [
       "SKU": "933AU"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/933AU_1_df54f5a3-3e57-400f-95ea-7c4a41fad367.jpg?v=1680036684&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/933AU_2.jpg?v=1680036684&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/933AU_3.jpg?v=1680036684&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/933AU_1.jpg?v=1680036684&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/933AU_1_df54f5a3-3e57-400f-95ea-7c4a41fad367.jpg?v=1680036684&width=900"
   },
   {
@@ -13950,6 +14535,10 @@ export const PRODUCTS: Product[] = [
       "SKU": "4712927723646"
     },
     "inStock": true,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AirAlarmComboOrange.png?v=1683374034&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AirAlarmComboOrange4.png?v=1683374034&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AirAlarmComboOrange.png?v=1683374034&width=900"
   },
   {
@@ -14591,6 +15180,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Aventura-6-7-Green.jpg?v=1722312561&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Aventura_6.7_Grey.jpg?v=1722312626&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Aventura-6-7-Green.jpg?v=1722312561&width=900"
   },
   {
@@ -14739,6 +15332,16 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus6US-24-41009-B-Primary.webp?v=1710161946&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus6US-24-41009-A-Primary.webp?v=1710161946&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/MarlinPlus6US-24-41009-B-Alt4.jpg?v=1710161946&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus6US-24-41009-B-Alt4.webp?v=1710161946&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus6US-24-41009-B-Alt2.webp?v=1710161946&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus6US-24-41009-B-Alt7.webp?v=1710161946&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus6US-24-41009-B-Alt3.webp?v=1710161946&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus6US-24-41009-A-Accessory1.webp?v=1710161946&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus6US-24-41009-B-Primary.webp?v=1710161946&width=900"
   },
   {
@@ -14797,6 +15400,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000615_1_200165e1-d367-4a1a-b499-2a4c20888195.jpg?v=1680009231&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/123218230123848_1.jpg?v=1680009231&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/Earth-T-Rex-29-SP-Hardtail-Emtb-ebike-scaled.jpg?v=1680009231&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000615_1_200165e1-d367-4a1a-b499-2a4c20888195.jpg?v=1680009231&width=900"
   },
   {
@@ -15175,6 +15783,12 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102432_1_5745152d-85fc-4814-ab49-c59d88bee1b1.jpg?v=1680030928&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102432_1_d1061788-8c37-4910-8838-aafbf50056d7.jpg?v=1680030928&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101947_1.jpg?v=1680030928&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102869_1.jpg?v=1680030928&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102432_1_5745152d-85fc-4814-ab49-c59d88bee1b1.jpg?v=1680030928&width=900"
   },
   {
@@ -15366,6 +15980,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/NCMEbikeprague.jpg?v=1726396624&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ncm-prague_white_electric_bike_Adelaide.jpg?v=1726396698&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/NCMEbikeprague.jpg?v=1726396624&width=900"
   },
   {
@@ -15585,6 +16203,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VervePlusMensUS_20_28299_B_Primary_b8fb9453-2a1c-42f5-b199-b4739f2a9ec4.jpg?v=1680038417&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VervePlusMensUS_20_28299_B_Primary.jpg?v=1680038417&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VervePlusMensUS_20_28299_B_Primary_b8fb9453-2a1c-42f5-b199-b4739f2a9ec4.jpg?v=1680038417&width=900"
   },
   {
@@ -15703,6 +16325,10 @@ export const PRODUCTS: Product[] = [
       "SKU": "20102968"
     },
     "inStock": false,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102968_1_a41be687-96dd-4b7f-beb1-963f41f20357.jpg?v=1680034204&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102968_1.jpg?v=1680034204&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102968_1_a41be687-96dd-4b7f-beb1-963f41f20357.jpg?v=1680034204&width=900"
   },
   {
@@ -15913,6 +16539,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaBlackE50.jpg?v=1685964494&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaBlueE50.jpg?v=1685964493&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaRedE50.jpg?v=1685964494&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaBlackE50.jpg?v=1685964494&width=900"
   },
   {
@@ -16148,6 +16779,16 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190019_1_412ae696-24b8-459c-b40e-2e8fdb24cf09.jpg?v=1680010268&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190729_1.jpg?v=1680010268&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190712_1.jpg?v=1680010268&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190057_1_8dbdc1fc-6705-48b9-a9fc-392cea3a0ac2.jpg?v=1680010268&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190019_1.jpg?v=1680010268&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190002_1.jpg?v=1680010268&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/ezgif-4-319df8cf90.jpg?v=1680010268&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/ezgif-4-a77c724098.jpg?v=1680010268&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190019_1_412ae696-24b8-459c-b40e-2e8fdb24cf09.jpg?v=1680010268&width=900"
   },
   {
@@ -16320,6 +16961,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103637_1_a5ad7e7e-c207-4102-ae29-92c411728a43.jpg?v=1680030866&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103637_1_822b4c02-bbcc-4c7e-865e-e57a89674de3.jpg?v=1680030866&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103804_1.jpg?v=1680030866&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103637_1_a5ad7e7e-c207-4102-ae29-92c411728a43.jpg?v=1680030866&width=900"
   },
   {
@@ -16666,6 +17312,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187217_1.jpg?v=1680038981&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187200_1.jpg?v=1680038981&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187217_1.jpg?v=1680038981&width=900"
   },
   {
@@ -16724,6 +17374,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londonplus_650796fb-7e5b-4768-82c5-ddad288e9c36.jpg?v=1680030173&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/9003180000.jpg?v=1680030173&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londonplus_650796fb-7e5b-4768-82c5-ddad288e9c36.jpg?v=1680030173&width=900"
   },
   {
@@ -16943,6 +17597,10 @@ export const PRODUCTS: Product[] = [
       "SKU": "20103712"
     },
     "inStock": false,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103712_1_70cbe211-58c9-4a60-8afd-9b6d372ecfbb.jpg?v=1680035976&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103712_1.jpg?v=1680035976&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103712_1_70cbe211-58c9-4a60-8afd-9b6d372ecfbb.jpg?v=1680035976&width=900"
   },
   {
@@ -16960,6 +17618,11 @@ export const PRODUCTS: Product[] = [
       "SKU": "20103705"
     },
     "inStock": false,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103705_1_6f491b54-ee4d-477e-a67c-9a810ccd1974.jpg?v=1680036048&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103705_1.jpg?v=1680036048&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/STACYC-12-Ebike-lt-side-line-art.jpg?v=1680036048&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103705_1_6f491b54-ee4d-477e-a67c-9a810ccd1974.jpg?v=1680036048&width=900"
   },
   {
@@ -17011,6 +17674,11 @@ export const PRODUCTS: Product[] = [
       "SKU": "EGER2PTB"
     },
     "inStock": false,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ezigripebikeelectricbikerackE-Rack-2.webp?v=1683374559&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101695_2.jpg?v=1683374559&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101695_1.jpg?v=1683374559&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ezigripebikeelectricbikerackE-Rack-2.webp?v=1683374559&width=900"
   },
   {
@@ -17398,6 +18066,11 @@ export const PRODUCTS: Product[] = [
       "SKU": "7PERAMP"
     },
     "inStock": false,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EziGripramplifestyle.webp?v=1671677814&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/ezigriprampclose.webp?v=1671677879&width=900",
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/ezigripramppic.png?v=1671677880&width=900"
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EziGripramplifestyle.webp?v=1671677814&width=900"
   },
   {

@@ -22,6 +22,8 @@ export const ProductDetailPage: React.FC = () => {
     setSelection(baseProduct ? defaultSelection(baseProduct) : []);
     setQuantity(1);
   }, [productId]);
+  const [activeImage, setActiveImage] = useState<string | null>(null);
+  useEffect(() => setActiveImage(null), [productId, selection.join('|')]);
   const variant = baseProduct ? findVariant(baseProduct, selection) : undefined;
   // Price, image and stock follow the selected variant
   const product = baseProduct && variant
@@ -76,7 +78,9 @@ export const ProductDetailPage: React.FC = () => {
         <div className="lg:col-span-7 space-y-6">
           <div className="relative aspect-4/3 rounded-2xl overflow-hidden border border-slate-200 bg-slate-100 shadow-xs">
             <ProductImage
-              src={product.imageUrl}
+              eager
+              key={activeImage ?? product.imageUrl}
+              src={activeImage ?? product.imageUrl}
               alt={product.name}
               category={product.category}
               className="w-full h-full"
@@ -87,6 +91,27 @@ export const ProductDetailPage: React.FC = () => {
               </div>
             )}
           </div>
+
+          {/* Gallery thumbnails */}
+          {baseProduct && baseProduct.images && baseProduct.images.length > 1 && (
+            <div className="flex gap-2 overflow-x-auto pb-1" aria-label="Product photos">
+              {baseProduct.images.map((src, i) => {
+                const active = (activeImage ?? product.imageUrl) === src;
+                return (
+                  <button
+                    key={src}
+                    type="button"
+                    onClick={() => setActiveImage(src)}
+                    aria-label={'Show photo ' + (i + 1)}
+                    aria-pressed={active}
+                    className={`relative w-20 h-16 shrink-0 rounded-lg overflow-hidden border-2 bg-slate-100 cursor-pointer transition-colors ${active ? 'border-emerald-600' : 'border-slate-200 hover:border-slate-400'}`}
+                  >
+                    <img src={src.replace('width=900', 'width=240')} alt="" loading="lazy" referrerPolicy="no-referrer" className="w-full h-full object-cover" />
+                  </button>
+                );
+              })}
+            </div>
+          )}
 
           {/* Quick Value Props Strip */}
           <div className="grid grid-cols-3 gap-3 text-xs">
