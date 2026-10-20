@@ -17803,7 +17803,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "20104092"
     },
     "inStock": false,
-    "imageUrl": ""
+    "imageUrl": "/images/products/bafang-c18-display.webp"
   },
   {
     "id": "hyena-charger",
