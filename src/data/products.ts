@@ -2583,7 +2583,13 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Trail & Off-Road"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Prime-Hardtail-emtb-ebike-2022-scaled.jpg?v=1692112587&width=900",
+      "/images/products/earth-prime-emtb-2.webp",
+      "/images/products/earth-prime-emtb-3.webp",
+      "/images/products/earth-prime-emtb-4.webp"
+    ]
   },
   {
     "id": "smartmotion-catalyst-17ah",
@@ -7138,7 +7144,14 @@ export const PRODUCTS: Product[] = [
       "uses": [
         "Touring & Adventure"
       ]
-    }
+    },
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000622_1.jpg?v=1680009552&width=900",
+      "/images/products/earth-t-rex-trekking-2.webp",
+      "/images/products/earth-t-rex-trekking-3.webp",
+      "/images/products/earth-t-rex-trekking-4.webp",
+      "/images/products/earth-t-rex-trekking-5.webp"
+    ]
   },
   {
     "id": "kalkoff-endeavour-1b-move-545w",
