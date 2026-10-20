@@ -14680,7 +14680,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "601842778746"
     },
     "inStock": true,
-    "imageUrl": ""
+    "imageUrl": "/images/products/bontrager-bidon-sl-3.webp"
   },
   {
     "id": "electra-domed-ringer-bike-bell",
@@ -14698,7 +14698,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "601842505694"
     },
     "inStock": true,
-    "imageUrl": ""
+    "imageUrl": "/images/products/electra-domed-ringer-bike-bell.webp"
   },
   {
     "id": "bontrager-bidon-11",
@@ -14717,7 +14717,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "601842778654"
     },
     "inStock": true,
-    "imageUrl": ""
+    "imageUrl": "/images/products/bontrager-bidon-11.webp"
   },
   {
     "id": "bontrager-bidon-10",
@@ -14736,7 +14736,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "601842778623"
     },
     "inStock": true,
-    "imageUrl": ""
+    "imageUrl": "/images/products/bontrager-bidon-10.webp"
   },
   {
     "id": "bontrager-bidon-9",
@@ -14755,7 +14755,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "601842778692"
     },
     "inStock": true,
-    "imageUrl": ""
+    "imageUrl": "/images/products/bontrager-bidon-9.webp"
   },
   {
     "id": "bontrager-bidon-7",
@@ -14774,7 +14774,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "601842778708"
     },
     "inStock": true,
-    "imageUrl": ""
+    "imageUrl": "/images/products/bontrager-bidon-7.webp"
   },
   {
     "id": "bontrager-bidon-6",
@@ -14793,7 +14793,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "601842778661"
     },
     "inStock": true,
-    "imageUrl": ""
+    "imageUrl": "/images/products/bontrager-bidon-6.webp"
   },
   {
     "id": "bontrager-bidon-4",
@@ -14812,7 +14812,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "601842778616"
     },
     "inStock": true,
-    "imageUrl": ""
+    "imageUrl": "/images/products/bontrager-bidon-4.webp"
   },
   {
     "id": "bontrager-bidon-3",
@@ -14831,7 +14831,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "601842778647"
     },
     "inStock": true,
-    "imageUrl": ""
+    "imageUrl": "/images/products/bontrager-bidon-3.webp"
   },
   {
     "id": "bontrager-bidon-2",
@@ -14850,7 +14850,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "601842778685"
     },
     "inStock": true,
-    "imageUrl": ""
+    "imageUrl": "/images/products/bontrager-bidon-2.webp"
   },
   {
     "id": "bontrager-bidon-1",
@@ -14869,7 +14869,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "601842778593"
     },
     "inStock": true,
-    "imageUrl": ""
+    "imageUrl": "/images/products/bontrager-bidon-1.webp"
   },
   {
     "id": "bontrager-bidon",
@@ -14888,7 +14888,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "601842778630"
     },
     "inStock": true,
-    "imageUrl": ""
+    "imageUrl": "/images/products/bontrager-bidon.webp"
   },
   {
     "id": "stealth-b52-new-model",
@@ -17466,7 +17466,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "0000020199555"
     },
     "inStock": false,
-    "imageUrl": ""
+    "imageUrl": "/images/products/michael-blast-greaser-springer-250w.webp"
   },
   {
     "id": "pfautec-scoobo-trike",
@@ -17820,7 +17820,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "601842830949"
     },
     "inStock": false,
-    "imageUrl": ""
+    "imageUrl": "/images/products/hyena-charger.webp"
   },
   {
     "id": "trek-commuter-comp-r-flare-r-city-bike-light-set",
@@ -18032,7 +18032,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "883466011281"
     },
     "inStock": false,
-    "imageUrl": ""
+    "imageUrl": "/images/products/topeak-uni-super-tourist-disc.webp"
   },
   {
     "id": "bontrager-ion-100-r-flare-r-city-bike-light-set",
@@ -18105,7 +18105,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "4712123268194"
     },
     "inStock": false,
-    "imageUrl": ""
+    "imageUrl": "/images/products/infini-safety-front-rear-light-usb.webp"
   },
   {
     "id": "infini-light-mini-luxo",
@@ -18122,7 +18122,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "4712123269542"
     },
     "inStock": false,
-    "imageUrl": ""
+    "imageUrl": "/images/products/infini-light-mini-luxo.webp"
   },
   {
     "id": "bontrager-bidon-sl-2",
@@ -18141,7 +18141,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "601842778722"
     },
     "inStock": false,
-    "imageUrl": ""
+    "imageUrl": "/images/products/bontrager-bidon-sl-2.webp"
   },
   {
     "id": "bbb-brake-pads-magura-compatible-36e",
@@ -18194,7 +18194,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000005485"
     },
     "inStock": false,
-    "imageUrl": ""
+    "imageUrl": "/images/products/bontrager-bidon-8.webp"
   }
 ];
 
