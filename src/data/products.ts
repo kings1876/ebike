@@ -14449,21 +14449,31 @@ export const PRODUCTS: Product[] = [
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/933AU_1_df54f5a3-3e57-400f-95ea-7c4a41fad367.jpg?v=1680036684&width=900"
   },
   {
-    "id": "ncm-paris-lond-battery-36v15ah",
-    "name": "DEHAWK B1U-3615H Battery 36V 15Ah 540Wh for NCM Paris, London, Essen [Black]",
-    "tagline": "36V 15AH Battery to suit NCM Paris or London RRP$450",
-    "brand": "NCM",
+    "id": "hyena-range-extender-battery",
+    "name": "Hyena Range Extender Battery 250Wh",
+    "tagline": "Double the battery life and range of your Hyena e-bike with a compact, plug-and-play extender",
+    "brand": "Hyena",
     "category": "Accessories, Parts & Gear",
     "subcategory": "Batteries, Chargers & Motors",
-    "price": 550,
-    "description": "36V 15AH Battery to suit NCM Paris or London RRP$450",
-    "keyFeatures": [],
+    "price": 839.99,
+    "description": "If you are looking to ride further or just get a little extra juice between charges, this extender is ideal. This 250 Wh range extender doubles the battery life and range of your Hyena e-bike in a compact, plug-and-play solution.",
+    "keyFeatures": [
+      "The 250 watt-hour Range Extender doubles battery life",
+      "Compact plug-and-play solution",
+      "Installs onto the downtube water bottle mounts",
+      "Charge status displayed with LEDs on the top for ease",
+      "Compatible with Hyena equipped e-bikes",
+      "Required battery cables sold separately"
+    ],
     "details": {
-      "Brand": "NCM",
-      "SKU": "3150000019"
+      "Brand": "Hyena",
+      "Capacity": "250 Wh",
+      "Weight": "1,600 g",
+      "Mounting": "Downtube water bottle mounts",
+      "Model": "5271536"
     },
     "inStock": true,
-    "imageUrl": ""
+    "imageUrl": "/images/products/hyena-range-extender-battery.webp"
   },
   {
     "id": "tribe-evamos-accessory-bundle",
@@ -14487,21 +14497,29 @@ export const PRODUCTS: Product[] = [
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/Tribe-Acc-pic-1.jpg?v=1709097267&width=900"
   },
   {
-    "id": "stealth-b52-charger",
-    "name": "STEALTH B52 CHARGER",
-    "tagline": "STEALTH B52 CHARGER",
-    "brand": "Other",
+    "id": "tq-hpr50-4a-charger-au-nz-cable",
+    "name": "TQ HPR50 4A Charger with AU/NZ Cable",
+    "tagline": "Charges the TQ HPR drive system battery and range extender",
+    "brand": "TQ",
     "category": "Accessories, Parts & Gear",
     "subcategory": "Batteries, Chargers & Motors",
-    "price": 368,
-    "description": "STEALTH B52 CHARGER from Other.",
-    "keyFeatures": [],
+    "price": 349.99,
+    "description": "The 4A charger for TQ HPR drive systems. Charges the HPR drive system battery and range extender, and includes an AU/NZ (Type I) AC power cable.",
+    "keyFeatures": [
+      "Charges the HPR drive system battery & Range Extender",
+      "Includes AU/NZ (Type I) AC power cable",
+      "4A output",
+      "Power supply input: 90V - 264V AC"
+    ],
     "details": {
-      "Brand": "Other",
-      "SKU": "20187347"
+      "Brand": "TQ",
+      "Output": "4A",
+      "Input": "90V - 264V AC",
+      "Plug": "AU/NZ (Type I)",
+      "Model": "5289560"
     },
     "inStock": true,
-    "imageUrl": ""
+    "imageUrl": "/images/products/tq-hpr50-4a-charger-au-nz-cable.webp"
   },
   {
     "id": "rocky-mountain-powerplay-charger-48v-5a-c300",
@@ -14519,6 +14537,60 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Rocky-Mountain-Powerplay-Charger.jpg?v=1782713606&width=900"
+  },
+  {
+    "id": "trek-commuter-pro-rt-front-bike-light",
+    "name": "Trek Commuter Pro RT Front Bike Light",
+    "tagline": "Our best light, bright enough for trail riding, with Kindbeam to keep light on the trail and out of oncoming riders' eyes",
+    "brand": "Trek",
+    "category": "Accessories, Parts & Gear",
+    "subcategory": "Locks & Lights",
+    "price": 149.99,
+    "originalPrice": 249.99,
+    "badge": "Sale",
+    "description": "A do-it-all front light that is powerful enough for off-road riding. Kindbeam keeps more light on the trail ahead of you while avoiding oncoming riders' eyes, for a bright light that will not blind other trail users. A visible fuel gauge, wireless connection to the rear light and charge-back that works as a battery bank for charging gadgets round out an industry-leading set of features.",
+    "keyFeatures": [
+      "Commuter Kindbeam keeps light on the ground ahead of you and out of oncoming riders' eyes",
+      "The 1,000 lumen high-beam setting lights up the full path or trail, ideal for use as an MTB light",
+      "Wirelessly pair with Flare RT for single-button power-up on both front and rear lights",
+      "A dual fuel gauge shows available battery life and battery life of the paired light",
+      "A USB-C charging port supports chargeback for recharging a phone or cycling computer",
+      "Run times: high 1,000 LM - 1.5 hrs, low 500 LM - 3 hrs, day flash 300 LM - 12 hrs"
+    ],
+    "details": {
+      "Brand": "Trek",
+      "Max Output": "1,000 lumens",
+      "Charging": "USB-C",
+      "Includes": "Commuter Pro RT light, adjustable hard mount, USB-C cable",
+      "Model": "5252795"
+    },
+    "inStock": true,
+    "imageUrl": "/images/products/trek-commuter-pro-rt-front-bike-light.webp"
+  },
+  {
+    "id": "trek-solstice-mips-bike-helmet",
+    "name": "Trek Solstice Mips Bike Helmet",
+    "tagline": "A comfortable, versatile helmet with clean aesthetics and the added protection of Mips",
+    "brand": "Trek",
+    "category": "Accessories, Parts & Gear",
+    "subcategory": "Gear, Apparel & Pumps",
+    "price": 99.99,
+    "description": "The Solstice Mips is the ideal helmet for riders who want to dabble in all kinds of riding. It is super comfortable, has an easy-to-use fit system, and rolls with a simple, clean aesthetic that easily transitions from trail to road. It features a Mips safety system, a helmet technology designed to help protect riders from rotational forces that occur during some cycling-related accidents.",
+    "keyFeatures": [
+      "The Mips safety system helps provide additional protection from rotational forces in certain cycling-related accidents",
+      "Refined styling with a removable visor easily transitions from road to trail",
+      "Large vents and recessed channelling keep you cool on warm days",
+      "The Trek Headmaster 3 fit system provides simple and secure adjustability with just one hand",
+      "Soft, comfortable helmet pads wick moisture and are easy to wash"
+    ],
+    "details": {
+      "Brand": "Trek",
+      "Sizes": "S/M, M/L",
+      "Colours": "Black, Pink Frosting, Radioactive Red",
+      "Model": "5269260"
+    },
+    "inStock": true,
+    "imageUrl": "/images/products/trek-solstice-mips-bike-helmet.webp"
   },
   {
     "id": "ulac-neo-disc-air-alarm-combo",
@@ -14559,6 +14631,32 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "imageUrl": "/images/products/bontrager-circuit-windshell-cycling-gloves.webp"
+  },
+  {
+    "id": "kryptonite-new-u-keeper-standard-u-lock",
+    "name": "Kryptonite New-U Keeper Standard U-Lock",
+    "tagline": "Double deadbolt U-lock for suburban and rural lock-ups and quick metro stops",
+    "brand": "Kryptonite",
+    "category": "Accessories, Parts & Gear",
+    "subcategory": "Locks & Lights",
+    "price": 79.99,
+    "description": "The Keeper Standard U-lock with double deadbolt locking technology provides moderate protection in most situations, making it perfect for lock-ups in suburban and rural areas and quick stops in metro areas.",
+    "keyFeatures": [
+      "16mm hardened Max-Performance steel shackle",
+      "Hardened double deadbolt design with anti-rotation resists twist attacks",
+      "Disc style cylinder with centre keyway protects against brute force attacks",
+      "Includes side-mount snap-in bracket for convenient U-Lock transport",
+      "Protective vinyl coating keeps the frame from getting scratched",
+      "Two stainless steel ergonomic keys"
+    ],
+    "details": {
+      "Brand": "Kryptonite",
+      "Security Rating": "5 out of 10",
+      "Size": "12mm x 20.3cm (8\") x 10.2cm (4\")",
+      "Model": "567851"
+    },
+    "inStock": true,
+    "imageUrl": "/images/products/kryptonite-new-u-keeper-standard-u-lock.webp"
   },
   {
     "id": "onguard-ebike-8003e-pitbull-std-u-lock",
@@ -17682,55 +17780,27 @@ export const PRODUCTS: Product[] = [
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ezigripebikeelectricbikerackE-Rack-2.webp?v=1683374559&width=900"
   },
   {
-    "id": "tongsheng-250-mid-drive-motor",
-    "name": "TONGSHENG 250 MID DRIVE MOTOR",
-    "tagline": "TONGSHENG 250 MID DRIVE MOTOR",
-    "brand": "Tongsheng",
+    "id": "hyena-gen-2-in-tube-250wh-battery",
+    "name": "Hyena Gen 2 In-Tube 250Wh Battery",
+    "tagline": "Replacement battery for the Hyena in-tube battery system",
+    "brand": "Hyena",
     "category": "Accessories, Parts & Gear",
     "subcategory": "Batteries, Chargers & Motors",
-    "price": 750,
-    "description": "TONGSHENG 250 MID DRIVE MOTOR from Tongsheng.",
-    "keyFeatures": [],
+    "price": 639.99,
+    "description": "Replacement battery for the Hyena in-tube battery system. Necessary for Hyena e-bike systems and compatible with the Hyena range extender.",
+    "keyFeatures": [
+      "Operating temperature of -10°C (14°F) to 45°C (113°F)",
+      "Mounting hardware not included",
+      "Range extender compatible"
+    ],
     "details": {
-      "Brand": "Tongsheng",
-      "SKU": "20187422"
+      "Brand": "Hyena",
+      "Capacity": "250 Wh",
+      "Model": "W5255878",
+      "Availability": "In-store only"
     },
     "inStock": false,
-    "imageUrl": ""
-  },
-  {
-    "id": "rilu-city-flash-battery",
-    "name": "RILU CITY FLASH BATTERY",
-    "tagline": "RILU CITY FLASH BATTERY",
-    "brand": "Rilu",
-    "category": "Accessories, Parts & Gear",
-    "subcategory": "Batteries, Chargers & Motors",
-    "price": 600,
-    "description": "RILU CITY FLASH BATTERY from Rilu.",
-    "keyFeatures": [],
-    "details": {
-      "Brand": "Rilu",
-      "SKU": "20102586"
-    },
-    "inStock": false,
-    "imageUrl": ""
-  },
-  {
-    "id": "exposure-light-diablo-mk12-black",
-    "name": "EXPOSURE LIGHT DIABLO MK12 BLACK",
-    "tagline": "EXPOSURE LIGHT DIABLO MK12 BLACK",
-    "brand": "Exposure",
-    "category": "Accessories, Parts & Gear",
-    "subcategory": "Locks & Lights",
-    "price": 499.95,
-    "description": "EXPOSURE LIGHT DIABLO MK12 BLACK from Exposure.",
-    "keyFeatures": [],
-    "details": {
-      "Brand": "Exposure",
-      "SKU": "5060369156492"
-    },
-    "inStock": false,
-    "imageUrl": ""
+    "imageUrl": "/images/products/hyena-gen-2-in-tube-250wh-battery.webp"
   },
   {
     "id": "suspesion-seatpost-by-schulz-g-2-st-parallelogram-suspension-black",
@@ -17751,25 +17821,6 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": false,
     "imageUrl": "/images/products/suspesion-seatpost-by-schulz-g-2-st-parallelogram-suspension-black.webp"
-  },
-  {
-    "id": "bell-riot-motorcycle-helmet",
-    "name": "BELL RIOT MOTORCYCLE HELMET",
-    "tagline": "BELL RIOT MOTORCYCLE HELMET",
-    "brand": "Other",
-    "category": "Accessories, Parts & Gear",
-    "subcategory": "Batteries, Chargers & Motors",
-    "price": 259.95,
-    "description": "BELL RIOT MOTORCYCLE HELMET from Other.",
-    "keyFeatures": [],
-    "details": {
-      "Brand": "Other",
-      "SIZE": "M",
-      "COLOUR": "SOLID MATTE BLACK",
-      "SKU": "768686046476"
-    },
-    "inStock": false,
-    "imageUrl": ""
   },
   {
     "id": "bontrager-rally-wavecel-mountain-bike-helmet",
@@ -17967,23 +18018,6 @@ export const PRODUCTS: Product[] = [
     "imageUrl": "/images/products/topeak-uni-super-tourist-dx-disc.webp"
   },
   {
-    "id": "onguard-8268-alarm-u-lock",
-    "name": "ONGUARD 8268 ALARM U-LOCK",
-    "tagline": "ONGUARD 8268 ALARM U-LOCK",
-    "brand": "Other",
-    "category": "Accessories, Parts & Gear",
-    "subcategory": "Locks & Lights",
-    "price": 100,
-    "description": "ONGUARD 8268 ALARM U-LOCK from Other.",
-    "keyFeatures": [],
-    "details": {
-      "Brand": "Other",
-      "SKU": "7290001282687"
-    },
-    "inStock": false,
-    "imageUrl": ""
-  },
-  {
     "id": "knog-blinder-link-saddle-100-lumen",
     "name": "KNOG Blinder Link Saddle 100 lumen",
     "tagline": "KNOG Blinder Link Saddle 100 lumen",
@@ -18052,6 +18086,58 @@ export const PRODUCTS: Product[] = [
     "imageUrl": "/images/products/bontrager-ion-100-r-flare-r-city-bike-light-set.webp"
   },
   {
+    "id": "kryptonite-new-u-keeper-standard-u-lock-4ft-flex-cable",
+    "name": "Kryptonite New-U Keeper Standard U-Lock with 4' Flex Cable",
+    "tagline": "Moderate-security U-lock with a 4 ft (120 cm) cable to secure wheels and accessories",
+    "brand": "Kryptonite",
+    "category": "Accessories, Parts & Gear",
+    "subcategory": "Locks & Lights",
+    "price": 89.99,
+    "description": "The Keeper Standard U-lock provides moderate protection in most situations. With the included 4' (120 cm) cable, both wheels and accessories can be protected as well. A moderate security U-lock for lock-ups in suburban and rural areas and quick stops in metro areas.",
+    "keyFeatures": [
+      "16mm hardened Max-Performance steel shackle",
+      "Hardened double deadbolt design with anti-rotation resists twist attacks",
+      "Disc style cylinder with centre keyway protects against brute force attacks",
+      "Includes side-mount snap-in bracket for convenient U-Lock transport",
+      "Includes 4' (120 cm) flex cable for securing front wheel or other accessories",
+      "Two stainless steel ergonomic keys"
+    ],
+    "details": {
+      "Brand": "Kryptonite",
+      "Size": "12mm x 20.3cm (8\") x 10.2cm (4\")",
+      "Cable": "4' (120 cm) flex cable",
+      "Model": "584967"
+    },
+    "inStock": false,
+    "imageUrl": "/images/products/kryptonite-new-u-keeper-standard-u-lock-4ft-flex-cable.webp"
+  },
+  {
+    "id": "trek-flare-rt-rear-bike-light",
+    "name": "Trek Flare RT Rear Bike Light",
+    "tagline": "A compact, USB-rechargeable rear light that is daytime visible from up to 2 km away",
+    "brand": "Trek",
+    "category": "Accessories, Parts & Gear",
+    "subcategory": "Locks & Lights",
+    "price": 79.99,
+    "description": "The Trek Flare RT tail light is the ultimate daytime-visible rear bike light for road rides, daily commutes and beyond. It features a bright, rechargeable light that can be seen from up to two kilometres away. An integrated light sensor auto-adjusts brightness based on your environment, making it easy to stay visible, both day or night.",
+    "keyFeatures": [
+      "Designed focus, flash and range modes for ultimate daytime visibility",
+      "The 90-lumen interruptive flash pattern can be seen from up to 2 km during the day",
+      "Integrated light sensor auto-adjusts brightness to your environment",
+      "Connect with compatible ANT+ devices for always-on, battery status and wireless control",
+      "Flash modes: 90LM-6hrs, 45LM-12hrs, 5LM-15hrs. Steady modes: 25LM-4.5hrs, 5LM-13.5hrs",
+      "IPX7 waterproof rating with an updated USB port"
+    ],
+    "details": {
+      "Brand": "Trek",
+      "Max Output": "90 lumens",
+      "Waterproofing": "IPX7",
+      "Model": "5298300"
+    },
+    "inStock": false,
+    "imageUrl": "/images/products/trek-flare-rt-rear-bike-light.webp"
+  },
+  {
     "id": "ezi-grup-bike-rack",
     "name": "EZI GRIP BIKE RAMP",
     "tagline": "EZI GRIP BIKE RAMP",
@@ -18072,23 +18158,6 @@ export const PRODUCTS: Product[] = [
       "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/ezigripramppic.png?v=1671677880&width=900"
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EziGripramplifestyle.webp?v=1671677814&width=900"
-  },
-  {
-    "id": "35hu-shackle-lock",
-    "name": "35HU SHACKLE LOCK",
-    "tagline": "35HU SHACKLE LOCK",
-    "brand": "Other",
-    "category": "Accessories, Parts & Gear",
-    "subcategory": "Locks & Lights",
-    "price": 60,
-    "description": "35HU SHACKLE LOCK from Other.",
-    "keyFeatures": [],
-    "details": {
-      "Brand": "Other",
-      "SKU": "8421316062018"
-    },
-    "inStock": false,
-    "imageUrl": ""
   },
   {
     "id": "infini-safety-front-rear-light-usb",
