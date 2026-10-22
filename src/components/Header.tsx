@@ -5,7 +5,7 @@ import { useCart } from '../context/CartContext';
 import { TRUSTPILOT_STATS } from '../data/reviews';
 import { MegaNav, MobileCategoryList, SALE_COUNT } from './MegaNav';
 
-const SUPPORT_EMAIL = 'support@ebikesforsale.com.au';
+const SUPPORT_EMAIL = 'sales@ebikesale.com.au';
 
 const utilityLinks = [
   { path: '/blog', label: 'Buying Guides' },

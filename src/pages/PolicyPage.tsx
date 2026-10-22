@@ -62,7 +62,7 @@ export const PolicyPage: React.FC<{ policyType?: 'shipping' | 'refund' | 'privac
             <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm">
               <li>The bicycle must be in clean, undamaged condition with fewer than 30 km on the digital display odometer.</li>
               <li>Keep original packaging, chargers, keys, tools, and manuals.</li>
-              <li>Contact our team at <code>support@ebikesforsale.com.au</code> to obtain your return consignment label.</li>
+              <li>Contact our team at <code>sales@ebikesale.com.au</code> to obtain your return consignment label.</li>
             </ul>
           </div>
 

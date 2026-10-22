@@ -1,0 +1,7 @@
+{
+  "rewrites": [{ "source": "/((?!api/|images/|assets/).*)", "destination": "/index.html" }],
+  "headers": [
+    { "source": "/admin/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }] },
+    { "source": "/order/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }] }
+  ]
+}

@@ -89,10 +89,10 @@ export const FAQSection: React.FC = () => {
         </p>
         <div className="pt-2">
           <a
-            href="mailto:support@ebikesforsale.com.au"
+            href="mailto:sales@ebikesale.com.au"
             className="inline-block px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xs rounded-lg transition-colors"
           >
-            Email support@ebikesforsale.com.au
+            Email sales@ebikesale.com.au
           </a>
         </div>
       </div>

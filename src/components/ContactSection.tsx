@@ -11,33 +11,33 @@ export const ContactSection: React.FC = () => {
   });
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState('');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setSubmitting(true);
-
-    const payload = {
-      access_key: 'pending',
-      recipient_email: 'koloonjo@gmail.com',
-      subject: `E-Bikes Australia Contact: ${formData.subject} - ${formData.name}`,
-      name: formData.name,
-      email: formData.email,
-      phone: formData.phone,
-      topic: formData.subject,
-      message: formData.message
-    };
+    setError('');
 
     try {
-      await fetch('https://api.web3forms.com/submit', {
+      const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
-      }).catch(() => {});
+        body: JSON.stringify({
+          formName: 'contact',
+          website: '',
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          topic: formData.subject,
+          message: formData.message,
+        }),
+      });
+      if (!res.ok) throw new Error('failed');
+      setSubmitted(true);
     } catch {
-      // Continue gracefully
+      setError('Your message could not be sent. Please email sales@ebikesale.com.au directly.');
     } finally {
       setSubmitting(false);
-      setSubmitted(true);
     }
   };
 
@@ -76,7 +76,7 @@ export const ContactSection: React.FC = () => {
                 <Mail className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
                 <div>
                   <div className="font-semibold text-white">Direct Order & Support Email</div>
-                  <div className="text-slate-300 mt-0.5 font-mono">support@ebikesforsale.com.au</div>
+                  <div className="text-slate-300 mt-0.5 font-mono">sales@ebikesale.com.au</div>
                   <div className="text-slate-400">Response time: Usually within 2 hours</div>
                 </div>
               </div>
@@ -97,7 +97,7 @@ export const ContactSection: React.FC = () => {
           </div>
         </div>
 
-        {/* Right Column: Web3Forms Contact Form */}
+        {/* Right Column: Contact Form */}
         <div className="lg:col-span-7 bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-xs">
           {!submitted ? (
             <form onSubmit={handleSubmit} className="space-y-4 text-xs">
@@ -169,6 +169,7 @@ export const ContactSection: React.FC = () => {
                 ></textarea>
               </div>
 
+              {error && <p role="alert" className="text-red-600">{error}</p>}
               <button
                 type="submit"
                 disabled={submitting}

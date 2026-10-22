@@ -25,6 +25,9 @@ import { CartPage } from './pages/CartPage';
 import { CheckoutPage } from './pages/CheckoutPage';
 import { PolicyPage } from './pages/PolicyPage';
 import { ReviewsPage } from './pages/ReviewsPage';
+import { PaymentDetailsPage } from './pages/PaymentDetailsPage';
+import { AdminShell } from './pages/admin/AdminShell';
+import { AdminDashboard, AdminOrders, AdminOrderDetail, AdminEnquiries, AdminEnquiryDetail } from './pages/admin/AdminPages';
 
 export default function App() {
   return (
@@ -68,6 +71,16 @@ export default function App() {
               <Route path="/privacy" element={<PolicyPage policyType="privacy" />} />
               <Route path="/terms" element={<PolicyPage policyType="terms" />} />
               <Route path="/policies/:type" element={<PolicyPage />} />
+
+              {/* Reply portal (passcode-gated) + public payment page */}
+              <Route path="/order/payment-details" element={<PaymentDetailsPage />} />
+              <Route path="/admin" element={<AdminShell />}>
+                <Route index element={<AdminDashboard />} />
+                <Route path="orders" element={<AdminOrders />} />
+                <Route path="orders/:id" element={<AdminOrderDetail />} />
+                <Route path="enquiries" element={<AdminEnquiries />} />
+                <Route path="enquiries/:id" element={<AdminEnquiryDetail />} />
+              </Route>
 
               {/* Catch-all redirect to Home */}
               <Route path="*" element={<Navigate to="/" replace />} />

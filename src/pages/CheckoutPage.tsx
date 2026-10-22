@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import { OrderFormData, PaymentMethod } from '../types';
-import { CheckCircle, Copy, Check, Zap, Truck, ArrowLeft, AlertCircle, ShieldCheck } from 'lucide-react';
+import { newOrderRef } from '../../shared/payment.js';
+import { CheckCircle, Zap, Truck, ArrowLeft, AlertCircle, ShieldCheck } from 'lucide-react';
 
 export const CheckoutPage: React.FC = () => {
   const { cart, subtotal, cryptoDiscount, discountedTotal, clearCart } = useCart();
@@ -25,7 +26,7 @@ export const CheckoutPage: React.FC = () => {
   const [submitting, setSubmitting] = useState(false);
   const [orderComplete, setOrderComplete] = useState(false);
   const [orderId, setOrderId] = useState('');
-  const [copiedField, setCopiedField] = useState<string | null>(null);
+  const [submitError, setSubmitError] = useState('');
 
   const australianStates = [
     { code: 'NSW', name: 'New South Wales' },
@@ -54,52 +55,46 @@ export const CheckoutPage: React.FC = () => {
     );
   }
 
-  const handleCopy = (text: string, fieldName: string) => {
-    navigator.clipboard.writeText(text);
-    setCopiedField(fieldName);
-    setTimeout(() => setCopiedField(null), 2500);
-  };
-
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setSubmitting(true);
 
-    const generatedOrderId = `EBK-${Math.floor(100000 + Math.random() * 900000)}`;
+    const generatedOrderId = newOrderRef();
     setOrderId(generatedOrderId);
-
-    const orderItemsSummary = cart
-      .map((item) => `${item.quantity}x ${item.product.name}${item.variantTitle ? ` [${item.variantTitle}]` : ''} ($${item.product.price})`)
-      .join(', ');
+    setSubmitError('');
 
     const payload = {
-      access_key: 'pending',
-      recipient_email: 'koloonjo@gmail.com',
-      subject: `New E-Bike Order: ${generatedOrderId} - ${formData.fullName}`,
-      order_id: generatedOrderId,
-      name: formData.fullName,
-      email: formData.email,
-      phone: formData.phone,
-      delivery_address: `${formData.addressLine1}, ${formData.addressLine2 ? formData.addressLine2 + ', ' : ''}${formData.city}, ${formData.state} ${formData.postcode}, Australia`,
-      payment_method: formData.paymentMethod,
-      items: orderItemsSummary,
-      subtotal_usd: subtotal,
-      discount_10_usd: cryptoDiscount,
-      total_amount_usd: discountedTotal,
-      notes: formData.notes || 'None'
+      formName: 'order',
+      website: '',
+      orderNumber: generatedOrderId,
+      customerName: formData.fullName,
+      customerEmail: formData.email,
+      customerPhone: formData.phone,
+      address: `${formData.addressLine1}, ${formData.addressLine2 ? formData.addressLine2 + ', ' : ''}${formData.city}, ${formData.state} ${formData.postcode}, Australia`,
+      paymentMethod: formData.paymentMethod,
+      notes: formData.notes || '',
+      amountDue: discountedTotal,
+      items: cart.map((item) => ({
+        name: item.product.name,
+        variant: item.variantTitle || '',
+        quantity: item.quantity,
+        price: item.product.price,
+      })),
     };
 
     try {
-      await fetch('https://api.web3forms.com/submit', {
+      const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
-      }).catch(() => {});
-    } catch {
-      // Graceful fallback
-    } finally {
-      setSubmitting(false);
+        body: JSON.stringify(payload),
+      });
+      if (!res.ok) throw new Error('failed');
       setOrderComplete(true);
       clearCart();
+    } catch {
+      setSubmitError('We could not register your order just now. Please try again, or email sales@ebikesale.com.au with your cart.');
+    } finally {
+      setSubmitting(false);
     }
   };
 
@@ -273,7 +268,7 @@ export const CheckoutPage: React.FC = () => {
 
                 <div className="p-3 bg-slate-50 rounded-xl border border-slate-200 text-xs text-slate-600">
                   <p>
-                    <strong>How it works:</strong> Upon confirming this order, you will receive our verified Australian banking details or cryptocurrency wallet addresses along with your official receipt.
+                    <strong>How it works:</strong> After you place this order we email you our payment details for your chosen method. Your e-bike is dispatched once payment clears.
                   </p>
                 </div>
               </div>
@@ -324,6 +319,7 @@ export const CheckoutPage: React.FC = () => {
                   </div>
                 </div>
 
+                {submitError && <p role="alert" className="text-xs text-red-600">{submitError}</p>}
                 <button
                   type="submit"
                   disabled={submitting}
@@ -369,95 +365,14 @@ export const CheckoutPage: React.FC = () => {
                 Payment Method: <span className="text-emerald-700">{formData.paymentMethod}</span>
               </div>
               <div className="text-sm font-bold text-slate-900 font-mono">
-                Amount to Pay: ${discountedTotal.toLocaleString()} USD
+                Amount Due: ${discountedTotal.toLocaleString()} USD
               </div>
             </div>
-
-            {formData.paymentMethod === 'Crypto' && (
-              <div className="space-y-3 text-xs">
-                <p className="text-slate-600">
-                  Please transfer <strong>${discountedTotal.toLocaleString()} USD</strong> in cryptocurrency to one of our corporate multi-sig wallets:
-                </p>
-                <div className="space-y-2">
-                  <div className="p-3 bg-white rounded-lg border border-slate-200">
-                    <div className="text-[11px] font-semibold text-slate-500">USDT (TRC-20) - Zero Gas Fee Network:</div>
-                    <div className="flex items-center justify-between gap-2 mt-1">
-                      <code className="text-xs font-mono font-semibold text-slate-800 break-all">
-                        TYDmP7K9Xw2Lq8Z4R6v1C3J0h5B8N7s4M1
-                      </code>
-                      <button
-                        type="button"
-                        onClick={() => handleCopy('TYDmP7K9Xw2Lq8Z4R6v1C3J0h5B8N7s4M1', 'usdt')}
-                        className="px-2.5 py-1 text-xs bg-slate-100 hover:bg-slate-200 rounded text-slate-700 shrink-0 flex items-center gap-1 cursor-pointer"
-                      >
-                        {copiedField === 'usdt' ? <Check className="w-3 h-3 text-emerald-600" /> : <Copy className="w-3 h-3" />}
-                        <span>{copiedField === 'usdt' ? 'Copied' : 'Copy'}</span>
-                      </button>
-                    </div>
-                  </div>
-
-                  <div className="p-3 bg-white rounded-lg border border-slate-200">
-                    <div className="text-[11px] font-semibold text-slate-500">Bitcoin (BTC):</div>
-                    <div className="flex items-center justify-between gap-2 mt-1">
-                      <code className="text-xs font-mono font-semibold text-slate-800 break-all">
-                        bc1q7x9u0k3m6j9f8z3e2w1v5n4l8p7s2d1a0ebk
-                      </code>
-                      <button
-                        type="button"
-                        onClick={() => handleCopy('bc1q7x9u0k3m6j9f8z3e2w1v5n4l8p7s2d1a0ebk', 'btc')}
-                        className="px-2.5 py-1 text-xs bg-slate-100 hover:bg-slate-200 rounded text-slate-700 shrink-0 flex items-center gap-1 cursor-pointer"
-                      >
-                        {copiedField === 'btc' ? <Check className="w-3 h-3 text-emerald-600" /> : <Copy className="w-3 h-3" />}
-                        <span>{copiedField === 'btc' ? 'Copied' : 'Copy'}</span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            )}
-
-            {formData.paymentMethod === 'Australian Bank Transfer' && (
-              <div className="space-y-2 text-xs">
-                <p className="text-slate-600">
-                  Transfer <strong>${discountedTotal.toLocaleString()} USD</strong> directly to our Australian business account:
-                </p>
-                <div className="bg-white p-4 rounded-lg border border-slate-200 space-y-1.5 font-mono text-slate-800">
-                  <div><strong>Bank:</strong> Commonwealth Bank of Australia</div>
-                  <div><strong>Account Name:</strong> E BIKES FOR SALE PTY LTD</div>
-                  <div><strong>BSB:</strong> 062-000</div>
-                  <div><strong>Account Number:</strong> 1089 4432</div>
-                  <div className="text-emerald-800 font-bold"><strong>Reference:</strong> {orderId}</div>
-                </div>
-              </div>
-            )}
-
-            {formData.paymentMethod === 'Osko' && (
-              <div className="space-y-2 text-xs">
-                <p className="text-slate-600">
-                  Send an instantaneous Osko payment from your banking app:
-                </p>
-                <div className="bg-white p-4 rounded-lg border border-slate-200 space-y-2 text-slate-800">
-                  <div className="flex items-center justify-between">
-                    <span><strong>PayID:</strong> orders@ebikesforsale.com.au</span>
-                    <button
-                      type="button"
-                      onClick={() => handleCopy('orders@ebikesforsale.com.au', 'payid')}
-                      className="px-2.5 py-1 text-xs bg-slate-100 hover:bg-slate-200 rounded text-slate-700 flex items-center gap-1 cursor-pointer"
-                    >
-                      {copiedField === 'payid' ? <Check className="w-3 h-3 text-emerald-600" /> : <Copy className="w-3 h-3" />}
-                      <span>{copiedField === 'payid' ? 'Copied' : 'Copy'}</span>
-                    </button>
-                  </div>
-                  <div><strong>Registered Name:</strong> E BIKES FOR SALE PTY LTD</div>
-                  <div className="text-emerald-800 font-bold"><strong>Description/Reference:</strong> {orderId}</div>
-                </div>
-              </div>
-            )}
 
             <div className="p-3 bg-emerald-50 rounded-lg text-xs text-emerald-800 flex items-start gap-2">
               <AlertCircle className="w-4 h-4 shrink-0 mt-0.5 text-emerald-600" />
               <span>
-                A receipt has been forwarded to <strong>{formData.email}</strong>. Our logistics freight team will prepare your carton immediately upon confirmation.
+                We have emailed a confirmation to <strong>{formData.email}</strong>. Watch for a follow-up email from us with your payment details. Your e-bike is dispatched once payment clears.
               </span>
             </div>
           </div>

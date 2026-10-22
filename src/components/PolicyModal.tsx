@@ -52,7 +52,7 @@ export const PolicyModal: React.FC<PolicyModalProps> = ({ type, onClose }) => {
           <ul className="list-disc pl-5 space-y-1">
             <li>The e-bike must be in clean, original working condition with fewer than 30 km on the digital odometer.</li>
             <li>All original accessories, keys, chargers, manuals, and packaging should be retained.</li>
-            <li>Notify our Australian support team at <code>support@ebikesforsale.com.au</code> to receive a return authorization label.</li>
+            <li>Notify our Australian support team at <code>sales@ebikesale.com.au</code> to receive a return authorization label.</li>
           </ul>
           <p>
             <strong>Australian Consumer Law:</strong> Our goods come with guarantees that cannot be excluded under the Australian Consumer Law (ACL). You are entitled to a replacement or refund for a major failure and compensation for any other reasonably foreseeable loss or damage.

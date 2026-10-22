@@ -28,7 +28,7 @@ export const LiveChatWidget: React.FC = () => {
 
     // Intelligent immediate automated response
     setTimeout(() => {
-      let reply = 'Thank you for your question! One of our Australian specialists is also notified at support@ebikesforsale.com.au.';
+      let reply = 'Thank you for your question! One of our Australian specialists is also notified at sales@ebikesale.com.au.';
       const lower = text.toLowerCase();
 
       if (lower.includes('crypto') || lower.includes('discount') || lower.includes('osko')) {
