@@ -267,7 +267,7 @@ export function getRouteMeta(pathname: string): RouteMeta {
             offers: {
               '@type': 'Offer',
               price: p.price,
-              priceCurrency: 'AUD',
+              priceCurrency: 'USD',
               availability: p.inStock === false ? 'https://schema.org/OutOfStock' : 'https://schema.org/InStock',
               url: canonical,
             },
