@@ -57,3 +57,8 @@ Leitner (about 1.0K / 18) is a competitor brand name. Do not target it.
 1. Add per-page titles and descriptions using the primary keywords above.
 2. Build the missing pages: cheap e-bikes landing page, fat tyre and step-through sub-categories, brand pages.
 3. Publish the "best electric bike australia" guide.
+
+## Audit log (24 Oct 2026)
+
+Technical, SEO and lead-capture audit run in batches; fixes shipped in commits 7b0d14b and 1b77a72. Lighthouse (mobile) after fixes: performance 86-94, accessibility 96-100, best practices 100, SEO 100.
+Open items: JS bundle is large because the catalogue is bundled (TBT about 300 ms), DKIM record for sales@ebikesale.com.au, Search Console and analytics not set up, AUD vs USD labelling on the site.
