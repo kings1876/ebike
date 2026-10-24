@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useSearchParams, useParams, useNavigate } from 'react-router-dom';
 import { PRODUCTS, CATEGORIES_WITH_SUBCATEGORIES } from '../data/products';
 import { ProductCard } from '../components/ProductCard';
 import { Pagination } from '../components/Pagination';
@@ -10,6 +10,8 @@ import {
   facetsFromParams, facetsToParams, activeFacetCount, resolveLegacy, isPartsCategory,
 } from '../data/taxonomy';
 
+import { CATEGORY_SEO, categoryFromSlug, collectionFromSlug, categoryPath, categorySlug } from '../data/seo';
+
 const PAGE_SIZE = 12;
 
 type Sort = 'featured' | 'price-asc' | 'price-desc';
@@ -17,19 +19,50 @@ type Option = { value: string; label: string };
 
 export const ShopPage: React.FC = () => {
   const [searchParams, setSearchParams] = useSearchParams();
+  const { slug } = useParams();
+  const navigate = useNavigate();
 
-  // Everything lives in the URL; old category links are translated to the new taxonomy.
+  // Clean URLs: /shop/<category-slug> or /shop/<collection-slug> (cheap, fat tyre, step-through...).
+  const slugCategory = categoryFromSlug(slug);
+  const collection = collectionFromSlug(slug);
+  const base = slugCategory
+    ? { category: slugCategory, facets: {} as Partial<FacetSelection> }
+    : collection
+      ? { category: collection.category ?? 'All', facets: (collection.facets ?? {}) as Partial<FacetSelection> }
+      : null;
+  const copy = slugCategory ? CATEGORY_SEO[slugCategory] : collection;
+  const defaultSort: Sort = collection?.sort ?? 'featured';
+
+  // Old /shop?category=... links redirect to the clean URL.
+  useEffect(() => {
+    if (slug) {
+      if (!base) navigate('/shop', { replace: true });
+      return;
+    }
+    const raw = searchParams.get('category');
+    if (!raw || raw === 'All') return;
+    const r = resolveLegacy(raw, searchParams.get('subcat') || 'All', facetsFromParams(searchParams));
+    if (!categorySlug(r.category)) return;
+    const params: Record<string, string> = {};
+    if (r.subcat !== 'All') params.subcat = r.subcat;
+    if (searchParams.get('q')) params.q = searchParams.get('q')!;
+    if (searchParams.get('sort')) params.sort = searchParams.get('sort')!;
+    facetsToParams(r.facets, params);
+    navigate({ pathname: categoryPath(r.category), search: new URLSearchParams(params).toString() }, { replace: true });
+  }, [slug, searchParams]);
+
+  // Everything else lives in the URL query.
   const view = useMemo(() => {
-    const legacy = resolveLegacy(searchParams.get('category') || 'All', searchParams.get('subcat') || 'All', facetsFromParams(searchParams));
+    const legacy = resolveLegacy(base ? base.category : searchParams.get('category') || 'All', searchParams.get('subcat') || 'All', { ...facetsFromParams(searchParams), ...base?.facets });
     return {
       category: legacy.category,
       subcat: legacy.subcat,
       facets: legacy.facets,
       query: searchParams.get('q') || '',
-      sort: (searchParams.get('sort') as Sort) || 'featured',
+      sort: (searchParams.get('sort') as Sort) || defaultSort,
       page: Math.max(1, parseInt(searchParams.get('page') || '1', 10) || 1),
     };
-  }, [searchParams]);
+  }, [searchParams, slug]);
 
   const [searchText, setSearchText] = useState(view.query);
   useEffect(() => setSearchText(view.query), [view.query]);
@@ -37,13 +70,20 @@ export const ShopPage: React.FC = () => {
   // Writing the view back to the URL drops ?page, so any change returns to page 1.
   const update = (patch: Partial<{ category: string; subcat: string; query: string; sort: Sort; facets: FacetSelection }>) => {
     const next = { ...view, ...patch };
+    const categoryChanged = patch.category !== undefined && patch.category !== view.category;
+    const lockedChanged = !!(base && patch.facets && Object.entries(base.facets).some(([k, v]) => (patch.facets as any)[k] !== v));
+    const inSlug = !!base && !categoryChanged && !lockedChanged;
     const params: Record<string, string> = {};
-    if (next.category !== 'All') params.category = next.category;
+    if (!inSlug && !categoryChanged && next.category !== 'All') params.category = next.category;
     if (next.subcat !== 'All') params.subcat = next.subcat;
     if (next.query.trim()) params.q = next.query.trim();
-    if (next.sort !== 'featured') params.sort = next.sort;
-    facetsToParams(next.facets, params);
-    setSearchParams(params);
+    if (next.sort !== (inSlug ? defaultSort : 'featured')) params.sort = next.sort;
+    const facets = inSlug && base ? { ...next.facets, ...Object.fromEntries(Object.keys(base.facets).map((k) => [k, 'All'])) } : next.facets;
+    facetsToParams(facets as FacetSelection, params);
+    const search = new URLSearchParams(params).toString();
+    if (categoryChanged) navigate({ pathname: next.category === 'All' ? '/shop' : categoryPath(next.category), search });
+    else if (base && !inSlug) navigate({ pathname: '/shop', search });
+    else setSearchParams(params);
   };
 
   const setFacet = (patch: Partial<FacetSelection>) => update({ facets: { ...view.facets, ...patch } });
@@ -64,6 +104,7 @@ export const ShopPage: React.FC = () => {
     const q = view.query.trim().toLowerCase();
     return PRODUCTS.filter((p) => {
       if (view.category !== 'All' && p.category !== view.category) return false;
+      if (collection?.excludeCategories?.includes(p.category)) return false;
       if (view.subcat !== 'All' && p.subcategory !== view.subcat) return false;
       if (q) {
         const hay = [p.name, p.brand, p.description, p.subcategory, p.category, p.details?.['Motor System']].join(' ').toLowerCase();
@@ -75,7 +116,7 @@ export const ShopPage: React.FC = () => {
       if (view.sort === 'price-desc') return b.price - a.price;
       return 0;
     });
-  }, [view]);
+  }, [view, collection]);
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const page = Math.min(view.page, totalPages);
@@ -109,13 +150,15 @@ export const ShopPage: React.FC = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
           <div>
             <div className="text-xs font-semibold text-emerald-700 uppercase tracking-widest">
-              Electric Bikes Superstore Range
+              E Bikes for Sale
             </div>
             <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mt-1">
-              {categoryMeta ? categoryMeta.category : 'E-Bikes for Sale in Australia'}
+              {copy ? copy.h1 : categoryMeta ? categoryMeta.category : 'E-Bikes for Sale in Australia'}
             </h1>
             <p className="text-sm text-slate-500 mt-1 max-w-2xl">
-              {categoryMeta
+              {copy
+                ? copy.intro[0]
+                : categoryMeta
                 ? categoryMeta.description
                 : '100% Free nationwide shipping on all electric bicycles. Save an additional 10% instantly on all orders with Crypto, Australian Bank Transfer, or Osko.'}
             </p>
@@ -236,6 +279,12 @@ export const ShopPage: React.FC = () => {
           >
             Reset Filters
           </button>
+        </div>
+      )}
+
+      {copy && copy.intro.length > 1 && (
+        <div className="mt-12 max-w-3xl space-y-3 text-sm text-slate-600">
+          {copy.intro.slice(1).map((t) => <p key={t}>{t}</p>)}
         </div>
       )}
 

@@ -3,11 +3,12 @@ import { Link, useLocation } from 'react-router-dom';
 import { ChevronDown, ArrowRight, Flame } from 'lucide-react';
 import { PRODUCTS, CATEGORIES_WITH_SUBCATEGORIES } from '../data/products';
 import { Product } from '../types';
+import { categoryPath } from '../data/seo';
 
 const shopUrl = (category: string, subcat?: string) =>
-  `/shop?category=${encodeURIComponent(category)}${subcat ? `&subcat=${encodeURIComponent(subcat)}` : ''}`;
+  `${categoryPath(category)}${subcat ? `?subcat=${encodeURIComponent(subcat)}` : ''}`;
 const brandUrl = (brand: string, category?: string) =>
-  `/shop?${category ? `category=${encodeURIComponent(category)}&` : ''}brand=${encodeURIComponent(brand)}`;
+  `${category ? categoryPath(category) : '/shop'}?brand=${encodeURIComponent(brand)}`;
 
 /** Short labels so every category fits on one row of the nav bar. */
 const SHORT_LABEL: Record<string, string> = {
@@ -220,7 +221,7 @@ export const MegaNav: React.FC = () => {
                             <ul className="mt-2 space-y-1.5">
                               {QUICK_FILTERS[c.category].map((f) => (
                                 <li key={f.label}>
-                                  <Link to={`/shop?category=${encodeURIComponent(c.category)}&${f.query}`} className="text-[13px] text-slate-300 hover:text-emerald-400 transition-colors">
+                                  <Link to={`${categoryPath(c.category)}?${f.query}`} className="text-[13px] text-slate-300 hover:text-emerald-400 transition-colors">
                                     {f.label}
                                   </Link>
                                 </li>

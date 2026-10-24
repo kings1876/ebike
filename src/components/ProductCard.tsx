@@ -1,3 +1,4 @@
+import { categoryPath } from '../data/seo';
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Product } from '../types';
@@ -53,7 +54,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         
         {/* Unboxed Metadata with Typographic Separator */}
         <div className="flex items-center gap-2 text-xs text-slate-500 mb-1.5 font-medium">
-          <Link to={`/shop?category=${encodeURIComponent(product.category)}`} className="hover:text-emerald-700">
+          <Link to={categoryPath(product.category)} className="hover:text-emerald-700">
             {product.category}
           </Link>
           <span aria-hidden="true">·</span>

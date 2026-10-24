@@ -7,6 +7,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
 import { ScrollToTop } from './components/ScrollToTop';
+import { RouteSeo } from './components/RouteSeo';
 import { Header } from './components/Header';
 import { CartDrawer } from './components/CartDrawer';
 import { LiveChatWidget } from './components/LiveChatWidget';
@@ -34,6 +35,7 @@ export default function App() {
     <BrowserRouter>
       <CartProvider>
         <ScrollToTop />
+        <RouteSeo />
         <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900 selection:bg-emerald-500 selection:text-white">
           
           {/* Global Header adhering to Top Bar Contract */}
@@ -47,6 +49,7 @@ export default function App() {
 
               {/* Shop & Catalog with filtering */}
               <Route path="/shop" element={<ShopPage />} />
+              <Route path="/shop/:slug" element={<ShopPage />} />
 
               {/* Dedicated Product Page for each e-bike */}
               <Route path="/product/:productId" element={<ProductDetailPage />} />

@@ -1,3 +1,4 @@
+import { categoryPath } from '../data/seo';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, ShieldCheck, Truck, Zap, Wrench, Award, Check } from 'lucide-react';
@@ -45,7 +46,7 @@ export const HomePage: React.FC = () => {
                 </Link>
 
                 <Link
-                  to="/shop?category=Electric+Mountain+Bikes"
+                  to="/shop/electric-mountain-bikes"
                   className="px-5 py-3.5 bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold rounded-lg transition-colors border border-slate-700 text-sm whitespace-nowrap"
                 >
                   Explore e-MTB Series
@@ -125,7 +126,7 @@ export const HomePage: React.FC = () => {
           {CATEGORIES_WITH_SUBCATEGORIES.map((cat, idx) => (
             <Link
               key={idx}
-              to={`/shop?category=${encodeURIComponent(cat.category)}`}
+              to={categoryPath(cat.category)}
               className="group bg-white p-6 rounded-xl border border-slate-200 hover:border-emerald-600 hover:shadow-md transition-all flex flex-col justify-between"
             >
               <div>

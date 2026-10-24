@@ -3,3 +3,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 Disallow: /order/
+Sitemap: https://ebikesale.com.au/sitemap.xml

@@ -1,3 +1,4 @@
+import { categoryPath } from '../data/seo';
 import React, { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { PRODUCTS } from '../data/products';
@@ -64,7 +65,7 @@ export const ProductDetailPage: React.FC = () => {
         <span>/</span>
         <Link to="/shop" className="hover:text-slate-900">Shop</Link>
         <span>/</span>
-        <Link to={`/shop?category=${encodeURIComponent(product.category)}`} className="hover:text-slate-900">
+        <Link to={categoryPath(product.category)} className="hover:text-slate-900">
           {product.category}
         </Link>
         <span>/</span>
@@ -345,7 +346,7 @@ export const ProductDetailPage: React.FC = () => {
               More {product.category}
             </h2>
             <Link
-              to={`/shop?category=${encodeURIComponent(product.category)}`}
+              to={categoryPath(product.category)}
               className="text-xs font-semibold text-emerald-700 hover:underline"
             >
               View Category

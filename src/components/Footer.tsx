@@ -137,15 +137,15 @@ export const Footer: React.FC = () => {
         <div className="pt-8 border-t border-slate-900 text-[11px] text-slate-400 leading-relaxed">
           <p>
             <strong>Popular Searches in Australia:</strong>{' '}
-            <Link to="/shop?q=ebike+for+sale" className="hover:text-emerald-400">ebike for sale</Link> ·{' '}
-            <Link to="/shop?q=buy+e+bike" className="hover:text-emerald-400">buy e bike</Link> ·{' '}
-            <Link to="/shop?sort=price-asc" className="hover:text-emerald-400">electric bike price</Link> ·{' '}
-                        <Link to="/shop?category=Electric+Mountain+Bikes" className="hover:text-emerald-400">e mountain bikes for sale</Link> ·{' '}
-            <Link to="/shop" className="hover:text-emerald-400">electric bikes for sale near me</Link> ·{' '}
-            <Link to="/shop?category=Folding+%26+Compact+Bikes" className="hover:text-emerald-400">foldable electric bikes for sale</Link> ·{' '}
-            <Link to="/shop" className="hover:text-emerald-400">ebike deals</Link> ·{' '}
-            <Link to="/shop?category=Commuter+%26+City+Bikes" className="hover:text-emerald-400">electric commuter bike</Link> ·{' '}
-            <Link to="/shop?category=Commuter+%26+City+Bikes&frame=Step-Through" className="hover:text-emerald-400">step through ebike</Link>.
+            <Link to="/shop" className="hover:text-emerald-400">ebike for sale</Link> ·{' '}
+            <Link to="/shop/cheap-electric-bikes" className="hover:text-emerald-400">cheap electric bikes</Link> ·{' '}
+            <Link to="/shop/electric-mountain-bikes" className="hover:text-emerald-400">electric mountain bikes</Link> ·{' '}
+            <Link to="/shop/electric-commuter-bikes" className="hover:text-emerald-400">electric commuter bike</Link> ·{' '}
+            <Link to="/shop/step-through-electric-bikes" className="hover:text-emerald-400">step through ebike</Link> ·{' '}
+            <Link to="/shop/folding-electric-bikes" className="hover:text-emerald-400">folding electric bike</Link> ·{' '}
+            <Link to="/shop/fat-tyre-electric-bikes" className="hover:text-emerald-400">fat tyre electric bike</Link> ·{' '}
+            <Link to="/shop/electric-cargo-bikes" className="hover:text-emerald-400">electric cargo bike</Link> ·{' '}
+            <Link to="/shop/electric-trikes" className="hover:text-emerald-400">electric trike</Link>.
           </p>
         </div>
 
