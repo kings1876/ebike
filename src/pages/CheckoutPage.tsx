@@ -124,11 +124,11 @@ export const CheckoutPage: React.FC = () => {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
                   <div className="sm:col-span-2">
-                    <label className="block font-medium text-slate-700 mb-1">Full Name *</label>
-                    <input
+                    <label htmlFor="co-f1" className="block font-medium text-slate-700 mb-1">Full Name *</label>
+                    <input id="co-f1"
                       required
                       type="text"
-                      placeholder="e.g. Liam Henderson"
+                      autoComplete="name" placeholder="e.g. Liam Henderson"
                       value={formData.fullName}
                       onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                       className="w-full px-3 py-2 border border-slate-300 rounded-lg text-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-600"
@@ -136,11 +136,11 @@ export const CheckoutPage: React.FC = () => {
                   </div>
 
                   <div>
-                    <label className="block font-medium text-slate-700 mb-1">Email Address (Order Confirmation) *</label>
-                    <input
+                    <label htmlFor="co-f2" className="block font-medium text-slate-700 mb-1">Email Address (Order Confirmation) *</label>
+                    <input id="co-f2"
                       required
                       type="email"
-                      placeholder="liam@example.com.au"
+                      autoComplete="email" placeholder="liam@example.com.au"
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       className="w-full px-3 py-2 border border-slate-300 rounded-lg text-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-600"
@@ -148,11 +148,11 @@ export const CheckoutPage: React.FC = () => {
                   </div>
 
                   <div>
-                    <label className="block font-medium text-slate-700 mb-1">Mobile Phone (Delivery SMS) *</label>
-                    <input
+                    <label htmlFor="co-f3" className="block font-medium text-slate-700 mb-1">Mobile Phone (Delivery SMS) *</label>
+                    <input id="co-f3"
                       required
                       type="tel"
-                      placeholder="0412 345 678"
+                      autoComplete="tel" inputMode="tel" placeholder="0412 345 678"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                       className="w-full px-3 py-2 border border-slate-300 rounded-lg text-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-600"
@@ -160,11 +160,11 @@ export const CheckoutPage: React.FC = () => {
                   </div>
 
                   <div className="sm:col-span-2">
-                    <label className="block font-medium text-slate-700 mb-1">Street Address *</label>
-                    <input
+                    <label htmlFor="co-f4" className="block font-medium text-slate-700 mb-1">Street Address *</label>
+                    <input id="co-f4"
                       required
                       type="text"
-                      placeholder="42 George Street"
+                      autoComplete="address-line1" placeholder="42 George Street"
                       value={formData.addressLine1}
                       onChange={(e) => setFormData({ ...formData, addressLine1: e.target.value })}
                       className="w-full px-3 py-2 border border-slate-300 rounded-lg text-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-600"
@@ -172,11 +172,11 @@ export const CheckoutPage: React.FC = () => {
                   </div>
 
                   <div>
-                    <label className="block font-medium text-slate-700 mb-1">Suburb / City *</label>
-                    <input
+                    <label htmlFor="co-f5" className="block font-medium text-slate-700 mb-1">Suburb / City *</label>
+                    <input id="co-f5"
                       required
                       type="text"
-                      placeholder="Sydney"
+                      autoComplete="address-level2" placeholder="Sydney"
                       value={formData.city}
                       onChange={(e) => setFormData({ ...formData, city: e.target.value })}
                       className="w-full px-3 py-2 border border-slate-300 rounded-lg text-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-600"
@@ -185,8 +185,8 @@ export const CheckoutPage: React.FC = () => {
 
                   <div className="grid grid-cols-2 gap-2">
                     <div>
-                      <label className="block font-medium text-slate-700 mb-1">State *</label>
-                      <select
+                      <label htmlFor="co-f6" className="block font-medium text-slate-700 mb-1">State *</label>
+                      <select id="co-f6"
                         value={formData.state}
                         onChange={(e) => setFormData({ ...formData, state: e.target.value })}
                         className="w-full px-2.5 py-2 border border-slate-300 rounded-lg text-slate-900 focus:outline-none focus:border-emerald-600"
@@ -199,12 +199,12 @@ export const CheckoutPage: React.FC = () => {
                       </select>
                     </div>
                     <div>
-                      <label className="block font-medium text-slate-700 mb-1">Postcode *</label>
-                      <input
+                      <label htmlFor="co-f7" className="block font-medium text-slate-700 mb-1">Postcode *</label>
+                      <input id="co-f7"
                         required
                         type="text"
                         maxLength={4}
-                        placeholder="2000"
+                        autoComplete="postal-code" inputMode="numeric" placeholder="2000"
                         value={formData.postcode}
                         onChange={(e) => setFormData({ ...formData, postcode: e.target.value })}
                         className="w-full px-3 py-2 border border-slate-300 rounded-lg text-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-600"

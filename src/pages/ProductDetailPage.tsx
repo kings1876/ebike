@@ -333,6 +333,13 @@ export const ProductDetailPage: React.FC = () => {
               <span>Instant Checkout Form (Save 10% with Crypto/Osko)</span>
               <ArrowRight className="w-4 h-4" />
             </button>
+
+            <p className="text-center text-xs text-slate-500">
+              Questions about this bike?{' '}
+              <Link to={`/contact?product=${encodeURIComponent(product.name)}`} className="font-semibold text-emerald-700 hover:underline">
+                Ask our team
+              </Link>
+            </p>
           </div>
 
         </div>

@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { Mail, Phone, MapPin, Send, CheckCircle, Clock } from 'lucide-react';
 
 export const ContactSection: React.FC = () => {
+  const [params] = useSearchParams();
+  const product = params.get('product');
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     phone: '',
     subject: 'General Inquiry',
-    message: ''
+    message: product ? `Hi, I'd like to know more about the ${product}.` : ''
   });
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -105,11 +108,11 @@ export const ContactSection: React.FC = () => {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
-                  <label className="block font-medium text-slate-700 mb-1">Your Full Name *</label>
-                  <input
+                  <label htmlFor="ct-f1" className="block font-medium text-slate-700 mb-1">Your Full Name *</label>
+                  <input id="ct-f1"
                     required
                     type="text"
-                    placeholder="Liam Henderson"
+                    autoComplete="name" placeholder="Liam Henderson"
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     className="w-full px-3 py-2 border border-slate-300 rounded-lg text-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-600"
@@ -117,11 +120,11 @@ export const ContactSection: React.FC = () => {
                 </div>
 
                 <div>
-                  <label className="block font-medium text-slate-700 mb-1">Email Address *</label>
-                  <input
+                  <label htmlFor="ct-f2" className="block font-medium text-slate-700 mb-1">Email Address *</label>
+                  <input id="ct-f2"
                     required
                     type="email"
-                    placeholder="liam@example.com.au"
+                    autoComplete="email" placeholder="liam@example.com.au"
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     className="w-full px-3 py-2 border border-slate-300 rounded-lg text-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-600"
@@ -131,10 +134,10 @@ export const ContactSection: React.FC = () => {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
-                  <label className="block font-medium text-slate-700 mb-1">Phone Number (Optional)</label>
-                  <input
+                  <label htmlFor="ct-f3" className="block font-medium text-slate-700 mb-1">Phone Number (Optional)</label>
+                  <input id="ct-f3"
                     type="tel"
-                    placeholder="0412 345 678"
+                    autoComplete="tel" placeholder="0412 345 678"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     className="w-full px-3 py-2 border border-slate-300 rounded-lg text-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-600"
@@ -142,8 +145,8 @@ export const ContactSection: React.FC = () => {
                 </div>
 
                 <div>
-                  <label className="block font-medium text-slate-700 mb-1">Topic / Subject *</label>
-                  <select
+                  <label htmlFor="ct-f4" className="block font-medium text-slate-700 mb-1">Topic / Subject *</label>
+                  <select id="ct-f4"
                     value={formData.subject}
                     onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
                     className="w-full px-3 py-2 border border-slate-300 rounded-lg text-slate-900 focus:outline-none focus:border-emerald-600"
@@ -158,8 +161,8 @@ export const ContactSection: React.FC = () => {
               </div>
 
               <div>
-                <label className="block font-medium text-slate-700 mb-1">Message *</label>
-                <textarea
+                <label htmlFor="ct-f5" className="block font-medium text-slate-700 mb-1">Message *</label>
+                <textarea id="ct-f5"
                   required
                   rows={4}
                   placeholder="Tell us what e-bike or specifications you are considering, or how our team can help you today..."
@@ -169,6 +172,7 @@ export const ContactSection: React.FC = () => {
                 ></textarea>
               </div>
 
+              <input type="text" name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" className="hidden" />
               {error && <p role="alert" className="text-red-600">{error}</p>}
               <button
                 type="submit"

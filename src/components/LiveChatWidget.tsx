@@ -10,6 +10,8 @@ export const LiveChatWidget: React.FC = () => {
     }
   ]);
   const [inputText, setInputText] = useState('');
+  const [email, setEmail] = useState('');
+  const [lead, setLead] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
 
   const quickPrompts = [
     'How do I claim the 10% Crypto/Osko discount?',
@@ -28,7 +30,7 @@ export const LiveChatWidget: React.FC = () => {
 
     // Intelligent immediate automated response
     setTimeout(() => {
-      let reply = 'Thank you for your question! One of our Australian specialists is also notified at sales@ebikesale.com.au.';
+      let reply = 'Thanks for your question! Leave your email below and our team will reply personally from sales@ebikesale.com.au.';
       const lower = text.toLowerCase();
 
       if (lower.includes('crypto') || lower.includes('discount') || lower.includes('osko')) {
@@ -38,11 +40,30 @@ export const LiveChatWidget: React.FC = () => {
       } else if (lower.includes('hill') || lower.includes('trail') || lower.includes('mountain') || lower.includes('climb')) {
         reply = 'For steep climbs and off-road tracks, we recommend browsing our Electric Mountain Bikes range (hardtail and dual-suspension) from brands like Trek, Orbea and Bianchi. Tell us your budget and where you ride and we will point you to the right one.';
       } else if (lower.includes('legal') || lower.includes('road') || lower.includes('250w') || lower.includes('en15194')) {
-        reply = 'Yes! All our 250W commuter and step-through models strictly adhere to EN15194 (25km/h motor cutoff), making them 100% street-legal without licence or registration across all Australian states.';
+        reply = 'Our 250W pedal-assist models (25 km/h motor cut-off) are built to the EN 15194 standard, which is the national road-legal definition for e-bikes in Australia. Rules on age and where you can ride differ by state, so please check your state transport authority. Leave your email below if you would like us to confirm for your area.';
       }
 
       setMessages(prev => [...prev, { sender: 'bot', text: reply }]);
     }, 600);
+  };
+
+  const hasAsked = messages.some((m) => m.sender === 'user');
+
+  // Send the visitor's questions to the shop inbox so a person can follow up.
+  const sendLead = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setLead('sending');
+    const questions = messages.filter((m) => m.sender === 'user').map((m) => m.text).join('\n');
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ formName: 'contact', website: '', name: 'Live chat visitor', email, topic: 'Live chat', message: questions }),
+      });
+      setLead(res.ok ? 'sent' : 'error');
+    } catch {
+      setLead('error');
+    }
   };
 
   return (
@@ -118,6 +139,27 @@ export const LiveChatWidget: React.FC = () => {
               </div>
             ))}
           </div>
+
+          {/* Lead capture: appears once the visitor has asked something */}
+          {hasAsked && lead !== 'sent' && (
+            <form onSubmit={sendLead} className="px-3 pt-3 bg-white border-t border-slate-200 flex gap-2">
+              <input
+                type="email"
+                required
+                autoComplete="email"
+                aria-label="Your email for a reply"
+                placeholder="Your email for a personal reply"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="flex-1 px-3 py-2 text-xs border border-slate-300 rounded-lg focus:outline-none focus:border-emerald-600 text-slate-900"
+              />
+              <button type="submit" disabled={lead === 'sending'} className="px-3 py-2 bg-slate-900 hover:bg-slate-800 disabled:bg-slate-400 text-white text-xs font-bold rounded-lg cursor-pointer">
+                {lead === 'sending' ? 'Sending…' : 'Get reply'}
+              </button>
+            </form>
+          )}
+          {lead === 'sent' && <p className="px-4 pt-3 bg-white border-t border-slate-200 text-xs text-emerald-700 font-semibold">Thanks! We will reply to {email} soon.</p>}
+          {lead === 'error' && <p role="alert" className="px-4 pt-2 bg-white text-xs text-red-600">Could not send. Please email sales@ebikesale.com.au.</p>}
 
           {/* Input Box */}
           <div className="p-3 bg-white border-t border-slate-200 flex gap-2">
