@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
 import { ScrollToTop } from './components/ScrollToTop';
@@ -27,8 +27,7 @@ import { CheckoutPage } from './pages/CheckoutPage';
 import { PolicyPage } from './pages/PolicyPage';
 import { ReviewsPage } from './pages/ReviewsPage';
 import { PaymentDetailsPage } from './pages/PaymentDetailsPage';
-import { AdminShell } from './pages/admin/AdminShell';
-import { AdminDashboard, AdminOrders, AdminOrderDetail, AdminEnquiries, AdminEnquiryDetail } from './pages/admin/AdminPages';
+const AdminRoutes = lazy(() => import('./pages/admin/AdminRoutes'));
 
 export default function App() {
   return (
@@ -77,13 +76,7 @@ export default function App() {
 
               {/* Reply portal (passcode-gated) + public payment page */}
               <Route path="/order/payment-details" element={<PaymentDetailsPage />} />
-              <Route path="/admin" element={<AdminShell />}>
-                <Route index element={<AdminDashboard />} />
-                <Route path="orders" element={<AdminOrders />} />
-                <Route path="orders/:id" element={<AdminOrderDetail />} />
-                <Route path="enquiries" element={<AdminEnquiries />} />
-                <Route path="enquiries/:id" element={<AdminEnquiryDetail />} />
-              </Route>
+              <Route path="/admin/*" element={<Suspense fallback={null}><AdminRoutes /></Suspense>} />
 
               {/* Catch-all redirect to Home */}
               <Route path="*" element={<Navigate to="/" replace />} />

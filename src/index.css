@@ -1,5 +1,27 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url('/fonts/PlusJakartaSans.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url('/fonts/JetBrainsMono.woff2') format('woff2');
+}
+
+/* Darker emerald so white text on emerald backgrounds passes WCAG AA contrast (4.5:1). */
+@theme {
+  --color-emerald-600: #047857;
+  --color-emerald-700: #065f46;
+}
+
+
 @layer base {
   body {
     font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;

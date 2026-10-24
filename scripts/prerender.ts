@@ -31,6 +31,11 @@ function render(route: string) {
   html = setMeta(html, 'property', 'og:url', m.canonical);
   html = setMeta(html, 'name', 'robots', m.noindex ? 'noindex, nofollow' : 'index, follow');
   const extra = [`<link rel="canonical" href="${esc(m.canonical)}" />`];
+  if (m.image) {
+    html = setMeta(html, 'property', 'og:image', m.image);
+    html = setMeta(html, 'name', 'twitter:image', m.image);
+    extra.push(`<link rel="preload" as="image" href="${esc(m.image)}" fetchpriority="high" />`);
+  }
   for (const ld of m.jsonLd ?? []) extra.push(`<script type="application/ld+json" data-route-ld="1">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>`);
   html = html.replace('</head>', `    ${extra.join('\n    ')}\n  </head>`);
 
@@ -51,6 +56,14 @@ for (const route of routes) {
   fs.mkdirSync(path.dirname(file), { recursive: true });
   fs.writeFileSync(file, render(route));
 }
+
+// 404 page: served with a real 404 status for unknown URLs; the app redirects visitors home.
+fs.writeFileSync(
+  path.join(DIST, '404.html'),
+  template
+    .replace(/<title>[^<]*<\/title>/, '<title>Page not found | E Bikes for Sale</title>')
+    .replace('</head>', '    <meta name="robots" content="noindex, nofollow" />\n  </head>'),
+);
 
 const today = new Date().toISOString().slice(0, 10);
 const urls = routes.map((r) => `  <url><loc>${SITE_URL}${r === '/' ? '/' : r}</loc><lastmod>${today}</lastmod></url>`).join('\n');

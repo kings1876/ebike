@@ -1,0 +1,25 @@
+# E Bikes for Sale
+
+> Australian online electric bike retailer. Electric mountain, commuter, step-through, folding, cargo and fat tyre e-bikes, trikes, scooters, batteries and accessories, with free delivery across Australia and a 2-year warranty.
+
+Customers save 10% when paying by bank transfer, Osko or crypto. Orders are placed online and confirmed by email from sales@ebikesale.com.au.
+
+## Shop
+
+- [All electric bikes](https://ebikesale.com.au/shop): full range with filters for brand, motor, frame, tyres and price
+- [Electric mountain bikes](https://ebikesale.com.au/shop/electric-mountain-bikes): hardtail and full-suspension eMTBs
+- [Electric commuter bikes](https://ebikesale.com.au/shop/electric-commuter-bikes): city and step-through e-bikes
+- [Folding electric bikes](https://ebikesale.com.au/shop/folding-electric-bikes): compact foldable e-bikes
+- [Electric cargo bikes](https://ebikesale.com.au/shop/electric-cargo-bikes): family and cargo e-bikes
+- [Electric trikes](https://ebikesale.com.au/shop/electric-trikes): three-wheel e-bikes for adults
+- [Cheap electric bikes](https://ebikesale.com.au/shop/cheap-electric-bikes): affordable e-bikes under $2,000
+- [Fat tyre electric bikes](https://ebikesale.com.au/shop/fat-tyre-electric-bikes): wide-tyre e-bikes
+- [E-bike parts and accessories](https://ebikesale.com.au/shop/ebike-parts-accessories): batteries, helmets and gear
+
+## Help
+
+- [E-bike laws in Australia](https://ebikesale.com.au/blog/australian-ebike-laws-guide-2026): 250W and 25 km/h rules explained
+- [FAQ](https://ebikesale.com.au/faq): delivery, payment, warranty
+- [Contact](https://ebikesale.com.au/contact): sales@ebikesale.com.au
+- [Shipping policy](https://ebikesale.com.au/shipping)
+- [Refund policy](https://ebikesale.com.au/refund)

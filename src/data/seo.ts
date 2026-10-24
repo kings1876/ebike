@@ -166,13 +166,15 @@ export interface RouteMeta {
   canonical: string;
   noindex?: boolean;
   jsonLd?: object[];
+  /** Absolute image URL for og:image and the LCP preload. */
+  image?: string;
   /** Plain content for the prerendered HTML snapshot. */
   h1?: string;
   text?: string[];
   links?: { href: string; label: string }[];
 }
 
-const abs = (path: string) => `${SITE_URL}${path === '/' ? '' : path}`;
+const abs = (path: string) => `${SITE_URL}${path}`;
 const clip = (s: string, n: number) => (s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…');
 const clean = (s: string) => s.replace(/\s+/g, ' ').trim();
 
@@ -190,12 +192,12 @@ const STATIC: Record<string, Omit<RouteMeta, 'canonical'>> = {
   '/about': { title: 'About Us | E Bikes for Sale Australia', description: 'Learn about E Bikes for Sale, an Australian online electric bike retailer with free nationwide delivery and a 2-year warranty.', h1: 'About E Bikes for Sale' },
   '/contact': { title: 'Contact Us | E Bikes for Sale Australia', description: 'Contact the E Bikes for Sale team about sizing, orders, delivery or warranty. Email sales@ebikesale.com.au.', h1: 'Contact Our Australian Team' },
   '/faq': { title: 'E-Bike FAQ | Delivery, Payment, Laws & Warranty', description: 'Answers to common questions about buying an electric bike in Australia: delivery, payment, e-bike laws, specs and warranty.', h1: 'Frequently Asked Questions' },
-  '/reviews': { title: 'Customer Reviews | E Bikes for Sale Australia', description: 'Read customer reviews of E Bikes for Sale and our electric bikes.', h1: 'Customer Reviews' },
+  '/reviews': { title: 'Customer Reviews | E Bikes for Sale Australia', description: 'Read verified customer reviews of E Bikes for Sale and our electric bikes, including delivery, service and bike quality feedback from Australian riders.', h1: 'Customer Reviews' },
   '/blog': { title: 'E-Bike Buying Guides & News | E Bikes for Sale', description: 'Electric bike buying guides, Australian e-bike law explainers and tips from the E Bikes for Sale team.', h1: 'E-Bike Buying Guides' },
   '/shipping': { title: 'Shipping Policy | E Bikes for Sale', description: 'Free tracked delivery across Australia on electric bikes. Read our shipping policy.', h1: 'Shipping Policy' },
-  '/refund': { title: 'Refund & Returns Policy | E Bikes for Sale', description: 'Read the E Bikes for Sale refund and returns policy.', h1: 'Refund Policy' },
-  '/privacy': { title: 'Privacy Policy | E Bikes for Sale', description: 'How E Bikes for Sale handles your personal information.', h1: 'Privacy Policy' },
-  '/terms': { title: 'Terms & Conditions | E Bikes for Sale', description: 'Terms and conditions for purchases from E Bikes for Sale.', h1: 'Terms & Conditions' },
+  '/refund': { title: 'Refund & Returns Policy | E Bikes for Sale', description: 'Read the E Bikes for Sale refund and returns policy, including how to request a return authorisation for an electric bike or accessory.', h1: 'Refund Policy' },
+  '/privacy': { title: 'Privacy Policy | E Bikes for Sale', description: 'How E Bikes for Sale collects, uses and protects your personal information when you order an electric bike or contact our Australian team.', h1: 'Privacy Policy' },
+  '/terms': { title: 'Terms & Conditions | E Bikes for Sale', description: 'Terms and conditions for purchasing electric bikes, parts and accessories from E Bikes for Sale, including payment, delivery and warranty terms.', h1: 'Terms & Conditions' },
 };
 
 const NOINDEX_PREFIXES = ['/cart', '/checkout', '/admin', '/order'];
@@ -240,9 +242,13 @@ export function getRouteMeta(pathname: string): RouteMeta {
     const p = PRODUCTS.find((x) => x.id === prod[1]);
     if (p) {
       const desc = clean(p.tagline ? `${p.tagline}. ${p.description}` : p.description);
+      const firstImage = (p.images?.length ? p.images[0] : p.imageUrl) || '';
+      let title = `${p.name} | Buy in Australia`;
+      if (title.length < 36) title = `${p.name} | Buy in Australia | ${SITE_NAME}`;
       return {
-        title: clip(`${p.name} | Buy in Australia`, 60),
-        description: clip(`${desc} Free delivery Australia-wide.`, 158),
+        title: clip(title, 60),
+        description: clip(`${p.name}: ${desc} Free delivery Australia-wide.`, 158),
+        image: firstImage ? imageUrlFor(firstImage) : undefined,
         canonical,
         h1: p.name,
         text: [clean(p.description)],
@@ -256,7 +262,7 @@ export function getRouteMeta(pathname: string): RouteMeta {
             sku: p.id,
             brand: p.brand ? { '@type': 'Brand', name: p.brand } : undefined,
             category: p.category,
-            image: (p.images?.length ? p.images : p.imageUrl ? [p.imageUrl] : []).slice(0, 5).map((i) => (i.startsWith('http') ? i : `${SITE_URL}${i.startsWith('/') ? '' : '/'}${i}`)),
+            image: (p.images?.length ? p.images : p.imageUrl ? [p.imageUrl] : []).slice(0, 5).map(imageUrlFor),
             url: canonical,
             offers: {
               '@type': 'Offer',
@@ -286,6 +292,11 @@ export function getRouteMeta(pathname: string): RouteMeta {
 
   return { title: `${SITE_NAME} | Electric Bikes Australia`, description: STATIC['/'].description, canonical };
 }
+
+export const imageUrlFor = (src: string) => {
+  const url = src.startsWith('http') ? src : `${SITE_URL}${src.startsWith('/') ? '' : '/'}${src}`;
+  return url.replace(/width=\d+/, 'width=900');
+};
 
 function breadcrumb(items: [string, string][]) {
   return {

@@ -125,7 +125,7 @@ export const Header: React.FC = () => {
           </Link>
           <button
             onClick={openCartDrawer}
-            aria-label="View order cart"
+            aria-label={`Cart, ${totalCount} items`}
             className="flex items-center gap-2 rounded-lg border border-slate-700 bg-slate-900 px-3.5 py-2.5 text-sm font-semibold text-white hover:border-emerald-500 transition-colors cursor-pointer"
           >
             <ShoppingBag className="w-4 h-4 text-emerald-400" />

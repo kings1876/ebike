@@ -29,6 +29,11 @@ export const RouteSeo = () => {
     setMeta('meta[property="og:url"]', { property: 'og:url' }, m.canonical);
     setMeta('meta[name="robots"]', { name: 'robots' }, m.noindex ? 'noindex, nofollow' : 'index, follow');
 
+    if (m.image) {
+      setMeta('meta[property="og:image"]', { property: 'og:image' }, m.image);
+      setMeta('meta[name="twitter:image"]', { name: 'twitter:image' }, m.image);
+    }
+
     let link = document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]');
     if (!link) {
       link = document.createElement('link');

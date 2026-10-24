@@ -191,7 +191,7 @@ export const ShopPage: React.FC = () => {
         {/* Level 2: subcategories */}
         {categoryMeta && categoryMeta.subcategories.length > 2 && (
           <div className="mt-3 flex items-center gap-2 overflow-x-auto py-1">
-            <span className="text-xs font-medium text-slate-400 shrink-0">Subcategory:</span>
+            <span className="text-xs font-medium text-slate-500 shrink-0">Subcategory:</span>
             {categoryMeta.subcategories.map((subcat) => (
               <button key={subcat} onClick={() => update({ subcat })} className={pill(view.subcat === subcat, 'sm')}>
                 {subcat}
@@ -247,6 +247,7 @@ export const ShopPage: React.FC = () => {
             <SlidersHorizontal className="w-3.5 h-3.5 text-slate-400" />
             <span className="text-slate-500">Sort:</span>
             <select
+              aria-label="Sort products"
               value={view.sort}
               onChange={(e) => update({ sort: e.target.value as Sort })}
               className="bg-white border border-slate-200 rounded-md py-1 px-2.5 text-xs text-slate-700 focus:outline-none focus:border-emerald-600 cursor-pointer"
@@ -262,6 +263,7 @@ export const ShopPage: React.FC = () => {
       {/* Product Grid */}
       {filtered.length > 0 ? (
         <>
+          <h2 className="sr-only">Products</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {pageProducts.map((product) => (
               <ProductCard key={product.id} product={product} />
