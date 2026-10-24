@@ -10,6 +10,7 @@ import {
   facetsFromParams, facetsToParams, activeFacetCount, resolveLegacy, isPartsCategory,
 } from '../data/taxonomy';
 
+import { EXTRA } from '../data/seo-content';
 import { CATEGORY_SEO, categoryFromSlug, collectionFromSlug, categoryPath, categorySlug } from '../data/seo';
 
 const PAGE_SIZE = 12;
@@ -105,6 +106,7 @@ export const ShopPage: React.FC = () => {
     return PRODUCTS.filter((p) => {
       if (view.category !== 'All' && p.category !== view.category) return false;
       if (collection?.excludeCategories?.includes(p.category)) return false;
+      if (collection?.subcategory && p.subcategory !== collection.subcategory) return false;
       if (view.subcat !== 'All' && p.subcategory !== view.subcat) return false;
       if (q) {
         const hay = [p.name, p.brand, p.description, p.subcategory, p.category, p.details?.['Motor System']].join(' ').toLowerCase();
@@ -284,9 +286,28 @@ export const ShopPage: React.FC = () => {
         </div>
       )}
 
-      {copy && copy.intro.length > 1 && (
-        <div className="mt-12 max-w-3xl space-y-3 text-sm text-slate-600">
-          {copy.intro.slice(1).map((t) => <p key={t}>{t}</p>)}
+      {copy && (
+        <div className="mt-12 max-w-3xl space-y-8 text-sm text-slate-600">
+          {copy.intro.length > 1 && <div className="space-y-3">{copy.intro.slice(1).map((t) => <p key={t}>{t}</p>)}</div>}
+          {slug && EXTRA[slug]?.sections.map((sec) => (
+            <section key={sec.h2}>
+              <h2 className="text-lg font-bold text-slate-900 mb-2">{sec.h2}</h2>
+              <div className="space-y-3">{sec.body.map((t) => <p key={t}>{t}</p>)}</div>
+            </section>
+          ))}
+          {slug && EXTRA[slug] && EXTRA[slug].faq.length > 0 && (
+            <section>
+              <h2 className="text-lg font-bold text-slate-900 mb-3">Frequently asked questions</h2>
+              <dl className="space-y-4">
+                {EXTRA[slug].faq.map((f) => (
+                  <div key={f.q}>
+                    <dt className="font-semibold text-slate-900">{f.q}</dt>
+                    <dd className="mt-1">{f.a}</dd>
+                  </div>
+                ))}
+              </dl>
+            </section>
+          )}
         </div>
       )}
 

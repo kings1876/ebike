@@ -1,6 +1,7 @@
 import { PRODUCTS, CATEGORIES_WITH_SUBCATEGORIES } from './products';
 import { BLOG_POSTS } from './blogs';
 import type { FacetSelection } from './taxonomy';
+import { EXTRA } from './seo-content';
 
 /**
  * Single source for SEO: clean category / collection URLs and per-route metadata.
@@ -108,6 +109,7 @@ export interface Collection extends SeoCopy {
   facets?: Partial<FacetSelection>;
   sort?: 'price-asc';
   excludeCategories?: string[];
+  subcategory?: string;
 }
 
 export const COLLECTIONS: Collection[] = [
@@ -146,6 +148,32 @@ export const COLLECTIONS: Collection[] = [
     ],
     category: 'Commuter & City Bikes',
     facets: { frame: 'Step-Through' },
+  },
+  {
+    slug: 'trek-electric-bikes',
+    metaTitle: 'Trek Electric Bikes Australia | Rail, Marlin+, Allant+',
+    metaDescription: 'Buy Trek electric bikes in Australia, including Rail e-MTBs, Marlin+, Dual Sport+ and Allant+ commuters. Free delivery and a 2-year warranty.',
+    h1: 'Trek Electric Bikes in Australia',
+    intro: ['Shop Trek electric bikes for mountain, trail and city riding. Every bike ships free across Australia with a 2-year warranty.'],
+    facets: { brand: 'Trek' },
+    excludeCategories: ['Parts & Accessories'],
+  },
+  {
+    slug: 'smartmotion-electric-bikes',
+    metaTitle: 'SmartMotion E-Bikes Australia | SmartMotion Electric Bikes',
+    metaDescription: 'Buy SmartMotion electric bikes in Australia, including the Hypersonic Neo, Catalyst, Pacer GT and X-City Neo. Free delivery nationwide.',
+    h1: 'SmartMotion Electric Bikes in Australia',
+    intro: ['Shop SmartMotion e-bikes for city, trail and step-through riding. Every bike ships free across Australia with a 2-year warranty.'],
+    facets: { brand: 'SmartMotion' },
+  },
+  {
+    slug: 'ebike-batteries-chargers',
+    metaTitle: 'E-Bike Batteries & Chargers Australia | Ebike Battery',
+    metaDescription: 'Buy ebike batteries, range extenders and chargers in Australia. Match voltage and fit to your bike. Free delivery on eligible orders.',
+    h1: 'E-Bike Batteries & Chargers in Australia',
+    intro: ['Replacement ebike batteries, range extenders and chargers. Check compatibility with your bike before ordering, or ask our team.'],
+    category: 'Parts & Accessories',
+    subcategory: 'Batteries & Chargers',
   },
 ];
 
@@ -225,14 +253,21 @@ export function getRouteMeta(pathname: string): RouteMeta {
     if (copy) {
       const col = collectionFromSlug(shop[1]);
       const items = PRODUCTS.filter((p) => (cat ? p.category === cat : col?.category ? p.category === col.category : true));
+      const extra = EXTRA[shop[1]];
+      const text = [...copy.intro, ...(extra?.sections.flatMap((x) => [x.h2, ...x.body]) ?? []), ...(extra?.faq.flatMap((f) => [f.q, f.a]) ?? [])];
       return {
         title: copy.metaTitle,
         description: copy.metaDescription,
         canonical,
         h1: copy.h1,
-        text: copy.intro,
+        text,
         links: (cat ? items : []).slice(0, 24).map((p) => ({ href: `/product/${p.id}`, label: p.name })),
-        jsonLd: [breadcrumb([['Home', '/'], ['Shop', '/shop'], [copy.h1, path]])],
+        jsonLd: [
+          breadcrumb([['Home', '/'], ['Shop', '/shop'], [copy.h1, path]]),
+          ...(extra?.faq.length
+            ? [{ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: extra.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) }]
+            : []),
+        ],
       };
     }
   }

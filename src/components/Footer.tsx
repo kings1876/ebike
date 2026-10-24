@@ -145,7 +145,9 @@ export const Footer: React.FC = () => {
             <Link to="/shop/folding-electric-bikes" className="hover:text-emerald-400">folding electric bike</Link> ·{' '}
             <Link to="/shop/fat-tyre-electric-bikes" className="hover:text-emerald-400">fat tyre electric bike</Link> ·{' '}
             <Link to="/shop/electric-cargo-bikes" className="hover:text-emerald-400">electric cargo bike</Link> ·{' '}
-            <Link to="/shop/electric-trikes" className="hover:text-emerald-400">electric trike</Link>.
+            <Link to="/shop/electric-trikes" className="hover:text-emerald-400">electric trike</Link> ·{' '}
+            <Link to="/shop/trek-electric-bikes" className="hover:text-emerald-400">trek electric bike</Link> ·{' '}
+            <Link to="/shop/ebike-batteries-chargers" className="hover:text-emerald-400">ebike battery</Link>.
           </p>
         </div>
 
