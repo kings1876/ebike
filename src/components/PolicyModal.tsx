@@ -89,7 +89,7 @@ export const PolicyModal: React.FC<PolicyModalProps> = ({ type, onClose }) => {
             <strong>Off-Road & Private Property Usage:</strong> High-power models (500W–750W) with programmable speed modes are intended for off-road trails, private land, and unsealed backcountry routes where permitted by local authorities.
           </p>
           <p>
-            <strong>Pricing & Currency:</strong> All prices listed are in USD (inclusive of applicable taxes and Australian GST where noted). We reserve the right to amend inventory pricing without prior notice.
+            <strong>Pricing & Currency:</strong> All prices listed are in AUD (inclusive of applicable taxes and Australian GST where noted). We reserve the right to amend inventory pricing without prior notice.
           </p>
         </div>
       )

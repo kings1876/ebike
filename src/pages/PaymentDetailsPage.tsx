@@ -44,7 +44,7 @@ export const PaymentDetailsPage: React.FC = () => {
       .catch((e) => setError(e.message || 'Not available'));
   }, [id]);
 
-  const amount = data ? `$${data.amountDue.toLocaleString('en-AU', { minimumFractionDigits: 2 })} USD` : '';
+  const amount = data ? `$${data.amountDue.toLocaleString('en-AU', { minimumFractionDigits: 2 })} AUD` : '';
 
   return (
     <div className="max-w-xl mx-auto px-4 py-12 space-y-5">

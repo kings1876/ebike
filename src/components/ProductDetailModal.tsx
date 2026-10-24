@@ -98,7 +98,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                     ${product.originalPrice.toLocaleString()}
                   </span>
                 )}
-                <span className="text-xs text-slate-500 font-medium">USD (Tax Inclusive / Inc. GST)</span>
+                <span className="text-xs text-slate-500 font-medium">AUD (Tax Inclusive / Inc. GST)</span>
               </div>
               
               <div className="mt-2 text-xs text-emerald-800 font-bold flex items-center gap-1.5">

@@ -159,7 +159,7 @@ export const CartDrawer: React.FC = () => {
               <div className="flex items-center justify-between text-sm">
                 <span className="text-slate-600">Standard Subtotal</span>
                 <span className="font-bold text-slate-900 font-mono tabular-nums">
-                  ${subtotal.toLocaleString()} USD
+                  ${subtotal.toLocaleString()} AUD
                 </span>
               </div>
 
@@ -174,7 +174,7 @@ export const CartDrawer: React.FC = () => {
                 <div className="flex items-center justify-between text-xs text-emerald-700 mt-1 font-semibold pt-1 border-t border-emerald-200/60">
                   <span>Discounted Total</span>
                   <span className="font-mono font-bold text-sm tabular-nums text-emerald-950">
-                    ${discountedTotal.toLocaleString()} USD
+                    ${discountedTotal.toLocaleString()} AUD
                   </span>
                 </div>
               </div>

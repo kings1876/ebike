@@ -89,7 +89,7 @@ export const CartPage: React.FC = () => {
 
                     <div className="flex items-center gap-4">
                       <span className="text-base font-extrabold text-slate-950 font-mono tabular-nums">
-                        ${(item.product.price * item.quantity).toLocaleString()} USD
+                        ${(item.product.price * item.quantity).toLocaleString()} AUD
                       </span>
 
                       <button
@@ -125,7 +125,7 @@ export const CartPage: React.FC = () => {
             <div className="flex justify-between text-slate-600">
               <span>Items Total ({cart.reduce((a, b) => a + b.quantity, 0)})</span>
               <span className="font-mono font-bold text-slate-900 tabular-nums">
-                ${subtotal.toLocaleString()} USD
+                ${subtotal.toLocaleString()} AUD
               </span>
             </div>
 
@@ -150,7 +150,7 @@ export const CartPage: React.FC = () => {
             <div className="pt-3 border-t border-slate-200 flex justify-between items-baseline text-sm">
               <span className="font-bold text-slate-900">Total with 10% Off:</span>
               <span className="font-mono font-extrabold text-xl text-emerald-700 tabular-nums">
-                ${discountedTotal.toLocaleString()} USD
+                ${discountedTotal.toLocaleString()} AUD
               </span>
             </div>
           </div>

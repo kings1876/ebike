@@ -3,7 +3,7 @@ export const SITE = {
   name: 'E Bikes for Sale',
   domain: 'ebikesale.com.au',
   salesEmail: 'sales@ebikesale.com.au',
-  currency: 'USD',
+  currency: 'AUD',
   brand: { primary: '#059669', headerDark: '#0f172a' },
 };
 

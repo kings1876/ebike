@@ -170,7 +170,7 @@ export const ProductDetailPage: React.FC = () => {
                   ${product.originalPrice.toLocaleString()}
                 </span>
               )}
-              <span className="text-xs text-slate-500 font-medium">USD (Inc. GST)</span>
+              <span className="text-xs text-slate-500 font-medium">AUD (Inc. GST)</span>
             </div>
 
             <div className="mt-3 pt-3 border-t border-slate-200/80 flex items-center justify-between text-xs">
@@ -179,7 +179,7 @@ export const ProductDetailPage: React.FC = () => {
                 <span>Pay with Crypto or Osko (10% off)</span>
               </div>
               <span className="font-mono font-bold text-sm text-emerald-950 tabular-nums">
-                ${cryptoPrice.toLocaleString()} USD
+                ${cryptoPrice.toLocaleString()} AUD
               </span>
             </div>
           </div>

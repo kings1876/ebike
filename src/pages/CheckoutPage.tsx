@@ -300,11 +300,11 @@ export const CheckoutPage: React.FC = () => {
                 <div className="pt-4 border-t border-slate-200 space-y-2 text-xs">
                   <div className="flex justify-between text-slate-600">
                     <span>Standard Subtotal:</span>
-                    <span className="font-mono tabular-nums font-semibold">${subtotal.toLocaleString()} USD</span>
+                    <span className="font-mono tabular-nums font-semibold">${subtotal.toLocaleString()} AUD</span>
                   </div>
                   <div className="flex justify-between text-emerald-700 font-bold">
                     <span>10% Payment Discount ({formData.paymentMethod}):</span>
-                    <span className="font-mono tabular-nums">-${cryptoDiscount.toLocaleString()} USD</span>
+                    <span className="font-mono tabular-nums">-${cryptoDiscount.toLocaleString()} AUD</span>
                   </div>
                   <div className="flex justify-between text-slate-600">
                     <span>Nationwide Tracked Delivery:</span>
@@ -314,7 +314,7 @@ export const CheckoutPage: React.FC = () => {
                   <div className="pt-3 border-t border-slate-200 flex justify-between items-baseline text-base">
                     <span className="font-extrabold text-slate-900">Final Total Due:</span>
                     <span className="font-mono font-extrabold text-2xl text-emerald-700 tabular-nums">
-                      ${discountedTotal.toLocaleString()} USD
+                      ${discountedTotal.toLocaleString()} AUD
                     </span>
                   </div>
                 </div>
@@ -365,7 +365,7 @@ export const CheckoutPage: React.FC = () => {
                 Payment Method: <span className="text-emerald-700">{formData.paymentMethod}</span>
               </div>
               <div className="text-sm font-bold text-slate-900 font-mono">
-                Amount Due: ${discountedTotal.toLocaleString()} USD
+                Amount Due: ${discountedTotal.toLocaleString()} AUD
               </div>
             </div>
 

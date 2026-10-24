@@ -14,7 +14,7 @@ interface Enquiry {
   status: string; createdAt: string; repliedAt?: string;
 }
 
-const money = (n: number) => `$${n.toLocaleString('en-AU', { minimumFractionDigits: 2 })} USD`;
+const money = (n: number) => `$${n.toLocaleString('en-AU', { minimumFractionDigits: 2 })} AUD`;
 const when = (iso: string) => new Date(iso).toLocaleString('en-AU', { dateStyle: 'medium', timeStyle: 'short' });
 const card = 'bg-white border border-slate-200 rounded-2xl p-5 shadow-xs';
 const btn = 'px-4 py-2 bg-emerald-600 hover:bg-emerald-700 disabled:bg-slate-400 text-white text-sm font-bold rounded-lg cursor-pointer';
