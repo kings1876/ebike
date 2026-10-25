@@ -19,7 +19,7 @@ log(noDesc.length === 0, 'every product has a description', noDesc.map((p) => p.
 const weirdSale = P.filter((p) => p.originalPrice && p.originalPrice <= p.price);
 log(weirdSale.length === 0, 'sale prices lower than original', weirdSale.map((p) => p.id).join(','));
 const badVar = P.filter((p) => p.variants?.some((v: any) => !(v.price > 0)));
-log(badVar.length === 0, 'variant prices valid', badVar.map((p) => p.id).join(','));
+log(badVar.length === 0, 'variant prices valid (sold-out variants carry 0 in the feed; the UI falls back to the base price)', badVar.map((p) => p.id).join(','));
 const outOfStock = P.filter((p) => p.inStock === false).length;
 log(true, 'out-of-stock products (info)', String(outOfStock));
 const dupNames = Object.entries(P.reduce((m: any, p) => ((m[p.name.toLowerCase()] = (m[p.name.toLowerCase()] || 0) + 1), m), {})).filter(([, n]) => (n as number) > 1);
