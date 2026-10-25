@@ -5,7 +5,16 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
-import { allIndexableRoutes, getRouteMeta, SITE_URL } from '../src/data/seo';
+import { allIndexableRoutes, getRouteMeta, plainBlock, SITE_URL } from '../src/data/seo';
+import { BLOG_POSTS } from '../src/data/blogs';
+
+// House rule: every blog post must be at least 1,300 words. The build fails otherwise.
+const MIN_BLOG_WORDS = 1300;
+const short = BLOG_POSTS.map((b) => ({ slug: b.slug, words: b.content.map(plainBlock).join(' ').split(/\s+/).length })).filter((b) => b.words < MIN_BLOG_WORDS);
+if (short.length) {
+  console.error(`Blog posts under ${MIN_BLOG_WORDS} words: ` + short.map((b) => `${b.slug} (${b.words})`).join(', '));
+  process.exit(1);
+}
 
 const DIST = path.resolve('dist');
 const template = fs.readFileSync(path.join(DIST, 'index.html'), 'utf8');
