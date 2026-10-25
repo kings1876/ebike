@@ -3,6 +3,7 @@ import { BLOG_POSTS } from './blogs';
 import { defaultSelection, findVariant } from './variants';
 import { EXTRA } from './seo-content';
 import { mergeDetail } from './catalogue';
+import { detailUrl } from './data-version';
 import type { ProductDetail } from './products-detail';
 import { SITE_URL, SITE_NAME, CATEGORY_SEO, COLLECTIONS, categoryPath, categoryFromSlug, collectionFromSlug } from './seo';
 
@@ -117,7 +118,7 @@ export function getRouteMeta(pathname: string, details?: Record<string, ProductD
           const src = v?.image ?? p.imageUrl ?? firstImage;
           return src ? imageUrlFor(src).replace(/width=\d+/, 'width=700') : undefined;
         })(),
-        dataPreload: `/data/p/${p.id}.json`,
+        dataPreload: detailUrl(p.id),
         canonical,
         h1: p.name,
         text: [clean(p.description)],

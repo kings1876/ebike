@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { PRODUCTS } from '../data/products';
 import { CartItem, Product, ProductVariant } from '../types';
 
 interface CartContextType {
@@ -23,7 +24,13 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
     try {
       const saved = localStorage.getItem('ebikes_cart');
       // Carts saved before variants existed have no lineId
-      return saved ? (JSON.parse(saved) as CartItem[]).map(i => ({ ...i, lineId: i.lineId ?? i.product.id })) : [];
+      return saved
+        ? (JSON.parse(saved) as CartItem[]).map(i => {
+            // Carts saved before photos were self-hosted point at the old image server: refresh from the catalogue.
+            const fresh = /^https?:/.test(i.product.imageUrl) ? PRODUCTS.find(p => p.id === i.product.id) : undefined;
+            return { ...i, lineId: i.lineId ?? i.product.id, product: fresh ? { ...i.product, imageUrl: fresh.imageUrl } : i.product };
+          })
+        : [];
     } catch {
       return [];
     }
