@@ -24,7 +24,11 @@ export const ProductImage: React.FC<ProductImageProps> = ({ src, alt, category, 
   }, [src]);
 
   // Shopify CDN images accept a width parameter: cards need far fewer pixels than the product page.
-  const url = src.includes('cdn.shopify.com') ? src.replace(/width=\d+/, `width=${width ?? (eager ? 900 : 520)}`) : src;
+  // Self-hosted photos come in two sizes: a full one and a small `-s` one for cards.
+  const isLocal = src.startsWith('/images/p/');
+  const url = isLocal
+    ? (eager || (width ?? 0) > 520 ? src : src.replace(/\.webp$/, '-s.webp'))
+    : src.includes('cdn.shopify.com') ? src.replace(/width=\d+/, `width=${width ?? (eager ? 900 : 520)}`) : src;
 
   return (
     <div className={`relative overflow-hidden bg-slate-100 flex items-center justify-center ${className}`}>

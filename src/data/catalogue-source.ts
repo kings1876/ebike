@@ -18,10 +18,10 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187552_1_0003562a-c3cf-4b37-99ba-c9422d95eca0.jpg?v=1680031640&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187552_1.jpg?v=1680031640&width=900"
+      "/images/p/20187552-1-0003562a-c3cf-4b37-99ba-c9422d95eca0-c6b67b.webp",
+      "/images/p/20187552-1-e61c4c.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187552_1_0003562a-c3cf-4b37-99ba-c9422d95eca0.jpg?v=1680031640&width=900",
+    "imageUrl": "/images/p/20187552-1-0003562a-c3cf-4b37-99ba-c9422d95eca0-c6b67b.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Full",
@@ -103,7 +103,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Vam2-88.jpg?v=1748154994&width=900",
+    "imageUrl": "/images/p/focus-vam2-88-dd0669.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Full",
@@ -113,7 +113,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Vam2-88.jpg?v=1748154994&width=900",
+      "/images/p/focus-vam2-88-dd0669.webp",
       "/images/products/focus-vam2-sl-99-2.webp",
       "/images/products/focus-vam2-sl-99-3.webp",
       "/images/products/focus-vam2-sl-99-4.webp"
@@ -135,10 +135,10 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/OrbeaRiseH30ebikeelectricbikegluegrey.jpg?v=1680031767&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/OrbeaRiseH30ebikeelectricbikegluegrey.webp?v=1680031767&width=900"
+      "/images/p/orbeariseh30ebikeelectricbikegluegrey-c888f5.webp",
+      "/images/p/orbeariseh30ebikeelectricbikegluegrey-e239af.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/OrbeaRiseH30ebikeelectricbikegluegrey.jpg?v=1680031767&width=900",
+    "imageUrl": "/images/p/orbeariseh30ebikeelectricbikegluegrey-c888f5.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Full",
@@ -202,7 +202,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 10499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Sam-6-9.png?v=1760268063&width=900"
+        "image": "/images/p/focus-sam-6-9-48fec0.webp"
       },
       {
         "id": "41388674089093",
@@ -213,7 +213,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 10499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Sam-6-9.png?v=1760268063&width=900"
+        "image": "/images/p/focus-sam-6-9-48fec0.webp"
       },
       {
         "id": "41388674121861",
@@ -224,7 +224,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 10499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Sam-6-9.png?v=1760268063&width=900"
+        "image": "/images/p/focus-sam-6-9-48fec0.webp"
       },
       {
         "id": "41388674154629",
@@ -235,7 +235,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 10499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Sam-6-9.png?v=1760268063&width=900"
+        "image": "/images/p/focus-sam-6-9-48fec0.webp"
       },
       {
         "id": "41388674187397",
@@ -246,7 +246,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 10499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.9_magic_black_aaa1da81-4789-47bf-a8b5-0737eaefe103.png?v=1760268191&width=900"
+        "image": "/images/p/focus-sam-6-9-magic-black-aaa1da81-4789-47bf-a8b5-0737eaefe1-834e09.webp"
       },
       {
         "id": "41388674220165",
@@ -257,7 +257,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 10499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.9_magic_black_aaa1da81-4789-47bf-a8b5-0737eaefe103.png?v=1760268191&width=900"
+        "image": "/images/p/focus-sam-6-9-magic-black-aaa1da81-4789-47bf-a8b5-0737eaefe1-834e09.webp"
       },
       {
         "id": "41388674252933",
@@ -269,7 +269,7 @@ export const PRODUCTS: Product[] = [
         "price": 9499,
         "compareAtPrice": 10499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.9_magic_black_aaa1da81-4789-47bf-a8b5-0737eaefe103.png?v=1760268191&width=900"
+        "image": "/images/p/focus-sam-6-9-magic-black-aaa1da81-4789-47bf-a8b5-0737eaefe1-834e09.webp"
       },
       {
         "id": "41388674285701",
@@ -280,20 +280,20 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 10499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.9_magic_black_aaa1da81-4789-47bf-a8b5-0737eaefe103.png?v=1760268191&width=900"
+        "image": "/images/p/focus-sam-6-9-magic-black-aaa1da81-4789-47bf-a8b5-0737eaefe1-834e09.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Sam-6-9.png?v=1760268063&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.9_magic_black_aaa1da81-4789-47bf-a8b5-0737eaefe103.png?v=1760268191&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.9_1.png?v=1760268176&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.9_2.png?v=1760268175&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.9_3.png?v=1760268174&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.9_magic_black.png?v=1760268175&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.9.png?v=1760268175&width=900"
+      "/images/p/focus-sam-6-9-48fec0.webp",
+      "/images/p/focus-sam-6-9-magic-black-aaa1da81-4789-47bf-a8b5-0737eaefe1-834e09.webp",
+      "/images/p/focus-sam-6-9-1-0e998a.webp",
+      "/images/p/focus-sam-6-9-2-d32998.webp",
+      "/images/p/focus-sam-6-9-3-be2212.webp",
+      "/images/p/focus-sam-6-9-magic-black-64e8e6.webp",
+      "/images/p/focus-sam-6-9-ebed6a.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Sam-6-9.png?v=1760268063&width=900",
+    "imageUrl": "/images/p/focus-sam-6-9-48fec0.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Full",
@@ -326,7 +326,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "D644518001"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Thron-6-9-cream.jpg?v=1726711228&width=900",
+    "imageUrl": "/images/p/focus-thron-6-9-cream-19f717.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Full",
@@ -335,7 +335,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Thron-6-9-cream.jpg?v=1726711228&width=900",
+      "/images/p/focus-thron-6-9-cream-19f717.webp",
       "/images/products/focus-thron2-69-cremewhite-2.webp",
       "/images/products/focus-thron2-69-cremewhite-3.webp",
       "/images/products/focus-thron2-69-cremewhite-4.webp"
@@ -419,12 +419,12 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-6-9.png?v=1760265831&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.9_3.png?v=1760265862&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.9_1.png?v=1760265863&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.9_2.png?v=1760265863&width=900"
+      "/images/p/focus-jam-6-9-e6ae0f.webp",
+      "/images/p/focus-jam-6-9-3-800d50.webp",
+      "/images/p/focus-jam-6-9-1-95499c.webp",
+      "/images/p/focus-jam-6-9-2-502bf3.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-6-9.png?v=1760265831&width=900",
+    "imageUrl": "/images/p/focus-jam-6-9-e6ae0f.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Full",
@@ -507,12 +507,12 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Sam-6-8.png?v=1760267517&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.8_1.png?v=1760268112&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.8_2.png?v=1760268112&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Sam_6.8_3.png?v=1760268112&width=900"
+      "/images/p/focus-sam-6-8-06de27.webp",
+      "/images/p/focus-sam-6-8-1-969c98.webp",
+      "/images/p/focus-sam-6-8-2-345545.webp",
+      "/images/p/focus-sam-6-8-3-c39f82.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Sam-6-8.png?v=1760267517&width=900",
+    "imageUrl": "/images/p/focus-sam-6-8-06de27.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Full",
@@ -539,7 +539,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "0000020192969"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/YRBA2ILGOR_xtype_5.jpg?v=1680005690&width=900",
+    "imageUrl": "/images/p/yrba2ilgor-xtype-5-894370.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Hardtail",
@@ -603,7 +603,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 7999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-6-8.png?v=1760264042&width=900"
+        "image": "/images/p/focus-jam-6-8-7a41e6.webp"
       },
       {
         "id": "41388668256389",
@@ -615,7 +615,7 @@ export const PRODUCTS: Product[] = [
         "price": 7499,
         "compareAtPrice": 7999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-6-8.png?v=1760264042&width=900"
+        "image": "/images/p/focus-jam-6-8-7a41e6.webp"
       },
       {
         "id": "41388668289157",
@@ -626,7 +626,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 7999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-6-8.png?v=1760264042&width=900"
+        "image": "/images/p/focus-jam-6-8-7a41e6.webp"
       },
       {
         "id": "41388668321925",
@@ -637,7 +637,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 7999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-6-8.png?v=1760264042&width=900"
+        "image": "/images/p/focus-jam-6-8-7a41e6.webp"
       },
       {
         "id": "41388668354693",
@@ -648,7 +648,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 7999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.8_Silver.png?v=1760264247&width=900"
+        "image": "/images/p/focus-jam-6-8-silver-a4c3ac.webp"
       },
       {
         "id": "41388668387461",
@@ -659,7 +659,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 7999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.8_Silver.png?v=1760264247&width=900"
+        "image": "/images/p/focus-jam-6-8-silver-a4c3ac.webp"
       },
       {
         "id": "41388668420229",
@@ -670,7 +670,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 7999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.8_Silver.png?v=1760264247&width=900"
+        "image": "/images/p/focus-jam-6-8-silver-a4c3ac.webp"
       },
       {
         "id": "41388668452997",
@@ -681,21 +681,21 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 7999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.8_Silver.png?v=1760264247&width=900"
+        "image": "/images/p/focus-jam-6-8-silver-a4c3ac.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-6-8.png?v=1760264042&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.8_Silver_3.png?v=1760264243&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.8_1.png?v=1760264246&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.8_2.png?v=1760264246&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.8_3.png?v=1760264245&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.8_Silver_1.png?v=1760264247&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.8_Silver_2.png?v=1760264246&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.8_Silver.png?v=1760264247&width=900"
+      "/images/p/focus-jam-6-8-7a41e6.webp",
+      "/images/p/focus-jam-6-8-silver-3-d457b2.webp",
+      "/images/p/focus-jam-6-8-1-872f1b.webp",
+      "/images/p/focus-jam-6-8-2-28908b.webp",
+      "/images/p/focus-jam-6-8-3-02dc17.webp",
+      "/images/p/focus-jam-6-8-silver-1-6ecba3.webp",
+      "/images/p/focus-jam-6-8-silver-2-d88838.webp",
+      "/images/p/focus-jam-6-8-silver-a4c3ac.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-6-8.png?v=1760264042&width=900",
+    "imageUrl": "/images/p/focus-jam-6-8-7a41e6.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Full",
@@ -782,12 +782,12 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Thron-68-ABS-GREY.png?v=1760262318&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Thron_68_ABS_GREY_1.png?v=1760263033&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Thron_68_ABS_GREY_2.png?v=1760263032&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Thron_68_ABS_GREY_3.png?v=1760263032&width=900"
+      "/images/p/focus-thron-68-abs-grey-14d116.webp",
+      "/images/p/focus-thron-68-abs-grey-1-a8ee73.webp",
+      "/images/p/focus-thron-68-abs-grey-2-1393fd.webp",
+      "/images/p/focus-thron-68-abs-grey-3-b2dcc3.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Thron-68-ABS-GREY.png?v=1760262318&width=900",
+    "imageUrl": "/images/p/focus-thron-68-abs-grey-14d116.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Full",
@@ -925,7 +925,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/jam_8.7.png?v=1761117237&width=900",
+    "imageUrl": "/images/p/jam-8-7-959535.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Full",
@@ -934,7 +934,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/jam_8.7.png?v=1761117237&width=900",
+      "/images/p/jam-8-7-959535.webp",
       "/images/products/focus-jam2-87-2.webp",
       "/images/products/focus-jam2-87-3.webp",
       "/images/products/focus-jam2-87-4.webp"
@@ -1076,10 +1076,10 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Jam2-8-8-SL-Grey.png?v=1722324308&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Jam_2_8.8_SL_yellow.png?v=1722324396&width=900"
+      "/images/p/jam2-8-8-sl-grey-547573.webp",
+      "/images/p/jam-2-8-8-sl-yellow-152594.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Jam2-8-8-SL-Grey.png?v=1722324308&width=900",
+    "imageUrl": "/images/p/jam2-8-8-sl-grey-547573.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Full",
@@ -1217,7 +1217,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-SL-87-Dual-suspension-ebike.png?v=1748153692&width=900",
+    "imageUrl": "/images/p/focus-jam-sl-87-dual-suspension-ebike-7fb47b.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Full",
@@ -1289,7 +1289,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FocusJarifa6.8.png?v=1726716951&width=900",
+    "imageUrl": "/images/p/focusjarifa6-8-fc65a0.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Hardtail",
@@ -1298,7 +1298,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FocusJarifa6.8.png?v=1726716951&width=900",
+      "/images/p/focusjarifa6-8-fc65a0.webp",
       "/images/products/focus-jarifa-68-xl-goldbrown-2.webp",
       "/images/products/focus-jarifa-68-xl-goldbrown-3.webp",
       "/images/products/focus-jarifa-68-xl-goldbrown-4.webp"
@@ -1356,7 +1356,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 7499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TrekRail5DeoreDualsuspensionebike2.webp?v=1692101436&width=900"
+        "image": "/images/p/trekrail5deoredualsuspensionebike2-1ec0bf.webp"
       },
       {
         "id": "40255235719301",
@@ -1367,7 +1367,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 7499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TrekRail5Gen3Fullsupsionelecticbike.webp?v=1692101394&width=900"
+        "image": "/images/p/trekrail5gen3fullsupsionelecticbike-9c6c83.webp"
       },
       {
         "id": "40255235981445",
@@ -1378,7 +1378,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 7499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TrekRail5Gen3Fullsupsionelecticbike.webp?v=1692101394&width=900"
+        "image": "/images/p/trekrail5gen3fullsupsionelecticbike-9c6c83.webp"
       },
       {
         "id": "40255236014213",
@@ -1390,7 +1390,7 @@ export const PRODUCTS: Product[] = [
         "price": 5999,
         "compareAtPrice": 7499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TrekRail5Gen3Fullsupsionelecticbike.webp?v=1692101394&width=900"
+        "image": "/images/p/trekrail5gen3fullsupsionelecticbike-9c6c83.webp"
       },
       {
         "id": "40255236046981",
@@ -1401,7 +1401,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 7499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TrekRail5Gen3Fullsupsionelecticbike.webp?v=1692101394&width=900"
+        "image": "/images/p/trekrail5gen3fullsupsionelecticbike-9c6c83.webp"
       },
       {
         "id": "40255236079749",
@@ -1412,7 +1412,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 7499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TrekRail5DeoreDualsuspensionebike2.webp?v=1692101436&width=900"
+        "image": "/images/p/trekrail5deoredualsuspensionebike2-1ec0bf.webp"
       },
       {
         "id": "40255236112517",
@@ -1423,7 +1423,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 7499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TrekRail5DeoreDualsuspensionebike2.webp?v=1692101436&width=900"
+        "image": "/images/p/trekrail5deoredualsuspensionebike2-1ec0bf.webp"
       },
       {
         "id": "40255238930565",
@@ -1434,15 +1434,15 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 7499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TrekRail5DeoreDualsuspensionebike2.webp?v=1692101436&width=900"
+        "image": "/images/p/trekrail5deoredualsuspensionebike2-1ec0bf.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TrekRail5Gen3Fullsupsionelecticbike.webp?v=1692101394&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TrekRail5DeoreDualsuspensionebike2.webp?v=1692101436&width=900"
+      "/images/p/trekrail5gen3fullsupsionelecticbike-9c6c83.webp",
+      "/images/p/trekrail5deoredualsuspensionebike2-1ec0bf.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TrekRail5Gen3Fullsupsionelecticbike.webp?v=1692101394&width=900",
+    "imageUrl": "/images/p/trekrail5gen3fullsupsionelecticbike-9c6c83.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Full",
@@ -1506,7 +1506,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 6299,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Thron-67-Blue.png?v=1760260818&width=900"
+        "image": "/images/p/focus-thron-67-blue-545b49.webp"
       },
       {
         "id": "41388665372805",
@@ -1518,7 +1518,7 @@ export const PRODUCTS: Product[] = [
         "price": 5799,
         "compareAtPrice": 6299,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Thron-67-Blue.png?v=1760260818&width=900"
+        "image": "/images/p/focus-thron-67-blue-545b49.webp"
       },
       {
         "id": "41388665405573",
@@ -1530,7 +1530,7 @@ export const PRODUCTS: Product[] = [
         "price": 5799,
         "compareAtPrice": 6299,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Thron-67-Blue.png?v=1760260818&width=900"
+        "image": "/images/p/focus-thron-67-blue-545b49.webp"
       },
       {
         "id": "41388665438341",
@@ -1541,7 +1541,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 6299,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Thron-67-Blue.png?v=1760260818&width=900"
+        "image": "/images/p/focus-thron-67-blue-545b49.webp"
       },
       {
         "id": "41388665471109",
@@ -1552,7 +1552,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 6299,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Thron_67_grey_dd2b3d19-5303-4405-8063-9614e0405ad3.png?v=1760261129&width=900"
+        "image": "/images/p/focus-thron-67-grey-dd2b3d19-5303-4405-8063-9614e0405ad3-6cb04d.webp"
       },
       {
         "id": "41388665503877",
@@ -1564,7 +1564,7 @@ export const PRODUCTS: Product[] = [
         "price": 5799,
         "compareAtPrice": 6299,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Thron_67_grey_dd2b3d19-5303-4405-8063-9614e0405ad3.png?v=1760261129&width=900"
+        "image": "/images/p/focus-thron-67-grey-dd2b3d19-5303-4405-8063-9614e0405ad3-6cb04d.webp"
       },
       {
         "id": "41388665536645",
@@ -1576,7 +1576,7 @@ export const PRODUCTS: Product[] = [
         "price": 5799,
         "compareAtPrice": 6299,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Thron_67_grey_dd2b3d19-5303-4405-8063-9614e0405ad3.png?v=1760261129&width=900"
+        "image": "/images/p/focus-thron-67-grey-dd2b3d19-5303-4405-8063-9614e0405ad3-6cb04d.webp"
       },
       {
         "id": "41388665569413",
@@ -1587,16 +1587,16 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 6299,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Thron_67_grey_dd2b3d19-5303-4405-8063-9614e0405ad3.png?v=1760261129&width=900"
+        "image": "/images/p/focus-thron-67-grey-dd2b3d19-5303-4405-8063-9614e0405ad3-6cb04d.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Thron-67-Blue.png?v=1760260818&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Thron_67_grey_dd2b3d19-5303-4405-8063-9614e0405ad3.png?v=1760261129&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Thron_67_grey.png?v=1760261098&width=900"
+      "/images/p/focus-thron-67-blue-545b49.webp",
+      "/images/p/focus-thron-67-grey-dd2b3d19-5303-4405-8063-9614e0405ad3-6cb04d.webp",
+      "/images/p/focus-thron-67-grey-8e9015.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Thron-67-Blue.png?v=1760260818&width=900",
+    "imageUrl": "/images/p/focus-thron-67-blue-545b49.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Full",
@@ -1685,12 +1685,12 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-6-7.png?v=1760263171&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.7_1.png?v=1760263228&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.7_2.png?v=1760263228&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus_Jam_6.7_3.png?v=1760263227&width=900"
+      "/images/p/focus-jam-6-7-42ba37.webp",
+      "/images/p/focus-jam-6-7-1-650d5a.webp",
+      "/images/p/focus-jam-6-7-2-60c8fb.webp",
+      "/images/p/focus-jam-6-7-3-8742a3.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Jam-6-7.png?v=1760263171&width=900",
+    "imageUrl": "/images/p/focus-jam-6-7-42ba37.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Full",
@@ -1846,15 +1846,15 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus8US-24-41706-C-Primary.webp?v=1710159802&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus8US-24-41706-A-Primary.webp?v=1710159802&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus8US-24-41706-A-Alt8.webp?v=1710159802&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus8US-24-41706-A-Alt3.webp?v=1710159802&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus8US-24-41706-C-Alt5.webp?v=1710159802&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus8US-24-41706-C-Alt8.jpg?v=1710159802&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus8US-24-41706-C-Alt2.webp?v=1710159802&width=900"
+      "/images/p/marlinplus8us-24-41706-c-primary-769904.webp",
+      "/images/p/marlinplus8us-24-41706-a-primary-b90f69.webp",
+      "/images/p/marlinplus8us-24-41706-a-alt8-25c7f7.webp",
+      "/images/p/marlinplus8us-24-41706-a-alt3-241ede.webp",
+      "/images/p/marlinplus8us-24-41706-c-alt5-14dafe.webp",
+      "/images/p/marlinplus8us-24-41706-c-alt8-403581.webp",
+      "/images/p/marlinplus8us-24-41706-c-alt2-88fce8.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus8US-24-41706-C-Primary.webp?v=1710159802&width=900",
+    "imageUrl": "/images/p/marlinplus8us-24-41706-c-primary-769904.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Hardtail",
@@ -1989,10 +1989,10 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Jarifa2-6-7-Grey.png?v=1722395109&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Jarifa2_6.7_green.png?v=1722395907&width=900"
+      "/images/p/jarifa2-6-7-grey-e7e29d.webp",
+      "/images/p/jarifa2-6-7-green-c8f977.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Jarifa2-6-7-Grey.png?v=1722395109&width=900",
+    "imageUrl": "/images/p/jarifa2-6-7-grey-e7e29d.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Hardtail",
@@ -2021,10 +2021,10 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103088_1.jpg?v=1680009454&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/rhino.jpg?v=1680009454&width=900"
+      "/images/p/20103088-1-676fa0.webp",
+      "/images/p/rhino-809bcf.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103088_1.jpg?v=1680009454&width=900",
+    "imageUrl": "/images/p/20103088-1-676fa0.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "tyres": "Fat",
@@ -2082,7 +2082,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190996_2.jpg?v=1680036497&width=900"
+        "image": "/images/p/20190996-2-979807.webp"
       },
       {
         "id": "39695219490949",
@@ -2108,11 +2108,11 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190996_1_c5a21ca1-faa5-4083-9a3a-0b332f050053.jpg?v=1680036497&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190996_2.jpg?v=1680036497&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190996_1.jpg?v=1680036497&width=900"
+      "/images/p/20190996-1-c5a21ca1-faa5-4083-9a3a-0b332f050053-786f61.webp",
+      "/images/p/20190996-2-979807.webp",
+      "/images/p/20190996-1-67a8a0.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190996_1_c5a21ca1-faa5-4083-9a3a-0b332f050053.jpg?v=1680036497&width=900",
+    "imageUrl": "/images/p/20190996-1-c5a21ca1-faa5-4083-9a3a-0b332f050053-786f61.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Full",
@@ -2401,16 +2401,16 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Bagus_EN_Certified_Desert_Sand.png?v=1790056328&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Bagus_EN_Certified_Black.png?v=1790056328&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Bagus_EN_Certified_Brushed_Aluminium.png?v=1790056327&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Bagus_EN_Certified_Brushed_Aluminium_2.png?v=1790056329&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Bagus_EN_Certified_Brushed_Aluminium_3.png?v=1790056328&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Bagus_EN_Certified_Midnight_Blue.png?v=1790056328&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Bagus_EN_Certified_Nardon_Grey.png?v=1790056328&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Bagus_EN_Certified_White_Noise.png?v=1790056328&width=900"
+      "/images/p/fatboy-bagus-en-certified-desert-sand-04ae6b.webp",
+      "/images/p/fatboy-bagus-en-certified-black-87a649.webp",
+      "/images/p/fatboy-bagus-en-certified-brushed-aluminium-32d2cd.webp",
+      "/images/p/fatboy-bagus-en-certified-brushed-aluminium-2-a61926.webp",
+      "/images/p/fatboy-bagus-en-certified-brushed-aluminium-3-61d32f.webp",
+      "/images/p/fatboy-bagus-en-certified-midnight-blue-fe1e0a.webp",
+      "/images/p/fatboy-bagus-en-certified-nardon-grey-09e099.webp",
+      "/images/p/fatboy-bagus-en-certified-white-noise-39797e.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Bagus_EN_Certified_Desert_Sand.png?v=1790056328&width=900",
+    "imageUrl": "/images/p/fatboy-bagus-en-certified-desert-sand-04ae6b.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "tyres": "Fat",
@@ -2544,11 +2544,11 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DualSportPlus2_23_35854_A_Primary.jpg?v=1680036608&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DualSportPlus2_23_35854_A_Primary.webp?v=1680036608&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DualSportPlus2_23_35854_B_Primary_1.webp?v=1680036608&width=900"
+      "/images/p/dualsportplus2-23-35854-a-primary-c95585.webp",
+      "/images/p/dualsportplus2-23-35854-a-primary-6ad370.webp",
+      "/images/p/dualsportplus2-23-35854-b-primary-1-8160b4.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DualSportPlus2_23_35854_A_Primary.jpg?v=1680036608&width=900",
+    "imageUrl": "/images/p/dualsportplus2-23-35854-a-primary-c95585.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Hardtail",
@@ -2576,7 +2576,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "20101961"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Prime-Hardtail-emtb-ebike-2022-scaled.jpg?v=1692112587&width=900",
+    "imageUrl": "/images/p/prime-hardtail-emtb-ebike-2022-scaled-a97dfe.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Hardtail",
@@ -2585,7 +2585,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Prime-Hardtail-emtb-ebike-2022-scaled.jpg?v=1692112587&width=900",
+      "/images/p/prime-hardtail-emtb-ebike-2022-scaled-a97dfe.webp",
       "/images/products/earth-prime-emtb-2.webp",
       "/images/products/earth-prime-emtb-3.webp",
       "/images/products/earth-prime-emtb-4.webp"
@@ -2657,7 +2657,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/SMARTMOTION_CATALYST_17.5AH.png?v=1790053915&width=900",
+    "imageUrl": "/images/p/smartmotion-catalyst-17-5ah-11f2c1.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Hardtail",
@@ -2857,7 +2857,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ncm-ncm-m7-electric-mountain-bike-electric-bike.jpg?v=1726231558&width=900",
+    "imageUrl": "/images/p/ncm-ncm-m7-electric-mountain-bike-electric-bike-28a762.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Hardtail",
@@ -2866,7 +2866,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ncm-ncm-m7-electric-mountain-bike-electric-bike.jpg?v=1726231558&width=900",
+      "/images/p/ncm-ncm-m7-electric-mountain-bike-electric-bike-28a762.webp",
       "/images/products/ncm-m7-2.webp",
       "/images/products/ncm-m7-3.webp",
       "/images/products/ncm-m7-4.webp",
@@ -2915,7 +2915,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2399,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102111_1.jpg?v=1680029672&width=900"
+        "image": "/images/p/20102111-1-0fe528.webp"
       },
       {
         "id": "41135952134277",
@@ -2929,10 +2929,10 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102111_1_b1d1a9a2-f20b-44cc-bb84-d507c7bdc18d.jpg?v=1680029672&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102111_1.jpg?v=1680029672&width=900"
+      "/images/p/20102111-1-b1d1a9a2-f20b-44cc-bb84-d507c7bdc18d-b38071.webp",
+      "/images/p/20102111-1-0fe528.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102111_1_b1d1a9a2-f20b-44cc-bb84-d507c7bdc18d.jpg?v=1680029672&width=900",
+    "imageUrl": "/images/p/20102111-1-b1d1a9a2-f20b-44cc-bb84-d507c7bdc18d-b38071.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "tyres": "Fat",
@@ -2995,7 +2995,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDS-Advance-300-emtb.jpg?v=1779704375&width=900",
+    "imageUrl": "/images/p/xds-advance-300-emtb-55c9fd.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Hardtail",
@@ -3068,7 +3068,7 @@ export const PRODUCTS: Product[] = [
         "price": 1799,
         "compareAtPrice": 1999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190422_1.jpg?v=1680031104&width=900"
+        "image": "/images/p/20190422-1-195ad0.webp"
       },
       {
         "id": "41135952658565",
@@ -3268,11 +3268,11 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190422_1_6e320b17-56e0-4ba9-8c8d-4731e20e42a3.jpg?v=1680031104&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190422_1.jpg?v=1680031104&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/NCMM3ebike.webp?v=1726227479&width=900"
+      "/images/p/20190422-1-6e320b17-56e0-4ba9-8c8d-4731e20e42a3-37f07f.webp",
+      "/images/p/20190422-1-195ad0.webp",
+      "/images/p/ncmm3ebike-01fbf7.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190422_1_6e320b17-56e0-4ba9-8c8d-4731e20e42a3.jpg?v=1680031104&width=900",
+    "imageUrl": "/images/p/20190422-1-6e320b17-56e0-4ba9-8c8d-4731e20e42a3-37f07f.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Hardtail",
@@ -3345,11 +3345,11 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102241_1_b7f6572c-3798-43c2-b249-488ff4656428.jpg?v=1680029774&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/aspenstd.jpg?v=1680029774&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/aspenstd2.jpg?v=1680029774&width=900"
+      "/images/p/20102241-1-b7f6572c-3798-43c2-b249-488ff4656428-3f1342.webp",
+      "/images/p/aspenstd-2d34f5.webp",
+      "/images/p/aspenstd2-d3cba4.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102241_1_b7f6572c-3798-43c2-b249-488ff4656428.jpg?v=1680029774&width=900",
+    "imageUrl": "/images/p/20102241-1-b7f6572c-3798-43c2-b249-488ff4656428-3f1342.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "tyres": "Fat",
@@ -3492,11 +3492,11 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/BianchittypebeltBrown.jpg?v=1710165055&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/BianchittypebeltCelesteGreen.jpg?v=1710165055&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bianchittypebeltsilver.jpg?v=1710165055&width=900"
+      "/images/p/bianchittypebeltbrown-29264f.webp",
+      "/images/p/bianchittypebeltcelestegreen-17ba18.webp",
+      "/images/p/bianchittypebeltsilver-023776.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/BianchittypebeltBrown.jpg?v=1710165055&width=900",
+    "imageUrl": "/images/p/bianchittypebeltbrown-29264f.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -3521,7 +3521,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "0000020193560"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaKemen30electricbike.jpg?v=1689810235&width=900",
+    "imageUrl": "/images/p/orbeakemen30electricbike-a904ad.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -3631,7 +3631,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/K23ENDEAVOUR7.BMOVE_750WHebiketechgreenkalkhoss.jpg?v=1684407432&width=900",
+    "imageUrl": "/images/p/k23endeavour7-bmove-750whebiketechgreenkalkhoss-75e7df.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -3639,7 +3639,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/K23ENDEAVOUR7.BMOVE_750WHebiketechgreenkalkhoss.jpg?v=1684407432&width=900",
+      "/images/p/k23endeavour7-bmove-750whebiketechgreenkalkhoss-75e7df.webp",
       "/images/products/kalkoff-endeavour-7b-move-750w-2.webp"
     ]
   },
@@ -3715,7 +3715,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoffentice7bebike.png?v=1710165802&width=900",
+    "imageUrl": "/images/p/kalkhoffentice7bebike-ff0262.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -3723,7 +3723,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoffentice7bebike.png?v=1710165802&width=900",
+      "/images/p/kalkhoffentice7bebike-ff0262.webp",
       "/images/products/kalkhoff-entice-7b-move-750-wh-2.webp"
     ]
   },
@@ -3853,10 +3853,10 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/bianchictypeebikestepthroughbrowncopy.jpg?v=1680013561&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/Endeavourimage7.5kalkhoff.png?v=1680013561&width=900"
+      "/images/p/bianchictypeebikestepthroughbrowncopy-378139.webp",
+      "/images/p/endeavourimage7-5kalkhoff-f9431f.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/bianchictypeebikestepthroughbrowncopy.jpg?v=1680013561&width=900",
+    "imageUrl": "/images/p/bianchictypeebikestepthroughbrowncopy-378139.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -3917,7 +3917,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TN-photo-NBD_S5i-silver_blue-web-jpg.jpg?v=1733906664&width=900",
+    "imageUrl": "/images/p/tn-photo-nbd-s5i-silver-blue-web-jpg-759a38.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -3925,7 +3925,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TN-photo-NBD_S5i-silver_blue-web-jpg.jpg?v=1733906664&width=900",
+      "/images/p/tn-photo-nbd-s5i-silver-blue-web-jpg-759a38.webp",
       "/images/products/tern-nbd-s5i-2.webp",
       "/images/products/tern-nbd-s5i-3.webp",
       "/images/products/tern-nbd-s5i-4.webp",
@@ -3957,7 +3957,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "D66352246"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-5b-Electric-bike-commuting.png?v=1748522566&width=900",
+    "imageUrl": "/images/p/kalkhoff-5b-electric-bike-commuting-050417.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -3965,7 +3965,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-5b-Electric-bike-commuting.png?v=1748522566&width=900",
+      "/images/p/kalkhoff-5b-electric-bike-commuting-050417.webp",
       "/images/products/k24-kalkhoff-entice-5b-move-625wh-2.webp"
     ]
   },
@@ -4042,7 +4042,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/kalkhoff-5b-ebike.png?v=1703036752&width=900",
+    "imageUrl": "/images/p/kalkhoff-5b-ebike-ae4a19.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -4050,7 +4050,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/kalkhoff-5b-ebike.png?v=1703036752&width=900",
+      "/images/p/kalkhoff-5b-ebike-ae4a19.webp",
       "/images/products/kalkhoff-image-5b-move-625-grey-wave-2.webp",
       "/images/products/kalkhoff-image-5b-move-625-grey-wave-3.webp"
     ]
@@ -4158,7 +4158,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-lb-light-weight-ebike-with-belt-drive-system.jpg?v=1748527286&width=900",
+    "imageUrl": "/images/p/kalkhoff-lb-light-weight-ebike-with-belt-drive-system-c0e5bb.webp",
     "attributes": {
       "frame": "Step-Through",
       "lightweight": true,
@@ -4168,7 +4168,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-lb-light-weight-ebike-with-belt-drive-system.jpg?v=1748527286&width=900",
+      "/images/p/kalkhoff-lb-light-weight-ebike-with-belt-drive-system-c0e5bb.webp",
       "/images/products/kalkhoff-image-lb-advance-400wh-2.webp"
     ]
   },
@@ -4234,7 +4234,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-lb-light-weight-ebike.png?v=1748525418&width=900",
+    "imageUrl": "/images/p/kalkhoff-lb-light-weight-ebike-4defdf.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "lightweight": true,
@@ -4244,7 +4244,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-lb-light-weight-ebike.png?v=1748525418&width=900",
+      "/images/p/kalkhoff-lb-light-weight-ebike-4defdf.webp",
       "/images/products/kalkhoff-endeavour-lb-excite-1-2.webp",
       "/images/products/kalkhoff-endeavour-lb-excite-1-3.webp"
     ]
@@ -4311,7 +4311,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-lightweight-ebike-bosch-sx.png?v=1748525042&width=900",
+    "imageUrl": "/images/p/kalkhoff-lightweight-ebike-bosch-sx-53fe6b.webp",
     "attributes": {
       "frame": "Step-Through",
       "lightweight": true,
@@ -4321,7 +4321,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-lightweight-ebike-bosch-sx.png?v=1748525042&width=900",
+      "/images/p/kalkhoff-lightweight-ebike-bosch-sx-53fe6b.webp",
       "/images/products/kalkhoff-endeavour-lb-excite-2.webp"
     ]
   },
@@ -4396,7 +4396,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/KalkhoffEntice5.bmove.png?v=1689809937&width=900",
+    "imageUrl": "/images/p/kalkhoffentice5-bmove-1dabb1.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -4404,7 +4404,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/KalkhoffEntice5.bmove.png?v=1689809937&width=900",
+      "/images/p/kalkhoffentice5-bmove-1dabb1.webp",
       "/images/products/kalkhoff-entice-5b-move-625w-2.webp"
     ]
   },
@@ -4491,10 +4491,10 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/lkakhoff1bimageebike.png?v=1689807863&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/KalkhoffENDEAVOUR5.b.png?v=1689807863&width=900"
+      "/images/p/lkakhoff1bimageebike-507664.webp",
+      "/images/p/kalkhoffendeavour5-b-0bea05.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/lkakhoff1bimageebike.png?v=1689807863&width=900",
+    "imageUrl": "/images/p/lkakhoff1bimageebike-507664.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -4667,11 +4667,11 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/VIBEMIDH30EQ2023blue.jpg?v=1686201648&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaVIBE_MID_H30_EQurbangreen.jpg?v=1686201648&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/VIBEMIDH30EQ2023DarkRed.jpg?v=1686201644&width=900"
+      "/images/p/vibemidh30eq2023blue-000923.webp",
+      "/images/p/orbeavibe-mid-h30-equrbangreen-6311b3.webp",
+      "/images/p/vibemidh30eq2023darkred-3613a8.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/VIBEMIDH30EQ2023blue.jpg?v=1686201648&width=900",
+    "imageUrl": "/images/p/vibemidh30eq2023blue-000923.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -4873,7 +4873,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Orbeavibeh30Eqblue.jpg?v=1683515930&width=900",
+    "imageUrl": "/images/p/orbeavibeh30eqblue-6f1fd4.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -5019,7 +5019,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Entice-L-B.png?v=1726802052&width=900",
+    "imageUrl": "/images/p/entice-l-b-c26303.webp",
     "attributes": {
       "frame": "Step-Through",
       "lightweight": true,
@@ -5029,7 +5029,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Entice-L-B.png?v=1726802052&width=900",
+      "/images/p/entice-l-b-c26303.webp",
       "/images/products/kalkhoff-entice-lb-advance-400wh-wave-2.webp"
     ]
   },
@@ -5095,7 +5095,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Entice-L-B-di.jpg?v=1726801750&width=900",
+    "imageUrl": "/images/p/entice-l-b-di-0a7c2d.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "lightweight": true,
@@ -5105,7 +5105,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Entice-L-B-di.jpg?v=1726801750&width=900",
+      "/images/p/entice-l-b-di-0a7c2d.webp",
       "/images/products/kalkhoff-entice-lb-advance-400wh-diamond-moonstonegrey-2.webp",
       "/images/products/kalkhoff-entice-lb-advance-400wh-diamond-moonstonegrey-3.webp"
     ]
@@ -5213,7 +5213,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Endeavour-L-B-move-di.png?v=1726800506&width=900",
+    "imageUrl": "/images/p/endeavour-l-b-move-di-5b9dc2.webp",
     "attributes": {
       "frame": "Step-Through",
       "lightweight": true,
@@ -5223,7 +5223,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Endeavour-L-B-move-di.png?v=1726800506&width=900",
+      "/images/p/endeavour-l-b-move-di-5b9dc2.webp",
       "/images/products/kalkhoff-endeavour-lb-move-400wh-2.webp"
     ]
   },
@@ -5363,11 +5363,11 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/Orbea-Optima-Black-E50.jpg?v=1710931810&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaBlueE50_a5f1093e-57fb-4495-bf30-1a6c3f1ed762.jpg?v=1710932180&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaRedE50_886769c1-297a-4853-856e-4cb5b070143e.jpg?v=1710932179&width=900"
+      "/images/p/orbea-optima-black-e50-ea33ad.webp",
+      "/images/p/orbeaoptimabluee50-a5f1093e-57fb-4495-bf30-1a6c3f1ed762-dfd325.webp",
+      "/images/p/orbeaoptimarede50-886769c1-297a-4853-856e-4cb5b070143e-98184d.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/Orbea-Optima-Black-E50.jpg?v=1710931810&width=900",
+    "imageUrl": "/images/p/orbea-optima-black-e50-ea33ad.webp",
     "attributes": {
       "frame": "Step-Through",
       "lightweight": true,
@@ -5441,13 +5441,13 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7LowstepUS-24-40892-A-Primary.webp?v=1710164823&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/AllantPlus7LowstepUS-24-40892-A-Alt4.jpg?v=1710164823&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7LowstepUS-24-40892-A-Accessory1.webp?v=1710164823&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7LowstepUS-24-40892-A-Alt6_1546018e-51c2-4073-93ab-1ae95d0208fb.webp?v=1710164823&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7LowstepUS-24-40892-A-Alt1.webp?v=1710164823&width=900"
+      "/images/p/allantplus7lowstepus-24-40892-a-primary-52cb42.webp",
+      "/images/p/allantplus7lowstepus-24-40892-a-alt4-ad05c2.webp",
+      "/images/p/allantplus7lowstepus-24-40892-a-accessory1-0c5577.webp",
+      "/images/p/allantplus7lowstepus-24-40892-a-alt6-1546018e-51c2-4073-93ab-eeffd9.webp",
+      "/images/p/allantplus7lowstepus-24-40892-a-alt1-66001d.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7LowstepUS-24-40892-A-Primary.webp?v=1710164823&width=900",
+    "imageUrl": "/images/p/allantplus7lowstepus-24-40892-a-primary-52cb42.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -5519,13 +5519,13 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7US-24-40891-A-Primary.webp?v=1710158102&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7US-24-40891-A-Accessory1.webp?v=1710158102&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7US-24-40891-A-Alt1.webp?v=1710158102&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7LowstepUS-24-40892-A-Alt4.webp?v=1710158096&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7LowstepUS-24-40892-A-Alt6.webp?v=1710158096&width=900"
+      "/images/p/allantplus7us-24-40891-a-primary-83c715.webp",
+      "/images/p/allantplus7us-24-40891-a-accessory1-b28422.webp",
+      "/images/p/allantplus7us-24-40891-a-alt1-52f4c3.webp",
+      "/images/p/allantplus7lowstepus-24-40892-a-alt4-b2b18b.webp",
+      "/images/p/allantplus7lowstepus-24-40892-a-alt6-60abca.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AllantPlus7US-24-40891-A-Primary.webp?v=1710158102&width=900",
+    "imageUrl": "/images/p/allantplus7us-24-40891-a-primary-83c715.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -5584,7 +5584,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30DarkRed.jpg?v=1681109649&width=900"
+        "image": "/images/p/vibeh30darkred-5e45c9.webp"
       },
       {
         "id": "40185050497157",
@@ -5595,7 +5595,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30DarkRed.jpg?v=1681109649&width=900"
+        "image": "/images/p/vibeh30darkred-5e45c9.webp"
       },
       {
         "id": "40185050529925",
@@ -5606,7 +5606,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30DarkRed.jpg?v=1681109649&width=900"
+        "image": "/images/p/vibeh30darkred-5e45c9.webp"
       },
       {
         "id": "40185050562693",
@@ -5627,7 +5627,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30Black.jpg?v=1681109713&width=900"
+        "image": "/images/p/vibeh30black-514d0d.webp"
       },
       {
         "id": "40185050628229",
@@ -5638,7 +5638,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30Black.jpg?v=1681109713&width=900"
+        "image": "/images/p/vibeh30black-514d0d.webp"
       },
       {
         "id": "40185050660997",
@@ -5649,7 +5649,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30Black.jpg?v=1681109713&width=900"
+        "image": "/images/p/vibeh30black-514d0d.webp"
       },
       {
         "id": "40185050693765",
@@ -5660,7 +5660,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30Blue.jpg?v=1681109758&width=900"
+        "image": "/images/p/vibeh30blue-3fdda6.webp"
       },
       {
         "id": "40185050824837",
@@ -5671,7 +5671,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30UrbanGreen.jpg?v=1681109790&width=900"
+        "image": "/images/p/vibeh30urbangreen-56a28d.webp"
       },
       {
         "id": "40185050857605",
@@ -5682,7 +5682,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30UrbanGreen.jpg?v=1681109790&width=900"
+        "image": "/images/p/vibeh30urbangreen-56a28d.webp"
       },
       {
         "id": "40185050890373",
@@ -5693,7 +5693,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30UrbanGreen.jpg?v=1681109790&width=900"
+        "image": "/images/p/vibeh30urbangreen-56a28d.webp"
       },
       {
         "id": "40185050923141",
@@ -5704,7 +5704,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30UrbanGreen.jpg?v=1681109790&width=900"
+        "image": "/images/p/vibeh30urbangreen-56a28d.webp"
       },
       {
         "id": "40185050955909",
@@ -5715,7 +5715,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30DarkRed.jpg?v=1681109649&width=900"
+        "image": "/images/p/vibeh30darkred-5e45c9.webp"
       },
       {
         "id": "40185051283589",
@@ -5726,7 +5726,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30Blue.jpg?v=1681109758&width=900"
+        "image": "/images/p/vibeh30blue-3fdda6.webp"
       },
       {
         "id": "40185051316357",
@@ -5737,7 +5737,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30Blue.jpg?v=1681109758&width=900"
+        "image": "/images/p/vibeh30blue-3fdda6.webp"
       },
       {
         "id": "40185051349125",
@@ -5748,17 +5748,17 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30Blue.jpg?v=1681109758&width=900"
+        "image": "/images/p/vibeh30blue-3fdda6.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30DarkRed.jpg?v=1681109649&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30Black.jpg?v=1681109713&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30Blue.jpg?v=1681109758&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30UrbanGreen.jpg?v=1681109790&width=900"
+      "/images/p/vibeh30darkred-5e45c9.webp",
+      "/images/p/vibeh30black-514d0d.webp",
+      "/images/p/vibeh30blue-3fdda6.webp",
+      "/images/p/vibeh30urbangreen-56a28d.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VibeH30DarkRed.jpg?v=1681109649&width=900",
+    "imageUrl": "/images/p/vibeh30darkred-5e45c9.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -5838,7 +5838,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-1B-electric-bike-German-Made-high-quality-ebike.png?v=1748526066&width=900",
+    "imageUrl": "/images/p/kalkhoff-1b-electric-bike-german-made-high-quality-ebike-2ef962.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -5846,7 +5846,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-1B-electric-bike-German-Made-high-quality-ebike.png?v=1748526066&width=900",
+      "/images/p/kalkhoff-1b-electric-bike-german-made-high-quality-ebike-2ef962.webp",
       "/images/products/entice-1b-move-545wh-2.webp"
     ]
   },
@@ -5913,7 +5913,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-endeavour-1b-smart-Di.png?v=1726799603&width=900",
+    "imageUrl": "/images/p/kalkhoff-endeavour-1b-smart-di-3a2101.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -5921,7 +5921,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-endeavour-1b-smart-Di.png?v=1726799603&width=900",
+      "/images/p/kalkhoff-endeavour-1b-smart-di-3a2101.webp",
       "/images/products/endeavour-1b-move-545wh-diamon-2.webp",
       "/images/products/endeavour-1b-move-545wh-diamon-3.webp"
     ]
@@ -5947,7 +5947,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "0000020201043"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/KalkhoffEntice1.bmovesilver.png?v=1689809553&width=900",
+    "imageUrl": "/images/p/kalkhoffentice1-bmovesilver-8ef2fe.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -5955,7 +5955,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/KalkhoffEntice1.bmovesilver.png?v=1689809553&width=900",
+      "/images/p/kalkhoffentice1-bmovesilver-8ef2fe.webp",
       "/images/products/entice-1-b-move-545wh-2.webp"
     ]
   },
@@ -6005,7 +6005,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000394_1.jpg?v=1680036255&width=900"
+        "image": "/images/p/20000394-1-1d0b51.webp"
       },
       {
         "id": "39695136686213",
@@ -6016,16 +6016,16 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20104245_1.jpg?v=1680036255&width=900"
+        "image": "/images/p/20104245-1-994b28.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20104245_1_3db91e88-5471-4fc2-bb05-13c2784b710f.jpg?v=1680036255&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20104245_1.jpg?v=1680036255&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000394_1.jpg?v=1680036255&width=900"
+      "/images/p/20104245-1-3db91e88-5471-4fc2-bb05-13c2784b710f-b0ad05.webp",
+      "/images/p/20104245-1-994b28.webp",
+      "/images/p/20000394-1-1d0b51.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20104245_1_3db91e88-5471-4fc2-bb05-13c2784b710f.jpg?v=1680036255&width=900",
+    "imageUrl": "/images/p/20104245-1-3db91e88-5471-4fc2-bb05-13c2784b710f-b0ad05.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -6143,7 +6143,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/K291v2025_2025_27_DI_BLU_090_PRO_ENTICE-L-SEASON-tif.png?v=1788425793&width=900",
+    "imageUrl": "/images/p/k291v2025-2025-27-di-blu-090-pro-entice-l-season-tif-891f6e.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "lightweight": true,
@@ -6153,7 +6153,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/K291v2025_2025_27_DI_BLU_090_PRO_ENTICE-L-SEASON-tif.png?v=1788425793&width=900",
+      "/images/p/k291v2025-2025-27-di-blu-090-pro-entice-l-season-tif-891f6e.webp",
       "/images/products/kalkhoff-entice-l-my26-2.webp",
       "/images/products/kalkhoff-entice-l-my26-3.webp"
     ]
@@ -6270,7 +6270,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/K291v2025_2025_27_WA_BLU_090_PRO_ENTICE-L-SEASON-tif.png?v=1788425662&width=900",
+    "imageUrl": "/images/p/k291v2025-2025-27-wa-blu-090-pro-entice-l-season-tif-1dec4b.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -6278,7 +6278,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/K291v2025_2025_27_WA_BLU_090_PRO_ENTICE-L-SEASON-tif.png?v=1788425662&width=900",
+      "/images/p/k291v2025-2025-27-wa-blu-090-pro-entice-l-season-tif-1dec4b.webp",
       "/images/products/kalkhoff-entice-l-wave-my26-2.webp"
     ]
   },
@@ -6602,16 +6602,16 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Harlem_EN_Certified_White_Noise.png?v=1790055638&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Harlem_EN_Certified_Army_Green.png?v=1790055639&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Harlem_EN_Certified_Black.png?v=1790055639&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Harlem_EN_Certified_Brushed_Aluminium_2.png?v=1790055639&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Harlem_EN_Certified_Brushed_Aluminium_3.png?v=1790055639&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Harlem_EN_Certified_Brushed_Aluminium.png?v=1790055638&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Harlem_EN_Certified_Brushed_Pink.png?v=1790055639&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Harlem_EN_Certified_Desert_Sand.png?v=1790055639&width=900"
+      "/images/p/fatboy-harlem-en-certified-white-noise-8c850a.webp",
+      "/images/p/fatboy-harlem-en-certified-army-green-afa865.webp",
+      "/images/p/fatboy-harlem-en-certified-black-55fa68.webp",
+      "/images/p/fatboy-harlem-en-certified-brushed-aluminium-2-9e3d6d.webp",
+      "/images/p/fatboy-harlem-en-certified-brushed-aluminium-3-79e02f.webp",
+      "/images/p/fatboy-harlem-en-certified-brushed-aluminium-960780.webp",
+      "/images/p/fatboy-harlem-en-certified-brushed-pink-48a087.webp",
+      "/images/p/fatboy-harlem-en-certified-desert-sand-e2bb2a.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_Harlem_EN_Certified_White_Noise.png?v=1790055638&width=900",
+    "imageUrl": "/images/p/fatboy-harlem-en-certified-white-noise-8c850a.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "tyres": "Fat",
@@ -6691,7 +6691,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/K23KalkhoffENDEAVOUR1.BMOVE500WHebikegrey.png?v=1684407238&width=900",
+    "imageUrl": "/images/p/k23kalkhoffendeavour1-bmove500whebikegrey-7b71b6.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -6699,7 +6699,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/K23KalkhoffENDEAVOUR1.BMOVE500WHebikegrey.png?v=1684407238&width=900",
+      "/images/p/k23kalkhoffendeavour1-bmove500whebikegrey-7b71b6.webp",
       "/images/products/kalkoff-endeavour-1b-move-500w-2.webp",
       "/images/products/kalkoff-endeavour-1b-move-500w-3.webp"
     ]
@@ -6721,7 +6721,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "0000020200541"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/K23ENDEAVOUR1.BMOVE400WHGreyebike_1619a9c3-168c-476a-865f-4d28141e78fb.jpg?v=1689809801&width=900",
+    "imageUrl": "/images/p/k23endeavour1-bmove400whgreyebike-1619a9c3-168c-476a-865f-4d-c21dae.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -6729,7 +6729,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/K23ENDEAVOUR1.BMOVE400WHGreyebike_1619a9c3-168c-476a-865f-4d28141e78fb.jpg?v=1689809801&width=900",
+      "/images/p/k23endeavour1-bmove400whgreyebike-1619a9c3-168c-476a-865f-4d-c21dae.webp",
       "/images/products/kalkhoff-endeavor-1b-move-2.webp",
       "/images/products/kalkhoff-endeavor-1b-move-3.webp"
     ]
@@ -6752,10 +6752,10 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Smartmotion-Xcity-Neo-Camo-01.webp?v=1689810664&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/SM-Xcity-Neo-Teal-03_1080x1080_c0741258-77d1-4b22-9c1a-4a6e41a32ebc.webp?v=1689810664&width=900"
+      "/images/p/smartmotion-xcity-neo-camo-01-19b4c0.webp",
+      "/images/p/sm-xcity-neo-teal-03-1080x1080-c0741258-77d1-4b22-9c1a-4a6e4-1fe317.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Smartmotion-Xcity-Neo-Camo-01.webp?v=1689810664&width=900",
+    "imageUrl": "/images/p/smartmotion-xcity-neo-camo-01-19b4c0.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -6819,7 +6819,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 3890,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0001_JUNGLE_GREEN.webp?v=1787644609&width=900"
+        "image": "/images/p/fatboy-scrambler-v3-ebike-0001-jungle-green-ea182b.webp"
       },
       {
         "id": "41801864183941",
@@ -6830,7 +6830,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 3890,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0002_GLOSS_BLACK.webp?v=1787644609&width=900"
+        "image": "/images/p/fatboy-scrambler-v3-ebike-0002-gloss-black-fd2c51.webp"
       },
       {
         "id": "41801864216709",
@@ -6841,7 +6841,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 3890,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0005_SAND.webp?v=1787644609&width=900"
+        "image": "/images/p/fatboy-scrambler-v3-ebike-0005-sand-596f0a.webp"
       },
       {
         "id": "41801864249477",
@@ -6852,7 +6852,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 3890,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0004_WHITE.webp?v=1787644609&width=900"
+        "image": "/images/p/fatboy-scrambler-v3-ebike-0004-white-41c6cb.webp"
       },
       {
         "id": "41801864282245",
@@ -6863,7 +6863,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 3890,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0003_MIDNIGHT_BLUE.webp?v=1787644609&width=900"
+        "image": "/images/p/fatboy-scrambler-v3-ebike-0003-midnight-blue-2e79ad.webp"
       },
       {
         "id": "41801864315013",
@@ -6874,7 +6874,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 3890,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_SCRAMBLER_V3_BRUSHED_ALLOY.webp?v=1787644609&width=900"
+        "image": "/images/p/fatboy-scrambler-v3-brushed-alloy-e2dae8.webp"
       },
       {
         "id": "41801864347781",
@@ -6885,7 +6885,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4290,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FATBOY_ECOM_SCRAMBLER_V2__0002_JUNGLE_GREEN.webp?v=1787645370&width=900"
+        "image": "/images/p/fatboy-ecom-scrambler-v2-0002-jungle-green-756f66.webp"
       },
       {
         "id": "41801864380549",
@@ -6896,7 +6896,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4290,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FATBOY_ECOM_SCRAMBLER_V2__0001_GLOSS_BLACK.webp?v=1787645385&width=900"
+        "image": "/images/p/fatboy-ecom-scrambler-v2-0001-gloss-black-5e86b1.webp"
       },
       {
         "id": "41801864413317",
@@ -6907,7 +6907,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4290,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FATBOY_ECOM_SCRAMBLER_V2__0000_DESERT_SAND.webp?v=1787645406&width=900"
+        "image": "/images/p/fatboy-ecom-scrambler-v2-0000-desert-sand-88634b.webp"
       },
       {
         "id": "41801864446085",
@@ -6918,7 +6918,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4290,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FATBOY_ECOM_SCRAMBLER_V2__0003_WHITE_NOISE.webp?v=1787645422&width=900"
+        "image": "/images/p/fatboy-ecom-scrambler-v2-0003-white-noise-124771.webp"
       },
       {
         "id": "41801864478853",
@@ -6929,7 +6929,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4290,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FATBOY_ECOM_SCRAMBLER_V2__0004_MIDNIGHT_BLUE.webp?v=1787645436&width=900"
+        "image": "/images/p/fatboy-ecom-scrambler-v2-0004-midnight-blue-e42ceb.webp"
       },
       {
         "id": "41801864511621",
@@ -6940,7 +6940,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4090,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0001_JUNGLE_GREEN.webp?v=1787644609&width=900"
+        "image": "/images/p/fatboy-scrambler-v3-ebike-0001-jungle-green-ea182b.webp"
       },
       {
         "id": "41801864544389",
@@ -6951,7 +6951,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4090,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0002_GLOSS_BLACK.webp?v=1787644609&width=900"
+        "image": "/images/p/fatboy-scrambler-v3-ebike-0002-gloss-black-fd2c51.webp"
       },
       {
         "id": "41801864577157",
@@ -6962,7 +6962,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4090,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0005_SAND.webp?v=1787644609&width=900"
+        "image": "/images/p/fatboy-scrambler-v3-ebike-0005-sand-596f0a.webp"
       },
       {
         "id": "41801864609925",
@@ -6973,7 +6973,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4090,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0004_WHITE.webp?v=1787644609&width=900"
+        "image": "/images/p/fatboy-scrambler-v3-ebike-0004-white-41c6cb.webp"
       },
       {
         "id": "41801864642693",
@@ -6984,7 +6984,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4090,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0003_MIDNIGHT_BLUE.webp?v=1787644609&width=900"
+        "image": "/images/p/fatboy-scrambler-v3-ebike-0003-midnight-blue-2e79ad.webp"
       },
       {
         "id": "41801864675461",
@@ -6995,7 +6995,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4090,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_SCRAMBLER_V3_BRUSHED_ALLOY.webp?v=1787644609&width=900"
+        "image": "/images/p/fatboy-scrambler-v3-brushed-alloy-e2dae8.webp"
       },
       {
         "id": "41801864708229",
@@ -7006,7 +7006,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4290,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0002_GLOSS_BLACK.webp?v=1787644609&width=900"
+        "image": "/images/p/fatboy-scrambler-v3-ebike-0002-gloss-black-fd2c51.webp"
       },
       {
         "id": "41801864740997",
@@ -7017,7 +7017,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4290,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0002_GLOSS_BLACK.webp?v=1787644609&width=900"
+        "image": "/images/p/fatboy-scrambler-v3-ebike-0002-gloss-black-fd2c51.webp"
       },
       {
         "id": "41801864773765",
@@ -7028,7 +7028,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4290,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0005_SAND.webp?v=1787644609&width=900"
+        "image": "/images/p/fatboy-scrambler-v3-ebike-0005-sand-596f0a.webp"
       },
       {
         "id": "41801864806533",
@@ -7039,7 +7039,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4290,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0004_WHITE.webp?v=1787644609&width=900"
+        "image": "/images/p/fatboy-scrambler-v3-ebike-0004-white-41c6cb.webp"
       },
       {
         "id": "41801864839301",
@@ -7050,7 +7050,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4290,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0003_MIDNIGHT_BLUE.webp?v=1787644609&width=900"
+        "image": "/images/p/fatboy-scrambler-v3-ebike-0003-midnight-blue-2e79ad.webp"
       },
       {
         "id": "41801864872069",
@@ -7061,21 +7061,21 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4290,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_SCRAMBLER_V3_BRUSHED_ALLOY.webp?v=1787644609&width=900"
+        "image": "/images/p/fatboy-scrambler-v3-brushed-alloy-e2dae8.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy-scrambler-image.jpg?v=1787644461&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0001_JUNGLE_GREEN.webp?v=1787644609&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0002_GLOSS_BLACK.webp?v=1787644609&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0005_SAND.webp?v=1787644609&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0004_WHITE.webp?v=1787644609&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy_scrambler_v3_ebike__0003_MIDNIGHT_BLUE.webp?v=1787644609&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_SCRAMBLER_V3_BRUSHED_ALLOY.webp?v=1787644609&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FATBOY_ECOM_SCRAMBLER_V2__0002_JUNGLE_GREEN.webp?v=1787645370&width=900"
+      "/images/p/fatboy-scrambler-image-189a76.webp",
+      "/images/p/fatboy-scrambler-v3-ebike-0001-jungle-green-ea182b.webp",
+      "/images/p/fatboy-scrambler-v3-ebike-0002-gloss-black-fd2c51.webp",
+      "/images/p/fatboy-scrambler-v3-ebike-0005-sand-596f0a.webp",
+      "/images/p/fatboy-scrambler-v3-ebike-0004-white-41c6cb.webp",
+      "/images/p/fatboy-scrambler-v3-ebike-0003-midnight-blue-2e79ad.webp",
+      "/images/p/fatboy-scrambler-v3-brushed-alloy-e2dae8.webp",
+      "/images/p/fatboy-ecom-scrambler-v2-0002-jungle-green-756f66.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatboy-scrambler-image.jpg?v=1787644461&width=900",
+    "imageUrl": "/images/p/fatboy-scrambler-image-189a76.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "tyres": "Fat",
@@ -7106,11 +7106,11 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EARTH-T-REX-Mixie-Electric-Bike-New-2021-Model-600x600-1.jpg?v=1699496822&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EARTH-2023-TREX-MIXIE-OLI-LOW-RESS-1536x1025_adcf17ae-903c-4e70-b161-c901cdce415e.jpg?v=1699496822&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EARTH-2023-TREX-MIXIE-NEON-LOW-RESS-1536x1025.jpg?v=1680009329&width=900"
+      "/images/p/earth-t-rex-mixie-electric-bike-new-2021-model-600x600-1-4a7f17.webp",
+      "/images/p/earth-2023-trex-mixie-oli-low-ress-1536x1025-adcf17ae-903c-4-a8ee7a.webp",
+      "/images/p/earth-2023-trex-mixie-neon-low-ress-1536x1025-d6d78f.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EARTH-T-REX-Mixie-Electric-Bike-New-2021-Model-600x600-1.jpg?v=1699496822&width=900",
+    "imageUrl": "/images/p/earth-t-rex-mixie-electric-bike-new-2021-model-600x600-1-4a7f17.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -7138,7 +7138,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "20000622"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000622_1.jpg?v=1680009552&width=900",
+    "imageUrl": "/images/p/20000622-1-dd8aed.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -7146,7 +7146,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000622_1.jpg?v=1680009552&width=900",
+      "/images/p/20000622-1-dd8aed.webp",
       "/images/products/earth-t-rex-trekking-2.webp",
       "/images/products/earth-t-rex-trekking-3.webp",
       "/images/products/earth-t-rex-trekking-4.webp",
@@ -7251,7 +7251,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/KalkhoffENDEAVOUR1.BMOVE545WH.png?v=1684394962&width=900",
+    "imageUrl": "/images/p/kalkhoffendeavour1-bmove545wh-606982.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -7259,7 +7259,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/KalkhoffENDEAVOUR1.BMOVE545WH.png?v=1684394962&width=900",
+      "/images/p/kalkhoffendeavour1-bmove545wh-606982.webp",
       "/images/products/kalkoff-endeavour-1b-move-545w-2.webp",
       "/images/products/kalkoff-endeavour-1b-move-545w-3.webp"
     ]
@@ -7284,12 +7284,12 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EBIKESPRESSOS2IBK_01_900x_b7c0459f-1ac0-40df-8c47-08cd3a00fb6e.jpg?v=1680039153&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/XDSEspressoebikestepthroughcommutingbike.webp?v=1680039153&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EBIKESPRESSOS2IBK_01_900x_b7c0459f-1ac0-40df-8c47-08cd3a00fb6e.webp?v=1680039153&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/XDSEspressoebikestepthroughcommutingbikeintegratedbattery.webp?v=1680039153&width=900"
+      "/images/p/ebikespressos2ibk-01-900x-b7c0459f-1ac0-40df-8c47-08cd3a00fb-670f5d.webp",
+      "/images/p/xdsespressoebikestepthroughcommutingbike-ab4b2d.webp",
+      "/images/p/ebikespressos2ibk-01-900x-b7c0459f-1ac0-40df-8c47-08cd3a00fb-d946fb.webp",
+      "/images/p/xdsespressoebikestepthroughcommutingbikeintegratedbattery-76872e.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EBIKESPRESSOS2IBK_01_900x_b7c0459f-1ac0-40df-8c47-08cd3a00fb6e.jpg?v=1680039153&width=900",
+    "imageUrl": "/images/p/ebikespressos2ibk-01-900x-b7c0459f-1ac0-40df-8c47-08cd3a00fb-670f5d.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -7400,7 +7400,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/kalkhoff_1b.webp?v=1752223365&width=900",
+    "imageUrl": "/images/p/kalkhoff-1b-9cca1c.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -7408,7 +7408,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/kalkhoff_1b.webp?v=1752223365&width=900",
+      "/images/p/kalkhoff-1b-9cca1c.webp",
       "/images/products/kalkoff-endeavour-1b-move-400w-performance-line-2.webp",
       "/images/products/kalkoff-endeavour-1b-move-400w-performance-line-3.webp"
     ]
@@ -7516,7 +7516,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DualSportPlusStaggertrekgrey.webp?v=1692105836&width=900",
+    "imageUrl": "/images/p/dualsportplusstaggertrekgrey-29ab11.webp",
     "attributes": {
       "frame": "Step-Through",
       "lightweight": true,
@@ -7544,11 +7544,11 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/bianchictypeebikestepthroughbrowncopy_639abee3-3b76-4da6-8d5a-5c7af2aba8f0.jpg?v=1680036952&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/1-SUBURBAN-RED.png?v=1680036952&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/1-SUBURBAN-BLUE.png?v=1680036952&width=900"
+      "/images/p/bianchictypeebikestepthroughbrowncopy-639abee3-3b76-4da6-8d5-7eff25.webp",
+      "/images/p/1-suburban-red-ac2d6c.webp",
+      "/images/p/1-suburban-blue-d231fc.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/bianchictypeebikestepthroughbrowncopy_639abee3-3b76-4da6-8d5a-5c7af2aba8f0.jpg?v=1680036952&width=900",
+    "imageUrl": "/images/p/bianchictypeebikestepthroughbrowncopy-639abee3-3b76-4da6-8d5-7eff25.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -7577,10 +7577,10 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188719_1.jpg?v=1680007188&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188719_2.jpg?v=1680007188&width=900"
+      "/images/p/20188719-1-db5e8e.webp",
+      "/images/p/20188719-2-b8f493.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188719_1.jpg?v=1680007188&width=900",
+    "imageUrl": "/images/p/20188719-1-db5e8e.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -7637,7 +7637,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 3290,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187521_2.jpg?v=1680007084&width=900"
+        "image": "/images/p/20187521-2-37695e.webp"
       },
       {
         "id": "39536109355141",
@@ -7648,17 +7648,17 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 3290,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188696_1_1dbc3aa9-ee05-43ee-af0d-b13e185fec4d.jpg?v=1680007084&width=900"
+        "image": "/images/p/20188696-1-1dbc3aa9-ee05-43ee-af0d-b13e185fec4d-8c1f54.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188696_1_1dbc3aa9-ee05-43ee-af0d-b13e185fec4d.jpg?v=1680007084&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188696_2.jpg?v=1680007084&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187521_1.jpg?v=1680007084&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187521_2.jpg?v=1680007084&width=900"
+      "/images/p/20188696-1-1dbc3aa9-ee05-43ee-af0d-b13e185fec4d-8c1f54.webp",
+      "/images/p/20188696-2-1dc647.webp",
+      "/images/p/20187521-1-351ee6.webp",
+      "/images/p/20187521-2-37695e.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188696_1_1dbc3aa9-ee05-43ee-af0d-b13e185fec4d.jpg?v=1680007084&width=900",
+    "imageUrl": "/images/p/20188696-1-1dbc3aa9-ee05-43ee-af0d-b13e185fec4d-8c1f54.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -7737,7 +7737,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff1bmoveint400wh.png?v=1684394783&width=900",
+    "imageUrl": "/images/p/kalkhoff1bmoveint400wh-cec5c4.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -7745,7 +7745,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff1bmoveint400wh.png?v=1684394783&width=900",
+      "/images/p/kalkhoff1bmoveint400wh-cec5c4.webp",
       "/images/products/kalkhoff-endeavour-1-b-move-int-400w-2.webp",
       "/images/products/kalkhoff-endeavour-1-b-move-int-400w-3.webp"
     ]
@@ -7804,16 +7804,16 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR28PRO_4_1c8ce24d-0c7b-4cb1-8fbf-6f866267abb8.webp?v=1728030821&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR28PRO_3_8884c0a3-0cc6-4bd5-bf4d-434eced65ed2.webp?v=1728030854&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR28PRO_2_57d92e1e-bd67-412a-afd3-273c5e945777.webp?v=1728030829&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR28PRO_1_8947854b-dccb-447c-b989-9566c7bb86c8.webp?v=1728030836&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR28PRO_1.webp?v=1728030845&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR28PRO_2.webp?v=1728030849&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR28PRO_6_f3685fd2-5bb4-4ea3-95a1-2e4ede134aaa.webp?v=1728030865&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ADO-Air-28-pro-ebike.jpg?v=1728030202&width=900"
+      "/images/p/air28pro-4-1c8ce24d-0c7b-4cb1-8fbf-6f866267abb8-18cf16.webp",
+      "/images/p/air28pro-3-8884c0a3-0cc6-4bd5-bf4d-434eced65ed2-45c346.webp",
+      "/images/p/air28pro-2-57d92e1e-bd67-412a-afd3-273c5e945777-2a7e68.webp",
+      "/images/p/air28pro-1-8947854b-dccb-447c-b989-9566c7bb86c8-5d2c7f.webp",
+      "/images/p/air28pro-1-d4160e.webp",
+      "/images/p/air28pro-2-8febf8.webp",
+      "/images/p/air28pro-6-f3685fd2-5bb4-4ea3-95a1-2e4ede134aaa-36931a.webp",
+      "/images/p/ado-air-28-pro-ebike-4f2163.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR28PRO_4_1c8ce24d-0c7b-4cb1-8fbf-6f866267abb8.webp?v=1728030821&width=900",
+    "imageUrl": "/images/p/air28pro-4-1c8ce24d-0c7b-4cb1-8fbf-6f866267abb8-18cf16.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -7871,7 +7871,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/FXPlus2Stagger_23_35843_A_Primary.jpg?v=1680037645&width=900"
+        "image": "/images/p/fxplus2stagger-23-35843-a-primary-e8b138.webp"
       },
       {
         "id": "40119393812613",
@@ -7882,7 +7882,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/FXPlus2Stagger_23_35845_C_Primary.jpg?v=1680037645&width=900"
+        "image": "/images/p/fxplus2stagger-23-35845-c-primary-5e7b01.webp"
       },
       {
         "id": "40119393878149",
@@ -7893,7 +7893,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/FXPlus2Stagger_23_35843_A_Primary.jpg?v=1680037645&width=900"
+        "image": "/images/p/fxplus2stagger-23-35843-a-primary-e8b138.webp"
       },
       {
         "id": "40119393714309",
@@ -7904,7 +7904,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/FXPlus2Stagger_23_35845_C_Primary.jpg?v=1680037645&width=900"
+        "image": "/images/p/fxplus2stagger-23-35845-c-primary-5e7b01.webp"
       },
       {
         "id": "40119393910917",
@@ -7915,7 +7915,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/FXPlus2Stagger_23_35843_A_Primary.jpg?v=1680037645&width=900"
+        "image": "/images/p/fxplus2stagger-23-35843-a-primary-e8b138.webp"
       },
       {
         "id": "40119393943685",
@@ -7926,16 +7926,16 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/FXPlus2Stagger_23_35845_C_Primary.jpg?v=1680037645&width=900"
+        "image": "/images/p/fxplus2stagger-23-35845-c-primary-5e7b01.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/FXPlus2Stagger_23_35843_A_Primary_d699be13-4539-4dc8-8dd9-6347d24a3462.jpg?v=1680037645&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/FXPlus2Stagger_23_35843_A_Primary.jpg?v=1680037645&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/FXPlus2Stagger_23_35845_C_Primary.jpg?v=1680037645&width=900"
+      "/images/p/fxplus2stagger-23-35843-a-primary-d699be13-4539-4dc8-8dd9-63-bc4c84.webp",
+      "/images/p/fxplus2stagger-23-35843-a-primary-e8b138.webp",
+      "/images/p/fxplus2stagger-23-35845-c-primary-5e7b01.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/FXPlus2Stagger_23_35843_A_Primary_d699be13-4539-4dc8-8dd9-6347d24a3462.jpg?v=1680037645&width=900",
+    "imageUrl": "/images/p/fxplus2stagger-23-35843-a-primary-d699be13-4539-4dc8-8dd9-63-bc4c84.webp",
     "attributes": {
       "frame": "Step-Through",
       "lightweight": true,
@@ -8054,7 +8054,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Trek-Verve.jpg?v=1779799678&width=900",
+    "imageUrl": "/images/p/trek-verve-6e0a8b.webp",
     "attributes": {
       "frame": "Step-Through",
       "lightweight": true,
@@ -8064,7 +8064,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Trek-Verve.jpg?v=1779799678&width=900",
+      "/images/p/trek-verve-6e0a8b.webp",
       "/images/products/trek-verve-2.webp",
       "/images/products/trek-verve-3.webp",
       "/images/products/trek-verve-4.webp",
@@ -8240,13 +8240,13 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish_OG_2.0_Army_Green.png?v=1790054198&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish_OG_2.0_Black.png?v=1790054197&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish_OG_2.0_Holographic_Grey.png?v=1790054198&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish_OG_2.0_Smoke_Grey.png?v=1790054198&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish_OG_2.0_White.png?v=1790054197&width=900"
+      "/images/p/fatfish-og-2-0-army-green-e0743d.webp",
+      "/images/p/fatfish-og-2-0-black-3a83e9.webp",
+      "/images/p/fatfish-og-2-0-holographic-grey-0ef753.webp",
+      "/images/p/fatfish-og-2-0-smoke-grey-3fc0a6.webp",
+      "/images/p/fatfish-og-2-0-white-7bbe49.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish_OG_2.0_Army_Green.png?v=1790054198&width=900",
+    "imageUrl": "/images/p/fatfish-og-2-0-army-green-e0743d.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "tyres": "Fat",
@@ -8304,7 +8304,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Cru7.jpg?v=1748173280&width=900",
+    "imageUrl": "/images/p/cru7-bd2311.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -8312,7 +8312,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Cru7.jpg?v=1748173280&width=900",
+      "/images/p/cru7-bd2311.webp",
       "/images/products/ncm-cru7-cruiser-matt-black-912wh-2.webp",
       "/images/products/ncm-cru7-cruiser-matt-black-912wh-3.webp",
       "/images/products/ncm-cru7-cruiser-matt-black-912wh-4.webp",
@@ -8406,7 +8406,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff1binternationhubdrive500wh_4876900d-2d68-49c0-92e6-485cf669da9e.png?v=1689809966&width=900",
+    "imageUrl": "/images/p/kalkhoff1binternationhubdrive500wh-4876900d-2d68-49c0-92e6-4-6dfc75.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -8414,7 +8414,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff1binternationhubdrive500wh_4876900d-2d68-49c0-92e6-485cf669da9e.png?v=1689809966&width=900",
+      "/images/p/kalkhoff1binternationhubdrive500wh-4876900d-2d68-49c0-92e6-4-6dfc75.webp",
       "/images/products/kalkhoff-image-1-b-advance-500wh-2.webp",
       "/images/products/kalkhoff-image-1-b-advance-500wh-3.webp"
     ]
@@ -8459,7 +8459,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2699,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/1-2.webp?v=1728030933&width=900"
+        "image": "/images/p/1-2-173040.webp"
       },
       {
         "id": "40962971697285",
@@ -8469,20 +8469,20 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2699,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/1_5.webp?v=1728030911&width=900"
+        "image": "/images/p/1-5-50b62e.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/1_5.webp?v=1728030911&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/1-2.webp?v=1728030933&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/3-1.webp?v=1728030915&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/1-1.webp?v=1728030920&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/2-2.webp?v=1728030925&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A28Air-05-Grey.webp?v=1728030928&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ADO-Air-28.jpg?v=1728030748&width=900"
+      "/images/p/1-5-50b62e.webp",
+      "/images/p/1-2-173040.webp",
+      "/images/p/3-1-3733e7.webp",
+      "/images/p/1-1-81590c.webp",
+      "/images/p/2-2-ab79f1.webp",
+      "/images/p/a28air-05-grey-73ba5d.webp",
+      "/images/p/ado-air-28-c68967.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/1_5.webp?v=1728030911&width=900",
+    "imageUrl": "/images/p/1-5-50b62e.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -8515,7 +8515,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000006058"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff_Image_1.B_Move_500whactive_drive.png?v=1790054694&width=900",
+    "imageUrl": "/images/p/kalkhoff-image-1-b-move-500whactive-drive-ca896d.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -8523,7 +8523,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff_Image_1.B_Move_500whactive_drive.png?v=1790054694&width=900",
+      "/images/p/kalkhoff-image-1-b-move-500whactive-drive-ca896d.webp",
       "/images/products/kalkhoff-image-1b-move-500wh-active-line-40nm-2.webp",
       "/images/products/kalkhoff-image-1b-move-500wh-active-line-40nm-3.webp"
     ]
@@ -8587,7 +8587,7 @@ export const PRODUCTS: Product[] = [
         "price": 2499,
         "compareAtPrice": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatfish_ebike_BIGGIEGreen1.webp?v=1787821322&width=900"
+        "image": "/images/p/fatfish-ebike-biggiegreen1-031022.webp"
       },
       {
         "id": "41833494085765",
@@ -8599,7 +8599,7 @@ export const PRODUCTS: Product[] = [
         "price": 2799,
         "compareAtPrice": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatfish_ebike_BIGGIEGreen1.webp?v=1787821322&width=900"
+        "image": "/images/p/fatfish-ebike-biggiegreen1-031022.webp"
       },
       {
         "id": "41479513407621",
@@ -8611,7 +8611,7 @@ export const PRODUCTS: Product[] = [
         "price": 2499,
         "compareAtPrice": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FatfishBIGGIEBlack1.webp?v=1787821267&width=900"
+        "image": "/images/p/fatfishbiggieblack1-c22f69.webp"
       },
       {
         "id": "41833494118533",
@@ -8623,7 +8623,7 @@ export const PRODUCTS: Product[] = [
         "price": 2799,
         "compareAtPrice": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FatfishBIGGIEBlack1.webp?v=1787821267&width=900"
+        "image": "/images/p/fatfishbiggieblack1-c22f69.webp"
       },
       {
         "id": "41479513440389",
@@ -8635,7 +8635,7 @@ export const PRODUCTS: Product[] = [
         "price": 2499,
         "compareAtPrice": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FatfishBIGGIEBlack1.webp?v=1787821267&width=900"
+        "image": "/images/p/fatfishbiggieblack1-c22f69.webp"
       },
       {
         "id": "41833494151301",
@@ -8647,7 +8647,7 @@ export const PRODUCTS: Product[] = [
         "price": 2799,
         "compareAtPrice": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FatfishBIGGIEBlack1.webp?v=1787821267&width=900"
+        "image": "/images/p/fatfishbiggieblack1-c22f69.webp"
       },
       {
         "id": "41479513473157",
@@ -8659,7 +8659,7 @@ export const PRODUCTS: Product[] = [
         "price": 2499,
         "compareAtPrice": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish-Biggie-Smoke-Grey-01_1200x1200_f3b39997-eb3c-4494-a290-ade7bd2d867d.jpg?v=1787821206&width=900"
+        "image": "/images/p/fatfish-biggie-smoke-grey-01-1200x1200-f3b39997-eb3c-4494-a2-5568e8.webp"
       },
       {
         "id": "41833494184069",
@@ -8671,7 +8671,7 @@ export const PRODUCTS: Product[] = [
         "price": 2799,
         "compareAtPrice": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish-Biggie-Smoke-Grey-01_1200x1200_f3b39997-eb3c-4494-a290-ade7bd2d867d.jpg?v=1787821206&width=900"
+        "image": "/images/p/fatfish-biggie-smoke-grey-01-1200x1200-f3b39997-eb3c-4494-a2-5568e8.webp"
       },
       {
         "id": "41479513505925",
@@ -8683,7 +8683,7 @@ export const PRODUCTS: Product[] = [
         "price": 2499,
         "compareAtPrice": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish_BIGGIEWhite1.webp?v=1787821245&width=900"
+        "image": "/images/p/fatfish-biggiewhite1-cd1059.webp"
       },
       {
         "id": "41833494216837",
@@ -8695,7 +8695,7 @@ export const PRODUCTS: Product[] = [
         "price": 2799,
         "compareAtPrice": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish_BIGGIEWhite1.webp?v=1787821245&width=900"
+        "image": "/images/p/fatfish-biggiewhite1-cd1059.webp"
       },
       {
         "id": "41479513538693",
@@ -8729,7 +8729,7 @@ export const PRODUCTS: Product[] = [
         "price": 2499,
         "compareAtPrice": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatfish_BIGGIEPurpleHaze3_1.webp?v=1787821298&width=900"
+        "image": "/images/p/fatfish-biggiepurplehaze3-1-46838e.webp"
       },
       {
         "id": "41833494282373",
@@ -8741,18 +8741,18 @@ export const PRODUCTS: Product[] = [
         "price": 2799,
         "compareAtPrice": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatfish_BIGGIEPurpleHaze3_1.webp?v=1787821298&width=900"
+        "image": "/images/p/fatfish-biggiepurplehaze3-1-46838e.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish-Biggie-Smoke-Grey-01_1200x1200_f3b39997-eb3c-4494-a290-ade7bd2d867d.jpg?v=1787821206&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish_BIGGIEWhite1.webp?v=1787821245&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FatfishBIGGIEBlack1.webp?v=1787821267&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatfish_BIGGIEPurpleHaze3_1.webp?v=1787821298&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/fatfish_ebike_BIGGIEGreen1.webp?v=1787821322&width=900"
+      "/images/p/fatfish-biggie-smoke-grey-01-1200x1200-f3b39997-eb3c-4494-a2-5568e8.webp",
+      "/images/p/fatfish-biggiewhite1-cd1059.webp",
+      "/images/p/fatfishbiggieblack1-c22f69.webp",
+      "/images/p/fatfish-biggiepurplehaze3-1-46838e.webp",
+      "/images/p/fatfish-ebike-biggiegreen1-031022.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatfish-Biggie-Smoke-Grey-01_1200x1200_f3b39997-eb3c-4494-a290-ade7bd2d867d.jpg?v=1787821206&width=900",
+    "imageUrl": "/images/p/fatfish-biggie-smoke-grey-01-1200x1200-f3b39997-eb3c-4494-a2-5568e8.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "tyres": "Fat",
@@ -8785,7 +8785,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000002341"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/9003210014_a.jpg?v=1748173013&width=900",
+    "imageUrl": "/images/p/9003210014-a-c93fc2.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -8793,7 +8793,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/9003210014_a.jpg?v=1748173013&width=900",
+      "/images/p/9003210014-a-c93fc2.webp",
       "/images/products/ncm-cru7s-2.webp",
       "/images/products/ncm-cru7s-3.webp",
       "/images/products/ncm-cru7s-4.webp",
@@ -8848,7 +8848,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/2-DISCOVERY-BLUE-SEP22-2.png?v=1680037287&width=900"
+        "image": "/images/p/2-discovery-blue-sep22-2-b5c2dd.webp"
       },
       {
         "id": "40162146549893",
@@ -8859,16 +8859,16 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/2-DISCOVERY-RED.png?v=1680037287&width=900"
+        "image": "/images/p/2-discovery-red-95fa17.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/bianchictypeebikestepthroughbrowncopy_9af2751d-0264-4b56-8ffd-c9164218f274.jpg?v=1680037287&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/2-DISCOVERY-RED.png?v=1680037287&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/2-DISCOVERY-BLUE-SEP22-2.png?v=1680037287&width=900"
+      "/images/p/bianchictypeebikestepthroughbrowncopy-9af2751d-0264-4b56-8ff-6120bd.webp",
+      "/images/p/2-discovery-red-95fa17.webp",
+      "/images/p/2-discovery-blue-sep22-2-b5c2dd.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/bianchictypeebikestepthroughbrowncopy_9af2751d-0264-4b56-8ffd-c9164218f274.jpg?v=1680037287&width=900",
+    "imageUrl": "/images/p/bianchictypeebikestepthroughbrowncopy-9af2751d-0264-4b56-8ff-6120bd.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -8929,7 +8929,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/TrekFXBlack.jpg?v=1680037723&width=900"
+        "image": "/images/p/trekfxblack-bd1e14.webp"
       },
       {
         "id": "40087821516933",
@@ -8940,7 +8940,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/TrekFXblue.jpg?v=1680037723&width=900"
+        "image": "/images/p/trekfxblue-a5c820.webp"
       },
       {
         "id": "40087821451397",
@@ -8951,7 +8951,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/TrekFXBlack.jpg?v=1680037723&width=900"
+        "image": "/images/p/trekfxblack-bd1e14.webp"
       },
       {
         "id": "40087821549701",
@@ -8962,7 +8962,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/TrekFXblue.jpg?v=1680037723&width=900"
+        "image": "/images/p/trekfxblue-a5c820.webp"
       },
       {
         "id": "40087821484165",
@@ -8973,7 +8973,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/TrekFXBlack.jpg?v=1680037723&width=900"
+        "image": "/images/p/trekfxblack-bd1e14.webp"
       },
       {
         "id": "40087821582469",
@@ -8984,7 +8984,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/TrekFXblue.jpg?v=1680037723&width=900"
+        "image": "/images/p/trekfxblue-a5c820.webp"
       },
       {
         "id": "40119393747077",
@@ -9010,12 +9010,12 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/TrekFXBlack_1ae8b5c9-8316-4036-bbc6-192f265deacf.jpg?v=1680037723&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/TrekFXBlack.jpg?v=1680037723&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/TrekFXblue.jpg?v=1680037723&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/TrekFXblue_e4dc9bb2-b91a-4e5b-b2a1-733acff09aa0.jpg?v=1680037723&width=900"
+      "/images/p/trekfxblack-1ae8b5c9-8316-4036-bbc6-192f265deacf-cec7a9.webp",
+      "/images/p/trekfxblack-bd1e14.webp",
+      "/images/p/trekfxblue-a5c820.webp",
+      "/images/p/trekfxblue-e4dc9bb2-b91a-4e5b-b2a1-733acff09aa0-e25760.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/TrekFXBlack_1ae8b5c9-8316-4036-bbc6-192f265deacf.jpg?v=1680037723&width=900",
+    "imageUrl": "/images/p/trekfxblack-1ae8b5c9-8316-4036-bbc6-192f265deacf-cec7a9.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "lightweight": true,
@@ -9073,7 +9073,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101848_1.jpg?v=1680038914&width=900"
+        "image": "/images/p/20101848-1-8511d3.webp"
       },
       {
         "id": "39628125175941",
@@ -9084,16 +9084,16 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2599,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187194_1.jpg?v=1680038914&width=900"
+        "image": "/images/p/20187194-1-06ec68.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187194_1_44531229-7a42-46e3-8322-cedccdeb42a4.jpg?v=1680038914&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101848_1.jpg?v=1680038914&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187194_1.jpg?v=1680038914&width=900"
+      "/images/p/20187194-1-44531229-7a42-46e3-8322-cedccdeb42a4-80e013.webp",
+      "/images/p/20101848-1-8511d3.webp",
+      "/images/p/20187194-1-06ec68.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187194_1_44531229-7a42-46e3-8322-cedccdeb42a4.jpg?v=1680038914&width=900",
+    "imageUrl": "/images/p/20187194-1-44531229-7a42-46e3-8322-cedccdeb42a4-80e013.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -9210,7 +9210,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/T7s_1-NCM-Ebike.jpg?v=1748172321&width=900",
+    "imageUrl": "/images/p/t7s-1-ncm-ebike-2d6665.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -9218,7 +9218,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/T7s_1-NCM-Ebike.jpg?v=1748172321&width=900",
+      "/images/p/t7s-1-ncm-ebike-2d6665.webp",
       "/images/products/ncm-t7s-step-thru-trekking-48v19ah-912wh-2.webp",
       "/images/products/ncm-t7s-step-thru-trekking-48v19ah-912wh-3.webp",
       "/images/products/ncm-t7s-step-thru-trekking-48v19ah-912wh-4.webp",
@@ -9273,7 +9273,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2399,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/3-EXPLORER-BLUE.png?v=1681110146&width=900"
+        "image": "/images/p/3-explorer-blue-4b5086.webp"
       },
       {
         "id": "40185088704645",
@@ -9284,15 +9284,15 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2399,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/3-EXPLORER-RED.png?v=1681110146&width=900"
+        "image": "/images/p/3-explorer-red-55f72e.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/3-EXPLORER-BLUE.png?v=1681110146&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/3-EXPLORER-RED.png?v=1681110146&width=900"
+      "/images/p/3-explorer-blue-4b5086.webp",
+      "/images/p/3-explorer-red-55f72e.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/3-EXPLORER-BLUE.png?v=1681110146&width=900",
+    "imageUrl": "/images/p/3-explorer-blue-4b5086.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -9542,16 +9542,16 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_DNA_EN_Certified_Brushed_Alloy.png?v=1790054446&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_DNA_EN_Certified_Brushed_Alloy_2.png?v=1790054448&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_DNA_EN_Certified_Brushed_Alloy_3.png?v=1790054448&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_DNA_EN_Certified_Blush_Pink.png?v=1790054447&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_DNA_EN_Certified_Desert_Sand.png?v=1790054447&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_DNA_EN_Certified_Gloss_Black.png?v=1790054447&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_DNA_EN_Certified_Jungle_Green.png?v=1790054447&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_DNA_EN_Certified_Midnight_Blue.png?v=1790054447&width=900"
+      "/images/p/fatboy-dna-en-certified-brushed-alloy-b22447.webp",
+      "/images/p/fatboy-dna-en-certified-brushed-alloy-2-a569df.webp",
+      "/images/p/fatboy-dna-en-certified-brushed-alloy-3-e3a9b3.webp",
+      "/images/p/fatboy-dna-en-certified-blush-pink-9a0c5e.webp",
+      "/images/p/fatboy-dna-en-certified-desert-sand-3233aa.webp",
+      "/images/p/fatboy-dna-en-certified-gloss-black-0269b0.webp",
+      "/images/p/fatboy-dna-en-certified-jungle-green-cf95b3.webp",
+      "/images/p/fatboy-dna-en-certified-midnight-blue-2ba610.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Fatboy_DNA_EN_Certified_Brushed_Alloy.png?v=1790054446&width=900",
+    "imageUrl": "/images/p/fatboy-dna-en-certified-brushed-alloy-b22447.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "tyres": "Fat",
@@ -9577,7 +9577,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "0648722769708"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/CRUZE.jpg?v=1686201902&width=900",
+    "imageUrl": "/images/p/cruze-86e745.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -9585,7 +9585,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/CRUZE.jpg?v=1686201902&width=900",
+      "/images/p/cruze-86e745.webp",
       "/images/products/rilu-cruze-2.webp",
       "/images/products/rilu-cruze-3.webp",
       "/images/products/rilu-cruze-4.webp",
@@ -9614,10 +9614,10 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102623_1_99baaf6a-3a0d-4c10-8b59-af3928f4ae46.jpg?v=1680034773&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102623_1.jpg?v=1680034773&width=900"
+      "/images/p/20102623-1-99baaf6a-3a0d-4c10-8b59-af3928f4ae46-50f2cf.webp",
+      "/images/p/20102623-1-77a29f.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102623_1_99baaf6a-3a0d-4c10-8b59-af3928f4ae46.jpg?v=1680034773&width=900",
+    "imageUrl": "/images/p/20102623-1-99baaf6a-3a0d-4c10-8b59-af3928f4ae46-50f2cf.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -9673,7 +9673,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2199,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/SOVEREIGN-SKY-BLUE.png?v=1680037434&width=900"
+        "image": "/images/p/sovereign-sky-blue-20099e.webp"
       },
       {
         "id": "40158828134533",
@@ -9684,16 +9684,16 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2199,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/SOVEREIGN-PLUM.png?v=1680037434&width=900"
+        "image": "/images/p/sovereign-plum-9cfd91.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/bianchictypeebikestepthroughbrowncopy_cffbb82b-98fe-4713-ac3b-68a2b2d52a8d.jpg?v=1680037434&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/SOVEREIGN-PLUM.png?v=1680037434&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/SOVEREIGN-SKY-BLUE.png?v=1680037434&width=900"
+      "/images/p/bianchictypeebikestepthroughbrowncopy-cffbb82b-98fe-4713-ac3-e2d597.webp",
+      "/images/p/sovereign-plum-9cfd91.webp",
+      "/images/p/sovereign-sky-blue-20099e.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/bianchictypeebikestepthroughbrowncopy_cffbb82b-98fe-4713-ac3b-68a2b2d52a8d.jpg?v=1680037434&width=900",
+    "imageUrl": "/images/p/bianchictypeebikestepthroughbrowncopy-cffbb82b-98fe-4713-ac3-e2d597.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -9748,7 +9748,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102906_1.jpg?v=1680013178&width=900"
+        "image": "/images/p/20102906-1-a0d460.webp"
       },
       {
         "id": "40158246764677",
@@ -9759,18 +9759,18 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188825_1.jpg?v=1680013178&width=900"
+        "image": "/images/p/20188825-1-e35d47.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188825_2_b932c5d7-b525-4b55-90d1-f15533b56bcb.jpg?v=1680013178&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188825_1.jpg?v=1680013178&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188825_2.jpg?v=1680013178&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102906_1.jpg?v=1680013178&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102906_2.jpg?v=1680013178&width=900"
+      "/images/p/20188825-2-b932c5d7-b525-4b55-90d1-f15533b56bcb-304346.webp",
+      "/images/p/20188825-1-e35d47.webp",
+      "/images/p/20188825-2-a361c1.webp",
+      "/images/p/20102906-1-a0d460.webp",
+      "/images/p/20102906-2-699ac2.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188825_2_b932c5d7-b525-4b55-90d1-f15533b56bcb.jpg?v=1680013178&width=900",
+    "imageUrl": "/images/p/20188825-2-b932c5d7-b525-4b55-90d1-f15533b56bcb-304346.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "tyres": "Fat",
@@ -9826,7 +9826,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/28B.jpg?v=1680031167&width=900"
+        "image": "/images/p/28b-e1fdc4.webp"
       },
       {
         "id": "39998862786693",
@@ -9837,7 +9837,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/28W_9d479b32-c364-49be-b3ca-46d81b4b491f.jpg?v=1680031167&width=900"
+        "image": "/images/p/28w-9d479b32-c364-49be-b3ca-46d81b4b491f-7116ea.webp"
       },
       {
         "id": "39998871044229",
@@ -9848,7 +9848,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/26B_d3186743-5f51-4f42-a6bb-47694aaa4f40.jpg?v=1680031167&width=900"
+        "image": "/images/p/26b-d3186743-5f51-4f42-a6bb-47694aaa4f40-1f784c.webp"
       },
       {
         "id": "39998871011461",
@@ -9859,20 +9859,20 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/26W.jpg?v=1680031167&width=900"
+        "image": "/images/p/26w-03a49a.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/28W_73ba28c3-b824-4dd8-b567-e9c104837973.jpg?v=1680031167&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/28W.jpg?v=1680031167&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/28B.jpg?v=1680031167&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/26W.jpg?v=1680031167&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/26B.jpg?v=1680031167&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/26B_d3186743-5f51-4f42-a6bb-47694aaa4f40.jpg?v=1680031167&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/28W_9d479b32-c364-49be-b3ca-46d81b4b491f.jpg?v=1680031167&width=900"
+      "/images/p/28w-73ba28c3-b824-4dd8-b567-e9c104837973-322659.webp",
+      "/images/p/28w-dd60d9.webp",
+      "/images/p/28b-e1fdc4.webp",
+      "/images/p/26w-03a49a.webp",
+      "/images/p/26b-f20393.webp",
+      "/images/p/26b-d3186743-5f51-4f42-a6bb-47694aaa4f40-1f784c.webp",
+      "/images/p/28w-9d479b32-c364-49be-b3ca-46d81b4b491f-7116ea.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/28W_73ba28c3-b824-4dd8-b567-e9c104837973.jpg?v=1680031167&width=900",
+    "imageUrl": "/images/p/28w-73ba28c3-b824-4dd8-b567-e9c104837973-322659.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -9927,7 +9927,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000233_1.jpg?v=1680035074&width=900"
+        "image": "/images/p/20000233-1-a62c7e.webp"
       },
       {
         "id": "39694544994437",
@@ -9938,7 +9938,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000240_1.jpg?v=1680035074&width=900"
+        "image": "/images/p/20000240-1-06f9a7.webp"
       },
       {
         "id": "39694545027205",
@@ -9949,7 +9949,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000257_1.jpg?v=1680035074&width=900"
+        "image": "/images/p/20000257-1-d07e7e.webp"
       },
       {
         "id": "39694552039557",
@@ -9960,7 +9960,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000219_1.jpg?v=1680035074&width=900"
+        "image": "/images/p/20000219-1-720705.webp"
       },
       {
         "id": "39694552072325",
@@ -9971,19 +9971,19 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000226_1.jpg?v=1680035074&width=900"
+        "image": "/images/p/20000226-1-8c92fd.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000257_1_d4fc8b1f-a2ca-436a-b6db-1f4e3e714169.jpg?v=1680035087&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000257_1.jpg?v=1680035074&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000240_1.jpg?v=1680035074&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000233_1.jpg?v=1680035074&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000226_1.jpg?v=1680035074&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000219_1.jpg?v=1680035074&width=900"
+      "/images/p/20000257-1-d4fc8b1f-a2ca-436a-b6db-1f4e3e714169-e1310f.webp",
+      "/images/p/20000257-1-d07e7e.webp",
+      "/images/p/20000240-1-06f9a7.webp",
+      "/images/p/20000233-1-a62c7e.webp",
+      "/images/p/20000226-1-8c92fd.webp",
+      "/images/p/20000219-1-720705.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000257_1_d4fc8b1f-a2ca-436a-b6db-1f4e3e714169.jpg?v=1680035087&width=900",
+    "imageUrl": "/images/p/20000257-1-d4fc8b1f-a2ca-436a-b6db-1f4e3e714169-e1310f.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -10045,7 +10045,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2199,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101725_1.jpg?v=1680031239&width=900"
+        "image": "/images/p/20101725-1-9b19bc.webp"
       },
       {
         "id": "39438661124229",
@@ -10056,7 +10056,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2199,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101770_1.jpg?v=1680031239&width=900"
+        "image": "/images/p/20101770-1-cae552.webp"
       },
       {
         "id": "41097299034245",
@@ -10088,7 +10088,7 @@ export const PRODUCTS: Product[] = [
         "price": 1999,
         "compareAtPrice": 2199,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101756_1.jpg?v=1680031239&width=900"
+        "image": "/images/p/20101756-1-ff21c8.webp"
       },
       {
         "id": "39438661091461",
@@ -10099,7 +10099,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2199,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101763_1.jpg?v=1680031239&width=900"
+        "image": "/images/p/20101763-1-2ecc52.webp"
       },
       {
         "id": "41097299067013",
@@ -10124,13 +10124,13 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101770_1_fa44d7d6-713c-4712-bcdd-7ad6d89e7ffe.jpg?v=1680031239&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101770_1.jpg?v=1680031239&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101763_1.jpg?v=1680031239&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101756_1.jpg?v=1680031239&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101725_1.jpg?v=1680031239&width=900"
+      "/images/p/20101770-1-fa44d7d6-713c-4712-bcdd-7ad6d89e7ffe-49f8b4.webp",
+      "/images/p/20101770-1-cae552.webp",
+      "/images/p/20101763-1-2ecc52.webp",
+      "/images/p/20101756-1-ff21c8.webp",
+      "/images/p/20101725-1-9b19bc.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101770_1_fa44d7d6-713c-4712-bcdd-7ad6d89e7ffe.jpg?v=1680031239&width=900",
+    "imageUrl": "/images/p/20101770-1-fa44d7d6-713c-4712-bcdd-7ad6d89e7ffe-49f8b4.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -10217,11 +10217,11 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/NCM_T3s_Black.png?v=1726226119&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/NCM_t3S_Sand.webp?v=1726226118&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/NCM_T3S_Step_Through_Lavendar_Blue.png?v=1790054619&width=900"
+      "/images/p/ncm-t3s-black-84bc8a.webp",
+      "/images/p/ncm-t3s-sand-d9bff6.webp",
+      "/images/p/ncm-t3s-step-through-lavendar-blue-06e97d.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/NCM_T3s_Black.png?v=1726226119&width=900",
+    "imageUrl": "/images/p/ncm-t3s-black-84bc8a.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -10295,7 +10295,7 @@ export const PRODUCTS: Product[] = [
         "price": 1699,
         "compareAtPrice": 1999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188801_1.jpg?v=1748171647&width=900"
+        "image": "/images/p/20188801-1-a8de6f.webp"
       },
       {
         "id": "39536132456581",
@@ -10307,7 +10307,7 @@ export const PRODUCTS: Product[] = [
         "price": 1699,
         "compareAtPrice": 1999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188788_2.jpg?v=1748171645&width=900"
+        "image": "/images/p/20188788-2-8118c5.webp"
       },
       {
         "id": "41230975795333",
@@ -10319,7 +10319,7 @@ export const PRODUCTS: Product[] = [
         "price": 1699,
         "compareAtPrice": 1999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDEL-CONLA_01_1024x1024_2x_c163d623-db73-49ef-a3b5-73e4338bcdec.webp?v=1748171647&width=900"
+        "image": "/images/p/xdel-conla-01-1024x1024-2x-c163d623-db73-49ef-a3b5-73e4338bc-0e8e60.webp"
       },
       {
         "id": "41668463460485",
@@ -10342,7 +10342,7 @@ export const PRODUCTS: Product[] = [
         "price": 1699,
         "compareAtPrice": 1999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188801_2.jpg?v=1748171645&width=900"
+        "image": "/images/p/20188801-2-608d70.webp"
       },
       {
         "id": "39536132489349",
@@ -10354,7 +10354,7 @@ export const PRODUCTS: Product[] = [
         "price": 1699,
         "compareAtPrice": 1999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188795_1_7eef23e7-cc01-416e-95c6-b3a6ce5914d5.jpg?v=1748171645&width=900"
+        "image": "/images/p/20188795-1-7eef23e7-cc01-416e-95c6-b3a6ce5914d5-b2ef80.webp"
       },
       {
         "id": "41230975828101",
@@ -10366,18 +10366,18 @@ export const PRODUCTS: Product[] = [
         "price": 1699,
         "compareAtPrice": 1999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDEL-CONLA_01_1024x1024_2x_c163d623-db73-49ef-a3b5-73e4338bcdec.webp?v=1748171647&width=900"
+        "image": "/images/p/xdel-conla-01-1024x1024-2x-c163d623-db73-49ef-a3b5-73e4338bc-0e8e60.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188801_1.jpg?v=1748171647&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDEL-CONLA_01_1024x1024_2x_c163d623-db73-49ef-a3b5-73e4338bcdec.webp?v=1748171647&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188801_2.jpg?v=1748171645&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188795_1_7eef23e7-cc01-416e-95c6-b3a6ce5914d5.jpg?v=1748171645&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188788_2.jpg?v=1748171645&width=900"
+      "/images/p/20188801-1-a8de6f.webp",
+      "/images/p/xdel-conla-01-1024x1024-2x-c163d623-db73-49ef-a3b5-73e4338bc-0e8e60.webp",
+      "/images/p/20188801-2-608d70.webp",
+      "/images/p/20188795-1-7eef23e7-cc01-416e-95c6-b3a6ce5914d5-b2ef80.webp",
+      "/images/p/20188788-2-8118c5.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188801_1.jpg?v=1748171647&width=900",
+    "imageUrl": "/images/p/20188801-1-a8de6f.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -10443,11 +10443,11 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDS_Icon_EB-One.png?v=1790053864&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDS_Icon_EB-One_2.png?v=1790053864&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDS_Icon_EB-One_3.png?v=1790053863&width=900"
+      "/images/p/xds-icon-eb-one-47f41f.webp",
+      "/images/p/xds-icon-eb-one-2-f425f8.webp",
+      "/images/p/xds-icon-eb-one-3-0e5b5c.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDS_Icon_EB-One.png?v=1790053864&width=900",
+    "imageUrl": "/images/p/xds-icon-eb-one-47f41f.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -10544,7 +10544,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDS-Icon.jpg?v=1779701988&width=900",
+    "imageUrl": "/images/p/xds-icon-e01179.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -10656,15 +10656,15 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusSLR7_23_36711_A_Primary.webp?v=1710164651&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusSLR7_23_36711_A_Alt8_208a2b49-7d62-42e3-be1b-081e1aa3f9de.webp?v=1710164651&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusSLR7_23_36711_A_Alt7_bfe8ef59-df9b-46e6-a2ea-98b07a954e0a.webp?v=1710164651&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusSLR7_23_36711_A_Alt5_8c53ca52-8e23-43c0-8d26-f5f5612657cb.webp?v=1710164651&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusSLR7_23_36711_A_Alt4_11933e86-52d6-4a03-a795-1e4f6945f92c.webp?v=1710164651&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusSLR7_23_36711_A_Alt2_a997c2c3-c332-4610-b8ea-7666b0e1e23c.webp?v=1710164651&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusSLR7_23_36711_A_Alt1.webp?v=1710164651&width=900"
+      "/images/p/domaneplusslr7-23-36711-a-primary-6c5e79.webp",
+      "/images/p/domaneplusslr7-23-36711-a-alt8-208a2b49-7d62-42e3-be1b-081e1-481758.webp",
+      "/images/p/domaneplusslr7-23-36711-a-alt7-bfe8ef59-df9b-46e6-a2ea-98b07-72c66c.webp",
+      "/images/p/domaneplusslr7-23-36711-a-alt5-8c53ca52-8e23-43c0-8d26-f5f56-f8c642.webp",
+      "/images/p/domaneplusslr7-23-36711-a-alt4-11933e86-52d6-4a03-a795-1e4f6-ac4f12.webp",
+      "/images/p/domaneplusslr7-23-36711-a-alt2-a997c2c3-c332-4610-b8ea-7666b-f63719.webp",
+      "/images/p/domaneplusslr7-23-36711-a-alt1-32684d.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusSLR7_23_36711_A_Primary.webp?v=1710164651&width=900",
+    "imageUrl": "/images/p/domaneplusslr7-23-36711-a-primary-6c5e79.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -10767,7 +10767,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bianchi_E-Arcadex_EKAR_1x13sp.png?v=1790052611&width=900",
+    "imageUrl": "/images/p/bianchi-e-arcadex-ekar-1x13sp-f07a8b.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "lightweight": true,
@@ -10885,7 +10885,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bianchi-E-Oltre-road-bike-di2.jpg?v=1779796151&width=900",
+    "imageUrl": "/images/p/bianchi-e-oltre-road-bike-di2-e9dd71.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -10893,7 +10893,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bianchi-E-Oltre-road-bike-di2.jpg?v=1779796151&width=900",
+      "/images/p/bianchi-e-oltre-road-bike-di2-e9dd71.webp",
       "/images/products/bianchi-e-oltre-ultegra-di2-2.webp"
     ]
   },
@@ -10922,7 +10922,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000005448"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/bianchi-e-arcadex.jpg?v=1779798260&width=900",
+    "imageUrl": "/images/p/bianchi-e-arcadex-508a33.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "lightweight": true,
@@ -10991,7 +10991,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/M322TTCC-YM-SIDE-GAIN_D30_2.jpg?v=1689810387&width=900",
+    "imageUrl": "/images/p/m322ttcc-ym-side-gain-d30-2-6ae03a.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -11015,10 +11015,10 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103194_1_c08e0219-6ead-45b0-81d6-d1f02c9a485a.jpg?v=1680031909&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103194_1.jpg?v=1680031909&width=900"
+      "/images/p/20103194-1-c08e0219-6ead-45b0-81d6-d1f02c9a485a-c9f5d0.webp",
+      "/images/p/20103194-1-c4c629.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103194_1_c08e0219-6ead-45b0-81d6-d1f02c9a485a.jpg?v=1680031909&width=900",
+    "imageUrl": "/images/p/20103194-1-c08e0219-6ead-45b0-81d6-d1f02c9a485a-c9f5d0.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -11078,7 +11078,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_A_Primary.jpg?v=1681128300&width=900"
+        "image": "/images/p/domaneplusal5-23-36145-a-primary-5d53c8.webp"
       },
       {
         "id": "40185138282629",
@@ -11089,7 +11089,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_B_Primary.jpg?v=1681128300&width=900"
+        "image": "/images/p/domaneplusal5-23-36145-b-primary-fcef9f.webp"
       },
       {
         "id": "40185137987717",
@@ -11100,7 +11100,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_A_Primary.jpg?v=1681128300&width=900"
+        "image": "/images/p/domaneplusal5-23-36145-a-primary-5d53c8.webp"
       },
       {
         "id": "40185138151557",
@@ -11111,7 +11111,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_B_Primary.jpg?v=1681128300&width=900"
+        "image": "/images/p/domaneplusal5-23-36145-b-primary-fcef9f.webp"
       },
       {
         "id": "40185138020485",
@@ -11122,7 +11122,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_A_Primary.jpg?v=1681128300&width=900"
+        "image": "/images/p/domaneplusal5-23-36145-a-primary-5d53c8.webp"
       },
       {
         "id": "40185138184325",
@@ -11133,7 +11133,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_B_Primary.jpg?v=1681128300&width=900"
+        "image": "/images/p/domaneplusal5-23-36145-b-primary-fcef9f.webp"
       },
       {
         "id": "40185138053253",
@@ -11144,7 +11144,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_A_Primary.jpg?v=1681128300&width=900"
+        "image": "/images/p/domaneplusal5-23-36145-a-primary-5d53c8.webp"
       },
       {
         "id": "40185138217093",
@@ -11155,7 +11155,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_B_Primary.jpg?v=1681128300&width=900"
+        "image": "/images/p/domaneplusal5-23-36145-b-primary-fcef9f.webp"
       },
       {
         "id": "40185138086021",
@@ -11166,7 +11166,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_A_Primary.jpg?v=1681128300&width=900"
+        "image": "/images/p/domaneplusal5-23-36145-a-primary-5d53c8.webp"
       },
       {
         "id": "40185138249861",
@@ -11177,7 +11177,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_B_Primary.jpg?v=1681128300&width=900"
+        "image": "/images/p/domaneplusal5-23-36145-b-primary-fcef9f.webp"
       },
       {
         "id": "40185138118789",
@@ -11188,7 +11188,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_A_Primary.jpg?v=1681128300&width=900"
+        "image": "/images/p/domaneplusal5-23-36145-a-primary-5d53c8.webp"
       },
       {
         "id": "40185138315397",
@@ -11199,21 +11199,21 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4999,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_B_Primary.jpg?v=1681128300&width=900"
+        "image": "/images/p/domaneplusal5-23-36145-b-primary-fcef9f.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_B_Primary.jpg?v=1681128300&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_A_Primary.jpg?v=1681128300&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusAL5_23_36145_B_Alt6.webp?v=1710160925&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusAL5_23_36145_B_Alt5.webp?v=1710160926&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusAL5_23_36145_B_Alt3.webp?v=1710160926&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusAL5_23_36145_A_Accessory1.webp?v=1710160927&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusAL5_23_36145_A_Alt4.webp?v=1710160927&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DomanePlusAL5_23_36145_A_Alt7.webp?v=1710160926&width=900"
+      "/images/p/domaneplusal5-23-36145-b-primary-fcef9f.webp",
+      "/images/p/domaneplusal5-23-36145-a-primary-5d53c8.webp",
+      "/images/p/domaneplusal5-23-36145-b-alt6-d9d85b.webp",
+      "/images/p/domaneplusal5-23-36145-b-alt5-4361bd.webp",
+      "/images/p/domaneplusal5-23-36145-b-alt3-f2c44a.webp",
+      "/images/p/domaneplusal5-23-36145-a-accessory1-caeb9e.webp",
+      "/images/p/domaneplusal5-23-36145-a-alt4-d9245d.webp",
+      "/images/p/domaneplusal5-23-36145-a-alt7-15461b.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/DomanePlusAL5_23_36145_B_Primary.jpg?v=1681128300&width=900",
+    "imageUrl": "/images/p/domaneplusal5-23-36145-b-primary-fcef9f.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "lightweight": true,
@@ -11263,7 +11263,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 5995,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/vektron_s10-g3-forest-grey-unfold.jpg?v=1733313036&width=900"
+        "image": "/images/p/vektron-s10-g3-forest-grey-unfold-c69eab.webp"
       },
       {
         "id": "41062104334469",
@@ -11273,15 +11273,15 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 5995,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/vektrons10-g2-unfold-lr-silver-silver.webp?v=1733313086&width=900"
+        "image": "/images/p/vektrons10-g2-unfold-lr-silver-silver-9c736a.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/vektrons10-g2-unfold-lr-silver-silver.webp?v=1733313086&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/vektron_s10-g3-forest-grey-unfold.jpg?v=1733313036&width=900"
+      "/images/p/vektrons10-g2-unfold-lr-silver-silver-9c736a.webp",
+      "/images/p/vektron-s10-g3-forest-grey-unfold-c69eab.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/vektrons10-g2-unfold-lr-silver-silver.webp?v=1733313086&width=900",
+    "imageUrl": "/images/p/vektrons10-g2-unfold-lr-silver-silver-9c736a.webp",
     "attributes": {
       "frame": "Folding",
       "uses": [
@@ -11341,10 +11341,10 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ADO_Air_Carbon_folding_ebike_2.webp?v=1748150154&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ADO-Air-Carbon-folding-ebike.jpg?v=1748150154&width=900"
+      "/images/p/ado-air-carbon-folding-ebike-2-0811f2.webp",
+      "/images/p/ado-air-carbon-folding-ebike-658370.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ADO_Air_Carbon_folding_ebike_2.webp?v=1748150154&width=900",
+    "imageUrl": "/images/p/ado-air-carbon-folding-ebike-2-0811f2.webp",
     "attributes": {
       "frame": "Folding",
       "uses": [
@@ -11411,16 +11411,16 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR20PRO_2.webp?v=1728025040&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR20PRO_5_38d4df60-a9d7-458c-ad81-319a540baa2d.webp?v=1728025034&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR20PRO_1_90f0c9c9-39b5-451d-aba0-3281957a9a44.webp?v=1728025065&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR20PRO_4.webp?v=1728025070&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR20PRO_3.webp?v=1728025074&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR20PRO_1.webp?v=1728025079&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR20PRO_1Blueelectricbike.webp?v=1728025085&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR20PRO_1-Blue-electric-bike.jpg?v=1728015572&width=900"
+      "/images/p/air20pro-2-68a0bb.webp",
+      "/images/p/air20pro-5-38d4df60-a9d7-458c-ad81-319a540baa2d-5ade2e.webp",
+      "/images/p/air20pro-1-90f0c9c9-39b5-451d-aba0-3281957a9a44-339979.webp",
+      "/images/p/air20pro-4-32e7ae.webp",
+      "/images/p/air20pro-3-be1529.webp",
+      "/images/p/air20pro-1-71ab8a.webp",
+      "/images/p/air20pro-1blueelectricbike-c1e75a.webp",
+      "/images/p/air20pro-1-blue-electric-bike-e613b3.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AIR20PRO_2.webp?v=1728025040&width=900",
+    "imageUrl": "/images/p/air20pro-2-68a0bb.webp",
     "attributes": {
       "frame": "Folding",
       "lightweight": true,
@@ -11485,10 +11485,10 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Rilu-Pogo.jpg?v=1729142626&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Rilu_Pogo_1_ebik.jpg?v=1729142789&width=900"
+      "/images/p/rilu-pogo-8cb32f.webp",
+      "/images/p/rilu-pogo-1-ebik-fb1aa7.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Rilu-Pogo.jpg?v=1729142626&width=900",
+    "imageUrl": "/images/p/rilu-pogo-8cb32f.webp",
     "attributes": {
       "frame": "Folding",
       "tyres": "Fat",
@@ -11557,7 +11557,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2690,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/earth-ant-fat-folding-ebike-1-600x600-1.jpg?v=1678789701&width=900"
+        "image": "/images/p/earth-ant-fat-folding-ebike-1-600x600-1-4a1001.webp"
       },
       {
         "id": "40162152120453",
@@ -11569,7 +11569,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2690,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/eart-fat-tire-folding-ebike-black-without-basket-1-600x600-1.jpg?v=1678789701&width=900"
+        "image": "/images/p/eart-fat-tire-folding-ebike-black-without-basket-1-600x600-1-00d6f7.webp"
       },
       {
         "id": "40162152153221",
@@ -11581,7 +11581,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2690,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/earth-20inch-fat-tire-folding-ebike-charcoal-without-basket-600x600-1.jpg?v=1678789700&width=900"
+        "image": "/images/p/earth-20inch-fat-tire-folding-ebike-charcoal-without-basket--167fb1.webp"
       },
       {
         "id": "40428373344389",
@@ -11619,11 +11619,11 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/eart-fat-tire-folding-ebike-black-without-basket-1-600x600-1.jpg?v=1678789701&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/earth-20inch-fat-tire-folding-ebike-charcoal-without-basket-600x600-1.jpg?v=1678789700&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/earth-ant-fat-folding-ebike-1-600x600-1.jpg?v=1678789701&width=900"
+      "/images/p/eart-fat-tire-folding-ebike-black-without-basket-1-600x600-1-00d6f7.webp",
+      "/images/p/earth-20inch-fat-tire-folding-ebike-charcoal-without-basket--167fb1.webp",
+      "/images/p/earth-ant-fat-folding-ebike-1-600x600-1-4a1001.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/eart-fat-tire-folding-ebike-black-without-basket-1-600x600-1.jpg?v=1678789701&width=900",
+    "imageUrl": "/images/p/eart-fat-tire-folding-ebike-black-without-basket-1-600x600-1-00d6f7.webp",
     "attributes": {
       "frame": "Folding",
       "tyres": "Fat",
@@ -11684,13 +11684,13 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Ivory-02.png?v=1728024845&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-01-Grey.jpg?v=1728015068&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Ivory-06.png?v=1728024792&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Grey-03.png?v=1728024844&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Ivory-04.png?v=1728024792&width=900"
+      "/images/p/a20-air-ivory-02-c51490.webp",
+      "/images/p/a20-air-01-grey-304c1e.webp",
+      "/images/p/a20-air-ivory-06-af2735.webp",
+      "/images/p/a20-air-grey-03-ac1ccd.webp",
+      "/images/p/a20-air-ivory-04-a3387c.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Ivory-02.png?v=1728024845&width=900",
+    "imageUrl": "/images/p/a20-air-ivory-02-c51490.webp",
     "attributes": {
       "frame": "Folding",
       "lightweight": true,
@@ -11752,7 +11752,7 @@ export const PRODUCTS: Product[] = [
         "price": 2499,
         "compareAtPrice": 2699,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187583_2_3bad350c-f14c-4945-bac0-80a2f74e3139.jpg?v=1680011121&width=900"
+        "image": "/images/p/20187583-2-3bad350c-f14c-4945-bac0-80a2f74e3139-7e07e9.webp"
       },
       {
         "id": "41524847345797",
@@ -11788,11 +11788,11 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187583_1_384d65a5-6e3f-496c-8ae9-c74ee8bb31e4.jpg?v=1680011121&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187583_1.jpg?v=1680011121&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187583_2_3bad350c-f14c-4945-bac0-80a2f74e3139.jpg?v=1680011121&width=900"
+      "/images/p/20187583-1-384d65a5-6e3f-496c-8ae9-c74ee8bb31e4-20d1c2.webp",
+      "/images/p/20187583-1-9aff0b.webp",
+      "/images/p/20187583-2-3bad350c-f14c-4945-bac0-80a2f74e3139-7e07e9.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187583_1_384d65a5-6e3f-496c-8ae9-c74ee8bb31e4.jpg?v=1680011121&width=900",
+    "imageUrl": "/images/p/20187583-1-384d65a5-6e3f-496c-8ae9-c74ee8bb31e4-20d1c2.webp",
     "attributes": {
       "frame": "Folding",
       "tyres": "Fat",
@@ -11863,13 +11863,13 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Ivory-02.png?v=1728024845&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Ivory-04.png?v=1728024792&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Ivory-06.png?v=1728024792&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Grey-03.png?v=1728024844&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Ivory--folding-Ebike.jpg?v=1728014906&width=900"
+      "/images/p/a20-air-ivory-02-c51490.webp",
+      "/images/p/a20-air-ivory-04-a3387c.webp",
+      "/images/p/a20-air-ivory-06-af2735.webp",
+      "/images/p/a20-air-grey-03-ac1ccd.webp",
+      "/images/p/a20-air-ivory-folding-ebike-6e5183.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/A20_Air-Ivory-02.png?v=1728024845&width=900",
+    "imageUrl": "/images/p/a20-air-ivory-02-c51490.webp",
     "attributes": {
       "frame": "Folding",
       "lightweight": true,
@@ -11933,10 +11933,10 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tebco_WANDERER_Cherry_Red_ebike_adelaide.png?v=1728025884&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tebco_WANDERER_SILVER_ebike_adelaide.png?v=1728025885&width=900"
+      "/images/p/tebco-wanderer-cherry-red-ebike-adelaide-32ffd7.webp",
+      "/images/p/tebco-wanderer-silver-ebike-adelaide-ded6a4.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tebco_WANDERER_Cherry_Red_ebike_adelaide.png?v=1728025884&width=900",
+    "imageUrl": "/images/p/tebco-wanderer-cherry-red-ebike-adelaide-32ffd7.webp",
     "attributes": {
       "frame": "Folding",
       "uses": [
@@ -12016,10 +12016,10 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/9003180000_ea45fde6-91cb-4c09-845a-ac285d5fb595.jpg?v=1680035224&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/9003180000_db3e58cd-39e8-48ba-80cd-52e5fa3e92b6.jpg?v=1680035224&width=900"
+      "/images/p/9003180000-ea45fde6-91cb-4c09-845a-ac285d5fb595-81d8ce.webp",
+      "/images/p/9003180000-db3e58cd-39e8-48ba-80cd-52e5fa3e92b6-c83c62.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/9003180000_ea45fde6-91cb-4c09-845a-ac285d5fb595.jpg?v=1680035224&width=900",
+    "imageUrl": "/images/p/9003180000-ea45fde6-91cb-4c09-845a-ac285d5fb595-81d8ce.webp",
     "attributes": {
       "frame": "Folding",
       "uses": [
@@ -12049,10 +12049,10 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/bianchictypeebikestepthroughbrown2.jpg?v=1680034846&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/NOMAD_35-DEG.png?v=1680034846&width=900"
+      "/images/p/bianchictypeebikestepthroughbrown2-9646e3.webp",
+      "/images/p/nomad-35-deg-26a982.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/bianchictypeebikestepthroughbrown2.jpg?v=1680034846&width=900",
+    "imageUrl": "/images/p/bianchictypeebikestepthroughbrown2-9646e3.webp",
     "attributes": {
       "frame": "Folding",
       "uses": [
@@ -12085,11 +12085,11 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188474_1_7e6ad7a3-c818-4955-9c38-6b91d7ee5aad.jpg?v=1680011735&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188474_1.jpg?v=1680011735&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188474_2_a34530d9-44ad-41d2-8f04-1b8ea223045c.jpg?v=1680011735&width=900"
+      "/images/p/20188474-1-7e6ad7a3-c818-4955-9c38-6b91d7ee5aad-16a6b6.webp",
+      "/images/p/20188474-1-9ce151.webp",
+      "/images/p/20188474-2-a34530d9-44ad-41d2-8f04-1b8ea223045c-5f0596.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20188474_1_7e6ad7a3-c818-4955-9c38-6b91d7ee5aad.jpg?v=1680011735&width=900",
+    "imageUrl": "/images/p/20188474-1-7e6ad7a3-c818-4955-9c38-6b91d7ee5aad-16a6b6.webp",
     "attributes": {
       "frame": "Folding",
       "tyres": "Fat",
@@ -12221,10 +12221,10 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/PAris_PLus_Black.webp?v=1726230223&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Paris_PLus_ebike_folding_bike.webp?v=1726230224&width=900"
+      "/images/p/paris-plus-black-4a1b15.webp",
+      "/images/p/paris-plus-ebike-folding-bike-0b9f62.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/PAris_PLus_Black.webp?v=1726230223&width=900",
+    "imageUrl": "/images/p/paris-plus-black-4a1b15.webp",
     "attributes": {
       "frame": "Folding",
       "uses": [
@@ -12252,10 +12252,10 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EBIKELECTRON20_01_720x_564d2550-80be-4aee-8c68-bfa6a840d7f2.jpg?v=1680013068&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EBIKELECTRON20_01_720x_580dafaf-61d0-48ff-beb4-1ee1977a3633.jpg?v=1680013068&width=900"
+      "/images/p/ebikelectron20-01-720x-564d2550-80be-4aee-8c68-bfa6a840d7f2-e0f6a0.webp",
+      "/images/p/ebikelectron20-01-720x-580dafaf-61d0-48ff-beb4-1ee1977a3633-b442ea.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EBIKELECTRON20_01_720x_564d2550-80be-4aee-8c68-bfa6a840d7f2.jpg?v=1680013068&width=900",
+    "imageUrl": "/images/p/ebikelectron20-01-720x-564d2550-80be-4aee-8c68-bfa6a840d7f2-e0f6a0.webp",
     "attributes": {
       "frame": "Folding",
       "uses": [
@@ -12332,10 +12332,10 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/NCM_Paris_Max_2.png?v=1790054620&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/NCM_Paris_Max.png?v=1790054619&width=900"
+      "/images/p/ncm-paris-max-2-87122a.webp",
+      "/images/p/ncm-paris-max-365fc9.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/NCM_Paris_Max_2.png?v=1790054620&width=900",
+    "imageUrl": "/images/p/ncm-paris-max-2-87122a.webp",
     "attributes": {
       "frame": "Folding",
       "uses": [
@@ -12390,7 +12390,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1799,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londons_std_black.jpg?v=1680030277&width=900"
+        "image": "/images/p/londons-std-black-81761a.webp"
       },
       {
         "id": "39438660862085",
@@ -12401,7 +12401,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1799,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londons_std_white.jpg?v=1680030277&width=900"
+        "image": "/images/p/londons-std-white-94b4eb.webp"
       },
       {
         "id": "39438660894853",
@@ -12412,7 +12412,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1799,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londons_std_navy.jpg?v=1680030277&width=900"
+        "image": "/images/p/londons-std-navy-6ea7f1.webp"
       },
       {
         "id": "39438913503365",
@@ -12427,12 +12427,12 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londons_std_black_263ce6fc-2b3f-4c1a-a62f-0df9b505dac1.jpg?v=1680030277&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londons_std_black.jpg?v=1680030277&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londons_std_navy.jpg?v=1680030277&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londons_std_white.jpg?v=1680030277&width=900"
+      "/images/p/londons-std-black-263ce6fc-2b3f-4c1a-a62f-0df9b505dac1-3c5ffd.webp",
+      "/images/p/londons-std-black-81761a.webp",
+      "/images/p/londons-std-navy-6ea7f1.webp",
+      "/images/p/londons-std-white-94b4eb.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londons_std_black_263ce6fc-2b3f-4c1a-a62f-0df9b505dac1.jpg?v=1680030277&width=900",
+    "imageUrl": "/images/p/londons-std-black-263ce6fc-2b3f-4c1a-a62f-0df9b505dac1-3c5ffd.webp",
     "attributes": {
       "frame": "Folding",
       "uses": [
@@ -12500,15 +12500,15 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1690,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103347_1_f97d7a7c-6659-4514-840b-0124a9078b99.jpg?v=1680034650&width=900"
+        "image": "/images/p/20103347-1-f97d7a7c-6659-4514-840b-0124a9078b99-969c6f.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103347_1_6ca9ea81-9eec-439f-94a9-d05db6d6f974.jpg?v=1680034650&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103347_1_f97d7a7c-6659-4514-840b-0124a9078b99.jpg?v=1680034650&width=900"
+      "/images/p/20103347-1-6ca9ea81-9eec-439f-94a9-d05db6d6f974-a4903f.webp",
+      "/images/p/20103347-1-f97d7a7c-6659-4514-840b-0124a9078b99-969c6f.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103347_1_6ca9ea81-9eec-439f-94a9-d05db6d6f974.jpg?v=1680034650&width=900",
+    "imageUrl": "/images/p/20103347-1-6ca9ea81-9eec-439f-94a9-d05db6d6f974-a4903f.webp",
     "attributes": {
       "frame": "Folding",
       "uses": [
@@ -12580,7 +12580,7 @@ export const PRODUCTS: Product[] = [
         "price": 1499,
         "compareAtPrice": 1799,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/GREY.jpg?v=1680030633&width=900"
+        "image": "/images/p/grey-ebf148.webp"
       },
       {
         "id": "41524842922117",
@@ -12604,7 +12604,7 @@ export const PRODUCTS: Product[] = [
         "price": 1499,
         "compareAtPrice": 1799,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/WHITEE.jpg?v=1680030633&width=900"
+        "image": "/images/p/whitee-3759e5.webp"
       },
       {
         "id": "41524842954885",
@@ -12628,7 +12628,7 @@ export const PRODUCTS: Product[] = [
         "price": 1499,
         "compareAtPrice": 1799,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/NAVYY.jpg?v=1680030633&width=900"
+        "image": "/images/p/navyy-d8f270.webp"
       },
       {
         "id": "41524842987653",
@@ -12667,13 +12667,13 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/GREY_ac85b65d-d30e-4861-b49d-1b0b1cf95b3d.jpg?v=1680030633&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/GREY.jpg?v=1680030633&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/NAVYY.jpg?v=1680030633&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/SILVER.jpg?v=1680030633&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/WHITEE.jpg?v=1680030633&width=900"
+      "/images/p/grey-ac85b65d-d30e-4861-b49d-1b0b1cf95b3d-e1658e.webp",
+      "/images/p/grey-ebf148.webp",
+      "/images/p/navyy-d8f270.webp",
+      "/images/p/silver-c64e9f.webp",
+      "/images/p/whitee-3759e5.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/GREY_ac85b65d-d30e-4861-b49d-1b0b1cf95b3d.jpg?v=1680030633&width=900",
+    "imageUrl": "/images/p/grey-ac85b65d-d30e-4861-b49d-1b0b1cf95b3d-e1658e.webp",
     "attributes": {
       "frame": "Folding",
       "uses": [
@@ -12735,7 +12735,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TN-photo-OROX_R14_275-gen1-LR-profile-v02-web-jpg.jpg?v=1733908321&width=900",
+    "imageUrl": "/images/p/tn-photo-orox-r14-275-gen1-lr-profile-v02-web-jpg-0d5f16.webp",
     "attributes": {
       "frame": "Cargo",
       "uses": [
@@ -12743,7 +12743,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TN-photo-OROX_R14_275-gen1-LR-profile-v02-web-jpg.jpg?v=1733908321&width=900",
+      "/images/p/tn-photo-orox-r14-275-gen1-lr-profile-v02-web-jpg-0d5f16.webp",
       "/images/products/tern-orox-r14-275-2.webp",
       "/images/products/tern-orox-r14-275-3.webp",
       "/images/products/tern-orox-r14-275-4.webp",
@@ -12774,7 +12774,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000002778"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/gsd_r14-lx-forge_gray-unfold.jpg?v=1733312296&width=900",
+    "imageUrl": "/images/p/gsd-r14-lx-forge-gray-unfold-d6d71f.webp",
     "attributes": {
       "frame": "Cargo",
       "uses": [
@@ -12782,7 +12782,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/gsd_r14-lx-forge_gray-unfold.jpg?v=1733312296&width=900",
+      "/images/p/gsd-r14-lx-forge-gray-unfold-d6d71f.webp",
       "/images/products/tern-gsd-r14-2.webp",
       "/images/products/tern-gsd-r14-3.webp",
       "/images/products/tern-gsd-r14-4.webp",
@@ -12853,7 +12853,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TN-photo-OROX_S12_29-gen1-profile-pine-web-jpg.jpg?v=1733907734&width=900",
+    "imageUrl": "/images/p/tn-photo-orox-s12-29-gen1-profile-pine-web-jpg-a3da3b.webp",
     "attributes": {
       "frame": "Cargo",
       "uses": [
@@ -12861,7 +12861,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TN-photo-OROX_S12_29-gen1-profile-pine-web-jpg.jpg?v=1733907734&width=900",
+      "/images/p/tn-photo-orox-s12-29-gen1-profile-pine-web-jpg-a3da3b.webp",
       "/images/products/tern-orox-s12-2.webp",
       "/images/products/tern-orox-s12-3.webp",
       "/images/products/tern-orox-s12-4.webp"
@@ -12925,11 +12925,11 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tern_GSD_P00_Gen_3_Satin_Beige.png?v=1790052952&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tern_GSD_P00_Gen_3_Satin_Beige_2.png?v=1790052952&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tern_GSD_P00_Gen_3_Satin_Beige_3.png?v=1790052952&width=900"
+      "/images/p/tern-gsd-p00-gen-3-satin-beige-d56536.webp",
+      "/images/p/tern-gsd-p00-gen-3-satin-beige-2-ee3ecf.webp",
+      "/images/p/tern-gsd-p00-gen-3-satin-beige-3-2a1e39.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tern_GSD_P00_Gen_3_Satin_Beige.png?v=1790052952&width=900",
+    "imageUrl": "/images/p/tern-gsd-p00-gen-3-satin-beige-d56536.webp",
     "attributes": {
       "frame": "Cargo",
       "uses": [
@@ -12991,14 +12991,14 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FetchPlus2US-24-40925-A-Primary.webp?v=1710149040&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/FetchPlus2US-24-40925-A-Primary.jpg?v=1710149040&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FetchPlus2US-24-40925-A-Accessory2.webp?v=1710149037&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FetchPlus2US-24-40925-A-Accessory1.webp?v=1710149036&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FetchPlus2US-24-40925-A-Alt3.jpg?v=1710149036&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FetchPlus2US-24-40925-B-Primary.webp?v=1710149036&width=900"
+      "/images/p/fetchplus2us-24-40925-a-primary-d46bea.webp",
+      "/images/p/fetchplus2us-24-40925-a-primary-49f4d1.webp",
+      "/images/p/fetchplus2us-24-40925-a-accessory2-ea8c51.webp",
+      "/images/p/fetchplus2us-24-40925-a-accessory1-074272.webp",
+      "/images/p/fetchplus2us-24-40925-a-alt3-5bd1e5.webp",
+      "/images/p/fetchplus2us-24-40925-b-primary-9eed54.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FetchPlus2US-24-40925-A-Primary.webp?v=1710149040&width=900",
+    "imageUrl": "/images/p/fetchplus2us-24-40925-a-primary-d46bea.webp",
     "attributes": {
       "frame": "Cargo",
       "uses": [
@@ -13047,7 +13047,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 8295,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/gsd_s10-lx-tabasco-unfold.jpg?v=1733308775&width=900"
+        "image": "/images/p/gsd-s10-lx-tabasco-unfold-100ac4.webp"
       },
       {
         "id": "41062085165189",
@@ -13057,15 +13057,15 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 8295,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/gsd_s10-lx-dark_sage-unfold.webp?v=1733308850&width=900"
+        "image": "/images/p/gsd-s10-lx-dark-sage-unfold-b8d7e9.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/gsd_s10-lx-tabasco-unfold.jpg?v=1733308775&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/gsd_s10-lx-dark_sage-unfold.webp?v=1733308850&width=900"
+      "/images/p/gsd-s10-lx-tabasco-unfold-100ac4.webp",
+      "/images/p/gsd-s10-lx-dark-sage-unfold-b8d7e9.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/gsd_s10-lx-tabasco-unfold.jpg?v=1733308775&width=900",
+    "imageUrl": "/images/p/gsd-s10-lx-tabasco-unfold-100ac4.webp",
     "attributes": {
       "frame": "Cargo",
       "uses": [
@@ -13096,7 +13096,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000002777"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/gsd_s10-lr-beetle_blue-unfold-min.jpg?v=1733309481&width=900",
+    "imageUrl": "/images/p/gsd-s10-lr-beetle-blue-unfold-min-24e1c0.webp",
     "attributes": {
       "frame": "Cargo",
       "uses": [
@@ -13104,7 +13104,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/gsd_s10-lr-beetle_blue-unfold-min.jpg?v=1733309481&width=900",
+      "/images/p/gsd-s10-lr-beetle-blue-unfold-min-24e1c0.webp",
       "/images/products/tern-gsd-s10-2.webp",
       "/images/products/tern-gsd-s10-3.webp",
       "/images/products/tern-gsd-s10-4.webp",
@@ -13174,7 +13174,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TN-photo-HSD_P5i-gen2-seabreeze-web-jpg.jpg?v=1733906103&width=900",
+    "imageUrl": "/images/p/tn-photo-hsd-p5i-gen2-seabreeze-web-jpg-c79085.webp",
     "attributes": {
       "frame": "Cargo",
       "uses": [
@@ -13182,7 +13182,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/TN-photo-HSD_P5i-gen2-seabreeze-web-jpg.jpg?v=1733906103&width=900",
+      "/images/p/tn-photo-hsd-p5i-gen2-seabreeze-web-jpg-c79085.webp",
       "/images/products/tern-hsd-p5i-2.webp",
       "/images/products/tern-hsd-p5i-3.webp",
       "/images/products/tern-hsd-p5i-4.webp",
@@ -13213,7 +13213,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000002898"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tern-Cargo-Ebike-TN-photo-HSD_P10-gen2-bluegreen-web.jpg?v=1733904722&width=900",
+    "imageUrl": "/images/p/tern-cargo-ebike-tn-photo-hsd-p10-gen2-bluegreen-web-c23698.webp",
     "attributes": {
       "frame": "Cargo",
       "uses": [
@@ -13221,7 +13221,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tern-Cargo-Ebike-TN-photo-HSD_P10-gen2-bluegreen-web.jpg?v=1733904722&width=900",
+      "/images/p/tern-cargo-ebike-tn-photo-hsd-p10-gen2-bluegreen-web-c23698.webp",
       "/images/products/tern-hsd-p10-gen-2-performance-545w-2.webp",
       "/images/products/tern-hsd-p10-gen-2-performance-545w-3.webp",
       "/images/products/tern-hsd-p10-gen-2-performance-545w-4.webp",
@@ -13252,7 +13252,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000002896"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/hsd_p9_performance-g1-unfold-blue.jpg?v=1733902074&width=900",
+    "imageUrl": "/images/p/hsd-p9-performance-g1-unfold-blue-f061cf.webp",
     "attributes": {
       "frame": "Cargo",
       "uses": [
@@ -13318,7 +13318,7 @@ export const PRODUCTS: Product[] = [
         "price": 6294,
         "compareAtPrice": 6494,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_black_ULTRAG3carbonmetallic2.webp?v=1787295636&width=900"
+        "image": "/images/p/wombat-black-ultrag3carbonmetallic2-2bd1d0.webp"
       },
       {
         "id": "41820760801413",
@@ -13330,7 +13330,7 @@ export const PRODUCTS: Product[] = [
         "price": 6294,
         "compareAtPrice": 6494,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_black_ULTRAG3carbonmetallic2.webp?v=1787295636&width=900"
+        "image": "/images/p/wombat-black-ultrag3carbonmetallic2-2bd1d0.webp"
       },
       {
         "id": "41820760834181",
@@ -13342,7 +13342,7 @@ export const PRODUCTS: Product[] = [
         "price": 6294,
         "compareAtPrice": 6494,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_black_ULTRAG3carbonmetallic2.webp?v=1787295636&width=900"
+        "image": "/images/p/wombat-black-ultrag3carbonmetallic2-2bd1d0.webp"
       },
       {
         "id": "41820760866949",
@@ -13354,7 +13354,7 @@ export const PRODUCTS: Product[] = [
         "price": 5699,
         "compareAtPrice": 5899,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_black_ULTRAG3carbonmetallic2.webp?v=1787295636&width=900"
+        "image": "/images/p/wombat-black-ultrag3carbonmetallic2-2bd1d0.webp"
       },
       {
         "id": "41820760899717",
@@ -13366,7 +13366,7 @@ export const PRODUCTS: Product[] = [
         "price": 6294,
         "compareAtPrice": 6494,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_organge_ULTRA_Banksia_web.webp?v=1787295655&width=900"
+        "image": "/images/p/wombat-organge-ultra-banksia-web-cfab0c.webp"
       },
       {
         "id": "41820760932485",
@@ -13378,7 +13378,7 @@ export const PRODUCTS: Product[] = [
         "price": 6294,
         "compareAtPrice": 6494,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_organge_ULTRA_Banksia_web.webp?v=1787295655&width=900"
+        "image": "/images/p/wombat-organge-ultra-banksia-web-cfab0c.webp"
       },
       {
         "id": "41820760965253",
@@ -13390,7 +13390,7 @@ export const PRODUCTS: Product[] = [
         "price": 6294,
         "compareAtPrice": 6494,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_organge_ULTRA_Banksia_web.webp?v=1787295655&width=900"
+        "image": "/images/p/wombat-organge-ultra-banksia-web-cfab0c.webp"
       },
       {
         "id": "41820760998021",
@@ -13402,7 +13402,7 @@ export const PRODUCTS: Product[] = [
         "price": 5699,
         "compareAtPrice": 5899,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_organge_ULTRA_Banksia_web.webp?v=1787295655&width=900"
+        "image": "/images/p/wombat-organge-ultra-banksia-web-cfab0c.webp"
       },
       {
         "id": "41820761030789",
@@ -13458,7 +13458,7 @@ export const PRODUCTS: Product[] = [
         "price": 6294,
         "compareAtPrice": 6494,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_ULTRA_Limestone_web.webp?v=1787295681&width=900"
+        "image": "/images/p/wombat-ultra-limestone-web-496976.webp"
       },
       {
         "id": "41820761194629",
@@ -13470,7 +13470,7 @@ export const PRODUCTS: Product[] = [
         "price": 6294,
         "compareAtPrice": 6494,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_ULTRA_Limestone_web.webp?v=1787295681&width=900"
+        "image": "/images/p/wombat-ultra-limestone-web-496976.webp"
       },
       {
         "id": "41820761227397",
@@ -13482,7 +13482,7 @@ export const PRODUCTS: Product[] = [
         "price": 6294,
         "compareAtPrice": 6494,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_ULTRA_Limestone_web.webp?v=1787295681&width=900"
+        "image": "/images/p/wombat-ultra-limestone-web-496976.webp"
       },
       {
         "id": "41820761260165",
@@ -13494,17 +13494,17 @@ export const PRODUCTS: Product[] = [
         "price": 5699,
         "compareAtPrice": 5899,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_ULTRA_Limestone_web.webp?v=1787295681&width=900"
+        "image": "/images/p/wombat-ultra-limestone-web-496976.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_black_ULTRAG3carbonmetallic2.webp?v=1787295636&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_organge_ULTRA_Banksia_web.webp?v=1787295655&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_ULTRA_Limestone_web.webp?v=1787295681&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Ultra_G3.png?v=1790052758&width=900"
+      "/images/p/wombat-black-ultrag3carbonmetallic2-2bd1d0.webp",
+      "/images/p/wombat-organge-ultra-banksia-web-cfab0c.webp",
+      "/images/p/wombat-ultra-limestone-web-496976.webp",
+      "/images/p/wombat-ultra-g3-dd73d7.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_black_ULTRAG3carbonmetallic2.webp?v=1787295636&width=900",
+    "imageUrl": "/images/p/wombat-black-ultrag3carbonmetallic2-2bd1d0.webp",
     "attributes": {
       "frame": "Cargo",
       "uses": [
@@ -13538,7 +13538,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000002890"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tern_Tern_Quick_Haul_Long_D9.png?v=1790052952&width=900",
+    "imageUrl": "/images/p/tern-tern-quick-haul-long-d9-0ed979.webp",
     "attributes": {
       "frame": "Cargo",
       "uses": [
@@ -13546,7 +13546,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tern_Tern_Quick_Haul_Long_D9.png?v=1790052952&width=900",
+      "/images/p/tern-tern-quick-haul-long-d9-0ed979.webp",
       "/images/products/quick-haul-long-d9-2.webp",
       "/images/products/quick-haul-long-d9-3.webp",
       "/images/products/quick-haul-long-d9-4.webp",
@@ -13612,7 +13612,7 @@ export const PRODUCTS: Product[] = [
         "price": 5394,
         "compareAtPrice": 5494,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_RALLY_G3_Blue_434dbce5-f745-422d-ae6e-3c34ccc1ab78.webp?v=1787357296&width=900"
+        "image": "/images/p/wombat-rally-g3-blue-434dbce5-f745-422d-ae6e-3c34ccc1ab78-36e07d.webp"
       },
       {
         "id": "41820749398149",
@@ -13624,7 +13624,7 @@ export const PRODUCTS: Product[] = [
         "price": 5394,
         "compareAtPrice": 5494,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_RALLY_G3_Blue_434dbce5-f745-422d-ae6e-3c34ccc1ab78.webp?v=1787357296&width=900"
+        "image": "/images/p/wombat-rally-g3-blue-434dbce5-f745-422d-ae6e-3c34ccc1ab78-36e07d.webp"
       },
       {
         "id": "41820749430917",
@@ -13636,7 +13636,7 @@ export const PRODUCTS: Product[] = [
         "price": 5394,
         "compareAtPrice": 5494,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_RALLY_G3_Blue_434dbce5-f745-422d-ae6e-3c34ccc1ab78.webp?v=1787357296&width=900"
+        "image": "/images/p/wombat-rally-g3-blue-434dbce5-f745-422d-ae6e-3c34ccc1ab78-36e07d.webp"
       },
       {
         "id": "41820749463685",
@@ -13648,7 +13648,7 @@ export const PRODUCTS: Product[] = [
         "price": 4799,
         "compareAtPrice": 4899,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_RALLY_G3_Blue_434dbce5-f745-422d-ae6e-3c34ccc1ab78.webp?v=1787357296&width=900"
+        "image": "/images/p/wombat-rally-g3-blue-434dbce5-f745-422d-ae6e-3c34ccc1ab78-36e07d.webp"
       },
       {
         "id": "41820749496453",
@@ -13660,7 +13660,7 @@ export const PRODUCTS: Product[] = [
         "price": 5394,
         "compareAtPrice": 5494,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_RAlly_G3_Limestonge_cargo_ebike_3a0a5bfc-fd99-4989-8991-9d79868fe90e.webp?v=1787357312&width=900"
+        "image": "/images/p/wombat-rally-g3-limestonge-cargo-ebike-3a0a5bfc-fd99-4989-89-b67239.webp"
       },
       {
         "id": "41820749529221",
@@ -13672,7 +13672,7 @@ export const PRODUCTS: Product[] = [
         "price": 5394,
         "compareAtPrice": 5494,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_RAlly_G3_Limestonge_cargo_ebike_3a0a5bfc-fd99-4989-8991-9d79868fe90e.webp?v=1787357312&width=900"
+        "image": "/images/p/wombat-rally-g3-limestonge-cargo-ebike-3a0a5bfc-fd99-4989-89-b67239.webp"
       },
       {
         "id": "41820749561989",
@@ -13684,7 +13684,7 @@ export const PRODUCTS: Product[] = [
         "price": 5394,
         "compareAtPrice": 5494,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_RAlly_G3_Limestonge_cargo_ebike_3a0a5bfc-fd99-4989-8991-9d79868fe90e.webp?v=1787357312&width=900"
+        "image": "/images/p/wombat-rally-g3-limestonge-cargo-ebike-3a0a5bfc-fd99-4989-89-b67239.webp"
       },
       {
         "id": "41820749594757",
@@ -13696,7 +13696,7 @@ export const PRODUCTS: Product[] = [
         "price": 4799,
         "compareAtPrice": 4899,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_RAlly_G3_Limestonge_cargo_ebike_3a0a5bfc-fd99-4989-8991-9d79868fe90e.webp?v=1787357312&width=900"
+        "image": "/images/p/wombat-rally-g3-limestonge-cargo-ebike-3a0a5bfc-fd99-4989-89-b67239.webp"
       },
       {
         "id": "41820749627525",
@@ -13752,7 +13752,7 @@ export const PRODUCTS: Product[] = [
         "price": 5394,
         "compareAtPrice": 5494,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_cargo_ebike_RAlly_G3_carbon_metallic_3680a699-32ba-4e0a-b3e1-87e7cc5ab97c.webp?v=1787357333&width=900"
+        "image": "/images/p/wombat-cargo-ebike-rally-g3-carbon-metallic-3680a699-32ba-4e-5dd9da.webp"
       },
       {
         "id": "41820749791365",
@@ -13764,7 +13764,7 @@ export const PRODUCTS: Product[] = [
         "price": 5394,
         "compareAtPrice": 5494,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_cargo_ebike_RAlly_G3_carbon_metallic_3680a699-32ba-4e0a-b3e1-87e7cc5ab97c.webp?v=1787357333&width=900"
+        "image": "/images/p/wombat-cargo-ebike-rally-g3-carbon-metallic-3680a699-32ba-4e-5dd9da.webp"
       },
       {
         "id": "41820749824133",
@@ -13776,7 +13776,7 @@ export const PRODUCTS: Product[] = [
         "price": 5394,
         "compareAtPrice": 5494,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_cargo_ebike_RAlly_G3_carbon_metallic_3680a699-32ba-4e0a-b3e1-87e7cc5ab97c.webp?v=1787357333&width=900"
+        "image": "/images/p/wombat-cargo-ebike-rally-g3-carbon-metallic-3680a699-32ba-4e-5dd9da.webp"
       },
       {
         "id": "41820749856901",
@@ -13788,17 +13788,17 @@ export const PRODUCTS: Product[] = [
         "price": 4799,
         "compareAtPrice": 4899,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_cargo_ebike_RAlly_G3_carbon_metallic_3680a699-32ba-4e0a-b3e1-87e7cc5ab97c.webp?v=1787357333&width=900"
+        "image": "/images/p/wombat-cargo-ebike-rally-g3-carbon-metallic-3680a699-32ba-4e-5dd9da.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_RALLY_G3_Blue_434dbce5-f745-422d-ae6e-3c34ccc1ab78.webp?v=1787357296&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_RAlly_G3_Limestonge_cargo_ebike_3a0a5bfc-fd99-4989-8991-9d79868fe90e.webp?v=1787357312&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_cargo_ebike_RAlly_G3_carbon_metallic_3680a699-32ba-4e0a-b3e1-87e7cc5ab97c.webp?v=1787357333&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Rally_G3.png?v=1790052758&width=900"
+      "/images/p/wombat-rally-g3-blue-434dbce5-f745-422d-ae6e-3c34ccc1ab78-36e07d.webp",
+      "/images/p/wombat-rally-g3-limestonge-cargo-ebike-3a0a5bfc-fd99-4989-89-b67239.webp",
+      "/images/p/wombat-cargo-ebike-rally-g3-carbon-metallic-3680a699-32ba-4e-5dd9da.webp",
+      "/images/p/wombat-rally-g3-d64b92.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_RALLY_G3_Blue_434dbce5-f745-422d-ae6e-3c34ccc1ab78.webp?v=1787357296&width=900",
+    "imageUrl": "/images/p/wombat-rally-g3-blue-434dbce5-f745-422d-ae6e-3c34ccc1ab78-36e07d.webp",
     "attributes": {
       "frame": "Cargo",
       "uses": [
@@ -13831,7 +13831,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000000218"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/Blue-amigo-vamos.jpg?v=1704754247&width=900",
+    "imageUrl": "/images/p/blue-amigo-vamos-fe32b7.webp",
     "attributes": {
       "frame": "Cargo",
       "tyres": "Fat",
@@ -13840,7 +13840,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/Blue-amigo-vamos.jpg?v=1704754247&width=900",
+      "/images/p/blue-amigo-vamos-fe32b7.webp",
       "/images/products/vamos-el-amigo-cargo-bike-2.webp"
     ]
   },
@@ -13911,7 +13911,7 @@ export const PRODUCTS: Product[] = [
         "price": 4994,
         "compareAtPrice": 5094,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_no_suspen_SPORT_Limestone_Recolour_web.webp?v=1787356182&width=900"
+        "image": "/images/p/wombat-no-suspen-sport-limestone-recolour-web-854981.webp"
       },
       {
         "id": "41820759392389",
@@ -13924,7 +13924,7 @@ export const PRODUCTS: Product[] = [
         "price": 4094,
         "compareAtPrice": 5094,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_no_suspen_SPORT_Limestone_Recolour_web.webp?v=1787356182&width=900"
+        "image": "/images/p/wombat-no-suspen-sport-limestone-recolour-web-854981.webp"
       },
       {
         "id": "41820759425157",
@@ -13937,7 +13937,7 @@ export const PRODUCTS: Product[] = [
         "price": 4094,
         "compareAtPrice": 5094,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_no_suspen_SPORT_Limestone_Recolour_web.webp?v=1787356182&width=900"
+        "image": "/images/p/wombat-no-suspen-sport-limestone-recolour-web-854981.webp"
       },
       {
         "id": "41820759457925",
@@ -13950,7 +13950,7 @@ export const PRODUCTS: Product[] = [
         "price": 4399,
         "compareAtPrice": 4499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_no_suspen_SPORT_Limestone_Recolour_web.webp?v=1787356182&width=900"
+        "image": "/images/p/wombat-no-suspen-sport-limestone-recolour-web-854981.webp"
       },
       {
         "id": "41820759490693",
@@ -13963,7 +13963,7 @@ export const PRODUCTS: Product[] = [
         "price": 5294,
         "compareAtPrice": 5394,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Sport_plus_limestone.webp?v=1787355905&width=900"
+        "image": "/images/p/wombat-sport-plus-limestone-8744e9.webp"
       },
       {
         "id": "41820759523461",
@@ -13976,7 +13976,7 @@ export const PRODUCTS: Product[] = [
         "price": 5294,
         "compareAtPrice": 5394,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Sport_plus_limestone.webp?v=1787355905&width=900"
+        "image": "/images/p/wombat-sport-plus-limestone-8744e9.webp"
       },
       {
         "id": "41820759556229",
@@ -13989,7 +13989,7 @@ export const PRODUCTS: Product[] = [
         "price": 5294,
         "compareAtPrice": 5394,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Sport_plus_limestone.webp?v=1787355905&width=900"
+        "image": "/images/p/wombat-sport-plus-limestone-8744e9.webp"
       },
       {
         "id": "41820759588997",
@@ -14002,7 +14002,7 @@ export const PRODUCTS: Product[] = [
         "price": 4699,
         "compareAtPrice": 4799,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Sport_plus_limestone.webp?v=1787355905&width=900"
+        "image": "/images/p/wombat-sport-plus-limestone-8744e9.webp"
       },
       {
         "id": "41820759621765",
@@ -14015,7 +14015,7 @@ export const PRODUCTS: Product[] = [
         "price": 4994,
         "compareAtPrice": 5094,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_no_sus_SPORT_Flax_Blue_web_06731710-5be6-4805-b964-15938b959c2e.webp?v=1787356318&width=900"
+        "image": "/images/p/wombat-no-sus-sport-flax-blue-web-06731710-5be6-4805-b964-15-76604d.webp"
       },
       {
         "id": "41820759654533",
@@ -14028,7 +14028,7 @@ export const PRODUCTS: Product[] = [
         "price": 4994,
         "compareAtPrice": 5094,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_no_sus_SPORT_Flax_Blue_web_06731710-5be6-4805-b964-15938b959c2e.webp?v=1787356318&width=900"
+        "image": "/images/p/wombat-no-sus-sport-flax-blue-web-06731710-5be6-4805-b964-15-76604d.webp"
       },
       {
         "id": "41820759687301",
@@ -14041,7 +14041,7 @@ export const PRODUCTS: Product[] = [
         "price": 4994,
         "compareAtPrice": 5094,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_no_sus_SPORT_Flax_Blue_web_06731710-5be6-4805-b964-15938b959c2e.webp?v=1787356318&width=900"
+        "image": "/images/p/wombat-no-sus-sport-flax-blue-web-06731710-5be6-4805-b964-15-76604d.webp"
       },
       {
         "id": "41820759720069",
@@ -14054,7 +14054,7 @@ export const PRODUCTS: Product[] = [
         "price": 4399,
         "compareAtPrice": 4499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_no_sus_SPORT_Flax_Blue_web_06731710-5be6-4805-b964-15938b959c2e.webp?v=1787356318&width=900"
+        "image": "/images/p/wombat-no-sus-sport-flax-blue-web-06731710-5be6-4805-b964-15-76604d.webp"
       },
       {
         "id": "41820759752837",
@@ -14067,7 +14067,7 @@ export const PRODUCTS: Product[] = [
         "price": 5294,
         "compareAtPrice": 5394,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_Sport_plus_blue.webp?v=1787355924&width=900"
+        "image": "/images/p/wombat-sport-plus-blue-b9b0c8.webp"
       },
       {
         "id": "41820759785605",
@@ -14080,7 +14080,7 @@ export const PRODUCTS: Product[] = [
         "price": 5294,
         "compareAtPrice": 5394,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_Sport_plus_blue.webp?v=1787355924&width=900"
+        "image": "/images/p/wombat-sport-plus-blue-b9b0c8.webp"
       },
       {
         "id": "41820759818373",
@@ -14093,7 +14093,7 @@ export const PRODUCTS: Product[] = [
         "price": 5294,
         "compareAtPrice": 5394,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_Sport_plus_blue.webp?v=1787355924&width=900"
+        "image": "/images/p/wombat-sport-plus-blue-b9b0c8.webp"
       },
       {
         "id": "41820759851141",
@@ -14106,7 +14106,7 @@ export const PRODUCTS: Product[] = [
         "price": 4699,
         "compareAtPrice": 4799,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_Sport_plus_blue.webp?v=1787355924&width=900"
+        "image": "/images/p/wombat-sport-plus-blue-b9b0c8.webp"
       },
       {
         "id": "41820759883909",
@@ -14119,7 +14119,7 @@ export const PRODUCTS: Product[] = [
         "price": 4994,
         "compareAtPrice": 5094,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_SPORT_Banksia_web_7dca772e-d2f5-4d30-b76c-cc60273db211.webp?v=1787355945&width=900"
+        "image": "/images/p/wombat-sport-banksia-web-7dca772e-d2f5-4d30-b76c-cc60273db21-752d2b.webp"
       },
       {
         "id": "41820759916677",
@@ -14132,7 +14132,7 @@ export const PRODUCTS: Product[] = [
         "price": 4994,
         "compareAtPrice": 5094,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_SPORT_Banksia_web_7dca772e-d2f5-4d30-b76c-cc60273db211.webp?v=1787355945&width=900"
+        "image": "/images/p/wombat-sport-banksia-web-7dca772e-d2f5-4d30-b76c-cc60273db21-752d2b.webp"
       },
       {
         "id": "41820759949445",
@@ -14145,7 +14145,7 @@ export const PRODUCTS: Product[] = [
         "price": 4994,
         "compareAtPrice": 5094,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_SPORT_Banksia_web_7dca772e-d2f5-4d30-b76c-cc60273db211.webp?v=1787355945&width=900"
+        "image": "/images/p/wombat-sport-banksia-web-7dca772e-d2f5-4d30-b76c-cc60273db21-752d2b.webp"
       },
       {
         "id": "41820759982213",
@@ -14158,7 +14158,7 @@ export const PRODUCTS: Product[] = [
         "price": 4399,
         "compareAtPrice": 4499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_SPORT_Banksia_web_7dca772e-d2f5-4d30-b76c-cc60273db211.webp?v=1787355945&width=900"
+        "image": "/images/p/wombat-sport-banksia-web-7dca772e-d2f5-4d30-b76c-cc60273db21-752d2b.webp"
       },
       {
         "id": "41820760014981",
@@ -14171,7 +14171,7 @@ export const PRODUCTS: Product[] = [
         "price": 5294,
         "compareAtPrice": 5394,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_sport_plus_orange.webp?v=1787356599&width=900"
+        "image": "/images/p/wombat-sport-plus-orange-28c0a2.webp"
       },
       {
         "id": "41820760047749",
@@ -14184,7 +14184,7 @@ export const PRODUCTS: Product[] = [
         "price": 5294,
         "compareAtPrice": 5394,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_sport_plus_orange.webp?v=1787356599&width=900"
+        "image": "/images/p/wombat-sport-plus-orange-28c0a2.webp"
       },
       {
         "id": "41820760080517",
@@ -14197,7 +14197,7 @@ export const PRODUCTS: Product[] = [
         "price": 5294,
         "compareAtPrice": 5394,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_sport_plus_orange.webp?v=1787356599&width=900"
+        "image": "/images/p/wombat-sport-plus-orange-28c0a2.webp"
       },
       {
         "id": "41820760113285",
@@ -14210,7 +14210,7 @@ export const PRODUCTS: Product[] = [
         "price": 4699,
         "compareAtPrice": 4799,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_sport_plus_orange.webp?v=1787356599&width=900"
+        "image": "/images/p/wombat-sport-plus-orange-28c0a2.webp"
       },
       {
         "id": "41820760146053",
@@ -14271,7 +14271,7 @@ export const PRODUCTS: Product[] = [
         "price": 5294,
         "compareAtPrice": 5394,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_sport_plus_carbon.webp?v=1787356937&width=900"
+        "image": "/images/p/wombat-sport-plus-carbon-104db2.webp"
       },
       {
         "id": "41820760309893",
@@ -14284,7 +14284,7 @@ export const PRODUCTS: Product[] = [
         "price": 5294,
         "compareAtPrice": 5394,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_sport_plus_carbon.webp?v=1787356937&width=900"
+        "image": "/images/p/wombat-sport-plus-carbon-104db2.webp"
       },
       {
         "id": "41820760342661",
@@ -14297,7 +14297,7 @@ export const PRODUCTS: Product[] = [
         "price": 5294,
         "compareAtPrice": 5394,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_sport_plus_carbon.webp?v=1787356937&width=900"
+        "image": "/images/p/wombat-sport-plus-carbon-104db2.webp"
       },
       {
         "id": "41820760375429",
@@ -14310,21 +14310,21 @@ export const PRODUCTS: Product[] = [
         "price": 4699,
         "compareAtPrice": 4799,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_sport_plus_carbon.webp?v=1787356937&width=900"
+        "image": "/images/p/wombat-sport-plus-carbon-104db2.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Sport_plus_limestone.webp?v=1787355905&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_Sport_plus_blue.webp?v=1787355924&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_SPORT_Banksia_web_7dca772e-d2f5-4d30-b76c-cc60273db211.webp?v=1787355945&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_no_suspen_SPORT_Limestone_Recolour_web.webp?v=1787356182&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_no_sus_SPORT_Flax_Blue_web_06731710-5be6-4805-b964-15938b959c2e.webp?v=1787356318&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_sport_plus_orange.webp?v=1787356599&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_sport_plus_carbon.webp?v=1787356937&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Sport_G3.png?v=1790052758&width=900"
+      "/images/p/wombat-sport-plus-limestone-8744e9.webp",
+      "/images/p/wombat-sport-plus-blue-b9b0c8.webp",
+      "/images/p/wombat-sport-banksia-web-7dca772e-d2f5-4d30-b76c-cc60273db21-752d2b.webp",
+      "/images/p/wombat-no-suspen-sport-limestone-recolour-web-854981.webp",
+      "/images/p/wombat-no-sus-sport-flax-blue-web-06731710-5be6-4805-b964-15-76604d.webp",
+      "/images/p/wombat-sport-plus-orange-28c0a2.webp",
+      "/images/p/wombat-sport-plus-carbon-104db2.webp",
+      "/images/p/wombat-sport-g3-1ed3d8.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Sport_plus_limestone.webp?v=1787355905&width=900",
+    "imageUrl": "/images/p/wombat-sport-plus-limestone-8744e9.webp",
     "attributes": {
       "frame": "Cargo",
       "uses": [
@@ -14405,7 +14405,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/tribe-longtail-aqua.png?v=1709340565&width=900",
+    "imageUrl": "/images/p/tribe-longtail-aqua-0a3bfa.webp",
     "attributes": {
       "frame": "Cargo",
       "uses": [
@@ -14413,7 +14413,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/tribe-longtail-aqua.png?v=1709340565&width=900",
+      "/images/p/tribe-longtail-aqua-0a3bfa.webp",
       "/images/products/tribe-evamos-longtail-2.webp",
       "/images/products/tribe-evamos-longtail-3.webp",
       "/images/products/tribe-evamos-longtail-4.webp",
@@ -14489,7 +14489,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tern_Quick_Haul_P9_Performance.png?v=1790052951&width=900",
+    "imageUrl": "/images/p/tern-quick-haul-p9-performance-a2f753.webp",
     "attributes": {
       "frame": "Cargo",
       "uses": [
@@ -14497,7 +14497,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Tern_Quick_Haul_P9_Performance.png?v=1790052951&width=900",
+      "/images/p/tern-quick-haul-p9-performance-a2f753.webp",
       "/images/products/quick-haul-p9-performance-2.webp",
       "/images/products/quick-haul-p9-performance-3.webp"
     ]
@@ -14558,7 +14558,7 @@ export const PRODUCTS: Product[] = [
         "price": 4349,
         "compareAtPrice": 4449,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_ebike_COmpactworkingcolourdoc.webp?v=1787357444&width=900"
+        "image": "/images/p/wombat-ebike-compactworkingcolourdoc-8702bd.webp"
       },
       {
         "id": "41820748021893",
@@ -14570,7 +14570,7 @@ export const PRODUCTS: Product[] = [
         "price": 3899,
         "compareAtPrice": 3999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_ebike_COmpactworkingcolourdoc.webp?v=1787357444&width=900"
+        "image": "/images/p/wombat-ebike-compactworkingcolourdoc-8702bd.webp"
       },
       {
         "id": "41820748054661",
@@ -14582,7 +14582,7 @@ export const PRODUCTS: Product[] = [
         "price": 4349,
         "compareAtPrice": 4499,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_ebike_COmpactBluenew.webp?v=1787357459&width=900"
+        "image": "/images/p/wombat-ebike-compactbluenew-698c59.webp"
       },
       {
         "id": "41820748087429",
@@ -14594,7 +14594,7 @@ export const PRODUCTS: Product[] = [
         "price": 3899,
         "compareAtPrice": 3999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_ebike_COmpactBluenew.webp?v=1787357459&width=900"
+        "image": "/images/p/wombat-ebike-compactbluenew-698c59.webp"
       },
       {
         "id": "41820748120197",
@@ -14628,7 +14628,7 @@ export const PRODUCTS: Product[] = [
         "price": 4349,
         "compareAtPrice": 4449,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_cargo_ebike_RAlly_G3_carbon_metallic_2acd3284-93ef-4d18-8f5f-51e7ac881de7.webp?v=1787357508&width=900"
+        "image": "/images/p/wombat-cargo-ebike-rally-g3-carbon-metallic-2acd3284-93ef-4d-ceeec2.webp"
       },
       {
         "id": "41820748218501",
@@ -14640,17 +14640,17 @@ export const PRODUCTS: Product[] = [
         "price": 3899,
         "compareAtPrice": 3999,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_cargo_ebike_RAlly_G3_carbon_metallic_2acd3284-93ef-4d18-8f5f-51e7ac881de7.webp?v=1787357508&width=900"
+        "image": "/images/p/wombat-cargo-ebike-rally-g3-carbon-metallic-2acd3284-93ef-4d-ceeec2.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Compact_SUV_Limestone_Grey.png?v=1790052758&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_ebike_COmpactworkingcolourdoc.webp?v=1787357444&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_ebike_COmpactBluenew.webp?v=1787357459&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/wombat_cargo_ebike_RAlly_G3_carbon_metallic_2acd3284-93ef-4d18-8f5f-51e7ac881de7.webp?v=1787357508&width=900"
+      "/images/p/wombat-compact-suv-limestone-grey-8eb214.webp",
+      "/images/p/wombat-ebike-compactworkingcolourdoc-8702bd.webp",
+      "/images/p/wombat-ebike-compactbluenew-698c59.webp",
+      "/images/p/wombat-cargo-ebike-rally-g3-carbon-metallic-2acd3284-93ef-4d-ceeec2.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Wombat_Compact_SUV_Limestone_Grey.png?v=1790052758&width=900",
+    "imageUrl": "/images/p/wombat-compact-suv-limestone-grey-8eb214.webp",
     "attributes": {
       "frame": "Cargo",
       "uses": [
@@ -14720,7 +14720,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/CG7-ncm.jpg?v=1762861450&width=900",
+    "imageUrl": "/images/p/cg7-ncm-fd29c1.webp",
     "attributes": {
       "frame": "Cargo",
       "uses": [
@@ -14788,7 +14788,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 3320,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DiroDi-Rover-Standard---Plus-Gen-6--Black--Standard--Step-Over--250W.jpg?v=1767316825&width=900"
+        "image": "/images/p/dirodi-rover-standard-plus-gen-6-black-standard-step-over-25-d9ebaa.webp"
       },
       {
         "id": "41479143096453",
@@ -14800,7 +14800,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 3000,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DiroDi-Rover-Standard---Plus-Gen-6--Black--Standard--Step-Over--250W.jpg?v=1767316825&width=900"
+        "image": "/images/p/dirodi-rover-standard-plus-gen-6-black-standard-step-over-25-d9ebaa.webp"
       },
       {
         "id": "41479143129221",
@@ -14812,7 +14812,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 3320,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Dirodi_Rover_Steph_over_grey.webp?v=1767318619&width=900"
+        "image": "/images/p/dirodi-rover-steph-over-grey-08aa97.webp"
       },
       {
         "id": "41479143161989",
@@ -14824,7 +14824,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 3000,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Dirodi_Rover_Steph_over_grey.webp?v=1767318619&width=900"
+        "image": "/images/p/dirodi-rover-steph-over-grey-08aa97.webp"
       },
       {
         "id": "41479143194757",
@@ -14836,7 +14836,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 3320,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Dirodi_Rover_Red.webp?v=1767318810&width=900"
+        "image": "/images/p/dirodi-rover-red-9e3d26.webp"
       },
       {
         "id": "41479143227525",
@@ -14848,7 +14848,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 3000,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Dirodi_Rover_Red.webp?v=1767318810&width=900"
+        "image": "/images/p/dirodi-rover-red-9e3d26.webp"
       },
       {
         "id": "41479143260293",
@@ -14860,7 +14860,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 3320,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Dirodi_Rover_Blue_step_over.webp?v=1767318619&width=900"
+        "image": "/images/p/dirodi-rover-blue-step-over-7a22d1.webp"
       },
       {
         "id": "41479143293061",
@@ -14872,17 +14872,17 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 3000,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Dirodi_Rover_Blue_step_over.webp?v=1767318619&width=900"
+        "image": "/images/p/dirodi-rover-blue-step-over-7a22d1.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DiroDi-Rover-Standard---Plus-Gen-6--Black--Standard--Step-Over--250W.jpg?v=1767316825&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Dirodi_Rover_Blue_step_over.webp?v=1767318619&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Dirodi_Rover_Steph_over_grey.webp?v=1767318619&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Dirodi_Rover_Red.webp?v=1767318810&width=900"
+      "/images/p/dirodi-rover-standard-plus-gen-6-black-standard-step-over-25-d9ebaa.webp",
+      "/images/p/dirodi-rover-blue-step-over-7a22d1.webp",
+      "/images/p/dirodi-rover-steph-over-grey-08aa97.webp",
+      "/images/p/dirodi-rover-red-9e3d26.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/DiroDi-Rover-Standard---Plus-Gen-6--Black--Standard--Step-Over--250W.jpg?v=1767316825&width=900",
+    "imageUrl": "/images/p/dirodi-rover-standard-plus-gen-6-black-standard-step-over-25-d9ebaa.webp",
     "attributes": {
       "frame": "Cargo",
       "tyres": "Fat",
@@ -14958,15 +14958,15 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/t720_white.jpg?v=1726229321&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/EtCycle15_t720_silver.webp?v=1726229321&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ETCYCLEBLACk_ebike.webp?v=1726229321&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ET-CYCLE_T720_bike_right.png?v=1790054359&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ET-CYCLE_T720_front_profile.png?v=1790054358&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ET-CYCLE_T720.png?v=1790054360&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ET-CYCLE_T720_handle.png?v=1790054360&width=900"
+      "/images/p/t720-white-f92c50.webp",
+      "/images/p/etcycle15-t720-silver-a252b0.webp",
+      "/images/p/etcycleblack-ebike-d38d13.webp",
+      "/images/p/et-cycle-t720-bike-right-85ff25.webp",
+      "/images/p/et-cycle-t720-front-profile-e7fd97.webp",
+      "/images/p/et-cycle-t720-a5bf6a.webp",
+      "/images/p/et-cycle-t720-handle-9964ec.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/t720_white.jpg?v=1726229321&width=900",
+    "imageUrl": "/images/p/t720-white-f92c50.webp",
     "attributes": {
       "frame": "Cargo",
       "tyres": "Fat",
@@ -14996,10 +14996,10 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/scoobo1_e5d452e3-2de2-4860-bd75-86789936cdd0.jpg?v=1680035515&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/scoobo1.jpg?v=1680035515&width=900"
+      "/images/p/scoobo1-e5d452e3-2de2-4860-bd75-86789936cdd0-4a6dc9.webp",
+      "/images/p/scoobo1-094b55.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/scoobo1_e5d452e3-2de2-4860-bd75-86789936cdd0.jpg?v=1680035515&width=900",
+    "imageUrl": "/images/p/scoobo1-e5d452e3-2de2-4860-bd75-86789936cdd0-4a6dc9.webp",
     "attributes": {
       "frame": "Trike",
       "uses": [
@@ -15097,7 +15097,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Vamos_Papa_Grande_Pro_-_3_Wheel_E-Trike.png?v=1790054119&width=900",
+    "imageUrl": "/images/p/vamos-papa-grande-pro-3-wheel-e-trike-653bb7.webp",
     "attributes": {
       "frame": "Trike",
       "tyres": "Fat",
@@ -15106,7 +15106,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Vamos_Papa_Grande_Pro_-_3_Wheel_E-Trike.png?v=1790054119&width=900",
+      "/images/p/vamos-papa-grande-pro-3-wheel-e-trike-653bb7.webp",
       "/images/products/papa-grande-pro-2024-3-wheel-e-trike-2.webp"
     ]
   },
@@ -15340,7 +15340,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/Tribe-Original-Black-black.png?v=1709339189&width=900",
+    "imageUrl": "/images/p/tribe-original-black-black-ebfbee.webp",
     "attributes": {
       "frame": "Trike",
       "uses": [
@@ -15348,7 +15348,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/Tribe-Original-Black-black.png?v=1709339189&width=900",
+      "/images/p/tribe-original-black-black-ebfbee.webp",
       "/images/products/tribe-cargo-electric-plus-2.webp",
       "/images/products/tribe-cargo-electric-plus-3.webp"
     ]
@@ -15417,12 +15417,12 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/CARRRO-BLACK-WITH-BACKGROUND-removebg-preview-1-uai-1440x1070.jpg?v=1710150729&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/IMG_4710.jpg?v=1710150729&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/IMG_4715.jpg?v=1710150729&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/IMG_4711.jpg?v=1710150729&width=900"
+      "/images/p/carrro-black-with-background-removebg-preview-1-uai-1440x107-86172e.webp",
+      "/images/p/img-4710-ceba2d.webp",
+      "/images/p/img-4715-09264d.webp",
+      "/images/p/img-4711-0803eb.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/CARRRO-BLACK-WITH-BACKGROUND-removebg-preview-1-uai-1440x1070.jpg?v=1710150729&width=900",
+    "imageUrl": "/images/p/carrro-black-with-background-removebg-preview-1-uai-1440x107-86172e.webp",
     "attributes": {
       "frame": "Trike",
       "uses": [
@@ -15474,7 +15474,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 3749,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190439_2.jpg?v=1680036869&width=900"
+        "image": "/images/p/20190439-2-e693f3.webp"
       },
       {
         "id": "39693963362437",
@@ -15485,17 +15485,17 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 3749,
         "available": true,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190156_1.jpg?v=1680036869&width=900"
+        "image": "/images/p/20190156-1-6d4ea4.webp"
       }
     ],
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190439_1_1419ce35-1dae-4c3e-ac50-e6d8c5059aaa.jpg?v=1680036869&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190439_2.jpg?v=1680036869&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190156_1.jpg?v=1680036869&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190439_1.jpg?v=1680036869&width=900"
+      "/images/p/20190439-1-1419ce35-1dae-4c3e-ac50-e6d8c5059aaa-d28e1c.webp",
+      "/images/p/20190439-2-e693f3.webp",
+      "/images/p/20190156-1-6d4ea4.webp",
+      "/images/p/20190439-1-5ec66e.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190439_1_1419ce35-1dae-4c3e-ac50-e6d8c5059aaa.jpg?v=1680036869&width=900",
+    "imageUrl": "/images/p/20190439-1-1419ce35-1dae-4c3e-ac50-e6d8c5059aaa-d28e1c.webp",
     "attributes": {
       "frame": "Trike",
       "uses": [
@@ -15519,10 +15519,10 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190958_1_c3597898-ff07-46f7-9e9f-4b8d585cb2b6.jpg?v=1680037542&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190958_1.jpg?v=1680037542&width=900"
+      "/images/p/20190958-1-c3597898-ff07-46f7-9e9f-4b8d585cb2b6-434fe7.webp",
+      "/images/p/20190958-1-4f278d.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190958_1_c3597898-ff07-46f7-9e9f-4b8d585cb2b6.jpg?v=1680037542&width=900",
+    "imageUrl": "/images/p/20190958-1-c3597898-ff07-46f7-9e9f-4b8d585cb2b6-434fe7.webp",
     "attributes": {
       "frame": "Trike",
       "uses": [
@@ -15583,7 +15583,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDS-Advance-300.jpg?v=1748172263&width=900",
+    "imageUrl": "/images/p/xds-advance-300-6bb1e4.webp",
     "attributes": {
       "frame": "Balance bike",
       "uses": [
@@ -15607,11 +15607,11 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187712_1_f4bd7b72-c4b3-4273-81de-dec1c4710975.jpg?v=1680012940&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187712_1.jpg?v=1680012940&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187712_2_5781de87-0a70-46db-a448-3e0e7c520339.jpg?v=1680012940&width=900"
+      "/images/p/20187712-1-f4bd7b72-c4b3-4273-81de-dec1c4710975-6acf9a.webp",
+      "/images/p/20187712-1-1344d1.webp",
+      "/images/p/20187712-2-5781de87-0a70-46db-a448-3e0e7c520339-6bc86d.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187712_1_f4bd7b72-c4b3-4273-81de-dec1c4710975.jpg?v=1680012940&width=900",
+    "imageUrl": "/images/p/20187712-1-f4bd7b72-c4b3-4273-81de-dec1c4710975-6acf9a.webp",
     "attributes": {
       "frame": "Scooter / Motorbike",
       "uses": [
@@ -15634,7 +15634,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "20200060"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/Fonz-NKDs-electric-bike.jpg?v=1681095240&width=900",
+    "imageUrl": "/images/p/fonz-nkds-electric-bike-52f19e.webp",
     "attributes": {
       "frame": "Scooter / Motorbike",
       "uses": [
@@ -15658,11 +15658,11 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187736_1_12de682f-93bc-4c82-a0db-fbfa244b461a.jpg?v=1680012858&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187736_1.jpg?v=1680012858&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187736_2.jpg?v=1680012858&width=900"
+      "/images/p/20187736-1-12de682f-93bc-4c82-a0db-fbfa244b461a-4340dc.webp",
+      "/images/p/20187736-1-99f789.webp",
+      "/images/p/20187736-2-c3c85c.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187736_1_12de682f-93bc-4c82-a0db-fbfa244b461a.jpg?v=1680012858&width=900",
+    "imageUrl": "/images/p/20187736-1-12de682f-93bc-4c82-a0db-fbfa244b461a-4340dc.webp",
     "attributes": {
       "frame": "Scooter / Motorbike",
       "uses": [
@@ -15686,12 +15686,12 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187385_1_31c7cd7e-ba52-4169-9f54-c51dc7af83bf.jpg?v=1680012657&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187385_1.jpg?v=1680012657&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187385_2.jpg?v=1680012657&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187385_1_a15bad50-d3a6-4d23-8150-a40eb0f637b9.jpg?v=1680012657&width=900"
+      "/images/p/20187385-1-31c7cd7e-ba52-4169-9f54-c51dc7af83bf-039126.webp",
+      "/images/p/20187385-1-b9ade7.webp",
+      "/images/p/20187385-2-01cbc6.webp",
+      "/images/p/20187385-1-a15bad50-d3a6-4d23-8150-a40eb0f637b9-c0becf.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187385_1_31c7cd7e-ba52-4169-9f54-c51dc7af83bf.jpg?v=1680012657&width=900",
+    "imageUrl": "/images/p/20187385-1-31c7cd7e-ba52-4169-9f54-c51dc7af83bf-039126.webp",
     "attributes": {
       "frame": "Scooter / Motorbike",
       "uses": [
@@ -15715,12 +15715,12 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102425_1_ed9fa0e4-145c-4e9f-afc8-a65829742244.jpg?v=1680012093&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102425_1.jpg?v=1680012093&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102425_2.jpg?v=1680012093&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102425_1_c9cdedf2-2d26-403c-a236-88fa10d7707d.jpg?v=1680012093&width=900"
+      "/images/p/20102425-1-ed9fa0e4-145c-4e9f-afc8-a65829742244-6f7656.webp",
+      "/images/p/20102425-1-b21230.webp",
+      "/images/p/20102425-2-b71f32.webp",
+      "/images/p/20102425-1-c9cdedf2-2d26-403c-a236-88fa10d7707d-07f65e.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102425_1_ed9fa0e4-145c-4e9f-afc8-a65829742244.jpg?v=1680012093&width=900",
+    "imageUrl": "/images/p/20102425-1-ed9fa0e4-145c-4e9f-afc8-a65829742244-6f7656.webp",
     "attributes": {
       "frame": "Scooter / Motorbike",
       "uses": [
@@ -15744,12 +15744,12 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102173_1_3cb0aabe-b89b-45bc-b98e-8f60deeebcee.jpg?v=1680011868&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102173_1.jpg?v=1680011868&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102173_2.jpg?v=1680011868&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102173_1_a7ed6a6a-fc31-4b0a-82d2-98be5bdb5241.jpg?v=1680011868&width=900"
+      "/images/p/20102173-1-3cb0aabe-b89b-45bc-b98e-8f60deeebcee-9cf73e.webp",
+      "/images/p/20102173-1-d5b44c.webp",
+      "/images/p/20102173-2-9dadf2.webp",
+      "/images/p/20102173-1-a7ed6a6a-fc31-4b0a-82d2-98be5bdb5241-bab23b.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102173_1_3cb0aabe-b89b-45bc-b98e-8f60deeebcee.jpg?v=1680011868&width=900",
+    "imageUrl": "/images/p/20102173-1-3cb0aabe-b89b-45bc-b98e-8f60deeebcee-9cf73e.webp",
     "attributes": {
       "frame": "Scooter / Motorbike",
       "uses": [
@@ -15782,14 +15782,14 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Phoenix_6026_Dual_Motor_Performance_Electric_Scooter_2.png?v=1790053978&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Phoenix_6026_Dual_Motor_Performance_Electric_Scooter_3.png?v=1790053978&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Phoenix_6026_Dual_Motor_Performance_Electric_Scooter.png?v=1790053978&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Phoenix_6026_Dual_Motor_Performance_Electric_Scooter_4.png?v=1790053978&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Phoenix_6026_Dual_Motor_Performance_Electric_Scooter_5.png?v=1790053978&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Phoenix_6026_Dual_Motor_Performance_Electric_Scooter_6.png?v=1790053978&width=900"
+      "/images/p/bolzzen-phoenix-6026-dual-motor-performance-electric-scooter-5a899a.webp",
+      "/images/p/bolzzen-phoenix-6026-dual-motor-performance-electric-scooter-4bdce8.webp",
+      "/images/p/bolzzen-phoenix-6026-dual-motor-performance-electric-scooter-1d4e7e.webp",
+      "/images/p/bolzzen-phoenix-6026-dual-motor-performance-electric-scooter-81e010.webp",
+      "/images/p/bolzzen-phoenix-6026-dual-motor-performance-electric-scooter-872830.webp",
+      "/images/p/bolzzen-phoenix-6026-dual-motor-performance-electric-scooter-9624df.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Phoenix_6026_Dual_Motor_Performance_Electric_Scooter_2.png?v=1790053978&width=900",
+    "imageUrl": "/images/p/bolzzen-phoenix-6026-dual-motor-performance-electric-scooter-5a899a.webp",
     "attributes": {
       "frame": "Scooter / Motorbike",
       "uses": [
@@ -15821,7 +15821,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000003968"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Phoenix1-bolzzen-Scooter.jpg?v=1756602222&width=900",
+    "imageUrl": "/images/p/phoenix1-bolzzen-scooter-09fd9f.webp",
     "attributes": {
       "frame": "Scooter / Motorbike",
       "uses": [
@@ -15829,7 +15829,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Phoenix1-bolzzen-Scooter.jpg?v=1756602222&width=900",
+      "/images/p/phoenix1-bolzzen-scooter-09fd9f.webp",
       "/images/products/bolzzen-phoenix-5223-dual-motor-performance-e-scooter-2.webp",
       "/images/products/bolzzen-phoenix-5223-dual-motor-performance-e-scooter-3.webp",
       "/images/products/bolzzen-phoenix-5223-dual-motor-performance-e-scooter-4.webp",
@@ -15859,7 +15859,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000003978"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/2_8c349f5a-f3a9-4e4f-8c0f-8bdb0abd6fa4.jpg?v=1756601147&width=900",
+    "imageUrl": "/images/p/2-8c349f5a-f3a9-4e4f-8c0f-8bdb0abd6fa4-c280d0.webp",
     "attributes": {
       "frame": "Scooter / Motorbike",
       "uses": [
@@ -15867,7 +15867,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/2_8c349f5a-f3a9-4e4f-8c0f-8bdb0abd6fa4.jpg?v=1756601147&width=900",
+      "/images/p/2-8c349f5a-f3a9-4e4f-8c0f-8bdb0abd6fa4-c280d0.webp",
       "/images/products/bolzzen-superstreet-4816-with-seat-dual-motor-2.webp",
       "/images/products/bolzzen-superstreet-4816-with-seat-dual-motor-3.webp",
       "/images/products/bolzzen-superstreet-4816-with-seat-dual-motor-4.webp",
@@ -15899,7 +15899,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000003967"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/BolzzenSuperStreet-scooter.jpg?v=1756602277&width=900",
+    "imageUrl": "/images/p/bolzzensuperstreet-scooter-73aa8d.webp",
     "attributes": {
       "frame": "Scooter / Motorbike",
       "uses": [
@@ -15907,7 +15907,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/BolzzenSuperStreet-scooter.jpg?v=1756602277&width=900",
+      "/images/p/bolzzensuperstreet-scooter-73aa8d.webp",
       "/images/products/bolzzen-superstreet-4816-dual-motor-performance-commuter-e-scooter-2.webp",
       "/images/products/bolzzen-superstreet-4816-dual-motor-performance-commuter-e-scooter-3.webp",
       "/images/products/bolzzen-superstreet-4816-dual-motor-performance-commuter-e-scooter-4.webp",
@@ -15940,12 +15940,12 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Hustler_4816_Performance_Commuter_E-Scooter_3.png?v=1790053977&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Hustler_4816_Performance_Commuter_E-Scooter_4.png?v=1790053977&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Hustler_4816_Performance_Commuter_E-Scooter.png?v=1790053978&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Hustler_4816_Performance_Commuter_E-Scooter_2.png?v=1790053978&width=900"
+      "/images/p/bolzzen-hustler-4816-performance-commuter-e-scooter-3-e5a06a.webp",
+      "/images/p/bolzzen-hustler-4816-performance-commuter-e-scooter-4-20277c.webp",
+      "/images/p/bolzzen-hustler-4816-performance-commuter-e-scooter-b34b62.webp",
+      "/images/p/bolzzen-hustler-4816-performance-commuter-e-scooter-2-f0a96a.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bolzzen_Hustler_4816_Performance_Commuter_E-Scooter_3.png?v=1790053977&width=900",
+    "imageUrl": "/images/p/bolzzen-hustler-4816-performance-commuter-e-scooter-3-e5a06a.webp",
     "attributes": {
       "frame": "Scooter / Motorbike",
       "uses": [
@@ -15969,12 +15969,12 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/933AU_1_df54f5a3-3e57-400f-95ea-7c4a41fad367.jpg?v=1680036684&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/933AU_2.jpg?v=1680036684&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/933AU_3.jpg?v=1680036684&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/933AU_1.jpg?v=1680036684&width=900"
+      "/images/p/933au-1-df54f5a3-3e57-400f-95ea-7c4a41fad367-c75730.webp",
+      "/images/p/933au-2-a14deb.webp",
+      "/images/p/933au-3-b80bd5.webp",
+      "/images/p/933au-1-ed3bee.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/933AU_1_df54f5a3-3e57-400f-95ea-7c4a41fad367.jpg?v=1680036684&width=900"
+    "imageUrl": "/images/p/933au-1-df54f5a3-3e57-400f-95ea-7c4a41fad367-c75730.webp"
   },
   {
     "id": "hyena-range-extender-battery",
@@ -16030,9 +16030,9 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000000802"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/Tribe-Acc-pic-1.jpg?v=1709097267&width=900",
+    "imageUrl": "/images/p/tribe-acc-pic-1-a21c42.webp",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/Tribe-Acc-pic-1.jpg?v=1709097267&width=900",
+      "/images/p/tribe-acc-pic-1-a21c42.webp",
       "/images/products/tribe-evamos-accessory-bundle-2.webp",
       "/images/products/tribe-evamos-accessory-bundle-3.webp",
       "/images/products/tribe-evamos-accessory-bundle-4.webp"
@@ -16078,7 +16078,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000005715"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Rocky-Mountain-Powerplay-Charger.jpg?v=1782713606&width=900"
+    "imageUrl": "/images/p/rocky-mountain-powerplay-charger-15ba28.webp"
   },
   {
     "id": "trek-commuter-pro-rt-front-bike-light",
@@ -16164,10 +16164,10 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": true,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AirAlarmComboOrange.png?v=1683374034&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AirAlarmComboOrange4.png?v=1683374034&width=900"
+      "/images/p/airalarmcomboorange-b6e83e.webp",
+      "/images/p/airalarmcomboorange4-61c174.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/AirAlarmComboOrange.png?v=1683374034&width=900"
+    "imageUrl": "/images/p/airalarmcomboorange-b6e83e.webp"
   },
   {
     "id": "bontrager-circuit-windshell-cycling-gloves",
@@ -16325,9 +16325,9 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000001637"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/schwalbe-kojax-tyre.jpg?v=1785541608&width=900",
+    "imageUrl": "/images/p/schwalbe-kojax-tyre-10a362.webp",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/schwalbe-kojax-tyre.jpg?v=1785541608&width=900",
+      "/images/p/schwalbe-kojax-tyre-10a362.webp",
       "/images/products/schwalbe-kojak-16x1-14-perf-race-guard-2.webp"
     ]
   },
@@ -16346,9 +16346,9 @@ export const PRODUCTS: Product[] = [
       "SKU": "1234567891"
     },
     "inStock": true,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/seat-pad.jpg?v=1709339260&width=900",
+    "imageUrl": "/images/p/seat-pad-f87eb9.webp",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/seat-pad.jpg?v=1709339260&width=900",
+      "/images/p/seat-pad-f87eb9.webp",
       "/images/products/tribe-seat-pad-2.webp"
     ]
   },
@@ -16457,7 +16457,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Sam-6-0.png?v=1768971741&width=900",
+    "imageUrl": "/images/p/focus-sam-6-0-2ca377.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Full",
@@ -16466,7 +16466,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Focus-Sam-6-0.png?v=1768971741&width=900",
+      "/images/p/focus-sam-6-0-2ca377.webp",
       "/images/products/focus-sam-60-ltd-my26-2.webp",
       "/images/products/focus-sam-60-ltd-my26-3.webp",
       "/images/products/focus-sam-60-ltd-my26-4.webp"
@@ -16495,7 +16495,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "D64451850"
     },
     "inStock": false,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FocusThron26.8Eqp.jpg?v=1726718730&width=900",
+    "imageUrl": "/images/p/focusthron26-8eqp-c72663.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Full",
@@ -16504,7 +16504,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/FocusThron26.8Eqp.jpg?v=1726718730&width=900",
+      "/images/p/focusthron26-8eqp-c72663.webp",
       "/images/products/f24-focus-thron2-68eqp-med-2.webp",
       "/images/products/f24-focus-thron2-68eqp-med-3.webp",
       "/images/products/f24-focus-thron2-68eqp-med-4.webp"
@@ -16657,16 +16657,16 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": false,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus6US-24-41009-B-Primary.webp?v=1710161946&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus6US-24-41009-A-Primary.webp?v=1710161946&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/MarlinPlus6US-24-41009-B-Alt4.jpg?v=1710161946&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus6US-24-41009-B-Alt4.webp?v=1710161946&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus6US-24-41009-B-Alt2.webp?v=1710161946&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus6US-24-41009-B-Alt7.webp?v=1710161946&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus6US-24-41009-B-Alt3.webp?v=1710161946&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus6US-24-41009-A-Accessory1.webp?v=1710161946&width=900"
+      "/images/p/marlinplus6us-24-41009-b-primary-d696ae.webp",
+      "/images/p/marlinplus6us-24-41009-a-primary-3341ed.webp",
+      "/images/p/marlinplus6us-24-41009-b-alt4-225d9a.webp",
+      "/images/p/marlinplus6us-24-41009-b-alt4-b16e64.webp",
+      "/images/p/marlinplus6us-24-41009-b-alt2-6f91ed.webp",
+      "/images/p/marlinplus6us-24-41009-b-alt7-49a906.webp",
+      "/images/p/marlinplus6us-24-41009-b-alt3-7712b2.webp",
+      "/images/p/marlinplus6us-24-41009-a-accessory1-52284f.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/MarlinPlus6US-24-41009-B-Primary.webp?v=1710161946&width=900",
+    "imageUrl": "/images/p/marlinplus6us-24-41009-b-primary-d696ae.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Hardtail",
@@ -16721,7 +16721,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 3590,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/123218230123848_1.jpg?v=1680009231&width=900"
+        "image": "/images/p/123218230123848-1-393235.webp"
       },
       {
         "id": "39472163192965",
@@ -16736,11 +16736,11 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": false,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000615_1_200165e1-d367-4a1a-b499-2a4c20888195.jpg?v=1680009231&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/123218230123848_1.jpg?v=1680009231&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/Earth-T-Rex-29-SP-Hardtail-Emtb-ebike-scaled.jpg?v=1680009231&width=900"
+      "/images/p/20000615-1-200165e1-d367-4a1a-b499-2a4c20888195-5a9493.webp",
+      "/images/p/123218230123848-1-393235.webp",
+      "/images/p/earth-t-rex-29-sp-hardtail-emtb-ebike-scaled-c287e6.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20000615_1_200165e1-d367-4a1a-b499-2a4c20888195.jpg?v=1680009231&width=900",
+    "imageUrl": "/images/p/20000615-1-200165e1-d367-4a1a-b499-2a4c20888195-5a9493.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Hardtail",
@@ -16833,7 +16833,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2199,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101947_1.jpg?v=1680030928&width=900"
+        "image": "/images/p/20101947-1-c9a839.webp"
       },
       {
         "id": "41135952953477",
@@ -16922,7 +16922,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2199,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102432_1_d1061788-8c37-4910-8838-aafbf50056d7.jpg?v=1680030928&width=900"
+        "image": "/images/p/20102432-1-d1061788-8c37-4910-8838-aafbf50056d7-720dd9.webp"
       },
       {
         "id": "41135953051781",
@@ -16945,7 +16945,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2199,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102869_1.jpg?v=1680030928&width=900"
+        "image": "/images/p/20102869-1-831555.webp"
       },
       {
         "id": "41135953084549",
@@ -17126,12 +17126,12 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": false,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102432_1_5745152d-85fc-4814-ab49-c59d88bee1b1.jpg?v=1680030928&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102432_1_d1061788-8c37-4910-8838-aafbf50056d7.jpg?v=1680030928&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101947_1.jpg?v=1680030928&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102869_1.jpg?v=1680030928&width=900"
+      "/images/p/20102432-1-5745152d-85fc-4814-ab49-c59d88bee1b1-0bd387.webp",
+      "/images/p/20102432-1-d1061788-8c37-4910-8838-aafbf50056d7-720dd9.webp",
+      "/images/p/20101947-1-c9a839.webp",
+      "/images/p/20102869-1-831555.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102432_1_5745152d-85fc-4814-ab49-c59d88bee1b1.jpg?v=1680030928&width=900",
+    "imageUrl": "/images/p/20102432-1-5745152d-85fc-4814-ab49-c59d88bee1b1-0bd387.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Hardtail",
@@ -17330,10 +17330,10 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": false,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/NCMEbikeprague.jpg?v=1726396624&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ncm-prague_white_electric_bike_Adelaide.jpg?v=1726396698&width=900"
+      "/images/p/ncmebikeprague-74a994.webp",
+      "/images/p/ncm-prague-white-electric-bike-adelaide-56dcdd.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/NCMEbikeprague.jpg?v=1726396624&width=900",
+    "imageUrl": "/images/p/ncmebikeprague-74a994.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "suspension": "Hardtail",
@@ -17413,7 +17413,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/focus-aventura2-ebike-commuting-electric-bike.png?v=1748156072&width=900",
+    "imageUrl": "/images/p/focus-aventura2-ebike-commuting-electric-bike-22222d.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -17421,7 +17421,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/focus-aventura2-ebike-commuting-electric-bike.png?v=1748156072&width=900",
+      "/images/p/focus-aventura2-ebike-commuting-electric-bike-22222d.webp",
       "/images/products/focus-aventura2-69-2.webp",
       "/images/products/focus-aventura2-69-3.webp",
       "/images/products/focus-aventura2-69-4.webp",
@@ -17501,7 +17501,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Aventura2-6-8.png?v=1722313139&width=900",
+    "imageUrl": "/images/p/aventura2-6-8-70ff66.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -17509,7 +17509,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Aventura2-6-8.png?v=1722313139&width=900",
+      "/images/p/aventura2-6-8-70ff66.webp",
       "/images/products/f24-focus-aventura2-68-grey-750wh-2.webp",
       "/images/products/f24-focus-aventura2-68-grey-750wh-3.webp",
       "/images/products/f24-focus-aventura2-68-grey-750wh-4.webp"
@@ -17641,10 +17641,10 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": false,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Aventura-6-7-Green.jpg?v=1722312561&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Aventura_6.7_Grey.jpg?v=1722312626&width=900"
+      "/images/p/aventura-6-7-green-c07b45.webp",
+      "/images/p/aventura-6-7-grey-d52ef2.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Aventura-6-7-Green.jpg?v=1722312561&width=900",
+    "imageUrl": "/images/p/aventura-6-7-green-c07b45.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -17713,7 +17713,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Cannondale-Eq-ebike.jpg?v=1779799277&width=900",
+    "imageUrl": "/images/p/cannondale-eq-ebike-7c8eec.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "lightweight": true,
@@ -17723,7 +17723,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Cannondale-Eq-ebike.jpg?v=1779799277&width=900",
+      "/images/p/cannondale-eq-ebike-7c8eec.webp",
       "/images/products/cannondale-tesoro-neo-sl-eq-bpl-sm-2.webp"
     ]
   },
@@ -17789,7 +17789,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-C-B--green.png?v=1726805312&width=900",
+    "imageUrl": "/images/p/kalkhoff-c-b-green-491bbf.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -17797,7 +17797,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Kalkhoff-C-B--green.png?v=1726805312&width=900",
+      "/images/p/kalkhoff-c-b-green-491bbf.webp",
       "/images/products/kalkhoff-endeavour-cb-grey-2.webp",
       "/images/products/kalkhoff-endeavour-cb-grey-3.webp"
     ]
@@ -17826,7 +17826,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000001665"
     },
     "inStock": false,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bianchi_E-Omnia_T-Type_NEX_5_625_Wh.png?v=1790052611&width=900",
+    "imageUrl": "/images/p/bianchi-e-omnia-t-type-nex-5-625-wh-bb73da.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -17834,7 +17834,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Bianchi_E-Omnia_T-Type_NEX_5_625_Wh.png?v=1790052611&width=900",
+      "/images/p/bianchi-e-omnia-t-type-nex-5-625-wh-bb73da.webp",
       "/images/products/bianchi-e-omnia-ttype-nex-5-625-wh-2.webp",
       "/images/products/bianchi-e-omnia-ttype-nex-5-625-wh-3.webp"
     ]
@@ -17891,7 +17891,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4699,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaBlackE50.jpg?v=1685964494&width=900"
+        "image": "/images/p/orbeaoptimablacke50-933175.webp"
       },
       {
         "id": "40221289676933",
@@ -17902,7 +17902,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4699,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaBlueE50.jpg?v=1685964493&width=900"
+        "image": "/images/p/orbeaoptimabluee50-ad9851.webp"
       },
       {
         "id": "40221696852101",
@@ -17913,7 +17913,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4699,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaRedE50.jpg?v=1685964494&width=900"
+        "image": "/images/p/orbeaoptimarede50-cc78e9.webp"
       },
       {
         "id": "40221696884869",
@@ -17924,7 +17924,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4699,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaBlackE50.jpg?v=1685964494&width=900"
+        "image": "/images/p/orbeaoptimablacke50-933175.webp"
       },
       {
         "id": "40221289709701",
@@ -17935,7 +17935,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4699,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaBlueE50.jpg?v=1685964493&width=900"
+        "image": "/images/p/orbeaoptimabluee50-ad9851.webp"
       },
       {
         "id": "40221696786565",
@@ -17946,7 +17946,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4699,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaRedE50.jpg?v=1685964494&width=900"
+        "image": "/images/p/orbeaoptimarede50-cc78e9.webp"
       },
       {
         "id": "40221696917637",
@@ -17957,7 +17957,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4699,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaBlackE50.jpg?v=1685964494&width=900"
+        "image": "/images/p/orbeaoptimablacke50-933175.webp"
       },
       {
         "id": "40221696753797",
@@ -17968,7 +17968,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4699,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaBlueE50.jpg?v=1685964493&width=900"
+        "image": "/images/p/orbeaoptimabluee50-ad9851.webp"
       },
       {
         "id": "40221696819333",
@@ -17979,16 +17979,16 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4699,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaRedE50.jpg?v=1685964494&width=900"
+        "image": "/images/p/orbeaoptimarede50-cc78e9.webp"
       }
     ],
     "inStock": false,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaBlackE50.jpg?v=1685964494&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaBlueE50.jpg?v=1685964493&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaRedE50.jpg?v=1685964494&width=900"
+      "/images/p/orbeaoptimablacke50-933175.webp",
+      "/images/p/orbeaoptimabluee50-ad9851.webp",
+      "/images/p/orbeaoptimarede50-cc78e9.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/OrbeaOptimaBlackE50.jpg?v=1685964494&width=900",
+    "imageUrl": "/images/p/orbeaoptimablacke50-933175.webp",
     "attributes": {
       "frame": "Step-Through",
       "lightweight": true,
@@ -18092,8 +18092,8 @@ export const PRODUCTS: Product[] = [
     ],
     "inStock": false,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VervePlusMensUS_20_28299_B_Primary_b8fb9453-2a1c-42f5-b199-b4739f2a9ec4.jpg?v=1680038417&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/VervePlusMensUS_20_28299_B_Primary.jpg?v=1680038417&width=900"
+      "/images/p/verveplusmensus-20-28299-b-primary-b8fb9453-2a1c-42f5-b199-b-7962f6.webp",
+      "/images/p/verveplusmensus-20-28299-b-primary-a1caec.webp"
     ],
     "imageUrl": "/images/products/trek-verve-2.webp",
     "attributes": {
@@ -18176,7 +18176,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDS-Advance-600-step-over-commuting-ebike.jpg?v=1779703393&width=900",
+    "imageUrl": "/images/p/xds-advance-600-step-over-commuting-ebike-2dd921.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -18267,7 +18267,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDS-Advance-600-step-through.jpg?v=1779703102&width=900",
+    "imageUrl": "/images/p/xds-advance-600-step-through-86b06a.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -18328,7 +18328,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDS-E-Street-step-through-ebike.jpg?v=1748172223&width=900",
+    "imageUrl": "/images/p/xds-e-street-step-through-ebike-19fa74.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -18387,7 +18387,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2399,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190057_1_8dbdc1fc-6705-48b9-a9fc-392cea3a0ac2.jpg?v=1680010268&width=900"
+        "image": "/images/p/20190057-1-8dbdc1fc-6705-48b9-a9fc-392cea3a0ac2-dc6ac9.webp"
       },
       {
         "id": "39693970702469",
@@ -18398,7 +18398,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2399,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190002_1.jpg?v=1680010268&width=900"
+        "image": "/images/p/20190002-1-6f0dc8.webp"
       },
       {
         "id": "39693970735237",
@@ -18409,7 +18409,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2399,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190019_1.jpg?v=1680010268&width=900"
+        "image": "/images/p/20190019-1-76329e.webp"
       },
       {
         "id": "39695136620677",
@@ -18420,7 +18420,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2399,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190712_1.jpg?v=1680010268&width=900"
+        "image": "/images/p/20190712-1-d99f51.webp"
       },
       {
         "id": "39695136653445",
@@ -18431,21 +18431,21 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2399,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190729_1.jpg?v=1680010268&width=900"
+        "image": "/images/p/20190729-1-62ef5b.webp"
       }
     ],
     "inStock": false,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190019_1_412ae696-24b8-459c-b40e-2e8fdb24cf09.jpg?v=1680010268&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190729_1.jpg?v=1680010268&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190712_1.jpg?v=1680010268&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190057_1_8dbdc1fc-6705-48b9-a9fc-392cea3a0ac2.jpg?v=1680010268&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190019_1.jpg?v=1680010268&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190002_1.jpg?v=1680010268&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/ezgif-4-319df8cf90.jpg?v=1680010268&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/ezgif-4-a77c724098.jpg?v=1680010268&width=900"
+      "/images/p/20190019-1-412ae696-24b8-459c-b40e-2e8fdb24cf09-1145be.webp",
+      "/images/p/20190729-1-62ef5b.webp",
+      "/images/p/20190712-1-d99f51.webp",
+      "/images/p/20190057-1-8dbdc1fc-6705-48b9-a9fc-392cea3a0ac2-dc6ac9.webp",
+      "/images/p/20190019-1-76329e.webp",
+      "/images/p/20190002-1-6f0dc8.webp",
+      "/images/p/ezgif-4-319df8cf90-6fb307.webp",
+      "/images/p/ezgif-4-a77c724098-fec0d9.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20190019_1_412ae696-24b8-459c-b40e-2e8fdb24cf09.jpg?v=1680010268&width=900",
+    "imageUrl": "/images/p/20190019-1-412ae696-24b8-459c-b40e-2e8fdb24cf09-1145be.webp",
     "attributes": {
       "frame": "Step-Through",
       "lightweight": true,
@@ -18512,7 +18512,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/XDS-Espresso-S2.jpg?v=1779703774&width=900",
+    "imageUrl": "/images/p/xds-espresso-s2-fc189f.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -18543,7 +18543,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000002547"
     },
     "inStock": false,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/EBIKEVOKE-M_01_830x830_c16e6d13-7580-4849-856d-a4c7ef07c054.jpg?v=1748172152&width=900",
+    "imageUrl": "/images/p/ebikevoke-m-01-830x830-c16e6d13-7580-4849-856d-a4c7ef07c054-696b4b.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -18570,10 +18570,10 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": false,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102968_1_a41be687-96dd-4b7f-beb1-963f41f20357.jpg?v=1680034204&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102968_1.jpg?v=1680034204&width=900"
+      "/images/p/20102968-1-a41be687-96dd-4b7f-beb1-963f41f20357-1d1229.webp",
+      "/images/p/20102968-1-f70fcb.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20102968_1_a41be687-96dd-4b7f-beb1-963f41f20357.jpg?v=1680034204&width=900",
+    "imageUrl": "/images/p/20102968-1-a41be687-96dd-4b7f-beb1-963f41f20357-1d1229.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "uses": [
@@ -18634,7 +18634,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/T3s-NCM-Ebike.jpg?v=1726233306&width=900",
+    "imageUrl": "/images/p/t3s-ncm-ebike-768813.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -18642,7 +18642,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/T3s-NCM-Ebike.jpg?v=1726233306&width=900",
+      "/images/p/t3s-ncm-ebike-768813.webp",
       "/images/products/ncm-t3s-trapeze-2.webp",
       "/images/products/ncm-t3s-trapeze-3.webp",
       "/images/products/ncm-t3s-trapeze-4.webp",
@@ -18694,7 +18694,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1499,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103637_1_822b4c02-bbcc-4c7e-865e-e57a89674de3.jpg?v=1680030866&width=900"
+        "image": "/images/p/20103637-1-822b4c02-bbcc-4c7e-865e-e57a89674de3-b874ed.webp"
       },
       {
         "id": "39437512835205",
@@ -18705,16 +18705,16 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1499,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103804_1.jpg?v=1680030866&width=900"
+        "image": "/images/p/20103804-1-d6c95d.webp"
       }
     ],
     "inStock": false,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103637_1_a5ad7e7e-c207-4102-ae29-92c411728a43.jpg?v=1680030866&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103637_1_822b4c02-bbcc-4c7e-865e-e57a89674de3.jpg?v=1680030866&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103804_1.jpg?v=1680030866&width=900"
+      "/images/p/20103637-1-a5ad7e7e-c207-4102-ae29-92c411728a43-8a0db6.webp",
+      "/images/p/20103637-1-822b4c02-bbcc-4c7e-865e-e57a89674de3-b874ed.webp",
+      "/images/p/20103804-1-d6c95d.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103637_1_a5ad7e7e-c207-4102-ae29-92c411728a43.jpg?v=1680030866&width=900",
+    "imageUrl": "/images/p/20103637-1-a5ad7e7e-c207-4102-ae29-92c411728a43-8a0db6.webp",
     "attributes": {
       "frame": "Step-Through",
       "uses": [
@@ -18792,7 +18792,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/YRBM6IXLIG_5-gravel.jpg?v=1762867722&width=900",
+    "imageUrl": "/images/p/yrbm6ixlig-5-gravel-1ac5e4.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
       "lightweight": true,
@@ -18822,7 +18822,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000003499"
     },
     "inStock": false,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Carbo-light-weight-ebike.jpg?v=1748172885&width=900",
+    "imageUrl": "/images/p/carbo-light-weight-ebike-2dd15e.webp",
     "attributes": {
       "frame": "Folding",
       "uses": [
@@ -18880,7 +18880,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2249,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187200_1.jpg?v=1680038981&width=900"
+        "image": "/images/p/20187200-1-661350.webp"
       },
       {
         "id": "39472167321733",
@@ -18891,15 +18891,15 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2249,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187217_1.jpg?v=1680038981&width=900"
+        "image": "/images/p/20187217-1-dc3a10.webp"
       }
     ],
     "inStock": false,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187217_1.jpg?v=1680038981&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187200_1.jpg?v=1680038981&width=900"
+      "/images/p/20187217-1-dc3a10.webp",
+      "/images/p/20187200-1-661350.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20187217_1.jpg?v=1680038981&width=900",
+    "imageUrl": "/images/p/20187217-1-dc3a10.webp",
     "attributes": {
       "frame": "Folding",
       "lightweight": true,
@@ -18953,7 +18953,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2199,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/9003180000.jpg?v=1680030173&width=900"
+        "image": "/images/p/9003180000-1c34c4.webp"
       },
       {
         "id": "39347274317957",
@@ -18964,15 +18964,15 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2199,
         "available": false,
-        "image": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londonplus_650796fb-7e5b-4768-82c5-ddad288e9c36.jpg?v=1680030173&width=900"
+        "image": "/images/p/londonplus-650796fb-7e5b-4768-82c5-ddad288e9c36-a41ed3.webp"
       }
     ],
     "inStock": false,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londonplus_650796fb-7e5b-4768-82c5-ddad288e9c36.jpg?v=1680030173&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/9003180000.jpg?v=1680030173&width=900"
+      "/images/p/londonplus-650796fb-7e5b-4768-82c5-ddad288e9c36-a41ed3.webp",
+      "/images/p/9003180000-1c34c4.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/londonplus_650796fb-7e5b-4768-82c5-ddad288e9c36.jpg?v=1680030173&width=900",
+    "imageUrl": "/images/p/londonplus-650796fb-7e5b-4768-82c5-ddad288e9c36-a41ed3.webp",
     "attributes": {
       "frame": "Folding",
       "uses": [
@@ -19210,7 +19210,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/7257462716571--DiroDi-Rover-Standard---Plus-Gen-6--Black--Standard--Step-Thru--250W-500W.jpg?v=1767319525&width=900",
+    "imageUrl": "/images/p/7257462716571-dirodi-rover-standard-plus-gen-6-black-standar-2ca7c8.webp",
     "attributes": {
       "frame": "Cargo",
       "tyres": "Fat",
@@ -19244,7 +19244,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000005641"
     },
     "inStock": false,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/17-GIACARLO-RED.jpg?v=1788428098&width=900",
+    "imageUrl": "/images/p/17-giacarlo-red-f18cc5.webp",
     "attributes": {
       "frame": "Cargo",
       "tyres": "Fat",
@@ -19276,7 +19276,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000001248"
     },
     "inStock": false,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Scoobo_plus_seitlich.png?v=1714354706&width=900",
+    "imageUrl": "/images/p/scoobo-plus-seitlich-d770ee.webp",
     "attributes": {
       "frame": "Trike",
       "uses": [
@@ -19284,7 +19284,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/Scoobo_plus_seitlich.png?v=1714354706&width=900",
+      "/images/p/scoobo-plus-seitlich-d770ee.webp",
       "/images/products/pfautec-scoobo-trike-2.webp",
       "/images/products/pfautec-scoobo-trike-3.webp",
       "/images/products/pfautec-scoobo-trike-4.webp",
@@ -19355,7 +19355,7 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "inStock": false,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/20250218_044412099_iOS-removebg-preview.png?v=1769490604&width=900",
+    "imageUrl": "/images/p/20250218-044412099-ios-removebg-preview-9eb112.webp",
     "attributes": {
       "frame": "Trike",
       "uses": [
@@ -19385,7 +19385,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000002488"
     },
     "inStock": false,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/2024-06-14-PIONEER.png?v=1769487979&width=900",
+    "imageUrl": "/images/p/2024-06-14-pioneer-43949a.webp",
     "attributes": {
       "frame": "Trike",
       "uses": [
@@ -19409,10 +19409,10 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": false,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103712_1_70cbe211-58c9-4a60-8afd-9b6d372ecfbb.jpg?v=1680035976&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103712_1.jpg?v=1680035976&width=900"
+      "/images/p/20103712-1-70cbe211-58c9-4a60-8afd-9b6d372ecfbb-941d94.webp",
+      "/images/p/20103712-1-12f4b6.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103712_1_70cbe211-58c9-4a60-8afd-9b6d372ecfbb.jpg?v=1680035976&width=900",
+    "imageUrl": "/images/p/20103712-1-70cbe211-58c9-4a60-8afd-9b6d372ecfbb-941d94.webp",
     "attributes": {
       "frame": "Balance bike",
       "uses": [
@@ -19436,11 +19436,11 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": false,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103705_1_6f491b54-ee4d-477e-a67c-9a810ccd1974.jpg?v=1680036048&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103705_1.jpg?v=1680036048&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/STACYC-12-Ebike-lt-side-line-art.jpg?v=1680036048&width=900"
+      "/images/p/20103705-1-6f491b54-ee4d-477e-a67c-9a810ccd1974-56b22a.webp",
+      "/images/p/20103705-1-864535.webp",
+      "/images/p/stacyc-12-ebike-lt-side-line-art-21b808.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20103705_1_6f491b54-ee4d-477e-a67c-9a810ccd1974.jpg?v=1680036048&width=900",
+    "imageUrl": "/images/p/20103705-1-6f491b54-ee4d-477e-a67c-9a810ccd1974-56b22a.webp",
     "attributes": {
       "frame": "Balance bike",
       "uses": [
@@ -19463,7 +19463,7 @@ export const PRODUCTS: Product[] = [
       "SKU": "20189907"
     },
     "inStock": false,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/stealth-fluro-B52.jpg?v=1709617861&width=900",
+    "imageUrl": "/images/p/stealth-fluro-b52-3e90f7.webp",
     "attributes": {
       "frame": "Scooter / Motorbike",
       "uses": [
@@ -19471,7 +19471,7 @@ export const PRODUCTS: Product[] = [
       ]
     },
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/stealth-fluro-B52.jpg?v=1709617861&width=900",
+      "/images/p/stealth-fluro-b52-3e90f7.webp",
       "/images/products/stealth-b52-new-model-2.webp",
       "/images/products/stealth-b52-new-model-3.webp",
       "/images/products/stealth-b52-new-model-4.webp"
@@ -19516,9 +19516,9 @@ export const PRODUCTS: Product[] = [
       "SKU": "1000000002160"
     },
     "inStock": false,
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ezigrip_rack.jpg?v=1725954777&width=900",
+    "imageUrl": "/images/p/ezigrip-rack-c26a76.webp",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ezigrip_rack.jpg?v=1725954777&width=900",
+      "/images/p/ezigrip-rack-c26a76.webp",
       "/images/products/ezi-grip-electric-e-rack-2-pro-tow-ball-mount-2.webp",
       "/images/products/ezi-grip-electric-e-rack-2-pro-tow-ball-mount-3.webp",
       "/images/products/ezi-grip-electric-e-rack-2-pro-tow-ball-mount-4.webp",
@@ -19542,11 +19542,11 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": false,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ezigripebikeelectricbikerackE-Rack-2.webp?v=1683374559&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101695_2.jpg?v=1683374559&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/20101695_1.jpg?v=1683374559&width=900"
+      "/images/p/ezigripebikeelectricbikeracke-rack-2-4c8912.webp",
+      "/images/p/20101695-2-f000a1.webp",
+      "/images/p/20101695-1-d00ba0.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/files/ezigripebikeelectricbikerackE-Rack-2.webp?v=1683374559&width=900"
+    "imageUrl": "/images/p/ezigripebikeelectricbikeracke-rack-2-4c8912.webp"
   },
   {
     "id": "hyena-gen-2-in-tube-250wh-battery",
@@ -20012,11 +20012,11 @@ export const PRODUCTS: Product[] = [
     },
     "inStock": false,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EziGripramplifestyle.webp?v=1671677814&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/ezigriprampclose.webp?v=1671677879&width=900",
-      "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/ezigripramppic.png?v=1671677880&width=900"
+      "/images/p/ezigripramplifestyle-65bb2f.webp",
+      "/images/p/ezigriprampclose-c2f1b9.webp",
+      "/images/p/ezigripramppic-b80daa.webp"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0374/7014/2597/products/EziGripramplifestyle.webp?v=1671677814&width=900"
+    "imageUrl": "/images/p/ezigripramplifestyle-65bb2f.webp"
   },
   {
     "id": "infini-safety-front-rear-light-usb",

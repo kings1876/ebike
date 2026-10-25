@@ -64,7 +64,7 @@
         },
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; img-src 'self' data: https://cdn.shopify.com https://images.unsplash.com; style-src 'self' 'unsafe-inline'; script-src 'self'; font-src 'self'; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'; object-src 'none'"
+          "value": "default-src 'self'; img-src 'self' data: https://images.unsplash.com; style-src 'self' 'unsafe-inline'; script-src 'self'; font-src 'self'; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'; object-src 'none'"
         },
         {
           "key": "Link",
