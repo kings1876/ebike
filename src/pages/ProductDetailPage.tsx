@@ -359,7 +359,7 @@ export const ProductDetailPage: React.FC = () => {
 
             <p className="text-center text-xs text-slate-500">
               Questions about this bike?{' '}
-              <Link to={`/contact?product=${encodeURIComponent(product.name)}`} className="font-semibold text-emerald-700 hover:underline">
+              <Link to="/contact" state={{ product: product.name }} className="font-semibold text-emerald-700 hover:underline">
                 Ask our team
               </Link>
             </p>
@@ -382,7 +382,7 @@ export const ProductDetailPage: React.FC = () => {
           and save 10% automatically at checkout. After you order we email your confirmation and then your payment details, and we dispatch once payment has cleared.
         </p>
         <p>
-          Not sure this is the right bike? <Link to={`/contact?product=${encodeURIComponent(product.name)}`} className="font-semibold text-emerald-700 hover:underline">Ask our team</Link>,
+          Not sure this is the right bike? <Link to="/contact" state={{ product: product.name }} className="font-semibold text-emerald-700 hover:underline">Ask our team</Link>,
           compare it with other <Link to={categoryPath(product.category)} className="font-semibold text-emerald-700 hover:underline">{product.category.toLowerCase()}</Link>,
           or read our <Link to="/blog/best-electric-bike-australia-2026" className="font-semibold text-emerald-700 hover:underline">buying guide</Link>.
         </p>

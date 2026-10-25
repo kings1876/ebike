@@ -158,7 +158,7 @@ export function getRouteMeta(pathname: string, details?: Record<string, ProductD
     const heroSrc = hero ? (hero.images?.length ? hero.images[0] : hero.imageUrl) : undefined;
     const iso = (d?: string) => (d && !Number.isNaN(Date.parse(d)) ? new Date(d + ' 12:00 UTC').toISOString().slice(0, 10) : undefined);
     return {
-      title: post.title.length <= 41 ? `${post.title} | E Bikes for Sale` : clip(post.title, 60),
+      title: [' | E Bikes for Sale', ' | E Bikes'].map((b) => post.title + b).find((t) => t.length <= 60) ?? clip(post.title + ' | E Bikes', 60),
       description: clip(clean(post.excerpt), 158),
       canonical,
       image: heroSrc ? imageUrlFor(heroSrc) : undefined,

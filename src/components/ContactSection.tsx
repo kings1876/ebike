@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useLocation, useSearchParams } from 'react-router-dom';
 import { Mail, Phone, MapPin, Send, CheckCircle, Clock } from 'lucide-react';
 
 export const ContactSection: React.FC = () => {
   const [params] = useSearchParams();
-  const product = params.get('product');
+  const product = params.get('product') || (useLocation().state as { product?: string } | null)?.product || null;
   const [formData, setFormData] = useState({
     name: '',
     email: '',
