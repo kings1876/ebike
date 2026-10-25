@@ -13,6 +13,8 @@ const setMeta = (selector: string, attrs: Record<string, string>, content: strin
 };
 
 /** Keeps title, description, canonical, robots and JSON-LD in step with the current route. */
+let firstRun = true;
+
 export const RouteSeo = () => {
   const { pathname } = useLocation();
 
@@ -20,14 +22,17 @@ export const RouteSeo = () => {
     let cancelled = false;
     // The metadata module (blog text, FAQ copy) and, for product pages, the product details load on demand.
     // First loads already have correct tags from the prerendered HTML.
-    (async () => {
+    // The first load already carries the right tags, so wait until the page is painted and busy work is done.
+    const delay = firstRun ? 3000 : 0;
+    firstRun = false;
+    const timer = setTimeout(() => (async () => {
       const [{ getRouteMeta }, details] = await Promise.all([
         import('../data/seo-meta'),
         pathname.startsWith('/product/') ? loadProductDetail(pathname.split('/')[2]).catch(() => undefined) : Promise.resolve(undefined),
       ]);
       if (!cancelled) apply(getRouteMeta(pathname, details));
-    })();
-    return () => { cancelled = true; };
+    })(), delay);
+    return () => { cancelled = true; clearTimeout(timer); };
   }, [pathname]);
 
   return null;

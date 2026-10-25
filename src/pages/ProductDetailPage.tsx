@@ -129,7 +129,7 @@ export const ProductDetailPage: React.FC = () => {
                     aria-pressed={active}
                     className={`relative w-20 h-16 shrink-0 rounded-lg overflow-hidden border-2 bg-slate-100 cursor-pointer transition-colors ${active ? 'border-emerald-600' : 'border-slate-200 hover:border-slate-400'}`}
                   >
-                    <img src={src.startsWith('/images/p/') ? src.replace(/\.webp$/, '-s.webp') : src.replace('width=900', 'width=240')} alt="" loading="lazy" referrerPolicy="no-referrer" className="w-full h-full object-cover" />
+                    <img src={src.startsWith('/images/p/') ? src.replace(/\.webp$/, '-s.webp') : src.replace('width=900', 'width=240')} alt="" loading="lazy" decoding="async" fetchPriority="low" referrerPolicy="no-referrer" className="w-full h-full object-cover" />
                   </button>
                 );
               })}

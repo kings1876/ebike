@@ -23,7 +23,6 @@ const DIST = path.resolve('dist');
 // The real app, built for the server by `vite build --ssr`: every page is rendered exactly as the browser would show it.
 const { render: renderApp } = (await import(pathToFileURL(path.resolve('dist-ssr/entry-server.js')).href)) as { render: (url: string) => Promise<string> };
 const template = fs.readFileSync(path.join(DIST, 'index.html'), 'utf8');
-
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 function setMeta(html: string, attr: 'name' | 'property', key: string, value: string) {

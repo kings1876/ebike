@@ -46,9 +46,8 @@ export const ProductImage: React.FC<ProductImageProps> = ({ src, alt, category, 
           loading={eager ? 'eager' : 'lazy'}
           onLoad={() => setIsLoaded(true)}
           onError={() => setHasError(true)}
-          className={`w-full h-full object-cover transition-all duration-300 ${
-            isLoaded ? 'opacity-100 group-hover:scale-105' : 'opacity-0'
-          }`}
+          // Always visible: the placeholder above covers it while it loads, and the server-rendered page must paint the photo without waiting for JavaScript.
+          className="w-full h-full object-cover transition-all duration-300 group-hover:scale-105"
         />
       )}
 

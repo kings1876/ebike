@@ -83,7 +83,10 @@ export const HomePage: React.FC = () => {
             <div className="lg:col-span-5">
               <div className="relative rounded-2xl overflow-hidden border border-slate-800 bg-slate-900 shadow-2xl group">
                 <img
-                  src="https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&w=1200&q=80"
+                  src="/images/hero-ebike.webp"
+                width={720}
+                height={480}
+                fetchPriority="high"
                   alt="Electric mountain bike in scenic Australian landscape"
                   referrerPolicy="no-referrer"
                   className="w-full h-[360px] sm:h-[420px] object-cover transition-transform duration-500 group-hover:scale-105"
