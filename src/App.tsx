@@ -17,8 +17,6 @@ import { Footer } from './components/Footer';
 import { HomePage } from './pages/HomePage';
 import { ShopPage } from './pages/ShopPage';
 import { ProductDetailPage } from './pages/ProductDetailPage';
-const BlogListPage = lazy(() => import('./pages/BlogListPage').then((m) => ({ default: m.BlogListPage })));
-const BlogPostPage = lazy(() => import('./pages/BlogPostPage').then((m) => ({ default: m.BlogPostPage })));
 import { AboutPage } from './pages/AboutPage';
 import { ContactPage } from './pages/ContactPage';
 import { FAQPage } from './pages/FAQPage';
@@ -27,6 +25,14 @@ import { CheckoutPage } from './pages/CheckoutPage';
 import { PolicyPage } from './pages/PolicyPage';
 import { ReviewsPage } from './pages/ReviewsPage';
 import { PaymentDetailsPage } from './pages/PaymentDetailsPage';
+// Blog pages are code-split in the browser. The build-time renderer (entry-server.tsx) swaps in the plain components,
+// so the prerendered HTML holds the real article instead of a Suspense placeholder.
+let BlogListPage: React.ComponentType = lazy(() => import('./pages/BlogListPage').then((m) => ({ default: m.BlogListPage })));
+let BlogPostPage: React.ComponentType = lazy(() => import('./pages/BlogPostPage').then((m) => ({ default: m.BlogPostPage })));
+export function useEagerBlogPages(list: React.ComponentType, post: React.ComponentType) {
+  BlogListPage = list;
+  BlogPostPage = post;
+}
 const AdminRoutes = lazy(() => import('./pages/admin/AdminRoutes'));
 
 /** The whole app minus the router, so the same tree renders in the browser and at build time (prerender). */

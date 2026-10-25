@@ -1,7 +1,11 @@
 import React from 'react';
 import { prerender } from 'react-dom/static';
 import { StaticRouter } from 'react-router-dom';
-import { AppShell } from './App';
+import { AppShell, useEagerBlogPages } from './App';
+import { BlogListPage } from './pages/BlogListPage';
+import { BlogPostPage } from './pages/BlogPostPage';
+
+useEagerBlogPages(BlogListPage, BlogPostPage);
 
 /** Renders a route to an HTML string at build time (used by scripts/prerender.ts). */
 export async function render(url: string): Promise<string> {
@@ -9,6 +13,7 @@ export async function render(url: string): Promise<string> {
     <StaticRouter location={url}>
       <AppShell />
     </StaticRouter>,
+  { progressiveChunkSize: 1e9 },
   );
   const reader = prelude.getReader();
   const decoder = new TextDecoder();
