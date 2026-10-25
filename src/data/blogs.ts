@@ -2,6 +2,7 @@ import { BlogPost } from '../types';
 import { BATCH_1 } from './blog-batch-1';
 import { BATCH_2 } from './blog-batch-2';
 import { BATCH_3 } from './blog-batch-3';
+import { BATCH_4 } from './blog-batch-4';
 
 /**
  * Post bodies are arrays of blocks:
@@ -400,4 +401,4 @@ const CORE_POSTS: BlogPost[] = [
   },
 ];
 
-export const BLOG_POSTS: BlogPost[] = [...CORE_POSTS, ...BATCH_1, ...BATCH_2, ...BATCH_3];
+export const BLOG_POSTS: BlogPost[] = [...CORE_POSTS, ...BATCH_1, ...BATCH_2, ...BATCH_3, ...BATCH_4];
