@@ -54,7 +54,9 @@ export const BlogPostPage: React.FC = () => {
     );
   }
 
-  const otherPosts = BLOG_POSTS.filter((p) => p.slug !== slug).slice(0, 2);
+  // Related reading: the next two posts in the list, so link equity spreads across all articles.
+  const at = BLOG_POSTS.findIndex((p) => p.slug === slug);
+  const otherPosts = [1, 2].map((n) => BLOG_POSTS[(at + n) % BLOG_POSTS.length]);
   const hero = post.heroProductId ? PRODUCTS.find((p) => p.id === post.heroProductId) : undefined;
   const blocks = toBlocks(post.content);
 
