@@ -9,3 +9,4 @@ coverage/
 .vercel
 .admin-passcode.local
 public/data/
+dist-ssr/

@@ -134,6 +134,21 @@ export const EXTRA: Record<string, PageExtra> = {
     sections: [{ h2: 'Electric road and gravel bikes', body: ['Drop-bar e-bikes with efficient tyres suit long rides, hilly routes and fast commutes. Gravel models add wider tyres for unsealed roads and off road ebike adventures.'] }],
     faq: [{ q: 'Are electric road bikes heavy?', a: 'They are lighter than most e-bikes, and weight is listed on each product where available.' }],
   },
+  'kids-electric-bikes': {
+    sections: [
+      {
+        h2: 'Choosing an electric bike for a young rider',
+        body: [
+          'Our youth range includes electric balance bikes for small children and a trail e-bike sized for kids and teens. Check the age, height and inseam guidance on each listing, because a bike that is too big is harder to control and less safe.',
+          'Every young rider needs a properly fitted helmet. Browse our helmets in the parts and accessories range and add one to the same order.',
+        ],
+      },
+    ],
+    faq: [
+      { q: 'What age is an electric balance bike suitable for?', a: 'Electric balance bikes are built for small children who are learning to balance and steer. Follow the age and height guidance on the product page, and always supervise young riders.' },
+      { q: 'Are electric bikes for teens legal to ride?', a: 'Age rules for e-bike riders differ by state and are changing, so check your state transport authority before a teenager rides on public roads or paths.' },
+    ],
+  },
   'ebike-batteries-chargers': {
     sections: [
       {

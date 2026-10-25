@@ -20,7 +20,9 @@ export const ProductDetailPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'specs' | 'features' | 'shipping'>('specs');
 
   // The light record renders immediately; description, features, photos and variants arrive from their own chunk.
-  const [detail, setDetail] = useState<Record<string, ProductDetail> | null>(null);
+  const [detail, setDetail] = useState<Record<string, ProductDetail> | null>(
+    () => ((globalThis as { __PRERENDER_DETAILS__?: Record<string, ProductDetail> }).__PRERENDER_DETAILS__ ?? null),
+  );
   useEffect(() => {
     if (!productId) return;
     let live = true;
@@ -365,6 +367,26 @@ export const ProductDetailPage: React.FC = () => {
 
         </div>
       </div>
+
+      {/* About this product: built from the catalogue record */}
+      <section className="mt-12 max-w-3xl text-sm text-slate-600 space-y-3">
+        <h2 className="text-lg font-bold text-slate-900">About the {product.name}</h2>
+        <p>
+          The {product.name}{product.brand ? ` from ${product.brand}` : ''} is part of our{' '}
+          <Link to={categoryPath(product.category)} className="font-semibold text-emerald-700 hover:underline">{product.category.toLowerCase()}</Link> range
+          ({product.subcategory.toLowerCase()}) and is listed at ${product.price.toLocaleString()} AUD.
+          {baseProduct?.options?.length ? ` It is available in ${baseProduct.options.map((o) => `${o.values.length} ${o.name.toLowerCase()} option${o.values.length === 1 ? '' : 's'}`).join(' and ')}.` : ''}
+        </p>
+        <p>
+          Every order includes free delivery across Australia and a 2-year warranty. Pay by Australian bank transfer, Osko or PayID, or cryptocurrency
+          and save 10% automatically at checkout. After you order we email your confirmation and then your payment details, and we dispatch once payment has cleared.
+        </p>
+        <p>
+          Not sure this is the right bike? <Link to={`/contact?product=${encodeURIComponent(product.name)}`} className="font-semibold text-emerald-700 hover:underline">Ask our team</Link>,
+          compare it with other <Link to={categoryPath(product.category)} className="font-semibold text-emerald-700 hover:underline">{product.category.toLowerCase()}</Link>,
+          or read our <Link to="/blog/best-electric-bike-australia-2026" className="font-semibold text-emerald-700 hover:underline">buying guide</Link>.
+        </p>
+      </section>
 
       {/* Related Products */}
       {relatedProducts.length > 0 && (

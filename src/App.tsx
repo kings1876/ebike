@@ -29,9 +29,9 @@ import { ReviewsPage } from './pages/ReviewsPage';
 import { PaymentDetailsPage } from './pages/PaymentDetailsPage';
 const AdminRoutes = lazy(() => import('./pages/admin/AdminRoutes'));
 
-export default function App() {
+/** The whole app minus the router, so the same tree renders in the browser and at build time (prerender). */
+export function AppShell() {
   return (
-    <BrowserRouter>
       <CartProvider>
         <ScrollToTop />
         <RouteSeo />
@@ -94,6 +94,13 @@ export default function App() {
 
         </div>
       </CartProvider>
+  );
+}
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <AppShell />
     </BrowserRouter>
   );
 }

@@ -14977,7 +14977,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     "id": "scoobo-trike-bosch-active-line-plus",
-    "name": "Pfautec Scoobo Trike",
+    "name": "Pfautec Scoobo Trike Bosch Active Line Plus",
     "tagline": "Pfautec Scoobo Trike",
     "brand": "Pfautec",
     "category": "Trikes & Mobility",
@@ -19255,7 +19255,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     "id": "pfautec-scoobo-trike",
-    "name": "Pfautec Scoobo+ Trike",
+    "name": "Pfautec Scoobo Plus Trike",
     "tagline": "Sporty and powerful – a smooth ride with the Scoobo+ through town and country. Alongside an electric drive system from Bosch (Performance...",
     "brand": "Pfautec",
     "category": "Trikes & Mobility",

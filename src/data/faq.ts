@@ -50,5 +50,60 @@ export const FAQ_ITEMS: FAQItem[] = [
     category: 'Warranty & Service',
     question: 'What is your 30-Day Risk-Free Trial and Refund Policy?',
     answer: 'We want you to ride with total confidence. If for any reason your electric bicycle does not suit your riding style within 30 days of delivery, you can return it to our Australian service center in original packaging for an exchange or full refund.'
-  }
+  },
+  {
+    category: 'Orders & Shipping',
+    question: 'How do I place an order?',
+    answer: 'Add your bike to the cart, go to checkout, enter your delivery details and choose a payment method. You receive an order confirmation by email straight away. We then email you the payment details for your chosen method, and we dispatch your bike once your payment has cleared.',
+  },
+  {
+    category: 'Payment & Discounts',
+    question: 'Where do I find the payment details for my order?',
+    answer: 'We email them to you from sales@ebikesale.com.au after you place your order. The email links to a secure payment page where you can tap to copy each detail, such as the account name, BSB, account number and your order reference. Always use your order reference when you pay.',
+  },
+  {
+    category: 'Payment & Discounts',
+    question: 'Can I pay by credit card?',
+    answer: 'At the moment checkout offers Australian bank transfer, Osko or PayID and cryptocurrency. All three qualify for the automatic 10% discount. If you would like to pay another way, contact our team before you order and we will tell you what is possible.',
+  },
+  {
+    category: 'Bike Specs & Laws',
+    question: 'What does EN 15194 mean?',
+    answer: 'EN 15194 is the European standard for electrically power-assisted bicycles and is the basis of the national definition of an e-bike in Australia. A compliant bike has a motor of up to 250 watts continuous power, assistance that cuts out at 25 km/h and assistance only while you pedal. State rules on age, licences and where you can ride differ, so check your state transport authority.',
+  },
+  {
+    category: 'Bike Specs & Laws',
+    question: 'Do I have to wear a helmet on an e-bike?',
+    answer: 'Yes. Bicycle helmets are required for riders across Australia, including on e-bikes. We stock helmets, locks and lights in our parts and accessories range, so you can order everything you need together with your bike.',
+  },
+  {
+    category: 'Bike Specs & Laws',
+    question: 'How do I choose the right frame size?',
+    answer: 'Measure your height and inseam and compare them with the size chart on the product page. If you are between sizes, think about how you ride: a smaller frame feels more nimble and upright, and a larger frame feels more stable. Email us your height, inseam and the model you like, and we will suggest a size.',
+  },
+  {
+    category: 'Warranty & Service',
+    question: 'How do I look after the battery?',
+    answer: 'Keep it out of the heat, charge it indoors with the charger that came with the bike, unplug it when it is full and store it at a partial charge if you will not ride for a while. Our battery care guide in the blog explains the full routine, and we sell replacement batteries and chargers.',
+  },
+  {
+    category: 'Warranty & Service',
+    question: 'Can you help me choose a bike?',
+    answer: 'Yes. Tell us how you ride, where you ride and your budget through the contact page or by email to sales@ebikesale.com.au, and we will point you to a few bikes. Our buying guides in the blog also compare commuter, mountain, folding, cargo and fat tyre e-bikes.',
+  },
+  {
+    category: 'Orders & Shipping',
+    question: 'Will I get an order confirmation and tracking?',
+    answer: 'You receive an order confirmation by email as soon as you place your order, followed by a second email with your payment details. Delivery across Australia is free and tracked, so keep an eye on your inbox after your payment has cleared.',
+  },
+  {
+    category: 'Orders & Shipping',
+    question: 'Can I change or cancel my order?',
+    answer: 'Contact us at sales@ebikesale.com.au as soon as possible with your order reference and tell us what you would like to change. Changes are easiest before payment has been sent, and our refund policy explains your options after that.',
+  },
+  {
+    category: 'Warranty & Service',
+    question: 'Who do I contact if something is wrong with my bike?',
+    answer: 'Email sales@ebikesale.com.au with your order reference, your name and a short description or photo of the problem. Every bike includes a 2-year warranty, and our team will tell you the next step.',
+  },
 ];

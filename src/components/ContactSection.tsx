@@ -204,6 +204,26 @@ export const ContactSection: React.FC = () => {
         </div>
 
       </div>
+
+      {/* Quick answers before writing in */}
+      <div className="mt-14 max-w-4xl mx-auto grid gap-6 sm:grid-cols-2 text-sm text-slate-600">
+        <div>
+          <h3 className="font-bold text-slate-900 mb-1">Questions about an order</h3>
+          <p>Quote your order reference (it starts with EBK-) and we will find it quickly. Payment details are emailed after you order, and your bike is dispatched once payment has cleared.</p>
+        </div>
+        <div>
+          <h3 className="font-bold text-slate-900 mb-1">Help choosing a bike</h3>
+          <p>Tell us how you ride, your height and your budget. Our buying guides compare commuter, mountain, folding, cargo and fat tyre e-bikes, and we can suggest a few models for you.</p>
+        </div>
+        <div>
+          <h3 className="font-bold text-slate-900 mb-1">Delivery and warranty</h3>
+          <p>Delivery across Australia is free and every bike includes a 2-year warranty. Read the shipping and refund policies, or check the FAQ for common questions.</p>
+        </div>
+        <div>
+          <h3 className="font-bold text-slate-900 mb-1">Payment</h3>
+          <p>Pay by Australian bank transfer, Osko or PayID, or cryptocurrency and save 10% automatically at checkout.</p>
+        </div>
+      </div>
     </section>
   );
 };

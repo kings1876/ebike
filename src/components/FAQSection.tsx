@@ -71,11 +71,10 @@ export const FAQSection: React.FC = () => {
                 />
               </button>
 
-              {isOpen && (
-                <div className="px-6 pb-5 pt-1 text-xs text-slate-600 leading-relaxed border-t border-slate-100 bg-slate-50/40">
-                  {item.answer}
-                </div>
-              )}
+              {/* Every answer stays in the page (hidden until opened) so search engines can read it. */}
+              <div hidden={!isOpen} className="px-6 pb-5 pt-1 text-xs text-slate-600 leading-relaxed border-t border-slate-100 bg-slate-50/40">
+                {item.answer}
+              </div>
             </div>
           );
         })}

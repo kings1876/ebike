@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { useSearchParams, useParams, useNavigate } from 'react-router-dom';
+import { useSearchParams, useParams, useNavigate, Link } from 'react-router-dom';
 import { PRODUCTS, CATEGORIES_WITH_SUBCATEGORIES } from '../data/products';
 import { loadDetails } from '../data/catalogue';
 import type { ProductDetail } from '../data/products-detail';
@@ -278,6 +278,14 @@ export const ShopPage: React.FC = () => {
             ))}
           </div>
           <Pagination page={page} totalPages={totalPages} onPageChange={handlePageChange} />
+          <details className="mt-8 rounded-xl border border-slate-200 bg-white p-4 text-sm">
+            <summary className="cursor-pointer font-semibold text-slate-800">Browse all {filtered.length} products in this list</summary>
+            <ul className="mt-3 grid gap-x-6 gap-y-1.5 sm:grid-cols-2 lg:grid-cols-3">
+              {filtered.map((p) => (
+                <li key={p.id}><Link to={`/product/${p.id}`} className="text-slate-600 hover:text-emerald-700 hover:underline">{p.name}</Link></li>
+              ))}
+            </ul>
+          </details>
         </>
       ) : (
         <div className="py-16 text-center bg-slate-50 rounded-2xl border border-dashed border-slate-200">

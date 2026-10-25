@@ -3,6 +3,7 @@ import { BLOG_POSTS } from './blogs';
 import { defaultSelection, findVariant } from './variants';
 import { EXTRA } from './seo-content';
 import { mergeDetail } from './catalogue';
+import { FAQ_ITEMS } from './faq';
 import { detailUrl } from './data-version';
 import type { ProductDetail } from './products-detail';
 import { SITE_URL, SITE_NAME, CATEGORY_SEO, COLLECTIONS, categoryPath, categoryFromSlug, collectionFromSlug } from './seo';
@@ -67,6 +68,9 @@ export function getRouteMeta(pathname: string, details?: Record<string, ProductD
 
   if (STATIC[path]) {
     const meta: RouteMeta = { ...STATIC[path], canonical };
+    if (path === '/faq') {
+      meta.jsonLd = [{ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: FAQ_ITEMS.map((f) => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }];
+    }
     if (path === '/') {
       meta.links = CATEGORIES_WITH_SUBCATEGORIES.map((c) => ({ href: categoryPath(c.category), label: CATEGORY_SEO[c.category]?.h1 ?? c.category }));
     }

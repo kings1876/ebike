@@ -1,12 +1,1 @@
-(function () {
-  if (typeof navigator === 'undefined' || !navigator.modelContext) return;
-  var go = function (path) { return async function () { window.location.href = 'https://ebikesale.com.au' + path; return { url: 'https://ebikesale.com.au' + path }; }; };
-  navigator.modelContext.provideContext({
-    tools: [
-      { name: 'browse_products', description: 'Open the electric bike catalogue, optionally for one category slug', inputSchema: { type: 'object', properties: { category: { type: 'string', description: 'Category slug such as electric-mountain-bikes' } } },
-        execute: async function (a) { var p = a && a.category ? '/shop/' + encodeURIComponent(a.category) : '/shop'; window.location.href = 'https://ebikesale.com.au' + p; return { url: 'https://ebikesale.com.au' + p }; } },
-      { name: 'read_buying_guides', description: 'Open the buying guides', inputSchema: { type: 'object', properties: {} }, execute: go('/blog') },
-      { name: 'contact', description: 'Open the contact page for product questions or support', inputSchema: { type: 'object', properties: {} }, execute: go('/contact') }
-    ]
-  });
-})();
+(function(){if(!(typeof navigator=="undefined"||!navigator.modelContext)){var t=function(e){return async function(){return window.location.href="https://ebikesale.com.au"+e,{url:"https://ebikesale.com.au"+e}}};navigator.modelContext.provideContext({tools:[{name:"browse_products",description:"Open the electric bike catalogue, optionally for one category slug",inputSchema:{type:"object",properties:{category:{type:"string",description:"Category slug such as electric-mountain-bikes"}}},execute:async function(e){var o=e&&e.category?"/shop/"+encodeURIComponent(e.category):"/shop";return window.location.href="https://ebikesale.com.au"+o,{url:"https://ebikesale.com.au"+o}}},{name:"read_buying_guides",description:"Open the buying guides",inputSchema:{type:"object",properties:{}},execute:t("/blog")},{name:"contact",description:"Open the contact page for product questions or support",inputSchema:{type:"object",properties:{}},execute:t("/contact")}]})}})();

@@ -15,6 +15,9 @@ interface ProductImageProps {
 export const ProductImage: React.FC<ProductImageProps> = ({ src, alt, category, className = '', eager = false, width }) => {
   const [hasError, setHasError] = useState(!src);
   const [isLoaded, setIsLoaded] = useState(false);
+  // The bike illustration is a loading placeholder only: it is not part of the server-rendered HTML.
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
   const imgRef = useRef<HTMLImageElement>(null);
 
   // A cached image can finish loading before React attaches onLoad, which would leave it invisible
@@ -50,7 +53,7 @@ export const ProductImage: React.FC<ProductImageProps> = ({ src, alt, category, 
       )}
 
       {/* Styled vector illustration fallback container if image fails or before load */}
-      {(!isLoaded || hasError) && (
+      {((mounted && !isLoaded) || hasError) && (
         <div
           className={`absolute inset-0 flex flex-col items-center justify-center p-6 text-slate-400 bg-gradient-to-br from-slate-100 to-slate-200 transition-opacity duration-300 ${
             hasError ? 'opacity-100' : isLoaded ? 'opacity-0 pointer-events-none' : 'opacity-100'

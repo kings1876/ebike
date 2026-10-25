@@ -162,6 +162,12 @@ export const PolicyPage: React.FC<{ policyType?: 'shipping' | 'refund' | 'privac
         <div className="mt-8 pt-8 border-t border-slate-100">
           {active.body}
         </div>
+
+        <p className="mt-8 pt-6 border-t border-slate-100 text-xs text-slate-500 leading-relaxed">
+          Questions about this policy? Email sales@ebikesale.com.au or use the <Link to="/contact" className="font-semibold text-emerald-700 hover:underline">contact page</Link>.
+          You can also browse our <Link to="/shop" className="font-semibold text-emerald-700 hover:underline">electric bikes for sale</Link>,
+          read the <Link to="/blog" className="font-semibold text-emerald-700 hover:underline">buying guides</Link> or check the <Link to="/faq" className="font-semibold text-emerald-700 hover:underline">FAQ</Link>.
+        </p>
       </div>
     </div>
   );

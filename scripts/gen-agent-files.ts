@@ -7,6 +7,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import { transformSync } from 'esbuild';
 import { SITE } from '../api/_lib/config.js';
 import { CATEGORY_SEO, COLLECTIONS } from '../src/data/seo';
 
@@ -154,7 +155,7 @@ write('.well-known/ucp', {
 });
 
 // L. WebMCP: navigation tools only, no state changes
-write('js/webmcp.js', `(function () {
+const webmcpSource = `(function () {
   if (typeof navigator === 'undefined' || !navigator.modelContext) return;
   var go = function (path) { return async function () { window.location.href = '${D}' + path; return { url: '${D}' + path }; }; };
   navigator.modelContext.provideContext({
@@ -166,6 +167,7 @@ write('js/webmcp.js', `(function () {
     ]
   });
 })();
-`);
+`;
+write('js/webmcp.js', transformSync(webmcpSource, { minify: true, target: 'es2019' }).code);
 
 console.log('agent files written');
