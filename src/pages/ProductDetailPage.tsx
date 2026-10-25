@@ -47,6 +47,28 @@ export const ProductDetailPage: React.FC = () => {
     ? { ...baseProduct, price: variant.price > 0 ? variant.price : baseProduct.price, originalPrice: variant.compareAtPrice, imageUrl: variant.image ?? baseProduct.imageUrl, inStock: variant.available }
     : baseProduct;
 
+  // Until this product's details arrive (a ~2 KB file, preloaded), hold the page's height so nothing jumps.
+  if (lightProduct && !detail) {
+    return (
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 min-h-[130vh]">
+        <h1 className="sr-only">{lightProduct.name}</h1>
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+          <div className="lg:col-span-7">
+            <div className="relative aspect-4/3 rounded-2xl overflow-hidden border border-slate-200 bg-slate-100">
+              <ProductImage eager width={700} src={lightProduct.heroImage ?? lightProduct.imageUrl} alt={lightProduct.name} category={lightProduct.category} className="w-full h-full" />
+            </div>
+          </div>
+          <div className="lg:col-span-5 space-y-4" aria-hidden="true">
+            <div className="h-8 w-3/4 rounded bg-slate-100" />
+            <div className="h-4 w-full rounded bg-slate-100" />
+            <div className="h-4 w-5/6 rounded bg-slate-100" />
+            <div className="h-40 w-full rounded-xl bg-slate-50" />
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   if (!product) {
     return (
       <div className="max-w-4xl mx-auto px-4 py-20 text-center">

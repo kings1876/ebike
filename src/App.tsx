@@ -54,8 +54,8 @@ export default function App() {
               <Route path="/product/:productId" element={<ProductDetailPage />} />
 
               {/* Blog Hub & Individual Article Pages */}
-              <Route path="/blog" element={<Suspense fallback={null}><BlogListPage /></Suspense>} />
-              <Route path="/blog/:slug" element={<Suspense fallback={null}><BlogPostPage /></Suspense>} />
+              <Route path="/blog" element={<Suspense fallback={<div className="min-h-[130vh]" />}><BlogListPage /></Suspense>} />
+              <Route path="/blog/:slug" element={<Suspense fallback={<div className="min-h-[130vh]" />}><BlogPostPage /></Suspense>} />
 
               {/* About, Contact, FAQ & Reviews Pages */}
               <Route path="/about" element={<AboutPage />} />

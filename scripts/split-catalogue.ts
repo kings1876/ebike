@@ -9,8 +9,10 @@ import { PRODUCTS, CATEGORIES_WITH_SUBCATEGORIES } from '../src/data/catalogue-s
 
 const light = (PRODUCTS as any[]).map((p) => {
   const { description, keyFeatures, images, variants, ...rest } = p;
+  const first = variants?.length ? (variants.find((v: any) => v.available) ?? variants[0]) : undefined;
   return {
     ...rest,
+    ...(first?.image && first.image !== rest.imageUrl ? { heroImage: first.image } : {}),
     description: '',
     keyFeatures: [],
     // Cards only need to know whether options exist, what prices vary and whether anything is in stock.
