@@ -1,6 +1,6 @@
 import { Product } from '../types';
 
-// Catalogue imported from Electric Bikes Superstore Adelaide (generated; edit with care).
+// Full catalogue (source of truth). scripts/split-catalogue.ts derives the light and detail files from this.
 export const PRODUCTS: Product[] = [
   {
     "id": "orbea-rise-m10",
@@ -850,7 +850,7 @@ export const PRODUCTS: Product[] = [
           "S"
         ],
         "price": 8999,
-        "available": false
+        "available": true
       },
       {
         "id": "41230729838725",
@@ -860,7 +860,7 @@ export const PRODUCTS: Product[] = [
           "M"
         ],
         "price": 8999,
-        "available": false
+        "available": true
       },
       {
         "id": "41230729871493",
@@ -870,7 +870,7 @@ export const PRODUCTS: Product[] = [
           "L"
         ],
         "price": 8999,
-        "available": false
+        "available": true
       },
       {
         "id": "41230729904261",
@@ -880,7 +880,7 @@ export const PRODUCTS: Product[] = [
           "XL"
         ],
         "price": 8999,
-        "available": false
+        "available": true
       },
       {
         "id": "41230729937029",
@@ -890,7 +890,7 @@ export const PRODUCTS: Product[] = [
           "S"
         ],
         "price": 8999,
-        "available": false
+        "available": true
       },
       {
         "id": "41230729969797",
@@ -900,7 +900,7 @@ export const PRODUCTS: Product[] = [
           "M"
         ],
         "price": 8999,
-        "available": false
+        "available": true
       },
       {
         "id": "41230730002565",
@@ -910,7 +910,7 @@ export const PRODUCTS: Product[] = [
           "L"
         ],
         "price": 8999,
-        "available": false
+        "available": true
       },
       {
         "id": "41230730035333",
@@ -1005,7 +1005,7 @@ export const PRODUCTS: Product[] = [
           "Limeyellow"
         ],
         "price": 9999,
-        "available": false
+        "available": true
       },
       {
         "id": "40839385743493",
@@ -1150,7 +1150,7 @@ export const PRODUCTS: Product[] = [
           "M"
         ],
         "price": 8999,
-        "available": false
+        "available": true
       },
       {
         "id": "41230790492293",
@@ -1182,7 +1182,7 @@ export const PRODUCTS: Product[] = [
           "S"
         ],
         "price": 8999,
-        "available": false
+        "available": true
       },
       {
         "id": "41230790590597",
@@ -1192,7 +1192,7 @@ export const PRODUCTS: Product[] = [
           "M"
         ],
         "price": 8999,
-        "available": false
+        "available": true
       },
       {
         "id": "41230790623365",
@@ -1202,7 +1202,7 @@ export const PRODUCTS: Product[] = [
           "L"
         ],
         "price": 8999,
-        "available": false
+        "available": true
       },
       {
         "id": "41230790656133",
@@ -2642,7 +2642,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2599,
         "compareAtPrice": 3349,
-        "available": false
+        "available": true
       },
       {
         "id": "41841658396805",
@@ -2982,7 +2982,7 @@ export const PRODUCTS: Product[] = [
           "17\""
         ],
         "price": 2199,
-        "available": false
+        "available": true
       },
       {
         "id": "41668469227653",
@@ -3183,7 +3183,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1899,
         "compareAtPrice": 1999,
-        "available": false
+        "available": true
       },
       {
         "id": "41520201367685",
@@ -3194,7 +3194,7 @@ export const PRODUCTS: Product[] = [
           "No"
         ],
         "price": 1879,
-        "available": false
+        "available": true
       },
       {
         "id": "39695851552901",
@@ -3252,7 +3252,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1899,
         "compareAtPrice": 1999,
-        "available": false
+        "available": true
       },
       {
         "id": "41520201433221",
@@ -3263,7 +3263,7 @@ export const PRODUCTS: Product[] = [
           "No"
         ],
         "price": 1879,
-        "available": false
+        "available": true
       }
     ],
     "inStock": true,
@@ -3788,7 +3788,7 @@ export const PRODUCTS: Product[] = [
           "Green"
         ],
         "price": 7499,
-        "available": false
+        "available": true
       },
       {
         "id": "40158321213573",
@@ -3808,7 +3808,7 @@ export const PRODUCTS: Product[] = [
           "Green"
         ],
         "price": 7499,
-        "available": false
+        "available": true
       },
       {
         "id": "40158321377413",
@@ -3828,7 +3828,7 @@ export const PRODUCTS: Product[] = [
           "Green"
         ],
         "price": 7499,
-        "available": false
+        "available": true
       },
       {
         "id": "40158321410181",
@@ -3848,7 +3848,7 @@ export const PRODUCTS: Product[] = [
           "Green"
         ],
         "price": 7499,
-        "available": false
+        "available": true
       }
     ],
     "inStock": true,
@@ -4391,8 +4391,8 @@ export const PRODUCTS: Product[] = [
           "Moonstonegrey Matt",
           "Diamant"
         ],
-        "price": 0,
-        "available": false
+        "price": 5999,
+        "available": true
       }
     ],
     "inStock": true,
@@ -4953,7 +4953,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4299,
         "compareAtPrice": 4499,
-        "available": false
+        "available": true
       },
       {
         "id": "40931651584133",
@@ -4984,7 +4984,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4299,
         "compareAtPrice": 4499,
-        "available": false
+        "available": true
       },
       {
         "id": "40931651649669",
@@ -5015,7 +5015,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 4299,
         "compareAtPrice": 4499,
-        "available": false
+        "available": true
       }
     ],
     "inStock": true,
@@ -7206,7 +7206,7 @@ export const PRODUCTS: Product[] = [
           "GREY"
         ],
         "price": 4499,
-        "available": false
+        "available": true
       },
       {
         "id": "40212432257157",
@@ -7216,7 +7216,7 @@ export const PRODUCTS: Product[] = [
           "GREY"
         ],
         "price": 4499,
-        "available": false
+        "available": true
       },
       {
         "id": "40212432289925",
@@ -7226,7 +7226,7 @@ export const PRODUCTS: Product[] = [
           "GREY"
         ],
         "price": 4499,
-        "available": false
+        "available": true
       },
       {
         "id": "40212432322693",
@@ -7247,7 +7247,7 @@ export const PRODUCTS: Product[] = [
           "GREY"
         ],
         "price": 4999,
-        "available": false
+        "available": true
       }
     ],
     "inStock": true,
@@ -7512,7 +7512,7 @@ export const PRODUCTS: Product[] = [
           "GREY"
         ],
         "price": 3499,
-        "available": false
+        "available": true
       }
     ],
     "inStock": true,
@@ -8040,7 +8040,7 @@ export const PRODUCTS: Product[] = [
           "Grey"
         ],
         "price": 2999,
-        "available": false
+        "available": true
       },
       {
         "id": "41778295767173",
@@ -8050,7 +8050,7 @@ export const PRODUCTS: Product[] = [
           "Yellow"
         ],
         "price": 2999,
-        "available": false
+        "available": true
       }
     ],
     "inStock": true,
@@ -8225,7 +8225,7 @@ export const PRODUCTS: Product[] = [
           "EN15194"
         ],
         "price": 2799,
-        "available": false
+        "available": true
       },
       {
         "id": "41962670456965",
@@ -8235,7 +8235,7 @@ export const PRODUCTS: Product[] = [
           "EPAC"
         ],
         "price": 2799,
-        "available": false
+        "available": true
       }
     ],
     "inStock": true,
@@ -8371,7 +8371,7 @@ export const PRODUCTS: Product[] = [
           "RED"
         ],
         "price": 4199,
-        "available": false
+        "available": true
       },
       {
         "id": "40243314065541",
@@ -8392,7 +8392,7 @@ export const PRODUCTS: Product[] = [
           "RED"
         ],
         "price": 4199,
-        "available": false
+        "available": true
       },
       {
         "id": "40243314163845",
@@ -8402,7 +8402,7 @@ export const PRODUCTS: Product[] = [
           "RED"
         ],
         "price": 4199,
-        "available": false
+        "available": true
       }
     ],
     "inStock": true,
@@ -8706,7 +8706,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2499,
         "compareAtPrice": 2999,
-        "available": false
+        "available": true
       },
       {
         "id": "41833494249605",
@@ -8717,7 +8717,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2799,
         "compareAtPrice": 2999,
-        "available": false
+        "available": true
       },
       {
         "id": "41479513571461",
@@ -10066,7 +10066,7 @@ export const PRODUCTS: Product[] = [
           "Lavender Blue"
         ],
         "price": 2199,
-        "available": false
+        "available": true
       },
       {
         "id": "41114200473733",
@@ -10076,7 +10076,7 @@ export const PRODUCTS: Product[] = [
           "Sand"
         ],
         "price": 2199,
-        "available": false
+        "available": true
       },
       {
         "id": "39438661058693",
@@ -10109,7 +10109,7 @@ export const PRODUCTS: Product[] = [
           "Lavender Blue"
         ],
         "price": 2199,
-        "available": false
+        "available": true
       },
       {
         "id": "41114200506501",
@@ -10119,7 +10119,7 @@ export const PRODUCTS: Product[] = [
           "Sand"
         ],
         "price": 2199,
-        "available": false
+        "available": true
       }
     ],
     "inStock": true,
@@ -10283,7 +10283,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1699,
         "compareAtPrice": 1999,
-        "available": false
+        "available": true
       },
       {
         "id": "39536132423813",
@@ -10330,7 +10330,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1699,
         "compareAtPrice": 1999,
-        "available": false
+        "available": true
       },
       {
         "id": "39536132522117",
@@ -10723,7 +10723,7 @@ export const PRODUCTS: Product[] = [
           "S"
         ],
         "price": 9999,
-        "available": false
+        "available": true
       },
       {
         "id": "40785796628613",
@@ -10743,7 +10743,7 @@ export const PRODUCTS: Product[] = [
           "L"
         ],
         "price": 9999,
-        "available": false
+        "available": true
       },
       {
         "id": "40785796694149",
@@ -10753,7 +10753,7 @@ export const PRODUCTS: Product[] = [
           "XL"
         ],
         "price": 9999,
-        "available": false
+        "available": true
       },
       {
         "id": "41738048536709",
@@ -10825,7 +10825,7 @@ export const PRODUCTS: Product[] = [
           "47"
         ],
         "price": 10499,
-        "available": false
+        "available": true
       },
       {
         "id": "41670032228485",
@@ -10834,7 +10834,7 @@ export const PRODUCTS: Product[] = [
           "50"
         ],
         "price": 10499,
-        "available": false
+        "available": true
       },
       {
         "id": "41670032261253",
@@ -10843,7 +10843,7 @@ export const PRODUCTS: Product[] = [
           "53"
         ],
         "price": 10499,
-        "available": false
+        "available": true
       },
       {
         "id": "41670032294021",
@@ -10872,7 +10872,7 @@ export const PRODUCTS: Product[] = [
           "59"
         ],
         "price": 10499,
-        "available": false
+        "available": true
       },
       {
         "id": "41670032392325",
@@ -10881,7 +10881,7 @@ export const PRODUCTS: Product[] = [
           "61"
         ],
         "price": 10499,
-        "available": false
+        "available": true
       }
     ],
     "inStock": true,
@@ -11077,7 +11077,7 @@ export const PRODUCTS: Product[] = [
           "BLACK"
         ],
         "price": 4999,
-        "available": false,
+        "available": true,
         "image": "/images/p/domaneplusal5-23-36145-a-primary-5d53c8.webp"
       },
       {
@@ -11088,7 +11088,7 @@ export const PRODUCTS: Product[] = [
           "RED"
         ],
         "price": 4999,
-        "available": false,
+        "available": true,
         "image": "/images/p/domaneplusal5-23-36145-b-primary-fcef9f.webp"
       },
       {
@@ -11099,7 +11099,7 @@ export const PRODUCTS: Product[] = [
           "BLACK"
         ],
         "price": 4999,
-        "available": false,
+        "available": true,
         "image": "/images/p/domaneplusal5-23-36145-a-primary-5d53c8.webp"
       },
       {
@@ -11110,7 +11110,7 @@ export const PRODUCTS: Product[] = [
           "RED"
         ],
         "price": 4999,
-        "available": false,
+        "available": true,
         "image": "/images/p/domaneplusal5-23-36145-b-primary-fcef9f.webp"
       },
       {
@@ -11121,7 +11121,7 @@ export const PRODUCTS: Product[] = [
           "BLACK"
         ],
         "price": 4999,
-        "available": false,
+        "available": true,
         "image": "/images/p/domaneplusal5-23-36145-a-primary-5d53c8.webp"
       },
       {
@@ -11132,7 +11132,7 @@ export const PRODUCTS: Product[] = [
           "RED"
         ],
         "price": 4999,
-        "available": false,
+        "available": true,
         "image": "/images/p/domaneplusal5-23-36145-b-primary-fcef9f.webp"
       },
       {
@@ -11187,7 +11187,7 @@ export const PRODUCTS: Product[] = [
           "BLACK"
         ],
         "price": 4999,
-        "available": false,
+        "available": true,
         "image": "/images/p/domaneplusal5-23-36145-a-primary-5d53c8.webp"
       },
       {
@@ -11198,7 +11198,7 @@ export const PRODUCTS: Product[] = [
           "RED"
         ],
         "price": 4999,
-        "available": false,
+        "available": true,
         "image": "/images/p/domaneplusal5-23-36145-b-primary-fcef9f.webp"
       }
     ],
@@ -11336,7 +11336,7 @@ export const PRODUCTS: Product[] = [
           "Black"
         ],
         "price": 3799,
-        "available": false
+        "available": true
       }
     ],
     "inStock": true,
@@ -11592,7 +11592,7 @@ export const PRODUCTS: Product[] = [
           "36V17Ah 612Wh"
         ],
         "price": 2990,
-        "available": false
+        "available": true
       },
       {
         "id": "40428373377157",
@@ -11603,7 +11603,7 @@ export const PRODUCTS: Product[] = [
           "36V17Ah 612Wh"
         ],
         "price": 2990,
-        "available": false
+        "available": true
       },
       {
         "id": "40428373409925",
@@ -11614,7 +11614,7 @@ export const PRODUCTS: Product[] = [
           "36V17Ah 612Wh"
         ],
         "price": 2990,
-        "available": false
+        "available": true
       }
     ],
     "inStock": true,
@@ -11762,7 +11762,7 @@ export const PRODUCTS: Product[] = [
           "No"
         ],
         "price": 2459,
-        "available": false
+        "available": true
       },
       {
         "id": "41524847378565",
@@ -11773,7 +11773,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 2499,
         "compareAtPrice": 2799,
-        "available": false
+        "available": true
       },
       {
         "id": "41524847411333",
@@ -11783,7 +11783,7 @@ export const PRODUCTS: Product[] = [
           "No"
         ],
         "price": 2549,
-        "available": false
+        "available": true
       }
     ],
     "inStock": true,
@@ -13161,7 +13161,7 @@ export const PRODUCTS: Product[] = [
           "Beetle Blue"
         ],
         "price": 7495,
-        "available": false
+        "available": true
       },
       {
         "id": "41772734840965",
@@ -13170,7 +13170,7 @@ export const PRODUCTS: Product[] = [
           "Forge Grey"
         ],
         "price": 7495,
-        "available": false
+        "available": true
       }
     ],
     "inStock": true,
@@ -14944,7 +14944,7 @@ export const PRODUCTS: Product[] = [
           "White"
         ],
         "price": 2099,
-        "available": false
+        "available": true
       },
       {
         "id": "40915098206341",
@@ -14953,7 +14953,7 @@ export const PRODUCTS: Product[] = [
           "Silver"
         ],
         "price": 2099,
-        "available": false
+        "available": true
       }
     ],
     "inStock": true,
@@ -15302,8 +15302,8 @@ export const PRODUCTS: Product[] = [
           "Black",
           "Hub"
         ],
-        "price": 0,
-        "available": false
+        "price": 4490,
+        "available": true
       },
       {
         "id": "41479245463685",
@@ -15313,8 +15313,8 @@ export const PRODUCTS: Product[] = [
           "Black",
           "Mid"
         ],
-        "price": 0,
-        "available": false
+        "price": 5490,
+        "available": true
       },
       {
         "id": "41479245496453",
@@ -15324,8 +15324,8 @@ export const PRODUCTS: Product[] = [
           "Tan",
           "Hub"
         ],
-        "price": 0,
-        "available": false
+        "price": 4490,
+        "available": true
       },
       {
         "id": "41479245529221",
@@ -15335,8 +15335,8 @@ export const PRODUCTS: Product[] = [
           "Tan",
           "Mid"
         ],
-        "price": 0,
-        "available": false
+        "price": 5490,
+        "available": true
       }
     ],
     "inStock": true,
@@ -16444,7 +16444,7 @@ export const PRODUCTS: Product[] = [
           "Small"
         ],
         "price": 12499,
-        "available": false
+        "available": true
       },
       {
         "id": "41496147099781",
@@ -16453,10 +16453,10 @@ export const PRODUCTS: Product[] = [
           "Medium"
         ],
         "price": 12499,
-        "available": false
+        "available": true
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/p/focus-sam-6-0-2ca377.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
@@ -16494,7 +16494,7 @@ export const PRODUCTS: Product[] = [
       "Motor System": "Bosch",
       "SKU": "D64451850"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/p/focusthron26-8eqp-c72663.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
@@ -16562,7 +16562,7 @@ export const PRODUCTS: Product[] = [
           "Dnister Black"
         ],
         "price": 4299,
-        "available": false
+        "available": true
       },
       {
         "id": "40552565801093",
@@ -16572,7 +16572,7 @@ export const PRODUCTS: Product[] = [
           "Dnister Black"
         ],
         "price": 4299,
-        "available": false
+        "available": true
       },
       {
         "id": "40552565833861",
@@ -16582,7 +16582,7 @@ export const PRODUCTS: Product[] = [
           "Dnister Black"
         ],
         "price": 4299,
-        "available": false
+        "available": true
       },
       {
         "id": "40552565866629",
@@ -16592,7 +16592,7 @@ export const PRODUCTS: Product[] = [
           "Dnister Black"
         ],
         "price": 4299,
-        "available": false
+        "available": true
       },
       {
         "id": "40552565899397",
@@ -16602,7 +16602,7 @@ export const PRODUCTS: Product[] = [
           "Dnister Black"
         ],
         "price": 4299,
-        "available": false
+        "available": true
       },
       {
         "id": "40552565932165",
@@ -16612,7 +16612,7 @@ export const PRODUCTS: Product[] = [
           "Crimson"
         ],
         "price": 4299,
-        "available": false
+        "available": true
       },
       {
         "id": "40552565964933",
@@ -16622,7 +16622,7 @@ export const PRODUCTS: Product[] = [
           "Crimson"
         ],
         "price": 4299,
-        "available": false
+        "available": true
       },
       {
         "id": "40552565997701",
@@ -16632,7 +16632,7 @@ export const PRODUCTS: Product[] = [
           "Crimson"
         ],
         "price": 4299,
-        "available": false
+        "available": true
       },
       {
         "id": "40552566030469",
@@ -16642,7 +16642,7 @@ export const PRODUCTS: Product[] = [
           "Crimson"
         ],
         "price": 4299,
-        "available": false
+        "available": true
       },
       {
         "id": "40552566063237",
@@ -16652,10 +16652,10 @@ export const PRODUCTS: Product[] = [
           "Crimson"
         ],
         "price": 4299,
-        "available": false
+        "available": true
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "images": [
       "/images/p/marlinplus6us-24-41009-b-primary-d696ae.webp",
       "/images/p/marlinplus6us-24-41009-a-primary-3341ed.webp",
@@ -16720,7 +16720,7 @@ export const PRODUCTS: Product[] = [
           "RED"
         ],
         "price": 3590,
-        "available": false,
+        "available": true,
         "image": "/images/p/123218230123848-1-393235.webp"
       },
       {
@@ -16731,10 +16731,10 @@ export const PRODUCTS: Product[] = [
           "RED"
         ],
         "price": 3590,
-        "available": false
+        "available": true
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "images": [
       "/images/p/20000615-1-200165e1-d367-4a1a-b499-2a4c20888195-5a9493.webp",
       "/images/p/123218230123848-1-393235.webp",
@@ -16810,7 +16810,7 @@ export const PRODUCTS: Product[] = [
           "Yes"
         ],
         "price": 2199,
-        "available": false
+        "available": true
       },
       {
         "id": "41135952920709",
@@ -16821,7 +16821,7 @@ export const PRODUCTS: Product[] = [
           "No"
         ],
         "price": 2079,
-        "available": false
+        "available": true
       },
       {
         "id": "39437513195653",
@@ -16832,7 +16832,7 @@ export const PRODUCTS: Product[] = [
           "Yes"
         ],
         "price": 2199,
-        "available": false,
+        "available": true,
         "image": "/images/p/20101947-1-c9a839.webp"
       },
       {
@@ -16844,7 +16844,7 @@ export const PRODUCTS: Product[] = [
           "No"
         ],
         "price": 2079,
-        "available": false
+        "available": true
       },
       {
         "id": "41058314780805",
@@ -16855,7 +16855,7 @@ export const PRODUCTS: Product[] = [
           "Yes"
         ],
         "price": 2199,
-        "available": false
+        "available": true
       },
       {
         "id": "41135952986245",
@@ -16866,7 +16866,7 @@ export const PRODUCTS: Product[] = [
           "No"
         ],
         "price": 2079,
-        "available": false
+        "available": true
       },
       {
         "id": "41083622916229",
@@ -16877,7 +16877,7 @@ export const PRODUCTS: Product[] = [
           "Yes"
         ],
         "price": 2199,
-        "available": false
+        "available": true
       },
       {
         "id": "41135953019013",
@@ -16888,7 +16888,7 @@ export const PRODUCTS: Product[] = [
           "No"
         ],
         "price": 2079,
-        "available": false
+        "available": true
       },
       {
         "id": "41135953313925",
@@ -16899,7 +16899,7 @@ export const PRODUCTS: Product[] = [
           "Yes"
         ],
         "price": 2199,
-        "available": false
+        "available": true
       },
       {
         "id": "41135953346693",
@@ -16910,7 +16910,7 @@ export const PRODUCTS: Product[] = [
           "No"
         ],
         "price": 2079,
-        "available": false
+        "available": true
       },
       {
         "id": "39437513228421",
@@ -16921,7 +16921,7 @@ export const PRODUCTS: Product[] = [
           "Yes"
         ],
         "price": 2199,
-        "available": false,
+        "available": true,
         "image": "/images/p/20102432-1-d1061788-8c37-4910-8838-aafbf50056d7-720dd9.webp"
       },
       {
@@ -16933,7 +16933,7 @@ export const PRODUCTS: Product[] = [
           "No"
         ],
         "price": 2079,
-        "available": false
+        "available": true
       },
       {
         "id": "39437513261189",
@@ -16944,7 +16944,7 @@ export const PRODUCTS: Product[] = [
           "Yes"
         ],
         "price": 2199,
-        "available": false,
+        "available": true,
         "image": "/images/p/20102869-1-831555.webp"
       },
       {
@@ -16956,7 +16956,7 @@ export const PRODUCTS: Product[] = [
           "No"
         ],
         "price": 2079,
-        "available": false
+        "available": true
       },
       {
         "id": "41058314813573",
@@ -16967,7 +16967,7 @@ export const PRODUCTS: Product[] = [
           "Yes"
         ],
         "price": 2199,
-        "available": false
+        "available": true
       },
       {
         "id": "41135953117317",
@@ -16978,7 +16978,7 @@ export const PRODUCTS: Product[] = [
           "No"
         ],
         "price": 2079,
-        "available": false
+        "available": true
       },
       {
         "id": "41083622883461",
@@ -16989,7 +16989,7 @@ export const PRODUCTS: Product[] = [
           "Yes"
         ],
         "price": 2199,
-        "available": false
+        "available": true
       },
       {
         "id": "41135953150085",
@@ -17000,7 +17000,7 @@ export const PRODUCTS: Product[] = [
           "No"
         ],
         "price": 2079,
-        "available": false
+        "available": true
       },
       {
         "id": "41135953379461",
@@ -17011,7 +17011,7 @@ export const PRODUCTS: Product[] = [
           "Yes"
         ],
         "price": 2199,
-        "available": false
+        "available": true
       },
       {
         "id": "41135953412229",
@@ -17022,7 +17022,7 @@ export const PRODUCTS: Product[] = [
           "No"
         ],
         "price": 2079,
-        "available": false
+        "available": true
       },
       {
         "id": "40233799647365",
@@ -17033,7 +17033,7 @@ export const PRODUCTS: Product[] = [
           "Yes"
         ],
         "price": 2199,
-        "available": false
+        "available": true
       },
       {
         "id": "41135953182853",
@@ -17044,7 +17044,7 @@ export const PRODUCTS: Product[] = [
           "No"
         ],
         "price": 2079,
-        "available": false
+        "available": true
       },
       {
         "id": "41135953215621",
@@ -17055,7 +17055,7 @@ export const PRODUCTS: Product[] = [
           "No"
         ],
         "price": 2079,
-        "available": false
+        "available": true
       },
       {
         "id": "41058314846341",
@@ -17066,7 +17066,7 @@ export const PRODUCTS: Product[] = [
           "Yes"
         ],
         "price": 2199,
-        "available": false
+        "available": true
       },
       {
         "id": "41135953248389",
@@ -17077,7 +17077,7 @@ export const PRODUCTS: Product[] = [
           "No"
         ],
         "price": 2079,
-        "available": false
+        "available": true
       },
       {
         "id": "41083622850693",
@@ -17088,7 +17088,7 @@ export const PRODUCTS: Product[] = [
           "Yes"
         ],
         "price": 2199,
-        "available": false
+        "available": true
       },
       {
         "id": "41135953281157",
@@ -17099,7 +17099,7 @@ export const PRODUCTS: Product[] = [
           "No"
         ],
         "price": 2079,
-        "available": false
+        "available": true
       },
       {
         "id": "41135953444997",
@@ -17110,7 +17110,7 @@ export const PRODUCTS: Product[] = [
           "Yes"
         ],
         "price": 2199,
-        "available": false
+        "available": true
       },
       {
         "id": "41135953477765",
@@ -17121,10 +17121,10 @@ export const PRODUCTS: Product[] = [
           "No"
         ],
         "price": 2079,
-        "available": false
+        "available": true
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "images": [
       "/images/p/20102432-1-5745152d-85fc-4814-ab49-c59d88bee1b1-0bd387.webp",
       "/images/p/20102432-1-d1061788-8c37-4910-8838-aafbf50056d7-720dd9.webp",
@@ -17200,7 +17200,7 @@ export const PRODUCTS: Product[] = [
           "Yes"
         ],
         "price": 1499,
-        "available": false
+        "available": true
       },
       {
         "id": "41135953969285",
@@ -17211,7 +17211,7 @@ export const PRODUCTS: Product[] = [
           "No"
         ],
         "price": 1429,
-        "available": false
+        "available": true
       },
       {
         "id": "40915415367813",
@@ -17222,7 +17222,7 @@ export const PRODUCTS: Product[] = [
           "Yes"
         ],
         "price": 1499,
-        "available": false
+        "available": true
       },
       {
         "id": "41135954002053",
@@ -17233,7 +17233,7 @@ export const PRODUCTS: Product[] = [
           "No"
         ],
         "price": 1429,
-        "available": false
+        "available": true
       },
       {
         "id": "40915415302277",
@@ -17244,7 +17244,7 @@ export const PRODUCTS: Product[] = [
           "Yes"
         ],
         "price": 1499,
-        "available": false
+        "available": true
       },
       {
         "id": "41135954034821",
@@ -17255,7 +17255,7 @@ export const PRODUCTS: Product[] = [
           "No"
         ],
         "price": 1429,
-        "available": false
+        "available": true
       },
       {
         "id": "40915415335045",
@@ -17266,7 +17266,7 @@ export const PRODUCTS: Product[] = [
           "Yes"
         ],
         "price": 1499,
-        "available": false
+        "available": true
       },
       {
         "id": "41135954067589",
@@ -17277,7 +17277,7 @@ export const PRODUCTS: Product[] = [
           "No"
         ],
         "price": 1429,
-        "available": false
+        "available": true
       },
       {
         "id": "40915415400581",
@@ -17289,7 +17289,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1299,
         "compareAtPrice": 1499,
-        "available": false
+        "available": true
       },
       {
         "id": "41135954100357",
@@ -17301,7 +17301,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1299,
         "compareAtPrice": 1429,
-        "available": false
+        "available": true
       },
       {
         "id": "40915415433349",
@@ -17313,7 +17313,7 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1299,
         "compareAtPrice": 1499,
-        "available": false
+        "available": true
       },
       {
         "id": "41135954133125",
@@ -17325,10 +17325,10 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1299,
         "compareAtPrice": 1429,
-        "available": false
+        "available": true
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "images": [
       "/images/p/ncmebikeprague-74a994.webp",
       "/images/p/ncm-prague-white-electric-bike-adelaide-56dcdd.webp"
@@ -17382,7 +17382,7 @@ export const PRODUCTS: Product[] = [
           "S"
         ],
         "price": 7499,
-        "available": false
+        "available": true
       },
       {
         "id": "41230924906629",
@@ -17391,7 +17391,7 @@ export const PRODUCTS: Product[] = [
           "M"
         ],
         "price": 7499,
-        "available": false
+        "available": true
       },
       {
         "id": "41230924939397",
@@ -17400,7 +17400,7 @@ export const PRODUCTS: Product[] = [
           "L"
         ],
         "price": 7499,
-        "available": false
+        "available": true
       },
       {
         "id": "41230924972165",
@@ -17409,10 +17409,10 @@ export const PRODUCTS: Product[] = [
           "XL"
         ],
         "price": 7499,
-        "available": false
+        "available": true
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/p/focus-aventura2-ebike-commuting-electric-bike-22222d.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
@@ -17470,7 +17470,7 @@ export const PRODUCTS: Product[] = [
           "Small"
         ],
         "price": 6499,
-        "available": false
+        "available": true
       },
       {
         "id": "40839057571973",
@@ -17479,7 +17479,7 @@ export const PRODUCTS: Product[] = [
           "Medium"
         ],
         "price": 6499,
-        "available": false
+        "available": true
       },
       {
         "id": "40839057604741",
@@ -17488,7 +17488,7 @@ export const PRODUCTS: Product[] = [
           "Large"
         ],
         "price": 6499,
-        "available": false
+        "available": true
       },
       {
         "id": "40839057637509",
@@ -17497,10 +17497,10 @@ export const PRODUCTS: Product[] = [
           "XLarge"
         ],
         "price": 6499,
-        "available": false
+        "available": true
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/p/aventura2-6-8-70ff66.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
@@ -17566,7 +17566,7 @@ export const PRODUCTS: Product[] = [
           "Diamondblack"
         ],
         "price": 5499,
-        "available": false
+        "available": true
       },
       {
         "id": "40839023919237",
@@ -17576,7 +17576,7 @@ export const PRODUCTS: Product[] = [
           "Bluegreen"
         ],
         "price": 5499,
-        "available": false
+        "available": true
       },
       {
         "id": "40839023952005",
@@ -17586,7 +17586,7 @@ export const PRODUCTS: Product[] = [
           "Diamondblack"
         ],
         "price": 5499,
-        "available": false
+        "available": true
       },
       {
         "id": "40839023984773",
@@ -17596,7 +17596,7 @@ export const PRODUCTS: Product[] = [
           "Bluegreen"
         ],
         "price": 5499,
-        "available": false
+        "available": true
       },
       {
         "id": "40839024017541",
@@ -17606,7 +17606,7 @@ export const PRODUCTS: Product[] = [
           "Diamondblack"
         ],
         "price": 5499,
-        "available": false
+        "available": true
       },
       {
         "id": "40839024050309",
@@ -17616,7 +17616,7 @@ export const PRODUCTS: Product[] = [
           "Bluegreen"
         ],
         "price": 5499,
-        "available": false
+        "available": true
       },
       {
         "id": "40839024083077",
@@ -17626,7 +17626,7 @@ export const PRODUCTS: Product[] = [
           "Diamondblack"
         ],
         "price": 5499,
-        "available": false
+        "available": true
       },
       {
         "id": "40839024115845",
@@ -17636,10 +17636,10 @@ export const PRODUCTS: Product[] = [
           "Bluegreen"
         ],
         "price": 5499,
-        "available": false
+        "available": true
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "images": [
       "/images/p/aventura-6-7-green-c07b45.webp",
       "/images/p/aventura-6-7-grey-d52ef2.webp"
@@ -17691,7 +17691,7 @@ export const PRODUCTS: Product[] = [
           "Small"
         ],
         "price": 5099,
-        "available": false
+        "available": true
       },
       {
         "id": "41670048317573",
@@ -17700,7 +17700,7 @@ export const PRODUCTS: Product[] = [
           "Medium"
         ],
         "price": 5099,
-        "available": false
+        "available": true
       },
       {
         "id": "41670048350341",
@@ -17709,10 +17709,10 @@ export const PRODUCTS: Product[] = [
           "Large"
         ],
         "price": 5099,
-        "available": false
+        "available": true
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/p/cannondale-eq-ebike-7c8eec.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
@@ -17767,7 +17767,7 @@ export const PRODUCTS: Product[] = [
           "Green"
         ],
         "price": 4999,
-        "available": false
+        "available": true
       },
       {
         "id": "40931664199813",
@@ -17776,7 +17776,7 @@ export const PRODUCTS: Product[] = [
           "Grey"
         ],
         "price": 4999,
-        "available": false
+        "available": true
       },
       {
         "id": "41233822646405",
@@ -17785,10 +17785,10 @@ export const PRODUCTS: Product[] = [
           "Red"
         ],
         "price": 4999,
-        "available": false
+        "available": true
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/p/kalkhoff-c-b-green-491bbf.webp",
     "attributes": {
       "frame": "Step-Through",
@@ -17825,7 +17825,7 @@ export const PRODUCTS: Product[] = [
       "Motor System": "Bosch",
       "SKU": "1000000001665"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/p/bianchi-e-omnia-t-type-nex-5-625-wh-bb73da.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
@@ -17890,7 +17890,7 @@ export const PRODUCTS: Product[] = [
           "BLACK"
         ],
         "price": 4699,
-        "available": false,
+        "available": true,
         "image": "/images/p/orbeaoptimablacke50-933175.webp"
       },
       {
@@ -17901,7 +17901,7 @@ export const PRODUCTS: Product[] = [
           "BLUE"
         ],
         "price": 4699,
-        "available": false,
+        "available": true,
         "image": "/images/p/orbeaoptimabluee50-ad9851.webp"
       },
       {
@@ -17912,7 +17912,7 @@ export const PRODUCTS: Product[] = [
           "DARK RED"
         ],
         "price": 4699,
-        "available": false,
+        "available": true,
         "image": "/images/p/orbeaoptimarede50-cc78e9.webp"
       },
       {
@@ -17923,7 +17923,7 @@ export const PRODUCTS: Product[] = [
           "BLACK"
         ],
         "price": 4699,
-        "available": false,
+        "available": true,
         "image": "/images/p/orbeaoptimablacke50-933175.webp"
       },
       {
@@ -17934,7 +17934,7 @@ export const PRODUCTS: Product[] = [
           "BLUE"
         ],
         "price": 4699,
-        "available": false,
+        "available": true,
         "image": "/images/p/orbeaoptimabluee50-ad9851.webp"
       },
       {
@@ -17945,7 +17945,7 @@ export const PRODUCTS: Product[] = [
           "DARK RED"
         ],
         "price": 4699,
-        "available": false,
+        "available": true,
         "image": "/images/p/orbeaoptimarede50-cc78e9.webp"
       },
       {
@@ -17956,7 +17956,7 @@ export const PRODUCTS: Product[] = [
           "BLACK"
         ],
         "price": 4699,
-        "available": false,
+        "available": true,
         "image": "/images/p/orbeaoptimablacke50-933175.webp"
       },
       {
@@ -17967,7 +17967,7 @@ export const PRODUCTS: Product[] = [
           "BLUE"
         ],
         "price": 4699,
-        "available": false,
+        "available": true,
         "image": "/images/p/orbeaoptimabluee50-ad9851.webp"
       },
       {
@@ -17978,11 +17978,11 @@ export const PRODUCTS: Product[] = [
           "DARK RED"
         ],
         "price": 4699,
-        "available": false,
+        "available": true,
         "image": "/images/p/orbeaoptimarede50-cc78e9.webp"
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "images": [
       "/images/p/orbeaoptimablacke50-933175.webp",
       "/images/p/orbeaoptimabluee50-ad9851.webp",
@@ -18017,7 +18017,7 @@ export const PRODUCTS: Product[] = [
       "Colour": "BLACK",
       "SKU": "0000020199555"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/products/michael-blast-greaser-springer-250w.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
@@ -18077,7 +18077,7 @@ export const PRODUCTS: Product[] = [
           "BLUE"
         ],
         "price": 4199,
-        "available": false
+        "available": true
       },
       {
         "id": "40057913344133",
@@ -18087,10 +18087,10 @@ export const PRODUCTS: Product[] = [
           "BLUE"
         ],
         "price": 4199,
-        "available": false
+        "available": true
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "images": [
       "/images/p/verveplusmensus-20-28299-b-primary-b8fb9453-2a1c-42f5-b199-b-7962f6.webp",
       "/images/p/verveplusmensus-20-28299-b-primary-a1caec.webp"
@@ -18145,7 +18145,7 @@ export const PRODUCTS: Product[] = [
           "16"
         ],
         "price": 2999,
-        "available": false
+        "available": true
       },
       {
         "id": "41668463755397",
@@ -18154,7 +18154,7 @@ export const PRODUCTS: Product[] = [
           "18"
         ],
         "price": 2999,
-        "available": false
+        "available": true
       },
       {
         "id": "41668463788165",
@@ -18163,7 +18163,7 @@ export const PRODUCTS: Product[] = [
           "20"
         ],
         "price": 2999,
-        "available": false
+        "available": true
       },
       {
         "id": "41825938276485",
@@ -18172,10 +18172,10 @@ export const PRODUCTS: Product[] = [
           "17"
         ],
         "price": 2999,
-        "available": false
+        "available": true
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/p/xds-advance-600-step-over-commuting-ebike-2dd921.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
@@ -18233,7 +18233,7 @@ export const PRODUCTS: Product[] = [
           "Teal"
         ],
         "price": 2999,
-        "available": false
+        "available": true
       },
       {
         "id": "41668463591557",
@@ -18243,7 +18243,7 @@ export const PRODUCTS: Product[] = [
           "Forest Green"
         ],
         "price": 2999,
-        "available": false
+        "available": true
       },
       {
         "id": "41668463624325",
@@ -18253,7 +18253,7 @@ export const PRODUCTS: Product[] = [
           "Teal"
         ],
         "price": 2999,
-        "available": false
+        "available": true
       },
       {
         "id": "41668463657093",
@@ -18263,10 +18263,10 @@ export const PRODUCTS: Product[] = [
           "Forest Green"
         ],
         "price": 2999,
-        "available": false
+        "available": true
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/p/xds-advance-600-step-through-86b06a.webp",
     "attributes": {
       "frame": "Step-Through",
@@ -18315,7 +18315,7 @@ export const PRODUCTS: Product[] = [
           "15inch"
         ],
         "price": 2999,
-        "available": false
+        "available": true
       },
       {
         "id": "41230976057477",
@@ -18324,10 +18324,10 @@ export const PRODUCTS: Product[] = [
           "17inch"
         ],
         "price": 2999,
-        "available": false
+        "available": true
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/p/xds-e-street-step-through-ebike-19fa74.webp",
     "attributes": {
       "frame": "Step-Through",
@@ -18386,7 +18386,7 @@ export const PRODUCTS: Product[] = [
           "CITRON"
         ],
         "price": 2399,
-        "available": false,
+        "available": true,
         "image": "/images/p/20190057-1-8dbdc1fc-6705-48b9-a9fc-392cea3a0ac2-dc6ac9.webp"
       },
       {
@@ -18397,7 +18397,7 @@ export const PRODUCTS: Product[] = [
           "LUNAR GREY"
         ],
         "price": 2399,
-        "available": false,
+        "available": true,
         "image": "/images/p/20190002-1-6f0dc8.webp"
       },
       {
@@ -18408,7 +18408,7 @@ export const PRODUCTS: Product[] = [
           "TAHITI BLUE"
         ],
         "price": 2399,
-        "available": false,
+        "available": true,
         "image": "/images/p/20190019-1-76329e.webp"
       },
       {
@@ -18419,7 +18419,7 @@ export const PRODUCTS: Product[] = [
           "MANGO"
         ],
         "price": 2399,
-        "available": false,
+        "available": true,
         "image": "/images/p/20190712-1-d99f51.webp"
       },
       {
@@ -18430,11 +18430,11 @@ export const PRODUCTS: Product[] = [
           "GUAVA"
         ],
         "price": 2399,
-        "available": false,
+        "available": true,
         "image": "/images/p/20190729-1-62ef5b.webp"
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "images": [
       "/images/p/20190019-1-412ae696-24b8-459c-b40e-2e8fdb24cf09-1145be.webp",
       "/images/p/20190729-1-62ef5b.webp",
@@ -18498,7 +18498,7 @@ export const PRODUCTS: Product[] = [
           "15\""
         ],
         "price": 2999,
-        "available": false
+        "available": true
       },
       {
         "id": "41668468801669",
@@ -18508,10 +18508,10 @@ export const PRODUCTS: Product[] = [
         ],
         "price": 1999,
         "compareAtPrice": 2999,
-        "available": false
+        "available": true
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/p/xds-espresso-s2-fc189f.webp",
     "attributes": {
       "frame": "Step-Through",
@@ -18542,7 +18542,7 @@ export const PRODUCTS: Product[] = [
       "Motor System": "Shimano",
       "SKU": "1000000002547"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/p/ebikevoke-m-01-830x830-c16e6d13-7580-4849-856d-a4c7ef07c054-696b4b.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
@@ -18568,7 +18568,7 @@ export const PRODUCTS: Product[] = [
       "Motor System": "Shimano",
       "SKU": "20102968"
     },
-    "inStock": false,
+    "inStock": true,
     "images": [
       "/images/p/20102968-1-a41be687-96dd-4b7f-beb1-963f41f20357-1d1229.webp",
       "/images/p/20102968-1-f70fcb.webp"
@@ -18621,7 +18621,7 @@ export const PRODUCTS: Product[] = [
           "Black"
         ],
         "price": 1799,
-        "available": false
+        "available": true
       },
       {
         "id": "40915444990085",
@@ -18630,10 +18630,10 @@ export const PRODUCTS: Product[] = [
           "White"
         ],
         "price": 1799,
-        "available": false
+        "available": true
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/p/t3s-ncm-ebike-768813.webp",
     "attributes": {
       "frame": "Step-Through",
@@ -18693,7 +18693,7 @@ export const PRODUCTS: Product[] = [
           "WHITE"
         ],
         "price": 1499,
-        "available": false,
+        "available": true,
         "image": "/images/p/20103637-1-822b4c02-bbcc-4c7e-865e-e57a89674de3-b874ed.webp"
       },
       {
@@ -18704,11 +18704,11 @@ export const PRODUCTS: Product[] = [
           "WHITE"
         ],
         "price": 1499,
-        "available": false,
+        "available": true,
         "image": "/images/p/20103804-1-d6c95d.webp"
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "images": [
       "/images/p/20103637-1-a5ad7e7e-c207-4102-ae29-92c411728a43-8a0db6.webp",
       "/images/p/20103637-1-822b4c02-bbcc-4c7e-865e-e57a89674de3-b874ed.webp",
@@ -18761,7 +18761,7 @@ export const PRODUCTS: Product[] = [
           "Small"
         ],
         "price": 5949,
-        "available": false
+        "available": true
       },
       {
         "id": "41424226025605",
@@ -18770,7 +18770,7 @@ export const PRODUCTS: Product[] = [
           "Medium"
         ],
         "price": 5949,
-        "available": false
+        "available": true
       },
       {
         "id": "41424226058373",
@@ -18779,7 +18779,7 @@ export const PRODUCTS: Product[] = [
           "Large"
         ],
         "price": 5949,
-        "available": false
+        "available": true
       },
       {
         "id": "41424226091141",
@@ -18788,10 +18788,10 @@ export const PRODUCTS: Product[] = [
           "Extra Large"
         ],
         "price": 5949,
-        "available": false
+        "available": true
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/p/yrbm6ixlig-5-gravel-1ac5e4.webp",
     "attributes": {
       "frame": "Diamond / High-Step",
@@ -18821,7 +18821,7 @@ export const PRODUCTS: Product[] = [
       "Motor System": "Shimano",
       "SKU": "1000000003499"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/p/carbo-light-weight-ebike-2dd15e.webp",
     "attributes": {
       "frame": "Folding",
@@ -18879,7 +18879,7 @@ export const PRODUCTS: Product[] = [
           "RED"
         ],
         "price": 2249,
-        "available": false,
+        "available": true,
         "image": "/images/p/20187200-1-661350.webp"
       },
       {
@@ -18890,11 +18890,11 @@ export const PRODUCTS: Product[] = [
           "SILVER"
         ],
         "price": 2249,
-        "available": false,
+        "available": true,
         "image": "/images/p/20187217-1-dc3a10.webp"
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "images": [
       "/images/p/20187217-1-dc3a10.webp",
       "/images/p/20187200-1-661350.webp"
@@ -18952,7 +18952,7 @@ export const PRODUCTS: Product[] = [
           "BLACK"
         ],
         "price": 2199,
-        "available": false,
+        "available": true,
         "image": "/images/p/9003180000-1c34c4.webp"
       },
       {
@@ -18963,11 +18963,11 @@ export const PRODUCTS: Product[] = [
           "WHITE"
         ],
         "price": 2199,
-        "available": false,
+        "available": true,
         "image": "/images/p/londonplus-650796fb-7e5b-4768-82c5-ddad288e9c36-a41ed3.webp"
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "images": [
       "/images/p/londonplus-650796fb-7e5b-4768-82c5-ddad288e9c36-a41ed3.webp",
       "/images/p/9003180000-1c34c4.webp"
@@ -19041,7 +19041,7 @@ export const PRODUCTS: Product[] = [
           "Suspension"
         ],
         "price": 3320,
-        "available": false
+        "available": true
       },
       {
         "id": "41479162298501",
@@ -19052,7 +19052,7 @@ export const PRODUCTS: Product[] = [
           "Rigid Fork"
         ],
         "price": 3000,
-        "available": false
+        "available": true
       },
       {
         "id": "41479162331269",
@@ -19063,7 +19063,7 @@ export const PRODUCTS: Product[] = [
           "Suspension"
         ],
         "price": 3320,
-        "available": false
+        "available": true
       },
       {
         "id": "41479162364037",
@@ -19074,7 +19074,7 @@ export const PRODUCTS: Product[] = [
           "Rigid Fork"
         ],
         "price": 3000,
-        "available": false
+        "available": true
       },
       {
         "id": "41479162396805",
@@ -19085,7 +19085,7 @@ export const PRODUCTS: Product[] = [
           "Suspension"
         ],
         "price": 3320,
-        "available": false
+        "available": true
       },
       {
         "id": "41479162429573",
@@ -19096,7 +19096,7 @@ export const PRODUCTS: Product[] = [
           "Rigid Fork"
         ],
         "price": 3000,
-        "available": false
+        "available": true
       },
       {
         "id": "41479162462341",
@@ -19107,7 +19107,7 @@ export const PRODUCTS: Product[] = [
           "Suspension"
         ],
         "price": 3320,
-        "available": false
+        "available": true
       },
       {
         "id": "41479162495109",
@@ -19118,7 +19118,7 @@ export const PRODUCTS: Product[] = [
           "Rigid Fork"
         ],
         "price": 3000,
-        "available": false
+        "available": true
       },
       {
         "id": "41479162527877",
@@ -19129,7 +19129,7 @@ export const PRODUCTS: Product[] = [
           "Suspension"
         ],
         "price": 3320,
-        "available": false
+        "available": true
       },
       {
         "id": "41479162560645",
@@ -19140,7 +19140,7 @@ export const PRODUCTS: Product[] = [
           "Rigid Fork"
         ],
         "price": 3000,
-        "available": false
+        "available": true
       },
       {
         "id": "41479162593413",
@@ -19151,7 +19151,7 @@ export const PRODUCTS: Product[] = [
           "Suspension"
         ],
         "price": 3320,
-        "available": false
+        "available": true
       },
       {
         "id": "41479162626181",
@@ -19162,7 +19162,7 @@ export const PRODUCTS: Product[] = [
           "Rigid Fork"
         ],
         "price": 3000,
-        "available": false
+        "available": true
       },
       {
         "id": "41479162658949",
@@ -19173,7 +19173,7 @@ export const PRODUCTS: Product[] = [
           "Suspension"
         ],
         "price": 3320,
-        "available": false
+        "available": true
       },
       {
         "id": "41479162691717",
@@ -19184,7 +19184,7 @@ export const PRODUCTS: Product[] = [
           "Rigid Fork"
         ],
         "price": 3000,
-        "available": false
+        "available": true
       },
       {
         "id": "41479162724485",
@@ -19195,7 +19195,7 @@ export const PRODUCTS: Product[] = [
           "Suspension"
         ],
         "price": 3320,
-        "available": false
+        "available": true
       },
       {
         "id": "41479162757253",
@@ -19206,10 +19206,10 @@ export const PRODUCTS: Product[] = [
           "Rigid Fork"
         ],
         "price": 3000,
-        "available": false
+        "available": true
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/p/7257462716571-dirodi-rover-standard-plus-gen-6-black-standar-2ca7c8.webp",
     "attributes": {
       "frame": "Cargo",
@@ -19243,7 +19243,7 @@ export const PRODUCTS: Product[] = [
       "Motor System": "Shimano",
       "SKU": "1000000005641"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/p/17-giacarlo-red-f18cc5.webp",
     "attributes": {
       "frame": "Cargo",
@@ -19275,7 +19275,7 @@ export const PRODUCTS: Product[] = [
       "Motor System": "Bosch",
       "SKU": "1000000001248"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/p/scoobo-plus-seitlich-d770ee.webp",
     "attributes": {
       "frame": "Trike",
@@ -19333,7 +19333,7 @@ export const PRODUCTS: Product[] = [
           "Blue"
         ],
         "price": 3999,
-        "available": false
+        "available": true
       },
       {
         "id": "41505392754821",
@@ -19342,7 +19342,7 @@ export const PRODUCTS: Product[] = [
           "Green"
         ],
         "price": 3999,
-        "available": false
+        "available": true
       },
       {
         "id": "41505392787589",
@@ -19351,10 +19351,10 @@ export const PRODUCTS: Product[] = [
           "Black"
         ],
         "price": 3999,
-        "available": false
+        "available": true
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/p/20250218-044412099-ios-removebg-preview-9eb112.webp",
     "attributes": {
       "frame": "Trike",
@@ -19384,7 +19384,7 @@ export const PRODUCTS: Product[] = [
       "Brand": "Tebco",
       "SKU": "1000000002488"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/p/2024-06-14-pioneer-43949a.webp",
     "attributes": {
       "frame": "Trike",
@@ -19407,7 +19407,7 @@ export const PRODUCTS: Product[] = [
       "Brand": "StaCyc",
       "SKU": "20103712"
     },
-    "inStock": false,
+    "inStock": true,
     "images": [
       "/images/p/20103712-1-70cbe211-58c9-4a60-8afd-9b6d372ecfbb-941d94.webp",
       "/images/p/20103712-1-12f4b6.webp"
@@ -19434,7 +19434,7 @@ export const PRODUCTS: Product[] = [
       "Brand": "StaCyc",
       "SKU": "20103705"
     },
-    "inStock": false,
+    "inStock": true,
     "images": [
       "/images/p/20103705-1-6f491b54-ee4d-477e-a67c-9a810ccd1974-56b22a.webp",
       "/images/p/20103705-1-864535.webp",
@@ -19462,7 +19462,7 @@ export const PRODUCTS: Product[] = [
       "Brand": "Stealth",
       "SKU": "20189907"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/p/stealth-fluro-b52-3e90f7.webp",
     "attributes": {
       "frame": "Scooter / Motorbike",
@@ -19491,7 +19491,7 @@ export const PRODUCTS: Product[] = [
       "Brand": "EziGrip",
       "SKU": "1000000002161"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/products/ezi-grip-electric-e-rack-2-pro-hitch-mount.webp",
     "images": [
       "/images/products/ezi-grip-electric-e-rack-2-pro-hitch-mount.webp",
@@ -19515,7 +19515,7 @@ export const PRODUCTS: Product[] = [
       "Brand": "EziGrip",
       "SKU": "1000000002160"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/p/ezigrip-rack-c26a76.webp",
     "images": [
       "/images/p/ezigrip-rack-c26a76.webp",
@@ -19540,7 +19540,7 @@ export const PRODUCTS: Product[] = [
       "Brand": "EziGrip",
       "SKU": "EGER2PTB"
     },
-    "inStock": false,
+    "inStock": true,
     "images": [
       "/images/p/ezigripebikeelectricbikeracke-rack-2-4c8912.webp",
       "/images/p/20101695-2-f000a1.webp",
@@ -19568,7 +19568,7 @@ export const PRODUCTS: Product[] = [
       "Model": "W5255878",
       "Availability": "In-store only"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/products/hyena-gen-2-in-tube-250wh-battery.webp",
     "images": [
       "/images/products/hyena-gen-2-in-tube-250wh-battery.webp",
@@ -19592,7 +19592,7 @@ export const PRODUCTS: Product[] = [
       "Firmness": "Medium",
       "SKU": "4251239307491"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/products/suspesion-seatpost-by-schulz-g-2-st-parallelogram-suspension-black.webp",
     "images": [
       "/images/products/suspesion-seatpost-by-schulz-g-2-st-parallelogram-suspension-black.webp",
@@ -19616,7 +19616,7 @@ export const PRODUCTS: Product[] = [
       "Brand": "Bontrager",
       "SKU": "601842302163"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/products/bontrager-rally-wavecel-mountain-bike-helmet.webp",
     "images": [
       "/images/products/bontrager-rally-wavecel-mountain-bike-helmet.webp",
@@ -19640,7 +19640,7 @@ export const PRODUCTS: Product[] = [
       "Brand": "Bafang",
       "SKU": "20104092"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/products/bafang-c18-display.webp"
   },
   {
@@ -19657,7 +19657,7 @@ export const PRODUCTS: Product[] = [
       "Brand": "Hyena",
       "SKU": "601842830949"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/products/hyena-charger.webp",
     "images": [
       "/images/products/hyena-charger.webp",
@@ -19678,7 +19678,7 @@ export const PRODUCTS: Product[] = [
       "Brand": "Trek",
       "SKU": "601842703267"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/products/trek-commuter-comp-r-flare-r-city-bike-light-set.webp",
     "images": [
       "/images/products/trek-commuter-comp-r-flare-r-city-bike-light-set.webp",
@@ -19702,7 +19702,7 @@ export const PRODUCTS: Product[] = [
       "Brand": "Trek",
       "SKU": "768682607107"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/products/electra-rack-rear-mik-silver.webp",
     "images": [
       "/images/products/electra-rack-rear-mik-silver.webp",
@@ -19724,7 +19724,7 @@ export const PRODUCTS: Product[] = [
       "Brand": "Trek",
       "SKU": "768682606742"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/products/electra-rack-rear-mik.webp",
     "images": [
       "/images/products/electra-rack-rear-mik.webp",
@@ -19748,7 +19748,7 @@ export const PRODUCTS: Product[] = [
       "COLOUR": "WHITE",
       "SKU": "601842192672"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/products/bontrager-solstice-mips-bike-helmet.webp",
     "images": [
       "/images/products/bontrager-solstice-mips-bike-helmet.webp",
@@ -19793,7 +19793,7 @@ export const PRODUCTS: Product[] = [
           "Small"
         ],
         "price": 110,
-        "available": false
+        "available": true
       },
       {
         "id": "40994921250949",
@@ -19802,7 +19802,7 @@ export const PRODUCTS: Product[] = [
           "Medium"
         ],
         "price": 110,
-        "available": false
+        "available": true
       },
       {
         "id": "40994921283717",
@@ -19811,10 +19811,10 @@ export const PRODUCTS: Product[] = [
           "Large"
         ],
         "price": 110,
-        "available": false
+        "available": true
       }
     ],
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/products/ergons-gp5-grips.webp",
     "images": [
       "/images/products/ergons-gp5-grips.webp",
@@ -19835,7 +19835,7 @@ export const PRODUCTS: Product[] = [
       "Brand": "Topeak",
       "SKU": "4710069684368"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/products/topeak-uni-super-tourist-dx-disc.webp",
     "images": [
       "/images/products/topeak-uni-super-tourist-dx-disc.webp",
@@ -19858,7 +19858,7 @@ export const PRODUCTS: Product[] = [
       "Brand": "Knog",
       "SKU": "9328389031103"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/products/knog-blinder-link-saddle-100-lumen.webp",
     "images": [
       "/images/products/knog-blinder-link-saddle-100-lumen.webp",
@@ -19882,7 +19882,7 @@ export const PRODUCTS: Product[] = [
       "Brand": "Knog",
       "SKU": "932838903762"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/products/knog-blinder-link-rear-rack-100-lumen.webp",
     "images": [
       "/images/products/knog-blinder-link-rear-rack-100-lumen.webp",
@@ -19906,7 +19906,7 @@ export const PRODUCTS: Product[] = [
       "Brand": "Topeak",
       "SKU": "883466011281"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/products/topeak-uni-super-tourist-disc.webp"
   },
   {
@@ -19923,7 +19923,7 @@ export const PRODUCTS: Product[] = [
       "Brand": "Bontrager",
       "SKU": "601479512256"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/products/bontrager-ion-100-r-flare-r-city-bike-light-set.webp",
     "images": [
       "/images/products/bontrager-ion-100-r-flare-r-city-bike-light-set.webp",
@@ -19956,7 +19956,7 @@ export const PRODUCTS: Product[] = [
       "Cable": "4' (120 cm) flex cable",
       "Model": "584967"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/products/kryptonite-new-u-keeper-standard-u-lock-4ft-flex-cable.webp",
     "images": [
       "/images/products/kryptonite-new-u-keeper-standard-u-lock-4ft-flex-cable.webp",
@@ -19986,7 +19986,7 @@ export const PRODUCTS: Product[] = [
       "Waterproofing": "IPX7",
       "Model": "5298300"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/products/trek-flare-rt-rear-bike-light.webp",
     "images": [
       "/images/products/trek-flare-rt-rear-bike-light.webp",
@@ -20010,7 +20010,7 @@ export const PRODUCTS: Product[] = [
       "Brand": "EziGrip",
       "SKU": "7PERAMP"
     },
-    "inStock": false,
+    "inStock": true,
     "images": [
       "/images/p/ezigripramplifestyle-65bb2f.webp",
       "/images/p/ezigriprampclose-c2f1b9.webp",
@@ -20032,7 +20032,7 @@ export const PRODUCTS: Product[] = [
       "Brand": "Infini",
       "SKU": "4712123268194"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/products/infini-safety-front-rear-light-usb.webp",
     "images": [
       "/images/products/infini-safety-front-rear-light-usb.webp",
@@ -20055,7 +20055,7 @@ export const PRODUCTS: Product[] = [
       "Brand": "Infini",
       "SKU": "4712123269542"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/products/infini-light-mini-luxo.webp",
     "images": [
       "/images/products/infini-light-mini-luxo.webp",
@@ -20077,7 +20077,7 @@ export const PRODUCTS: Product[] = [
       "Brand": "BBB",
       "SKU": "8716683109344"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/products/bbb-brake-pads-magura-compatible-36e.webp"
   },
   {
@@ -20094,7 +20094,7 @@ export const PRODUCTS: Product[] = [
       "Brand": "BBB",
       "SKU": "8716683089455"
     },
-    "inStock": false,
+    "inStock": true,
     "imageUrl": "/images/products/bmp-54-minipump-windwave.webp"
   }
 ];
