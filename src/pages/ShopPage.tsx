@@ -1,6 +1,8 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { useSearchParams, useParams, useNavigate } from 'react-router-dom';
 import { PRODUCTS, CATEGORIES_WITH_SUBCATEGORIES } from '../data/products';
+import { loadDetails } from '../data/catalogue';
+import type { ProductDetail } from '../data/products-detail';
 import { ProductCard } from '../components/ProductCard';
 import { Pagination } from '../components/Pagination';
 import { Search, SlidersHorizontal } from 'lucide-react';
@@ -65,6 +67,10 @@ export const ShopPage: React.FC = () => {
     };
   }, [searchParams, slug]);
 
+  // Product descriptions are only needed to search the shop, so they load when a search is typed.
+  const [searchDetails, setSearchDetails] = useState<Record<string, ProductDetail> | null>(null);
+  useEffect(() => { if (view.query && !searchDetails) loadDetails().then(setSearchDetails); }, [view.query]);
+
   const [searchText, setSearchText] = useState(view.query);
   useEffect(() => setSearchText(view.query), [view.query]);
 
@@ -109,7 +115,7 @@ export const ShopPage: React.FC = () => {
       if (collection?.subcategory && p.subcategory !== collection.subcategory) return false;
       if (view.subcat !== 'All' && p.subcategory !== view.subcat) return false;
       if (q) {
-        const hay = [p.name, p.brand, p.description, p.subcategory, p.category, p.details?.['Motor System']].join(' ').toLowerCase();
+        const hay = [p.name, p.brand, searchDetails?.[p.id]?.description, p.subcategory, p.category, p.details?.['Motor System']].join(' ').toLowerCase();
         if (!hay.includes(q)) return false;
       }
       return matchesFacets(p, view.facets);
@@ -118,7 +124,7 @@ export const ShopPage: React.FC = () => {
       if (view.sort === 'price-desc') return b.price - a.price;
       return 0;
     });
-  }, [view, collection]);
+  }, [view, collection, searchDetails]);
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const page = Math.min(view.page, totalPages);

@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { getRouteMeta } from '../data/seo';
+import { loadDetails } from '../data/catalogue';
 
 const setMeta = (selector: string, attrs: Record<string, string>, content: string) => {
   let el = document.head.querySelector<HTMLMetaElement>(selector);
@@ -17,7 +17,24 @@ export const RouteSeo = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    const m = getRouteMeta(pathname);
+    let cancelled = false;
+    // The metadata module (blog text, FAQ copy) and, for product pages, the product details load on demand.
+    // First loads already have correct tags from the prerendered HTML.
+    (async () => {
+      const [{ getRouteMeta }, details] = await Promise.all([
+        import('../data/seo-meta'),
+        pathname.startsWith('/product/') ? loadDetails() : Promise.resolve(undefined),
+      ]);
+      if (!cancelled) apply(getRouteMeta(pathname, details));
+    })();
+    return () => { cancelled = true; };
+  }, [pathname]);
+
+  return null;
+};
+
+function apply(m: ReturnType<typeof import('../data/seo-meta').getRouteMeta>) {
+  {
     document.title = m.title;
     if (m.description) {
       setMeta('meta[name="description"]', { name: 'description' }, m.description);
@@ -50,7 +67,5 @@ export const RouteSeo = () => {
       s.textContent = JSON.stringify(obj);
       document.head.appendChild(s);
     });
-  }, [pathname]);
-
-  return null;
-};
+  }
+}

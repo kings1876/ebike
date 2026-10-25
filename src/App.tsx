@@ -17,8 +17,8 @@ import { Footer } from './components/Footer';
 import { HomePage } from './pages/HomePage';
 import { ShopPage } from './pages/ShopPage';
 import { ProductDetailPage } from './pages/ProductDetailPage';
-import { BlogListPage } from './pages/BlogListPage';
-import { BlogPostPage } from './pages/BlogPostPage';
+const BlogListPage = lazy(() => import('./pages/BlogListPage').then((m) => ({ default: m.BlogListPage })));
+const BlogPostPage = lazy(() => import('./pages/BlogPostPage').then((m) => ({ default: m.BlogPostPage })));
 import { AboutPage } from './pages/AboutPage';
 import { ContactPage } from './pages/ContactPage';
 import { FAQPage } from './pages/FAQPage';
@@ -54,8 +54,8 @@ export default function App() {
               <Route path="/product/:productId" element={<ProductDetailPage />} />
 
               {/* Blog Hub & Individual Article Pages */}
-              <Route path="/blog" element={<BlogListPage />} />
-              <Route path="/blog/:slug" element={<BlogPostPage />} />
+              <Route path="/blog" element={<Suspense fallback={null}><BlogListPage /></Suspense>} />
+              <Route path="/blog/:slug" element={<Suspense fallback={null}><BlogPostPage /></Suspense>} />
 
               {/* About, Contact, FAQ & Reviews Pages */}
               <Route path="/about" element={<AboutPage />} />

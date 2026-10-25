@@ -1,8 +1,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { PRODUCTS } from '../src/data/products';
+import { PRODUCTS } from '../src/data/catalogue-source';
 import { BLOG_POSTS } from '../src/data/blogs';
-import { getRouteMeta, allIndexableRoutes } from '../src/data/seo';
+import { getRouteMeta, allIndexableRoutes } from '../src/data/seo-meta';
+import { DETAILS } from '../src/data/products-detail';
 
 const out: string[] = [];
 const log = (ok: boolean, name: string, d = '') => out.push((ok ? 'PASS ' : 'FAIL ') + name + (d ? ' :: ' + d : ''));
@@ -60,7 +61,7 @@ log(bad.length === 0, 'remote product images respond 200', `${list.length - bad.
 let schemaBad = 0, prodNoImg = 0, prodBadPrice = 0, titleDup = 0;
 const titles = new Set<string>();
 for (const r of allIndexableRoutes()) {
-  const m = getRouteMeta(r);
+  const m = getRouteMeta(r, DETAILS);
   if (titles.has(m.title)) titleDup++; titles.add(m.title);
   for (const ld of m.jsonLd ?? []) {
     try { JSON.parse(JSON.stringify(ld)); } catch { schemaBad++; }

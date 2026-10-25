@@ -5,7 +5,8 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
-import { allIndexableRoutes, getRouteMeta, plainBlock, SITE_URL } from '../src/data/seo';
+import { allIndexableRoutes, getRouteMeta, plainBlock, SITE_URL } from '../src/data/seo-meta';
+import { DETAILS } from '../src/data/products-detail';
 import { BLOG_POSTS } from '../src/data/blogs';
 
 // House rule: every blog post must be at least 1,300 words. The build fails otherwise.
@@ -28,7 +29,7 @@ function setMeta(html: string, attr: 'name' | 'property', key: string, value: st
 }
 
 function render(route: string) {
-  const m = getRouteMeta(route);
+  const m = getRouteMeta(route, DETAILS);
   let html = template.replace(/<title>[^<]*<\/title>/, `<title>${esc(m.title)}</title>`);
   if (m.description) {
     html = setMeta(html, 'name', 'description', m.description);

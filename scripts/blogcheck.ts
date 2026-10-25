@@ -1,7 +1,9 @@
 // Content QA for blog posts: word counts, links resolve, title/description lengths, one-off facts.
 import { BLOG_POSTS } from '../src/data/blogs';
 import { PRODUCTS } from '../src/data/products';
-import { plainBlock, getRouteMeta, COLLECTIONS, CATEGORY_SEO } from '../src/data/seo';
+import { plainBlock, getRouteMeta } from '../src/data/seo-meta';
+import { COLLECTIONS, CATEGORY_SEO } from '../src/data/seo';
+import { DETAILS } from '../src/data/products-detail';
 const ids = new Set(PRODUCTS.map((p: any) => p.id));
 const slugs = new Set([...COLLECTIONS.map((c) => c.slug), ...Object.values(CATEGORY_SEO).map((c) => c.slug)]);
 const posts = new Set(BLOG_POSTS.map((b) => b.slug));
@@ -9,7 +11,7 @@ const STATIC = new Set(['/shop', '/contact', '/faq', '/about', '/shipping', '/re
 let bad = 0;
 for (const b of BLOG_POSTS) {
   const words = b.content.map(plainBlock).join(' ').split(/\s+/).length;
-  const m = getRouteMeta('/blog/' + b.slug);
+  const m = getRouteMeta('/blog/' + b.slug, DETAILS);
   const links = [...b.content.join(' ').matchAll(/\]\((\/[^)]*)\)/g)].map((x) => x[1]);
   const broken = links.filter((l) => {
     if (l.startsWith('/product/')) return !ids.has(l.split('/')[2]);

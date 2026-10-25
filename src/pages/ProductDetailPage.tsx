@@ -2,6 +2,8 @@ import { categoryPath } from '../data/seo';
 import React, { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { PRODUCTS } from '../data/products';
+import { loadDetails, mergeDetail } from '../data/catalogue';
+import type { ProductDetail } from '../data/products-detail';
 import { VariantPicker } from '../components/VariantPicker';
 import { hasVariants, defaultSelection, findVariant } from '../data/variants';
 import { ProductImage } from '../components/ProductImage';
@@ -17,12 +19,20 @@ export const ProductDetailPage: React.FC = () => {
   const [quantity, setQuantity] = useState(1);
   const [activeTab, setActiveTab] = useState<'specs' | 'features' | 'shipping'>('specs');
 
-  const baseProduct = PRODUCTS.find((p) => p.id === productId);
+  // The light record renders immediately; description, features, photos and variants arrive from their own chunk.
+  const [detail, setDetail] = useState<Record<string, ProductDetail> | null>(null);
+  useEffect(() => { loadDetails().then(setDetail); }, []);
+  const lightProduct = PRODUCTS.find((p) => p.id === productId);
+  const baseProduct = lightProduct && mergeDetail(lightProduct, detail ?? undefined);
   const [selection, setSelection] = useState<string[]>(() => (baseProduct ? defaultSelection(baseProduct) : []));
   useEffect(() => {
     setSelection(baseProduct ? defaultSelection(baseProduct) : []);
     setQuantity(1);
   }, [productId]);
+  // Once the variants have loaded, open on the first purchasable one.
+  useEffect(() => {
+    if (detail && lightProduct) setSelection(defaultSelection(mergeDetail(lightProduct, detail)));
+  }, [detail, productId]);
   const [activeImage, setActiveImage] = useState<string | null>(null);
   useEffect(() => setActiveImage(null), [productId, selection.join('|')]);
   const variant = baseProduct ? findVariant(baseProduct, selection) : undefined;
@@ -157,7 +167,7 @@ export const ProductDetailPage: React.FC = () => {
           </h1>
 
           <p className="text-xs sm:text-sm text-slate-600 mt-2 mb-6 leading-relaxed">
-            {product.description}
+            {product.description || 'Loading product details…'}
           </p>
 
           {/* Price Box */}
