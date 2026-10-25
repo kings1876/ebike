@@ -1,4 +1,5 @@
 import { BlogPost } from '../types';
+import { BATCH_1 } from './blog-batch-1';
 
 /**
  * Post bodies are arrays of blocks:
@@ -7,7 +8,7 @@ import { BlogPost } from '../types';
  *   anything else           -> paragraph
  * Inline links use [text](/path) for on-site pages or [text](https://...) for external sources.
  */
-export const BLOG_POSTS: BlogPost[] = [
+const CORE_POSTS: BlogPost[] = [
   {
     id: 'best-electric-bike-australia-2026',
     title: 'Best Electric Bike in Australia 2026: Picks by Rider Type',
@@ -70,7 +71,7 @@ export const BLOG_POSTS: BlogPost[] = [
       '- Stability: [electric trikes](/shop/electric-trikes).',
       '- Budget: [cheap electric bikes](/shop/cheap-electric-bikes).',
       '## How much should you spend?',
-      'Based on our current range, entry-level e-bikes start at around $1,800, a large share of quality commuter, trail and folding bikes sit between roughly $3,000 and $7,500, and premium carbon and full-suspension models go well beyond $10,000. A higher price usually buys a stronger drive system, a larger battery, lighter materials and better components. If you ride daily or on demanding trails, the extra spend often pays back in comfort and reliability.',
+      'Based on our current range, entry-level e-bikes start at around $1,300, a large share of quality commuter, trail and folding bikes sit between roughly $3,000 and $7,500, and premium carbon and full-suspension models go well beyond $10,000. A higher price usually buys a stronger drive system, a larger battery, lighter materials and better components. If you ride daily or on demanding trails, the extra spend often pays back in comfort and reliability.',
       '## Common mistakes when buying an electric bike',
       '- Choosing on price alone and ignoring battery capacity and brakes.',
       '- Ignoring frame size. Check the size chart for your height before you order.',
@@ -137,6 +138,7 @@ export const BLOG_POSTS: BlogPost[] = [
       '**Do I have to wear a helmet?** Yes. Bicycle helmets are required for riders across Australia, including on e-bikes. Browse [ebike helmets and accessories](/shop/ebike-parts-accessories).',
       '**What are the penalties for an illegal e-bike?** Fines and, in some states, seizure of non-compliant bikes. New South Wales has introduced powers to seize illegal e-bikes. Check your state for the current penalties.',
       '**Can I ride a throttle e-bike?** Compliant bikes allow a throttle only up to about 6 km/h to help you walk the bike. A throttle that drives the bike at higher speed can make it non-compliant in many states.',
+      'To compare motor ratings, browse [electric commuter bikes](/shop/electric-commuter-bikes), [electric mountain bikes](/shop/electric-mountain-bikes), [folding electric bikes](/shop/folding-electric-bikes) and [electric trikes](/shop/electric-trikes), or read our [comparison of mountain, commuter and folding e-bikes](/blog/mountain-vs-commuter-vs-folding-ebike).',
       '## How to check a bike before you buy',
       '- Read the motor power and the assist cut-off speed on the product page.',
       '- Look for EN 15194 compliance on the bike label or manual.',
@@ -293,7 +295,7 @@ export const BLOG_POSTS: BlogPost[] = [
       '**Are step-through frames strong?** Modern step-through frames are designed and tested for a rated load. Check the maximum rider and load weight on the product page.',
       '**Which type holds its value?** Well-known brands with strong drive systems generally hold value better. Look at warranty and parts support as well as price.',
       '## How the three compare on cost',
-      'Our range starts at around $1,800 for entry-level e-bikes and rises to $14,000 and more for premium models. Commuter bikes are the largest group and cover the widest price range. Folding bikes sit in the middle. Full-suspension electric mountain bikes tend to cost the most because of their suspension and drive systems. Use the price filter on each shop page to see what suits your budget.',
+      'Our range starts at around $1,300 for entry-level e-bikes and rises to $14,000 and more for premium models. Commuter bikes are the largest group and cover the widest price range. Folding bikes sit in the middle. Full-suspension electric mountain bikes tend to cost the most because of their suspension and drive systems. Use the price filter on each shop page to see what suits your budget.',
       '## Sizing and test-ride tips',
       '- Check the frame size chart for your height and inseam before you order.',
       '- Think about standover height. Step-through frames are the easiest to mount.',
@@ -378,6 +380,7 @@ export const BLOG_POSTS: BlogPost[] = [
       '- Recharge before it runs flat, and store it half charged for long breaks.',
       '- Keep the contacts clean and dry, and stop using a damaged battery.',
       '- Recycle old batteries at a proper drop-off point.',
+      'Browse our [ebike batteries and chargers](/shop/ebike-batteries-chargers), including the [Hyena Gen 2 In-Tube 250Wh Battery](/product/hyena-gen-2-in-tube-250wh-battery), and see [ebike parts and accessories](/shop/ebike-parts-accessories) for chargers, locks and lights. If you are buying a new bike, read our [buying guide](/blog/best-electric-bike-australia-2026) and compare [electric commuter bikes](/shop/electric-commuter-bikes).',
       '## Planning a battery replacement',
       'When a battery reaches the end of its life, check the brand and system first, because batteries are not interchangeable. Compare capacity, voltage and connector, and consider whether a range extender would solve the problem more cheaply. Ask your bike maker about warranty coverage before you buy a new one.',
       '## Recycling old batteries',
@@ -394,3 +397,5 @@ export const BLOG_POSTS: BlogPost[] = [
     ],
   },
 ];
+
+export const BLOG_POSTS: BlogPost[] = [...CORE_POSTS, ...BATCH_1];

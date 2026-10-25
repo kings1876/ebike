@@ -22,7 +22,7 @@ Search volume and difficulty are from Semrush (Australia, 24 Oct 2026), shown as
 
 ## Gaps
 
-- **Nothing under $1,000.** The cheapest bike is about $1,779, so "e-bikes under $1000" (720 / 17) and "cheap electric bikes australia under $500" (720 / 24) can't be served.
+- **Nothing under $1,000.** The cheapest bike is about $1,299 (NCM Prague), so "e-bikes under $1000" (720 / 17) and "cheap electric bikes australia under $500" (720 / 24) can't be served.
 - **Batteries and helmets share one page** (`/shop/ebike-parts-accessories`) with only 5 and 4 products. They would rank better on their own pages.
 - **No brand pages** for Trek (14 bikes) or SmartMotion (6).
 - **Kids & Youth has only 3 products,** so it's too thin to target.
