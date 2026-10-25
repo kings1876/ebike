@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { loadDetails } from '../data/catalogue';
+import { loadProductDetail } from '../data/catalogue';
 
 const setMeta = (selector: string, attrs: Record<string, string>, content: string) => {
   let el = document.head.querySelector<HTMLMetaElement>(selector);
@@ -23,7 +23,7 @@ export const RouteSeo = () => {
     (async () => {
       const [{ getRouteMeta }, details] = await Promise.all([
         import('../data/seo-meta'),
-        pathname.startsWith('/product/') ? loadDetails() : Promise.resolve(undefined),
+        pathname.startsWith('/product/') ? loadProductDetail(pathname.split('/')[2]).catch(() => undefined) : Promise.resolve(undefined),
       ]);
       if (!cancelled) apply(getRouteMeta(pathname, details));
     })();

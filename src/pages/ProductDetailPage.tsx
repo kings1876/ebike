@@ -2,7 +2,7 @@ import { categoryPath } from '../data/seo';
 import React, { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { PRODUCTS } from '../data/products';
-import { loadDetails, mergeDetail } from '../data/catalogue';
+import { loadProductDetail, mergeDetail } from '../data/catalogue';
 import type { ProductDetail } from '../data/products-detail';
 import { VariantPicker } from '../components/VariantPicker';
 import { hasVariants, defaultSelection, findVariant } from '../data/variants';
@@ -21,7 +21,13 @@ export const ProductDetailPage: React.FC = () => {
 
   // The light record renders immediately; description, features, photos and variants arrive from their own chunk.
   const [detail, setDetail] = useState<Record<string, ProductDetail> | null>(null);
-  useEffect(() => { loadDetails().then(setDetail); }, []);
+  useEffect(() => {
+    if (!productId) return;
+    let live = true;
+    setDetail(null);
+    loadProductDetail(productId).then((d) => live && setDetail(d)).catch(() => {});
+    return () => { live = false; };
+  }, [productId]);
   const lightProduct = PRODUCTS.find((p) => p.id === productId);
   const baseProduct = lightProduct && mergeDetail(lightProduct, detail ?? undefined);
   const [selection, setSelection] = useState<string[]>(() => (baseProduct ? defaultSelection(baseProduct) : []));

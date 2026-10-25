@@ -46,6 +46,7 @@ function render(route: string) {
     html = setMeta(html, 'name', 'twitter:image', m.image);
     extra.push(`<link rel="preload" as="image" href="${esc(m.preload ?? m.image)}" fetchpriority="high" />`);
   }
+  if (m.dataPreload) extra.push(`<link rel="preload" as="fetch" href="${esc(m.dataPreload)}" crossorigin="anonymous" />`);
   for (const ld of m.jsonLd ?? []) extra.push(`<script type="application/ld+json" data-route-ld="1">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>`);
   html = html.replace('</head>', `    ${extra.join('\n    ')}\n  </head>`);
 

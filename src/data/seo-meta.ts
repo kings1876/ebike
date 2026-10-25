@@ -20,6 +20,8 @@ export interface RouteMeta {
   image?: string;
   /** Exact URL the page loads for its main image, so it can be preloaded. */
   preload?: string;
+  /** Per-product details file to fetch early on product pages. */
+  dataPreload?: string;
   /** Plain content for the prerendered HTML snapshot. */
   h1?: string;
   text?: string[];
@@ -115,6 +117,7 @@ export function getRouteMeta(pathname: string, details?: Record<string, ProductD
           const src = v?.image ?? p.imageUrl ?? firstImage;
           return src ? imageUrlFor(src).replace(/width=\d+/, 'width=700') : undefined;
         })(),
+        dataPreload: `/data/p/${p.id}.json`,
         canonical,
         h1: p.name,
         text: [clean(p.description)],
