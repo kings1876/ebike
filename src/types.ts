@@ -54,6 +54,8 @@ export interface Product {
   imageUrl: string;
   /** Photo of the variant the page opens on, when it differs from imageUrl (used for the early LCP image). */
   heroImage?: string;
+  /** Number of photos in the gallery (so the page can hold space for the thumbnails). */
+  photoCount?: number;
   /** All product photos (first is imageUrl). Present only when there is more than one. */
   images?: string[];
   accentColor?: string;

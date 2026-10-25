@@ -13,6 +13,7 @@ const light = (PRODUCTS as any[]).map((p) => {
   return {
     ...rest,
     ...(first?.image && first.image !== rest.imageUrl ? { heroImage: first.image } : {}),
+    ...(images?.length > 1 ? { photoCount: images.length } : {}),
     description: '',
     keyFeatures: [],
     // Cards only need to know whether options exist, what prices vary and whether anything is in stock.

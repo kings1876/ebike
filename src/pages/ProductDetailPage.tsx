@@ -47,28 +47,6 @@ export const ProductDetailPage: React.FC = () => {
     ? { ...baseProduct, price: variant.price > 0 ? variant.price : baseProduct.price, originalPrice: variant.compareAtPrice, imageUrl: variant.image ?? baseProduct.imageUrl, inStock: variant.available }
     : baseProduct;
 
-  // Until this product's details arrive (a ~2 KB file, preloaded), hold the page's height so nothing jumps.
-  if (lightProduct && !detail) {
-    return (
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 min-h-[130vh]">
-        <h1 className="sr-only">{lightProduct.name}</h1>
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-          <div className="lg:col-span-7">
-            <div className="relative aspect-4/3 rounded-2xl overflow-hidden border border-slate-200 bg-slate-100">
-              <ProductImage eager width={700} src={lightProduct.heroImage ?? lightProduct.imageUrl} alt={lightProduct.name} category={lightProduct.category} className="w-full h-full" />
-            </div>
-          </div>
-          <div className="lg:col-span-5 space-y-4" aria-hidden="true">
-            <div className="h-8 w-3/4 rounded bg-slate-100" />
-            <div className="h-4 w-full rounded bg-slate-100" />
-            <div className="h-4 w-5/6 rounded bg-slate-100" />
-            <div className="h-40 w-full rounded-xl bg-slate-50" />
-          </div>
-        </div>
-      </div>
-    );
-  }
-
   if (!product) {
     return (
       <div className="max-w-4xl mx-auto px-4 py-20 text-center">
@@ -85,6 +63,8 @@ export const ProductDetailPage: React.FC = () => {
     );
   }
 
+  // Before the details arrive, show the photo the page will open on (the default variant's), so the main image never swaps.
+  const heroSrc = !detail && lightProduct?.heroImage ? lightProduct.heroImage : product.imageUrl;
   const cryptoPrice = Math.round(product.price * 0.9);
   const relatedProducts = PRODUCTS.filter((p) => p.category === product.category && p.id !== product.id).slice(0, 3);
 
@@ -119,8 +99,8 @@ export const ProductDetailPage: React.FC = () => {
             <ProductImage
               eager
               width={700}
-              key={activeImage ?? product.imageUrl}
-              src={activeImage ?? product.imageUrl}
+              key={activeImage ?? heroSrc}
+              src={activeImage ?? heroSrc}
               alt={product.name}
               category={product.category}
               className="w-full h-full"
@@ -132,7 +112,8 @@ export const ProductDetailPage: React.FC = () => {
             )}
           </div>
 
-          {/* Gallery thumbnails */}
+          {/* Gallery thumbnails (space is held until the photo list arrives) */}
+          {!detail && (lightProduct?.photoCount ?? 0) > 1 && <div className="h-[4.25rem]" aria-hidden="true" />}
           {baseProduct && baseProduct.images && baseProduct.images.length > 1 && (
             <div className="flex gap-2 overflow-x-auto pb-1" aria-label="Product photos">
               {baseProduct.images.map((src, i) => {
@@ -194,8 +175,8 @@ export const ProductDetailPage: React.FC = () => {
             {product.name}
           </h1>
 
-          <p className="text-xs sm:text-sm text-slate-600 mt-2 mb-6 leading-relaxed">
-            {product.description || 'Loading product details…'}
+          <p className="text-xs sm:text-sm text-slate-600 mt-2 mb-6 leading-relaxed min-h-[7.5rem]">
+            {product.description || ''}
           </p>
 
           {/* Price Box */}
@@ -326,7 +307,8 @@ export const ProductDetailPage: React.FC = () => {
           </div>
 
           {/* Variant picker */}
-          {baseProduct && hasVariants(baseProduct) && (
+          {!detail && lightProduct?.options?.length ? <div aria-hidden="true" style={{ minHeight: `${lightProduct.options.length * 4.5}rem` }} /> : null}
+          {detail && baseProduct && hasVariants(baseProduct) && (
             <div className="pb-4">
               <VariantPicker product={baseProduct} selection={selection} onChange={setSelection} />
             </div>
