@@ -2,6 +2,37 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { BLOG_POSTS } from '../data/blogs';
 import { ArrowLeft, Clock, BookOpen, Share2, Tag } from 'lucide-react';
+import { PRODUCTS } from '../data/products';
+import { ProductImage } from '../components/ProductImage';
+
+
+type Block = { type: 'h2' | 'p'; text: string } | { type: 'ul'; items: string[] };
+const toBlocks = (content: string[]): Block[] => {
+  const out: Block[] = [];
+  for (const line of content) {
+    if (line.startsWith('## ')) out.push({ type: 'h2', text: line.slice(3) });
+    else if (/^(- |\d+\. )/.test(line)) {
+      const last = out[out.length - 1];
+      const item = line.replace(/^(- |\d+\. )/, '');
+      if (last && last.type === 'ul') last.items.push(item);
+      else out.push({ type: 'ul', items: [item] });
+    } else out.push({ type: 'p', text: line });
+  }
+  return out;
+};
+
+/** Renders **bold** and [text](url) inline; on-site links use the router. */
+const inline = (text: string): React.ReactNode[] =>
+  text.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g).filter(Boolean).map((part, i) => {
+    const bold = part.match(/^\*\*([^*]+)\*\*$/);
+    if (bold) return <strong key={i} className="text-slate-900">{bold[1]}</strong>;
+    const link = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+    if (!link) return part;
+    const cls = 'font-semibold text-emerald-700 hover:underline';
+    return link[2].startsWith('/')
+      ? <Link key={i} to={link[2]} className={cls}>{link[1]}</Link>
+      : <a key={i} href={link[2]} target="_blank" rel="noopener noreferrer" className={cls}>{link[1]}</a>;
+  });
 
 export const BlogPostPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -24,6 +55,8 @@ export const BlogPostPage: React.FC = () => {
   }
 
   const otherPosts = BLOG_POSTS.filter((p) => p.slug !== slug).slice(0, 2);
+  const hero = post.heroProductId ? PRODUCTS.find((p) => p.id === post.heroProductId) : undefined;
+  const blocks = toBlocks(post.content);
 
   return (
     <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14">
@@ -54,16 +87,31 @@ export const BlogPostPage: React.FC = () => {
         </h1>
 
         <div className="flex items-center justify-between text-xs text-slate-500 pt-2">
-          <span>Written by <strong>{post.author}</strong></span>
-          <span className="text-slate-400">Australia E-Bikes Editorial Desk</span>
+          <span>By <strong>{post.author}</strong></span>
+          {post.updated && <span className="text-slate-400">Updated {post.updated}</span>}
         </div>
       </header>
 
       {/* Article Content */}
       <div className="py-8 space-y-6 text-sm sm:text-base text-slate-700 leading-relaxed">
-        {post.content.map((paragraph, idx) => (
-          <p key={idx}>{paragraph}</p>
-        ))}
+        {hero && (
+          <ProductImage
+            src={(hero.images?.length ? hero.images[0] : hero.imageUrl) || ''}
+            alt={hero.name}
+            category={hero.category}
+            eager
+            className="w-full h-64 sm:h-80 rounded-2xl border border-slate-200"
+          />
+        )}
+        {blocks.map((b, i) =>
+          b.type === 'h2' ? (
+            <h2 key={i} className="text-xl sm:text-2xl font-bold text-slate-900 pt-4">{inline(b.text)}</h2>
+          ) : b.type === 'ul' ? (
+            <ul key={i} className="list-disc pl-6 space-y-2">{b.items.map((it, j) => <li key={j}>{inline(it)}</li>)}</ul>
+          ) : (
+            <p key={i}>{inline(b.text)}</p>
+          ),
+        )}
       </div>
 
       {/* Next actions strip */}

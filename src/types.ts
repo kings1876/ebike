@@ -106,6 +106,10 @@ export interface BlogPost {
   excerpt: string;
   content: string[];
   author: string;
+  /** Last update date, shown on the post and used for dateModified. */
+  updated?: string;
+  /** Product whose photo is used as the hero and social image. */
+  heroProductId?: string;
 }
 
 export interface FAQItem {

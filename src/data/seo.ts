@@ -315,18 +315,40 @@ export function getRouteMeta(pathname: string): RouteMeta {
 
   const post = path.match(/^\/blog\/([^/]+)$/) && BLOG_POSTS.find((b) => b.slug === path.split('/')[2]);
   if (post) {
+    const hero = post.heroProductId ? PRODUCTS.find((p) => p.id === post.heroProductId) : undefined;
+    const heroSrc = hero ? (hero.images?.length ? hero.images[0] : hero.imageUrl) : undefined;
+    const iso = (d?: string) => (d && !Number.isNaN(Date.parse(d)) ? new Date(d + ' 12:00 UTC').toISOString().slice(0, 10) : undefined);
     return {
-      title: clip(`${post.title} | E Bikes for Sale`, 60),
+      title: post.title.length <= 41 ? `${post.title} | E Bikes for Sale` : clip(post.title, 60),
       description: clip(clean(post.excerpt), 158),
       canonical,
+      image: heroSrc ? imageUrlFor(heroSrc) : undefined,
       h1: post.title,
-      text: post.content,
-      jsonLd: [{ '@context': 'https://schema.org', '@type': 'Article', headline: post.title, author: { '@type': 'Person', name: post.author }, description: post.excerpt, mainEntityOfPage: canonical, publisher: { '@type': 'Organization', name: SITE_NAME } }],
+      text: post.content.map(plainBlock),
+      links: [{ href: '/shop', label: 'Shop electric bikes' }],
+      jsonLd: [
+        {
+          '@context': 'https://schema.org',
+          '@type': 'Article',
+          headline: post.title,
+          description: post.excerpt,
+          datePublished: iso(post.date),
+          dateModified: iso(post.updated ?? post.date),
+          image: heroSrc ? [imageUrlFor(heroSrc)] : undefined,
+          author: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
+          publisher: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
+          mainEntityOfPage: canonical,
+        },
+        breadcrumb([['Home', '/'], ['Blog', '/blog'], [post.title, path]]),
+      ],
     };
   }
 
   return { title: `${SITE_NAME} | Electric Bikes Australia`, description: STATIC['/'].description, canonical };
 }
+
+/** Strip block and link markup from a blog block, for the plain-text HTML snapshot. */
+export const plainBlock = (b: string) => b.replace(/^##\s+/, '').replace(/^-\s+/, '').replace(/\*\*/g, '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
 
 export const imageUrlFor = (src: string) => {
   const url = src.startsWith('http') ? src : `${SITE_URL}${src.startsWith('/') ? '' : '/'}${src}`;

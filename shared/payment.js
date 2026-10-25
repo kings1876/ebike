@@ -43,7 +43,6 @@ export const PAYMENT_METHODS = ['Bank Transfer', 'Osko / PayID', 'Crypto'];
 export function paymentTermsLines(amountDue, orderNumber) {
   return [
     `Please pay the exact amount of ${amountDue} and use ${orderNumber} as your payment reference.`,
-    'Your order is held for 48 hours while we wait for payment.',
     'Once payment clears we dispatch your e-bike with free tracked delivery across Australia.',
   ];
 }
