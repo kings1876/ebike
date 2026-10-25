@@ -196,6 +196,8 @@ export interface RouteMeta {
   jsonLd?: object[];
   /** Absolute image URL for og:image and the LCP preload. */
   image?: string;
+  /** Exact URL the page loads for its main image, so it can be preloaded. */
+  preload?: string;
   /** Plain content for the prerendered HTML snapshot. */
   h1?: string;
   text?: string[];
@@ -323,6 +325,7 @@ export function getRouteMeta(pathname: string): RouteMeta {
       description: clip(clean(post.excerpt), 158),
       canonical,
       image: heroSrc ? imageUrlFor(heroSrc) : undefined,
+      preload: heroSrc ? imageUrlFor(heroSrc).replace(/width=\d+/, 'width=720') : undefined,
       h1: post.title,
       text: post.content.map(plainBlock),
       links: [{ href: '/shop', label: 'Shop electric bikes' }],

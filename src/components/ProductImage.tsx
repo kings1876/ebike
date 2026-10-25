@@ -8,9 +8,11 @@ interface ProductImageProps {
   className?: string;
   /** Load immediately (use for the main product-page image, which is the LCP element). */
   eager?: boolean;
+  /** Requested pixel width for Shopify CDN images (defaults: 900 eager, 520 lazy). */
+  width?: number;
 }
 
-export const ProductImage: React.FC<ProductImageProps> = ({ src, alt, category, className = '', eager = false }) => {
+export const ProductImage: React.FC<ProductImageProps> = ({ src, alt, category, className = '', eager = false, width }) => {
   const [hasError, setHasError] = useState(!src);
   const [isLoaded, setIsLoaded] = useState(false);
   const imgRef = useRef<HTMLImageElement>(null);
@@ -22,7 +24,7 @@ export const ProductImage: React.FC<ProductImageProps> = ({ src, alt, category, 
   }, [src]);
 
   // Shopify CDN images accept a width parameter: cards need far fewer pixels than the product page.
-  const url = src.includes('cdn.shopify.com') ? src.replace(/width=\d+/, `width=${eager ? 900 : 520}`) : src;
+  const url = src.includes('cdn.shopify.com') ? src.replace(/width=\d+/, `width=${width ?? (eager ? 900 : 520)}`) : src;
 
   return (
     <div className={`relative overflow-hidden bg-slate-100 flex items-center justify-center ${className}`}>

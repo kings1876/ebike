@@ -102,6 +102,7 @@ export const BlogPostPage: React.FC = () => {
             alt={hero.name}
             category={hero.category}
             eager
+            width={720}
             className="w-full h-64 sm:h-80 rounded-2xl border border-slate-200"
           />
         )}
