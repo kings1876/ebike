@@ -1,0 +1,11 @@
+{
+  "resource": "https://ebikesale.com.au",
+  "resource_name": "E Bikes for Sale public catalogue",
+  "authorization_servers": [],
+  "scopes_supported": [],
+  "bearer_methods_supported": [],
+  "resource_documentation": "https://ebikesale.com.au/auth.md",
+  "resource_policy_uri": "https://ebikesale.com.au/terms",
+  "tls_client_certificate_bound_access_tokens": false,
+  "note": "All resources on ebikesale.com.au are public. No OAuth tokens are required."
+}

@@ -20,6 +20,7 @@ export const optionInStock = (p: Product, selection: string[], index: number, va
 /** Lowest in-stock price (or lowest overall if sold out) and whether prices differ. */
 export const priceFrom = (p: Product): { price: number; varies: boolean } => {
   if (!p.variants?.length) return { price: p.price, varies: false };
-  const prices = p.variants.map(v => v.price);
+  const prices = p.variants.map(v => v.price).filter(n => n > 0);
+  if (!prices.length) return { price: p.price, varies: false };
   return { price: p.price, varies: Math.min(...prices) !== Math.max(...prices) };
 };

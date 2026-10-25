@@ -1,0 +1,28 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://ebikesale.com.au/",
+      "https://www.iana.org/assignments/link-relations/service-doc": [
+        {
+          "href": "https://ebikesale.com.au/faq"
+        }
+      ],
+      "title": "E Bikes for Sale: electric bikes Australia"
+    },
+    {
+      "anchor": "https://ebikesale.com.au/shop",
+      "type": "text/html",
+      "title": "E Bikes for Sale product catalogue"
+    },
+    {
+      "anchor": "https://ebikesale.com.au/blog",
+      "type": "text/html",
+      "title": "E Bikes for Sale buying guides"
+    },
+    {
+      "anchor": "https://ebikesale.com.au/sitemap.xml",
+      "type": "application/xml",
+      "title": "XML sitemap"
+    }
+  ]
+}

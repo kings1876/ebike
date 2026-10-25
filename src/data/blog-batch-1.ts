@@ -126,7 +126,7 @@ export const BATCH_1: BlogPost[] = [
       `## Keeping a budget e-bike running well`,
       `A simple routine keeps an affordable bike reliable: check tyre pressure weekly, keep the chain clean and lightly oiled, check brake pads every month and charge the battery correctly. Our [battery care guide](/blog/battery-care-tips-australian-climate) covers charging and storage in detail.`,
       `## Save a further 10%`,
-      `Pay by bank transfer, Osko or crypto and we take 10% off at checkout. On a $1,799 bike that is $179.90 off. Read our [10% discount guide](/blog/how-to-save-10-percent-crypto-osko) for the steps.`,
+      `Pay by bank transfer, Osko or crypto and we take 10% off at checkout. On a $1,799 bike that is about $180 off. Read our [10% discount guide](/blog/how-to-save-10-percent-crypto-osko) for the steps.`,
       `## Budget bike checklist`,
       `1. Confirm the motor is pedal-assist and compliant with your state rules.`,
       `2. Check battery capacity and whether it is removable.`,

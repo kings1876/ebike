@@ -1,0 +1,37 @@
+{
+  "protocol": {
+    "name": "acp",
+    "version": "0.1.0"
+  },
+  "name": "E Bikes for Sale",
+  "description": "E Bikes for Sale is an Australian online electric bike retailer selling electric mountain, commuter, step-through, folding, cargo and fat tyre e-bikes, trikes, scooters, batteries and accessories, with free delivery across Australia and a 2-year warranty.",
+  "api_base_url": "https://ebikesale.com.au",
+  "homepage": "https://ebikesale.com.au",
+  "transports": [
+    "https"
+  ],
+  "capabilities": {
+    "services": [
+      "product-catalog",
+      "blog",
+      "faq"
+    ],
+    "ordering": "human-assisted-website-checkout",
+    "payment_methods": [
+      "bank-transfer",
+      "osko-payid",
+      "crypto"
+    ],
+    "currency": "AUD"
+  },
+  "contact": {
+    "email": "sales@ebikesale.com.au"
+  },
+  "legal": {
+    "age_restriction": "none",
+    "region": "AU",
+    "ships_to": "Australia",
+    "product_type": "electric bicycles and accessories",
+    "compliance": "EN 15194 pedal-assist standard; state rules apply"
+  }
+}

@@ -28,7 +28,7 @@ export const ProductDetailPage: React.FC = () => {
   const variant = baseProduct ? findVariant(baseProduct, selection) : undefined;
   // Price, image and stock follow the selected variant
   const product = baseProduct && variant
-    ? { ...baseProduct, price: variant.price, originalPrice: variant.compareAtPrice, imageUrl: variant.image ?? baseProduct.imageUrl, inStock: variant.available }
+    ? { ...baseProduct, price: variant.price > 0 ? variant.price : baseProduct.price, originalPrice: variant.compareAtPrice, imageUrl: variant.image ?? baseProduct.imageUrl, inStock: variant.available }
     : baseProduct;
 
   if (!product) {

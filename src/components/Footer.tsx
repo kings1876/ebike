@@ -42,7 +42,7 @@ export const Footer: React.FC = () => {
 
           {/* Quick Links with real router URLs (Col 3) */}
           <div className="space-y-3">
-            <h4 className="text-xs font-bold text-white uppercase tracking-wider">Navigation</h4>
+            <h3 className="text-xs font-bold text-white uppercase tracking-wider">Navigation</h3>
             <ul className="space-y-2 text-xs">
               <li>
                 <Link to="/shop" className="hover:text-emerald-400 transition-colors">
@@ -79,7 +79,7 @@ export const Footer: React.FC = () => {
 
           {/* Customer Protection & Policies with real URLs (Col 4) */}
           <div className="space-y-3">
-            <h4 className="text-xs font-bold text-white uppercase tracking-wider">Policies & Support</h4>
+            <h3 className="text-xs font-bold text-white uppercase tracking-wider">Policies & Support</h3>
             <ul className="space-y-2 text-xs">
               <li>
                 <Link to="/shipping" className="hover:text-emerald-400 transition-colors">
@@ -111,7 +111,7 @@ export const Footer: React.FC = () => {
 
           {/* Accepted Payments & Savings (Col 5) */}
           <div className="space-y-3">
-            <h4 className="text-xs font-bold text-white uppercase tracking-wider">Accepted Payments</h4>
+            <h3 className="text-xs font-bold text-white uppercase tracking-wider">Accepted Payments</h3>
             <p className="text-xs text-slate-400">
               Enjoy an instant <strong>10% discount</strong> on your order total with:
             </p>

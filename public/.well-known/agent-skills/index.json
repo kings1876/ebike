@@ -1,0 +1,92 @@
+{
+  "$schema": "https://agentskills.io/schema/v0.2.0/index.json",
+  "name": "E Bikes for Sale",
+  "url": "https://ebikesale.com.au",
+  "description": "E Bikes for Sale is an Australian online electric bike retailer selling electric mountain, commuter, step-through, folding, cargo and fat tyre e-bikes, trikes, scooters, batteries and accessories, with free delivery across Australia and a 2-year warranty.",
+  "skills": [
+    {
+      "name": "browse-products",
+      "type": "navigation",
+      "description": "Browse the full electric bike catalogue by category",
+      "url": "https://ebikesale.com.au/shop",
+      "sha256": "d02022b3cbd9b1f5c27b5bfc94c8ce6b91809aa697066a6910d9eea6f0d5e165"
+    },
+    {
+      "name": "browse-electric-mountain-bikes",
+      "type": "navigation",
+      "description": "Buy electric mountain bikes in Australia. Hardtail and full-suspension eMTBs from Trek, Focus, Orbea and more. Free delivery and a 2-year warranty.",
+      "url": "https://ebikesale.com.au/shop/electric-mountain-bikes",
+      "sha256": "171d5c636108fcdcf25c004d148a7255913911aa1ed5959652a0a6bdf80dd41f"
+    },
+    {
+      "name": "browse-electric-commuter-bikes",
+      "type": "navigation",
+      "description": "Shop electric commuter and city bikes in Australia. Pedal-assist e-bikes with step-through and diamond frames, racks and lights. Free delivery.",
+      "url": "https://ebikesale.com.au/shop/electric-commuter-bikes",
+      "sha256": "c1e1c40bb0ae8003e585df2288170de3dc33a50066130d817a22829d51b93252"
+    },
+    {
+      "name": "browse-electric-road-bikes",
+      "type": "navigation",
+      "description": "Lightweight electric road and gravel bikes for Australian riders. Drop-bar e-bikes with long range and free delivery nationwide.",
+      "url": "https://ebikesale.com.au/shop/electric-road-bikes",
+      "sha256": "e378676313a597938e0ff678f5d0e4b30ebf9c44c989ac774d694e91b7f57a89"
+    },
+    {
+      "name": "browse-folding-electric-bikes",
+      "type": "navigation",
+      "description": "Buy folding electric bikes in Australia. Compact foldable e-bikes for apartments, trains and caravans, with free delivery and a 2-year warranty.",
+      "url": "https://ebikesale.com.au/shop/folding-electric-bikes",
+      "sha256": "8f3e73dba3184246b0f4a6254c9ae65b8e5d076f79341134bd8d4bc03983b94b"
+    },
+    {
+      "name": "browse-electric-cargo-bikes",
+      "type": "navigation",
+      "description": "Electric cargo bikes and family e-bikes in Australia. Carry kids, shopping and gear with powerful assist. Free delivery nationwide.",
+      "url": "https://ebikesale.com.au/shop/electric-cargo-bikes",
+      "sha256": "7adb33d8565eef80e1429d3ecafdae0c2cdc2a5e77ccc0b5543cd7c592d6388a"
+    },
+    {
+      "name": "browse-electric-trikes",
+      "type": "navigation",
+      "description": "Electric trikes and three-wheel e-bikes for adults in Australia. Stable, comfortable and easy to ride, with free delivery nationwide.",
+      "url": "https://ebikesale.com.au/shop/electric-trikes",
+      "sha256": "4b0cdca9246b838a758596576f073fd8eccac6e4aa1d558529ce15a62bcc6004"
+    },
+    {
+      "name": "browse-cheap-electric-bikes",
+      "type": "navigation",
+      "description": "Shop affordable electric bikes under $2,000 in Australia. Low cost e-bikes with free delivery, a 2-year warranty and 10% off with bank transfer or crypto.",
+      "url": "https://ebikesale.com.au/shop/cheap-electric-bikes",
+      "sha256": "0439b0e263b87a209a771f8ee66f99c99c7c27346b662606a87e49c95063df55"
+    },
+    {
+      "name": "browse-fat-tyre-electric-bikes",
+      "type": "navigation",
+      "description": "Buy fat tyre electric bikes in Australia, including Fatboy and more. Wide-tyre e-bikes for sand, gravel and city riding. Free delivery.",
+      "url": "https://ebikesale.com.au/shop/fat-tyre-electric-bikes",
+      "sha256": "327474bce48efb7f2aaee8e908b579368ef426c15373895417b55916fe8a5ecb"
+    },
+    {
+      "name": "browse-step-through-electric-bikes",
+      "type": "navigation",
+      "description": "Step through electric bikes in Australia. Low-entry e-bikes that are easy to mount, for commuting and relaxed riding. Free delivery nationwide.",
+      "url": "https://ebikesale.com.au/shop/step-through-electric-bikes",
+      "sha256": "35632ff659c579a0d381e4642019cb88bb1523aa36807156422393a6b68db2eb"
+    },
+    {
+      "name": "buying-guides",
+      "type": "content",
+      "description": "E-bike buying guides, laws and maintenance articles",
+      "url": "https://ebikesale.com.au/blog",
+      "sha256": "619842b31d93fc055bdc5e0e6316d58bf7fb687836a094fbc5ff38822fe3396b"
+    },
+    {
+      "name": "contact",
+      "type": "support",
+      "description": "Ask a question about sizing, orders, delivery or warranty",
+      "url": "https://ebikesale.com.au/contact",
+      "sha256": "8af94076c8db60507dc25b5dc71c53d5dea7ac972401405e267dbc57453d5cf1"
+    }
+  ]
+}

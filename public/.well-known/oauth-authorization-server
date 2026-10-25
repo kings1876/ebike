@@ -1,0 +1,29 @@
+{
+  "issuer": "https://ebikesale.com.au",
+  "authorization_endpoint": null,
+  "token_endpoint": null,
+  "jwks_uri": null,
+  "grant_types_supported": [],
+  "response_types_supported": [],
+  "scopes_supported": [],
+  "note": "E Bikes for Sale has no protected APIs. All resources are public.",
+  "public_resources": [
+    "https://ebikesale.com.au/shop",
+    "https://ebikesale.com.au/blog",
+    "https://ebikesale.com.au/faq",
+    "https://ebikesale.com.au/llms.txt",
+    "https://ebikesale.com.au/.well-known/api-catalog",
+    "https://ebikesale.com.au/.well-known/agent-skills/index.json",
+    "https://ebikesale.com.au/.well-known/mcp/server-card.json"
+  ],
+  "agent_auth": {
+    "register_uri": null,
+    "identity_types_supported": [
+      "none"
+    ],
+    "credential_types_supported": [
+      "none"
+    ],
+    "notes": "No registration required. All content is public."
+  }
+}

@@ -165,7 +165,7 @@ const CORE_POSTS: BlogPost[] = [
     content: [
       'E Bikes for Sale takes 10% off your order when you pay by Australian bank transfer, Osko or cryptocurrency. There is no code to enter. The discount is applied automatically when you choose one of these payment methods at checkout.',
       '## How much do you save?',
-      'The discount is 10% of your cart total. As an example, the [NCM M3](/product/ncm-moscow-m3) is listed at $1,799. With the 10% payment discount you save $179.90 and pay $1,619.10. On a $5,999 [Trek Rail 5](/product/trek-rail-5) the saving is $599.90. Delivery across Australia is free on top of that.',
+      'The discount is 10% of your cart total. As an example, the [NCM M3](/product/ncm-moscow-m3) is listed at $1,799. With the 10% payment discount you save about $180 and pay about $1,619. On a $5,999 [Trek Rail 5](/product/trek-rail-5) the saving is about $600. Delivery across Australia is free on top of that.',
       '## Which payment methods get the discount?',
       '- **Australian bank transfer:** pay from your online banking using our bank details.',
       '- **Osko / PayID:** a near-instant transfer from your banking app.',
@@ -212,7 +212,7 @@ const CORE_POSTS: BlogPost[] = [
       '## What happens after you pay',
       'Once your payment has cleared and we have matched it to your order, we prepare your bike for dispatch. Delivery across Australia is free and tracked. If you have any questions at any stage, email sales@ebikesale.com.au and quote your order reference.',
       '## Example: buying a Tern Vektron S10',
-      'The [Tern Vektron S10](/product/tern-vektron-s10) is listed at $5,995. With the 10% payment discount you save $599.50 and pay $5,395.50, with free delivery on top. The saving is applied automatically at checkout when you choose bank transfer, Osko or crypto.',
+      'The [Tern Vektron S10](/product/tern-vektron-s10) is listed at $5,995. With the 10% payment discount you save about $600 and pay about $5,396, with free delivery on top. The saving is applied automatically at checkout when you choose bank transfer, Osko or crypto.',
       '## Common payment problems and how to fix them',
       '- **We cannot match your payment:** this usually means the order reference is missing. Email us your receipt and order reference and we will match it.',
       '- **Your bank limit is too low:** ask your bank to raise your limit or tell us before you pay.',

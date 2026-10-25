@@ -1,0 +1,51 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/server-card/v1.json",
+  "serverInfo": {
+    "name": "E Bikes for Sale",
+    "version": "1.0.0",
+    "description": "E Bikes for Sale is an Australian online electric bike retailer selling electric mountain, commuter, step-through, folding, cargo and fat tyre e-bikes, trikes, scooters, batteries and accessories, with free delivery across Australia and a 2-year warranty.",
+    "homepage": "https://ebikesale.com.au",
+    "contact": {
+      "email": "sales@ebikesale.com.au"
+    }
+  },
+  "transport": {
+    "type": "none",
+    "note": "human_ordering_only: this site has no MCP server. Read the public pages or llms.txt."
+  },
+  "capabilities": {
+    "resources": [
+      {
+        "name": "product-catalog",
+        "description": "Full product catalogue",
+        "uri": "https://ebikesale.com.au/shop"
+      },
+      {
+        "name": "blog",
+        "description": "Buying guides and e-bike law explainers",
+        "uri": "https://ebikesale.com.au/blog"
+      },
+      {
+        "name": "llms-txt",
+        "description": "Site summary for language models",
+        "uri": "https://ebikesale.com.au/llms.txt"
+      }
+    ],
+    "commerce": {
+      "ordering": "website checkout, completed by a person",
+      "payment": [
+        "bank-transfer",
+        "osko-payid",
+        "crypto"
+      ],
+      "currency": "AUD",
+      "freeShipping": "Free delivery across Australia",
+      "ships": "Australia"
+    }
+  },
+  "legal": {
+    "ageRestriction": "none",
+    "productType": "electric bicycles, e-trikes, e-scooters and accessories",
+    "compliance": "Pedal-assist bikes are built to EN 15194 (250W, 25 km/h assistance). Rules differ by state."
+  }
+}

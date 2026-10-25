@@ -1,6 +1,7 @@
 import { PRODUCTS, CATEGORIES_WITH_SUBCATEGORIES } from './products';
 import { BLOG_POSTS } from './blogs';
 import type { FacetSelection } from './taxonomy';
+import { defaultSelection, findVariant } from './variants';
 import { EXTRA } from './seo-content';
 
 /**
@@ -286,6 +287,12 @@ export function getRouteMeta(pathname: string): RouteMeta {
         title: clip(title, 60),
         description: clip(`${p.name}: ${desc} Free delivery Australia-wide.`, 158),
         image: firstImage ? imageUrlFor(firstImage) : undefined,
+        // The product page opens on the first purchasable variant, whose photo can differ from images[0].
+        preload: (() => {
+          const v = p.variants?.length ? findVariant(p, defaultSelection(p)) : undefined;
+          const src = v?.image ?? p.imageUrl ?? firstImage;
+          return src ? imageUrlFor(src) : undefined;
+        })(),
         canonical,
         h1: p.name,
         text: [clean(p.description)],
