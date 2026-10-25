@@ -80,6 +80,7 @@ export const ProductDetailPage: React.FC = () => {
           <div className="relative aspect-4/3 rounded-2xl overflow-hidden border border-slate-200 bg-slate-100 shadow-xs">
             <ProductImage
               eager
+              width={700}
               key={activeImage ?? product.imageUrl}
               src={activeImage ?? product.imageUrl}
               alt={product.name}

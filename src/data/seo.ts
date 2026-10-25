@@ -291,7 +291,7 @@ export function getRouteMeta(pathname: string): RouteMeta {
         preload: (() => {
           const v = p.variants?.length ? findVariant(p, defaultSelection(p)) : undefined;
           const src = v?.image ?? p.imageUrl ?? firstImage;
-          return src ? imageUrlFor(src) : undefined;
+          return src ? imageUrlFor(src).replace(/width=d+/, 'width=700') : undefined;
         })(),
         canonical,
         h1: p.name,
