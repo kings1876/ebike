@@ -3,6 +3,13 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useAdminApi } from './AdminShell';
 import { parsePaymentDetail, PAYMENT_METHODS, paymentTermsLines } from '../../../shared/payment.js';
 
+// Wallets for crypto orders. One tap fills the composer; the customer still gets the usual tap-to-copy fields.
+const WALLETS = [
+  { label: 'Bitcoin (BTC)', coin: 'Bitcoin (BTC)', network: 'Bitcoin', address: 'bc1qzn330nvevy8l2phf2swc25znd8ct6ju9gdprl7' },
+  { label: 'USDT (Tron)', coin: 'USDT (Tether)', network: 'Tron (TRC-20)', address: 'TBnrAF6yjaYyUBXFGDzDUdkUG7EZr6qrFN' },
+  { label: 'Ethereum (ETH)', coin: 'Ethereum (ETH)', network: 'Ethereum (ERC-20)', address: '0x71e590e953d8DBf7a2d8a4Fa58Ea55c3c57A6f8C' },
+];
+
 interface Order {
   orderNumber: string; customerName: string; customerEmail: string; customerPhone: string; address: string;
   paymentMethod: string; notes: string; amountDue: number; status: string; createdAt: string;
@@ -150,6 +157,16 @@ export const AdminOrderDetail: React.FC = () => {
         <select value={method} onChange={(e) => setMethod(e.target.value)} className="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm">
           {PAYMENT_METHODS.map((m: string) => <option key={m}>{m}</option>)}
         </select>
+        {method === 'Crypto' && (
+          <div className="flex flex-wrap gap-2">
+            {WALLETS.map((w) => (
+              <button key={w.label} type="button" onClick={() => setDetail(`Coin: ${w.coin}
+Network: ${w.network}
+Wallet Address: ${w.address}`)}
+                className="px-3 py-1.5 rounded-lg border border-slate-300 text-xs font-semibold text-slate-700 cursor-pointer">Use {w.label}</button>
+            ))}
+          </div>
+        )}
         <textarea rows={6} value={detail} onChange={(e) => setDetail(e.target.value)}
           placeholder={'Paste once, e.g.\nAccount Name: ...\nBSB: ...\nAccount Number: ...'}
           className="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm font-mono" />
