@@ -1,14 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useAdminApi } from './AdminShell';
+import { WALLETS, walletDetail } from '../../../shared/wallets.js';
 import { parsePaymentDetail, PAYMENT_METHODS, paymentTermsLines } from '../../../shared/payment.js';
-
-// Wallets for crypto orders. One tap fills the composer; the customer still gets the usual tap-to-copy fields.
-const WALLETS = [
-  { label: 'Bitcoin (BTC)', coin: 'Bitcoin (BTC)', network: 'Bitcoin', address: 'bc1qzn330nvevy8l2phf2swc25znd8ct6ju9gdprl7' },
-  { label: 'USDT (Tron)', coin: 'USDT (Tether)', network: 'Tron (TRC-20)', address: 'TBnrAF6yjaYyUBXFGDzDUdkUG7EZr6qrFN' },
-  { label: 'Ethereum (ETH)', coin: 'Ethereum (ETH)', network: 'Ethereum (ERC-20)', address: '0x71e590e953d8DBf7a2d8a4Fa58Ea55c3c57A6f8C' },
-];
 
 interface Order {
   orderNumber: string; customerName: string; customerEmail: string; customerPhone: string; address: string;
@@ -159,10 +153,8 @@ export const AdminOrderDetail: React.FC = () => {
         </select>
         {method === 'Crypto' && (
           <div className="flex flex-wrap gap-2">
-            {WALLETS.map((w) => (
-              <button key={w.label} type="button" onClick={() => setDetail(`Coin: ${w.coin}
-Network: ${w.network}
-Wallet Address: ${w.address}`)}
+            {WALLETS.map((w: (typeof WALLETS)[number]) => (
+              <button key={w.label} type="button" onClick={() => setDetail(walletDetail(w))}
                 className="px-3 py-1.5 rounded-lg border border-slate-300 text-xs font-semibold text-slate-700 cursor-pointer">Use {w.label}</button>
             ))}
           </div>

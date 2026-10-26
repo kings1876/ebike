@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { WALLETS } from '../../shared/wallets.js';
 import { Link, useNavigate } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import { OrderFormData, PaymentMethod } from '../types';
@@ -23,6 +24,7 @@ export const CheckoutPage: React.FC = () => {
     discountCode: ''
   });
 
+  const [cryptoCoin, setCryptoCoin] = useState('USDT');
   const [submitting, setSubmitting] = useState(false);
   const [orderComplete, setOrderComplete] = useState(false);
   const [orderId, setOrderId] = useState('');
@@ -72,6 +74,7 @@ export const CheckoutPage: React.FC = () => {
       customerPhone: formData.phone,
       address: `${formData.addressLine1}, ${formData.addressLine2 ? formData.addressLine2 + ', ' : ''}${formData.city}, ${formData.state} ${formData.postcode}, Australia`,
       paymentMethod: formData.paymentMethod,
+      cryptoCoin: formData.paymentMethod === 'Crypto' ? cryptoCoin : '',
       notes: formData.notes || '',
       amountDue: discountedTotal,
       items: cart.map((item) => ({
@@ -89,8 +92,11 @@ export const CheckoutPage: React.FC = () => {
         body: JSON.stringify(payload),
       });
       if (!res.ok) throw new Error('failed');
-      setOrderComplete(true);
+      const result = await res.json().catch(() => ({}));
       clearCart();
+      // Crypto orders go straight to the payment page (wallet, network, amount, QR code).
+      if (result.paymentUrl) { navigate(result.paymentUrl); return; }
+      setOrderComplete(true);
     } catch {
       setSubmitError('We could not register your order just now. Please try again, or email sales@ebikesale.com.au with your cart.');
     } finally {
@@ -266,9 +272,28 @@ export const CheckoutPage: React.FC = () => {
                   ))}
                 </div>
 
+                {formData.paymentMethod === 'Crypto' && (
+                  <div className="space-y-2">
+                    <div className="text-xs font-bold text-slate-700 uppercase tracking-wider">Select cryptocurrency (10% discount)</div>
+                    <div className="grid grid-cols-3 gap-2" role="radiogroup" aria-label="Cryptocurrency">
+                      {WALLETS.map((w) => (
+                        <button key={w.id} type="button" role="radio" aria-checked={cryptoCoin === w.id} onClick={() => setCryptoCoin(w.id)}
+                          className={`p-3 rounded-xl border text-center cursor-pointer ${cryptoCoin === w.id ? 'border-emerald-600 bg-emerald-50/70 ring-1 ring-emerald-600' : 'border-slate-200 bg-white'}`}>
+                          <div className="font-bold text-sm text-slate-900">{w.id}</div>
+                          <div className="text-[10px] text-slate-500">{w.network}</div>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
                 <div className="p-3 bg-slate-50 rounded-xl border border-slate-200 text-xs text-slate-600">
                   <p>
-                    <strong>How it works:</strong> After you place this order we email you our payment details for your chosen method. Your e-bike is dispatched once payment clears.
+                    {formData.paymentMethod === 'Crypto' ? (
+                      <><strong>How it works:</strong> When you place the order you go straight to a secure payment page showing our wallet address, the network and the amount due, with a QR code you can scan. Please do not send any payment before then. Your e-bike is dispatched once payment clears.</>
+                    ) : (
+                      <><strong>How it works:</strong> After you place this order we email you our payment details for your chosen method. Your e-bike is dispatched once payment clears.</>
+                    )}
                   </p>
                 </div>
               </div>

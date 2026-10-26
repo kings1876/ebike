@@ -1,8 +1,9 @@
 import { SITE, orderInbox, contactInbox } from './_lib/config.js';
 import { sendMail } from './_lib/mailer.js';
 import { saveOrder, saveEnquiry, isStoreConfigured } from './_lib/store.js';
-import { orderNotificationEmail, orderConfirmationEmail, enquiryNotificationEmail } from './_lib/emails.js';
-import { ORDER_REF_RE } from '../shared/payment.js';
+import { orderNotificationEmail, orderConfirmationEmail, enquiryNotificationEmail, paymentDetailsEmail } from './_lib/emails.js';
+import { walletById, walletDetail } from '../shared/wallets.js';
+import { ORDER_REF_RE, parsePaymentDetail } from '../shared/payment.js';
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const str = (v, max = 500) => String(v ?? '').trim().slice(0, max);
@@ -46,14 +47,26 @@ async function handleOrder(b, res) {
     return res.status(400).json({ error: 'Invalid order' });
   }
 
+  // Crypto orders get the wallet straight away: the customer is sent to the payment page and also emailed the details.
+  const wallet = order.paymentMethod === 'Crypto' ? walletById(str(b.cryptoCoin, 10)) : undefined;
+  if (wallet) {
+    const detail = walletDetail(wallet);
+    order.cryptoCoin = wallet.id;
+    order.paymentDetails = { method: 'Crypto', detail, fields: parsePaymentDetail(detail), sentAt: order.createdAt, auto: true };
+    order.status = 'payment-sent';
+  }
+
   const saved = await saveOrder(order).catch((e) => (console.error('saveOrder', e.message), false));
   const [admin, customer] = await Promise.all([
     sendMail({ to: orderInbox(), subject: `New order ${orderNumber} — ${order.customerName}`, html: orderNotificationEmail(order), replyTo: order.customerEmail }),
     // Unconditional: the customer always gets a confirmation.
     sendMail({ to: order.customerEmail, subject: `Order ${orderNumber} received — ${SITE.name}`, html: orderConfirmationEmail(order) }),
+    wallet && saved
+      ? sendMail({ to: order.customerEmail, subject: `Payment details for order ${orderNumber} — ${SITE.name}`, html: paymentDetailsEmail(order, order.paymentDetails) })
+      : Promise.resolve({ sent: false }),
   ]);
   if (!saved && !admin.sent) return res.status(503).json({ error: 'Order service not configured' });
-  return res.status(200).json({ success: true, saved, emailed: admin.sent, confirmationSent: customer.sent });
+  return res.status(200).json({ success: true, saved, emailed: admin.sent, confirmationSent: customer.sent, paymentUrl: wallet && saved ? `/order/payment-details?id=${orderNumber}` : undefined });
 }
 
 async function handleContact(b, res) {

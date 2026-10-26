@@ -24,6 +24,16 @@ const CopyField: React.FC<{ label: string; value: string }> = ({ label, value })
   );
 };
 
+const WalletQr: React.FC<{ value: string }> = ({ value }) => {
+  const [src, setSrc] = useState('');
+  useEffect(() => {
+    let on = true;
+    import('qrcode').then((q) => q.toDataURL(value, { margin: 1, width: 220 })).then((u) => on && setSrc(u)).catch(() => {});
+    return () => { on = false; };
+  }, [value]);
+  return src ? <img src={src} width={220} height={220} alt="QR code of the wallet address" className="mx-auto rounded-lg border border-slate-200" /> : <div className="h-[220px]" />;
+};
+
 export const PaymentDetailsPage: React.FC = () => {
   const [params] = useSearchParams();
   const id = params.get('id') || '';
@@ -55,6 +65,12 @@ export const PaymentDetailsPage: React.FC = () => {
           <p className="text-sm text-slate-600">Order <b className="font-mono">{data.orderNumber}</b> · {data.method}</p>
           <CopyField label="Amount due" value={amount} />
           {data.fields.map((f, i) => <CopyField key={i} label={f.label} value={f.value} />)}
+          {data.fields.some((f) => f.label === 'Wallet Address') && (
+            <div className="text-center space-y-2">
+              <WalletQr value={data.fields.find((f) => f.label === 'Wallet Address')!.value} />
+              <p className="text-xs text-slate-600">Scan to copy the wallet address. Send only on the network shown above, or the funds may be lost.</p>
+            </div>
+          )}
           <CopyField label="Payment reference" value={data.orderNumber} />
           <ul className="list-disc pl-5 text-xs text-slate-600 space-y-1">
             {paymentTermsLines(amount, data.orderNumber).map((t: string) => <li key={t}>{t}</li>)}

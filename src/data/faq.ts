@@ -29,7 +29,7 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     category: 'Payment & Discounts',
     question: 'Which cryptocurrencies do you accept?',
-    answer: 'We accept Bitcoin (BTC), Ethereum (ETH), and USDT (Tether on TRC-20 and ERC-20). At checkout, you will receive our dedicated verified corporate wallet addresses and exact payment amounts.'
+    answer: 'We accept Bitcoin (BTC), Ethereum (ETH), and USDT (Tether on the Tron TRC-20 network). Choose your coin at checkout and you go straight to a payment page showing our wallet address, the network, the exact amount due and a QR code.'
   },
   {
     category: 'Bike Specs & Laws',
