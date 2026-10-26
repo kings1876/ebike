@@ -6,7 +6,7 @@ import { parsePaymentDetail, PAYMENT_METHODS, paymentTermsLines } from '../../..
 
 interface Order {
   orderNumber: string; customerName: string; customerEmail: string; customerPhone: string; address: string;
-  paymentMethod: string; notes: string; amountDue: number; status: string; createdAt: string;
+  paymentMethod: string; notes: string; amountDue: number; status: string; txHash?: string; createdAt: string;
   items: { name: string; variant?: string; quantity: number; price: number }[];
   paymentDetails?: { method: string; detail: string; sentAt: string };
 }
@@ -22,6 +22,7 @@ const btn = 'px-4 py-2 bg-emerald-600 hover:bg-emerald-700 disabled:bg-slate-400
 
 const Badge: React.FC<{ s: string }> = ({ s }) => {
   const tone = s === 'payment-confirmed' || s === 'replied' ? 'bg-emerald-100 text-emerald-800'
+    : s === 'payment-reported' ? 'bg-violet-100 text-violet-800'
     : s === 'payment-sent' ? 'bg-sky-100 text-sky-800' : 'bg-amber-100 text-amber-800';
   return <span className={`text-[11px] font-bold px-2 py-0.5 rounded-full ${tone}`}>{s}</span>;
 };
@@ -142,6 +143,7 @@ export const AdminOrderDetail: React.FC = () => {
           {order.items.map((i, n) => <li key={n}>{i.quantity} × {i.name}{i.variant ? ` (${i.variant})` : ''} — {money(i.price * i.quantity)}</li>)}
         </ul>
         <p className="font-bold">Amount due: {money(order.amountDue)}</p>
+        {order.txHash && <p className="text-xs"><b>Customer transaction ID:</b> <span className="font-mono break-all">{order.txHash}</span></p>}
         {order.notes && <p className="text-xs text-slate-600">Notes: {order.notes}</p>}
         <button onClick={remove} className="text-xs text-red-600 cursor-pointer">Delete order</button>
       </div>

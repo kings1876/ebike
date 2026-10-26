@@ -78,3 +78,9 @@ export function enquiryReplyEmail(q, reply) {
     <p style="margin:0 0 16px;white-space:pre-wrap">${esc(reply)}</p>
     <div style="border-top:1px solid #e2e8f0;padding-top:12px;font-size:12px;color:#475569">Your original message:<br><em style="white-space:pre-wrap">${esc(q.message)}</em></div>`);
 }
+
+export function paymentReportedEmail(o, txHash) {
+  return shell('Customer reports payment sent', `
+    ${table([field('Order', esc(o.orderNumber)), field('Customer', esc(o.customerName)), field('Email', `<a href="mailto:${esc(o.customerEmail)}" style="color:${primary}">${esc(o.customerEmail)}</a>`), field('Amount due', money(o.amountDue)), field('Coin', esc(o.cryptoCoin || o.paymentMethod)), field('Transaction ID', `<span style="font-family:monospace;word-break:break-all">${esc(txHash)}</span>`)])}
+    ${button(`${origin()}/admin/orders`, 'Open order in Dashboard →')}`);
+}

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { Check, Copy } from 'lucide-react';
 import { paymentTermsLines } from '../../shared/payment.js';
 
-interface Details { orderNumber: string; amountDue: number; method: string; fields: { label: string; value: string }[] }
+interface Details { orderNumber: string; amountDue: number; method: string; fields: { label: string; value: string }[]; txReported?: boolean }
 
 const CopyField: React.FC<{ label: string; value: string }> = ({ label, value }) => {
   const [done, setDone] = useState(false);
@@ -32,6 +32,42 @@ const WalletQr: React.FC<{ value: string }> = ({ value }) => {
     return () => { on = false; };
   }, [value]);
   return src ? <img src={src} width={220} height={220} alt="QR code of the wallet address" className="mx-auto rounded-lg border border-slate-200" /> : <div className="h-[220px]" />;
+};
+
+const AfterYouSend: React.FC<{ id: string; reported: boolean }> = ({ id, reported }) => {
+  const [tx, setTx] = useState('');
+  const [state, setState] = useState<'idle' | 'sending' | 'done'>(reported ? 'done' : 'idle');
+  const [error, setError] = useState('');
+  const send = async () => {
+    setState('sending'); setError('');
+    try {
+      const r = await fetch('/api/order', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ id, txHash: tx.trim() }) });
+      const d = await r.json().catch(() => ({}));
+      if (!r.ok) throw new Error(d.error || 'Could not send');
+      setState('done');
+    } catch (e) { setError((e as Error).message); setState('idle'); }
+  };
+  return (
+    <div className="bg-white p-6 rounded-2xl border border-slate-200 space-y-3">
+      <h2 className="text-xl font-extrabold text-slate-900">After you send</h2>
+      {state === 'done' ? (
+        <p className="text-sm text-emerald-800 bg-emerald-50 border border-emerald-200 rounded-lg p-3">Thank you. We have your transaction ID and will confirm your payment shortly. We dispatch your e-bike once the transaction is verified.</p>
+      ) : (
+        <>
+          <label htmlFor="tx" className="block text-sm font-semibold text-slate-800">Transaction ID (hash)</label>
+          <input id="tx" value={tx} onChange={(e) => setTx(e.target.value)} placeholder="Paste the transaction ID from your wallet" autoComplete="off" spellCheck={false}
+            className="w-full px-3 py-3 border border-slate-300 rounded-lg text-sm font-mono bg-slate-50" />
+          {error && <p className="text-xs text-red-700" role="alert">{error}</p>}
+          <button type="button" disabled={state === 'sending' || tx.trim().length < 8} onClick={send}
+            className="w-full py-3.5 rounded-lg bg-amber-500 text-slate-950 font-extrabold text-sm uppercase tracking-wide disabled:opacity-60 cursor-pointer">
+            {state === 'sending' ? 'Sending…' : "I've paid: send transaction ID"}
+          </button>
+        </>
+      )}
+      <p className="text-sm text-slate-600">Your order is dispatched once the transaction is verified. Questions? Email <a className="text-emerald-800 underline" href="mailto:sales@ebikesale.com.au">sales@ebikesale.com.au</a> and quote {id}.</p>
+      <Link to="/" className="inline-block px-5 py-3 rounded-lg bg-slate-900 text-white text-sm font-bold">Return to Store</Link>
+    </div>
+  );
 };
 
 export const PaymentDetailsPage: React.FC = () => {
@@ -75,6 +111,7 @@ export const PaymentDetailsPage: React.FC = () => {
           <ul className="list-disc pl-5 text-xs text-slate-600 space-y-1">
             {paymentTermsLines(amount, data.orderNumber).map((t: string) => <li key={t}>{t}</li>)}
           </ul>
+          {data.method === 'Crypto' && <AfterYouSend id={data.orderNumber} reported={Boolean(data.txReported)} />}
         </>
       )}
     </div>
