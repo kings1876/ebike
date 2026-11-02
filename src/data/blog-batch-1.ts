@@ -64,6 +64,7 @@ export const BATCH_1: BlogPost[] = [
       `**Can I get advice on choosing?** Yes. [Contact our team](/contact) and tell us how you ride.`,
       `## Ready to choose?`,
       `Browse the full range of [electric bikes for sale](/shop), pay by bank transfer, Osko or crypto to save 10%, and enjoy free delivery across Australia. Not sure where to start? Our [buying guide](/blog/best-electric-bike-australia-2026) matches bikes to riders.`,
+      `Once you have a shortlist, follow our guide to [buying an electric bike online](/blog/buy-electric-bike-online-australia) for delivery times, warranty and the 10% payment discount.`,
     ],
   },
   {

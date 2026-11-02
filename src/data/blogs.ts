@@ -4,6 +4,7 @@ import { BATCH_2 } from './blog-batch-2';
 import { BATCH_3 } from './blog-batch-3';
 import { BATCH_4 } from './blog-batch-4';
 import { BATCH_5 } from './blog-batch-5';
+import { BATCH_6 } from './blog-batch-6';
 
 /**
  * Post bodies are arrays of blocks:
@@ -84,6 +85,7 @@ const CORE_POSTS: BlogPost[] = [
       '- Skipping the warranty details. Ask what the warranty covers and for how long.',
       '## How to choose between them',
       'Start with where you will ride most. If the answer is the road, pick a commuter or step-through. If it is trails, pick an eMTB. If space is the problem, pick a folder. Then set a budget, compare battery capacity and read the warranty terms. If you are unsure, [ask our team](/contact) what you will use it for and we will point you to a few bikes.',
+      'Ready to order? Read our step-by-step guide to [buying an electric bike online](/blog/buy-electric-bike-online-australia), or see [electric road bikes for sale](/blog/electric-road-bikes-for-sale-australia) if you want a fast, light drop-bar bike.',
     ],
   },
   {
@@ -402,4 +404,4 @@ const CORE_POSTS: BlogPost[] = [
   },
 ];
 
-export const BLOG_POSTS: BlogPost[] = [...CORE_POSTS, ...BATCH_1, ...BATCH_2, ...BATCH_3, ...BATCH_4, ...BATCH_5];
+export const BLOG_POSTS: BlogPost[] = [...CORE_POSTS, ...BATCH_1, ...BATCH_2, ...BATCH_3, ...BATCH_4, ...BATCH_5, ...BATCH_6];
