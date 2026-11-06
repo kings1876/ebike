@@ -73,7 +73,8 @@ export const BATCH_3: BlogPost[] = [
       `**Is a step through e-bike legal on the road?** Yes, provided it meets your state limits. Pedal-assist bikes built to EN 15194 are the standard. Check your state rules.`,
       `**Do step through bikes come with a warranty?** Yes. Every bike includes a 2-year warranty and free delivery across Australia.`,
       `## Ready to ride?`,
-      `Browse [step through electric bikes](/shop/step-through-electric-bikes), pay by bank transfer, Osko or crypto to save 10% and enjoy free delivery. [Ask our team](/contact) if you would like help choosing a size or model.`,
+      `Browse [step through electric bikes](/shop/step-through-electric-bikes), pay by bank transfer, Osko or crypto to save 10% and enjoy free delivery. [Ask our team](/contact) if you would like help choosing a size or model.`,
+      `Shopping for an older rider? See our guide to [electric bikes for seniors in Australia](/blog/electric-bikes-for-seniors-australia).`,
     ],
   },
   {

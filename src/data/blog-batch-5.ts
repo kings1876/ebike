@@ -246,7 +246,8 @@ export const BATCH_5: BlogPost[] = [
       `**What about theft?** Use a strong lock, lock the frame and wheel to something solid, and take the battery with you.`,
       `**Is the bike covered by a warranty?** Yes. Every bike includes a 2-year warranty and free delivery across Australia.`,
       `## Ready to start?`,
-      `Browse [electric commuter bikes](/shop/electric-commuter-bikes), compare with [folding electric bikes](/shop/folding-electric-bikes), or [ask our team](/contact) which bike suits your commute.`,
+      `Browse [electric commuter bikes](/shop/electric-commuter-bikes), compare with [folding electric bikes](/shop/folding-electric-bikes), or [ask our team](/contact) which bike suits your commute.`,
+      `Considering a scooter instead? Compare options in our guide to [electric scooters for sale in Australia](/blog/electric-scooters-for-sale-australia).`,
     ],
   },
 ];
