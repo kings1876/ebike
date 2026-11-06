@@ -24,7 +24,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       {/* Product Image Stage with Link to dedicated Product Page */}
       <Link
         to={`/product/${product.id}`}
-        className="relative aspect-4/3 w-full bg-slate-100 overflow-hidden cursor-pointer block"
+        className="relative aspect-4/3 w-full bg-white overflow-hidden cursor-pointer block"
       >
         <ProductImage
           src={product.imageUrl}

@@ -97,7 +97,7 @@ export const ProductDetailPage: React.FC = () => {
         
         {/* Left Column: Image Stage & Trust Highlights */}
         <div className="lg:col-span-7 space-y-6">
-          <div className="relative aspect-4/3 rounded-2xl overflow-hidden border border-slate-200 bg-slate-100 shadow-xs">
+          <div className="relative aspect-4/3 rounded-2xl overflow-hidden border border-slate-200 bg-white shadow-xs">
             <ProductImage
               eager
               width={700}
@@ -127,9 +127,9 @@ export const ProductDetailPage: React.FC = () => {
                     onClick={() => setActiveImage(src)}
                     aria-label={'Show photo ' + (i + 1)}
                     aria-pressed={active}
-                    className={`relative w-20 h-16 shrink-0 rounded-lg overflow-hidden border-2 bg-slate-100 cursor-pointer transition-colors ${active ? 'border-emerald-600' : 'border-slate-200 hover:border-slate-400'}`}
+                    className={`relative w-20 h-16 shrink-0 rounded-lg overflow-hidden border-2 bg-white cursor-pointer transition-colors ${active ? 'border-emerald-600' : 'border-slate-200 hover:border-slate-400'}`}
                   >
-                    <img src={src.startsWith('/images/p/') ? src.replace(/\.webp$/, '-s.webp') : src.replace('width=900', 'width=240')} alt="" loading="lazy" decoding="async" fetchPriority="low" referrerPolicy="no-referrer" className="w-full h-full object-cover" />
+                    <img src={src.startsWith('/images/p/') ? src.replace(/\.webp$/, '-s.webp') : src.replace('width=900', 'width=240')} alt="" loading="lazy" decoding="async" fetchPriority="low" referrerPolicy="no-referrer" className="w-full h-full object-contain" />
                   </button>
                 );
               })}

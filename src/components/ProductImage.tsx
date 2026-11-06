@@ -10,9 +10,11 @@ interface ProductImageProps {
   eager?: boolean;
   /** Requested pixel width for Shopify CDN images (defaults: 900 eager, 520 lazy). */
   width?: number;
+  /** contain shows the whole photo (default, for products); cover fills the frame and crops (banners). */
+  fit?: 'contain' | 'cover';
 }
 
-export const ProductImage: React.FC<ProductImageProps> = ({ src, alt, category, className = '', eager = false, width }) => {
+export const ProductImage: React.FC<ProductImageProps> = ({ src, alt, category, className = '', eager = false, width, fit = 'contain' }) => {
   const [hasError, setHasError] = useState(!src);
   const [isLoaded, setIsLoaded] = useState(false);
   // The bike illustration is a loading placeholder only: it is not part of the server-rendered HTML.
@@ -34,7 +36,7 @@ export const ProductImage: React.FC<ProductImageProps> = ({ src, alt, category, 
     : src.includes('cdn.shopify.com') ? src.replace(/width=\d+/, `width=${width ?? (eager ? 900 : 520)}`) : src;
 
   return (
-    <div className={`relative overflow-hidden bg-slate-100 flex items-center justify-center ${className}`}>
+    <div className={`relative overflow-hidden bg-white flex items-center justify-center ${className}`}>
       {!hasError && src && (
         <img
           ref={imgRef}
@@ -47,7 +49,7 @@ export const ProductImage: React.FC<ProductImageProps> = ({ src, alt, category, 
           onLoad={() => setIsLoaded(true)}
           onError={() => setHasError(true)}
           // Always visible: the placeholder above covers it while it loads, and the server-rendered page must paint the photo without waiting for JavaScript.
-          className="w-full h-full object-cover transition-all duration-300 group-hover:scale-105"
+          className={`w-full h-full ${fit === 'cover' ? 'object-cover' : 'object-contain'} transition-all duration-300 group-hover:scale-105`}
         />
       )}
 
