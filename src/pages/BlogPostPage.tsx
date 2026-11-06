@@ -4,6 +4,7 @@ import { BLOG_POSTS } from '../data/blogs';
 import { ArrowLeft, Clock, BookOpen, Share2, Tag } from 'lucide-react';
 import { PRODUCTS } from '../data/products';
 import { ProductImage } from '../components/ProductImage';
+import { BlogQuoteForm } from '../components/BlogQuoteForm';
 
 
 type Block = { type: 'h2' | 'p'; text: string } | { type: 'ul'; items: string[] };
@@ -116,6 +117,8 @@ export const BlogPostPage: React.FC = () => {
           ),
         )}
       </div>
+
+      <BlogQuoteForm slug={post.slug} title={post.title} />
 
       {/* Next actions strip */}
       <div className="mt-12 p-6 bg-slate-900 text-white rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4">
