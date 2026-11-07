@@ -5,6 +5,7 @@ import { ArrowLeft, Clock, BookOpen, Share2, Tag } from 'lucide-react';
 import { PRODUCTS } from '../data/products';
 import { ProductImage } from '../components/ProductImage';
 import { BlogQuoteForm } from '../components/BlogQuoteForm';
+import { ProductCard } from '../components/ProductCard';
 
 
 type Block = { type: 'h2' | 'p'; text: string } | { type: 'ul'; items: string[] };
@@ -60,6 +61,7 @@ export const BlogPostPage: React.FC = () => {
   const otherPosts = [1, 2].map((n) => BLOG_POSTS[(at + n) % BLOG_POSTS.length]);
   const hero = post.heroProductId ? PRODUCTS.find((p) => p.id === post.heroProductId) : undefined;
   const blocks = toBlocks(post.content);
+  const picks = (post.picks ?? []).map((id) => PRODUCTS.find((p) => p.id === id)).filter((p): p is NonNullable<typeof p> => !!p);
 
   return (
     <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14">
@@ -118,6 +120,16 @@ export const BlogPostPage: React.FC = () => {
           ),
         )}
       </div>
+
+      {picks.length > 0 && (
+        <section aria-labelledby="picks-heading" className="mt-12">
+          <h2 id="picks-heading" className="text-xl sm:text-2xl font-bold text-slate-900">Order the bikes from this guide</h2>
+          <p className="text-sm text-slate-600 mt-1">Add a bike to your order in one click. Free delivery across Australia, a 2-year warranty and 10% off when you pay by bank transfer, Osko or crypto.</p>
+          <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {picks.map((p) => <ProductCard key={p.id} product={p} />)}
+          </div>
+        </section>
+      )}
 
       <BlogQuoteForm slug={post.slug} title={post.title} />
 

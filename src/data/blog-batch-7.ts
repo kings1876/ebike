@@ -11,6 +11,7 @@ export const BATCH_7: BlogPost[] = [
     category: 'Buying Guides',
     author: 'E Bikes for Sale',
     heroProductId: 'trek-allant-7',
+    picks: ['trek-fx-2', 'trek-verve', 'trek-allant-7', 'marlin-6'],
     excerpt: `Buy a Trek electric bike in Australia. Compare the FX+, Verve+, Allant+, Marlin+, Rail and Domane+ by price and use, with free delivery and a 2-year warranty.`,
     content: [
       `Trek is one of the most trusted names in cycling, and its electric bikes are a popular choice for Australians who want a well-built bike backed by a respected brand. The range is wide, from light city bikes to full-suspension trail machines and carbon road bikes, so the hardest part is choosing the right model. This guide compares every Trek electric bike we stock, explains who each one suits, and shows how to order with free delivery, a 2-year warranty and a 10% payment discount.`,
@@ -74,6 +75,7 @@ export const BATCH_7: BlogPost[] = [
     category: 'Buying Guides',
     author: 'E Bikes for Sale',
     heroProductId: 'bolzzen-hustler-4816-performance-commuter-e-scooter',
+    picks: ['bolzzen-hustler-4816-performance-commuter-e-scooter', 'bolzzen-superstreet-4816-dual-motor-performance-commuter-e-scooter', 'bolzzen-phoenix-6026-dual-motor-performance-e-scooter'],
     excerpt: `Buy an electric scooter in Australia. Compare Bolzzen commuter scooters by power, battery and price, check the rules, and order with free delivery nationwide.`,
     content: [
       `Electric scooters are one of the fastest ways to cut a commute, skip the parking hunt and make short trips fun. The market is crowded, though, with everything from light toys to serious dual-motor machines, and the rules about where you can ride them are changing. This guide explains how to choose an electric scooter in Australia, compares the Bolzzen performance commuter scooters we stock, and shows you how to order with free delivery and a 10% payment discount.`,
@@ -144,6 +146,7 @@ export const BATCH_7: BlogPost[] = [
     category: 'Buying Guides',
     author: 'E Bikes for Sale',
     heroProductId: 'trek-verve',
+    picks: ['icon-eb-one', 'xds-e-conic-s2', 'trek-verve', 'electra-townie-go-7d-step-thru'],
     excerpt: `Looking for an electric bike for older riders? Compare step-through e-bikes, trikes and light city bikes for comfort and stability, with free delivery.`,
     content: [
       `An electric bike can keep you riding well into your later years. The motor smooths out hills and headwinds, a low frame makes getting on and off easy, and a comfortable upright position is kinder to the back, wrists and knees. Many older Australians come back to cycling with an e-bike, or take it up for the first time, to stay active, visit friends, do the shopping and enjoy the outdoors. This guide explains what to look for in an electric bike for seniors, compares the models in our range that suit older riders, and shows how to order with confidence. It is general information, so talk to your doctor if you have a health concern before starting a new activity.`,

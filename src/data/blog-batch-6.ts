@@ -11,6 +11,7 @@ export const BATCH_6: BlogPost[] = [
     category: 'Buying Guides',
     author: 'E Bikes for Sale',
     heroProductId: 'trek-fx-2',
+    picks: ['trek-fx-2', 'icon-eb-one-commuting', 'xds-e-conic-s2', 'ncm-paris-std-volcano-black'],
     excerpt: `Ready to buy an electric bike online in Australia? Compare prices, delivery times, warranty and the 10% payment discount, then order with confidence.`,
     content: [
       `Buying an electric bike online is now the normal way to shop in Australia. You can compare dozens of models in one sitting, read the full specifications, check the price in Australian dollars and have the bike delivered to your door, often for less than you would pay in a showroom. The catch is that you cannot test ride before you order, so a good decision depends on knowing what to check. This guide walks you through exactly how to buy an electric bike online, what it costs, what arrives in the box, and how to order from our store step by step.`,
@@ -67,7 +68,7 @@ export const BATCH_6: BlogPost[] = [
       `- [Icon EB-ONE Commuting](/product/icon-eb-one-commuting) at $1,599, a step-through commuter for city streets.`,
       `- [XDS E-Spresso S2](/product/xds-e-spresso-s2) at $1,999, a comfortable everyday bike.`,
       `- [SmartMotion E-City 2](/product/smartmotion-e-city-2) at $1,999 from a popular Australian brand.`,
-      `- [ET-Cycle F720](/product/et-cycle-f720) at $1,999, a folding bike for small spaces.`,
+      `- [ET-Cycle F720](/product/et-cycle-f720) at $1,999, a compact fat-tyre e-bike.`,
       `- [TREK FX+ 2](/product/trek-fx-2) at $2,499, a lightweight city bike with built-in lights, a rack and mudguards.`,
       `Add a [Trek Solstice Mips helmet](/product/trek-solstice-mips-bike-helmet) at $99.99 and an [OnGuard Pitbull eBike U-Lock](/product/onguard-ebike-8003e-pitbull-std-u-lock) at $76.99, and you are ready to ride from day one.`,
       `## Frequently asked questions`,
@@ -88,6 +89,7 @@ export const BATCH_6: BlogPost[] = [
     category: 'Buying Guides',
     author: 'E Bikes for Sale',
     heroProductId: 'domane-al-5',
+    picks: ['domane-al-5', 'orbea-gain-d40-large', 'bianchi-e-impulso-gravel', 'bianchi-e-oltre-ultegra-di2'],
     excerpt: `Shopping for an electric road bike in Australia? Compare Trek, Orbea and Bianchi road and gravel e-bikes by price, weight and use, then buy with free delivery.`,
     content: [
       `An electric road bike looks and rides like a normal performance bike, but a quiet motor takes the sting out of hills and headwinds. If you want to ride further, keep up with a faster group, come back to cycling after a break or simply arrive at work without a sweat, a road or gravel e-bike is one of the most enjoyable ways to do it. This guide explains how electric road bikes work, what they cost in Australia, how to choose between road and gravel, and which models in our range suit which rider.`,

@@ -160,6 +160,7 @@ export const BATCH_1: BlogPost[] = [
       `**What is the cheapest e-bike you sell?** Prices change, so check the sorted list on our [cheap electric bikes](/shop/cheap-electric-bikes) page.`,
       `## Next steps`,
       `Browse the full range of [cheap electric bikes](/shop/cheap-electric-bikes), or [ask our team](/contact) which bike suits your budget and riding.`,
+      `Want our top picks? See the [best electric bikes under $3,000 in Australia](/blog/best-electric-bikes-under-3000-australia).`,
     ],
   },
   {

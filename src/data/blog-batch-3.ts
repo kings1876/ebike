@@ -152,7 +152,8 @@ export const BATCH_3: BlogPost[] = [
       `**Are electric mountain bikes legal on the road?** Yes, if they meet your state limits and you follow the road rules.`,
       `**What is the best electric mountain bike for beginners?** A hardtail with a reputable drive system is a great start. [Ask our team](/contact) for a recommendation.`,
       `## Ready to ride?`,
-      `Browse [electric mountain bikes](/shop/electric-mountain-bikes), pay by bank transfer, Osko or crypto to save 10% and enjoy free delivery across Australia. Compare brands in our [e-bike brands guide](/blog/best-e-bike-brands-australia).`,
+      `Browse [electric mountain bikes](/shop/electric-mountain-bikes), pay by bank transfer, Osko or crypto to save 10% and enjoy free delivery across Australia. Compare brands in our [e-bike brands guide](/blog/best-e-bike-brands-australia).`,
+      `Climbing steep roads rather than trails? Compare the [best electric bikes for hills in Australia](/blog/best-electric-bikes-for-hills-australia).`,
     ],
   },
   {
@@ -224,7 +225,8 @@ export const BATCH_3: BlogPost[] = [
       `**Which type uses more battery?** A throttle typically uses more battery than pedal assist on the same ride.`,
       `**Do you sell pedal assist bikes with a warranty?** Yes. Every bike includes a 2-year warranty and free delivery across Australia.`,
       `## Ready to choose?`,
-      `Browse [electric bikes for sale](/shop), or [ask our team](/contact) which bike suits your riding and your state rules. Pay by bank transfer, Osko or crypto to save 10%.`,
+      `Browse [electric bikes for sale](/shop), or [ask our team](/contact) which bike suits your riding and your state rules. Pay by bank transfer, Osko or crypto to save 10%.`,
+      `New to e-bikes? Read our list of the [best electric bikes for beginners in Australia](/blog/best-electric-bikes-for-beginners-australia).`,
     ],
   },
 ];

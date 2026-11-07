@@ -114,6 +114,8 @@ export interface BlogPost {
   updated?: string;
   /** Product whose photo is used as the hero and social image. */
   heroProductId?: string;
+  /** Products shown as order-ready cards at the end of the post. */
+  picks?: string[];
 }
 
 export interface FAQItem {
