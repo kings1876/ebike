@@ -77,7 +77,8 @@ export const BATCH_2: BlogPost[] = [
       `**Are folding e-bikes legal on the road?** Yes, if they meet your state limits and follow the road rules. Check our [laws guide](/blog/australian-ebike-laws-guide-2026).`,
       `**Do folding e-bikes come with a warranty?** Yes. Every bike we sell includes a 2-year warranty and free delivery across Australia.`,
       `## Ready to choose?`,
-      `Browse [folding electric bikes](/shop/folding-electric-bikes), pay by bank transfer, Osko or crypto to save 10% and have your bike delivered free. Unsure which one suits you? [Ask our team](/contact).`,
+      `Browse [folding electric bikes](/shop/folding-electric-bikes), pay by bank transfer, Osko or crypto to save 10% and have your bike delivered free. Unsure which one suits you? [Ask our team](/contact).`,
+      `Ready to compare models? See the [best folding electric bikes in Australia](/blog/best-folding-electric-bikes-australia).`,
     ],
   },
   {
