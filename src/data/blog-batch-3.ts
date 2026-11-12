@@ -154,6 +154,7 @@ export const BATCH_3: BlogPost[] = [
       `## Ready to ride?`,
       `Browse [electric mountain bikes](/shop/electric-mountain-bikes), pay by bank transfer, Osko or crypto to save 10% and enjoy free delivery across Australia. Compare brands in our [e-bike brands guide](/blog/best-e-bike-brands-australia).`,
       `Climbing steep roads rather than trails? Compare the [best electric bikes for hills in Australia](/blog/best-electric-bikes-for-hills-australia).`,
+      `Ready to compare models? See the [best electric mountain bikes in Australia](/blog/best-electric-mountain-bikes-australia).`,
     ],
   },
   {

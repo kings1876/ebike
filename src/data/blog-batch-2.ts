@@ -241,7 +241,8 @@ export const BATCH_2: BlogPost[] = [
       `**Are cargo e-bikes heavy?** Yes, they are heavier than a standard e-bike. Think about storage and how you will move the bike.`,
       `**Is there a warranty?** Every bike includes a 2-year warranty and free delivery across Australia.`,
       `## Ready to choose?`,
-      `Browse [electric cargo bikes](/shop/electric-cargo-bikes), compare with [electric trikes](/shop/electric-trikes) or our [buying guide](/blog/best-electric-bike-australia-2026), or [ask our team](/contact) which bike suits your family.`,
+      `Browse [electric cargo bikes](/shop/electric-cargo-bikes), compare with [electric trikes](/shop/electric-trikes) or our [buying guide](/blog/best-electric-bike-australia-2026), or [ask our team](/contact) which bike suits your family.`,
+      `Ready to compare models? See the [best electric cargo bikes in Australia](/blog/best-electric-cargo-bikes-australia).`,
     ],
   },
 ];

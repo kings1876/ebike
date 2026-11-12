@@ -64,6 +64,7 @@ export const BATCH_7: BlogPost[] = [
       `**Is the 10% discount on Trek bikes too?** Yes. It applies to your entire order when you pay by bank transfer, Osko or crypto.`,
       `## Get a free Trek recommendation`,
       `Not sure which model fits? [Send us a message](/contact) with your height, budget and what you want to use the bike for, and our team will recommend the best Trek for you. Or browse the full [Trek range](/shop/trek-electric-bikes), add your bike to the cart and check out in minutes. Our step-by-step guide to [buying an electric bike online](/blog/buy-electric-bike-online-australia) covers the whole process.`,
+      `Looking for family transport or trail riding? Compare the [best electric cargo bikes](/blog/best-electric-cargo-bikes-australia) and [best electric mountain bikes](/blog/best-electric-mountain-bikes-australia).`,
     ],
   },
   {
