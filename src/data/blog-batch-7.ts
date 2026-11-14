@@ -216,6 +216,7 @@ export const BATCH_7: BlogPost[] = [
       `**Should I check with my doctor?** If you have a health condition, it is sensible to talk to your doctor about starting a new type of exercise.`,
       `## Get a free personal recommendation`,
       `Choosing a bike for comfort and safety is easier with a second opinion. [Message our team](/contact) with your height, budget and the kind of rides you want to do, and we will suggest two or three suitable models. When you are ready, browse the [full range of electric bikes](/shop), or read our step-by-step guide to [buying an electric bike online](/blog/buy-electric-bike-online-australia).`,
+      `A low frame helps too: see our [best step-through electric bikes in Australia](/blog/best-step-through-electric-bikes-australia).`,
     ],
   },
 ];

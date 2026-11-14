@@ -248,6 +248,7 @@ export const BATCH_5: BlogPost[] = [
       `## Ready to start?`,
       `Browse [electric commuter bikes](/shop/electric-commuter-bikes), compare with [folding electric bikes](/shop/folding-electric-bikes), or [ask our team](/contact) which bike suits your commute.`,
       `Considering a scooter instead? Compare options in our guide to [electric scooters for sale in Australia](/blog/electric-scooters-for-sale-australia).`,
+      `Ready to choose? See our [best electric commuter bikes in Australia](/blog/best-electric-commuter-bikes-australia) with order-ready picks.`,
     ],
   },
 ];

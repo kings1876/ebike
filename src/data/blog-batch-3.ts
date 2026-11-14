@@ -75,6 +75,7 @@ export const BATCH_3: BlogPost[] = [
       `## Ready to ride?`,
       `Browse [step through electric bikes](/shop/step-through-electric-bikes), pay by bank transfer, Osko or crypto to save 10% and enjoy free delivery. [Ask our team](/contact) if you would like help choosing a size or model.`,
       `Shopping for an older rider? See our guide to [electric bikes for seniors in Australia](/blog/electric-bikes-for-seniors-australia).`,
+      `Compare current models in our [best step-through electric bikes in Australia](/blog/best-step-through-electric-bikes-australia) and order online.`,
     ],
   },
   {

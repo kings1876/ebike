@@ -9,6 +9,7 @@ import { BATCH_7 } from './blog-batch-7';
 import { BATCH_8 } from './blog-batch-8';
 import { BATCH_9 } from './blog-batch-9';
 import { BATCH_10 } from './blog-batch-10';
+import { BATCH_11 } from './blog-batch-11';
 
 /**
  * Post bodies are arrays of blocks:
@@ -408,4 +409,4 @@ const CORE_POSTS: BlogPost[] = [
   },
 ];
 
-export const BLOG_POSTS: BlogPost[] = [...CORE_POSTS, ...BATCH_1, ...BATCH_2, ...BATCH_3, ...BATCH_4, ...BATCH_5, ...BATCH_6, ...BATCH_7, ...BATCH_8, ...BATCH_9, ...BATCH_10];
+export const BLOG_POSTS: BlogPost[] = [...CORE_POSTS, ...BATCH_1, ...BATCH_2, ...BATCH_3, ...BATCH_4, ...BATCH_5, ...BATCH_6, ...BATCH_7, ...BATCH_8, ...BATCH_9, ...BATCH_10, ...BATCH_11];
