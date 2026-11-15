@@ -4,7 +4,7 @@ import { BlogPost } from '../types';
 export const BATCH_8: BlogPost[] = [
   {
     id: 'best-electric-bikes-under-3000-australia',
-    title: `Best Electric Bikes Under $3,000 in Australia`,
+    title: `Best Value E-Bikes Under $3,000 in Australia`,
     slug: 'best-electric-bikes-under-3000-australia',
     date: '7 November 2026',
     readTime: '10 min read',
@@ -12,7 +12,7 @@ export const BATCH_8: BlogPost[] = [
     author: 'E Bikes for Sale',
     heroProductId: 'trek-fx-2',
     picks: ['icon-eb-one', 'xds-e-conic-s2', 'rilu-bolt', 'trek-fx-2'],
-    excerpt: `The best electric bikes under $3,000 in Australia, compared by battery, motor and comfort. Pick a winner, order online and get free delivery nationwide.`,
+    excerpt: `The best value electric bikes under $3,000 in Australia, compared by battery, motor and comfort. Pick a winner, order online and get free delivery nationwide.`,
     content: [
       `You do not need to spend $5,000 to get a good electric bike. In Australia, the sub-$3,000 bracket is where most people find the best balance of price, range and build quality, and it is where our most popular bikes sit. The challenge is choosing between dozens of similar-looking models. This guide picks the best electric bikes under $3,000 by use, explains what you get at each price, and shows you how to order in a few clicks with free delivery and a 10% payment discount.`,
       `## How we chose these bikes`,
@@ -65,6 +65,7 @@ export const BATCH_8: BlogPost[] = [
       `**Can I get a quote first?** Yes. Use the quote form below or [contact our team](/contact) and we will send you a delivered price.`,
       `## Order one or ask for a free quote`,
       `You can add any bike below to your order in one click, or send us the form and we will reply with a delivered price for your postcode. Browse the whole [electric bike range](/shop), or read our step-by-step guide to [buying an electric bike online](/blog/buy-electric-bike-online-australia).`,
+      `Not sure which type suits you? Start with our [best electric bike in Australia](/blog/best-electric-bike-australia-2026) guide, then compare [e-bike brands](/blog/best-e-bike-brands-australia) before you order.`,
     ],
   },
   {

@@ -4,14 +4,14 @@ import { BlogPost } from '../types';
 export const BATCH_1: BlogPost[] = [
   {
     id: 'best-e-bike-brands-australia',
-    title: `Best E-Bike Brands in Australia 2026: A Buyer's Guide`,
+    title: `Most Reliable E-Bike Brands in Australia 2026`,
     slug: 'best-e-bike-brands-australia',
     date: '25 October 2026',
     readTime: '7 min read',
     category: 'Buying Guides',
     author: 'E Bikes for Sale',
     heroProductId: 'trek-allant-7-lowstep',
-    excerpt: `Which e-bike brands are worth buying in Australia? We compare Trek, Kalkhoff, Tern, Focus, Orbea, Bianchi, NCM and more, with real models and prices from our range.`,
+    excerpt: `The most reliable e-bike brands in Australia, ranked. We compare Trek, Kalkhoff, Tern, Focus, Orbea, Bianchi, NCM and more, with real models and prices from our range.`,
     content: [
       `Searching for the best e-bike brands in Australia can feel like wading through marketing. Every brand claims to be the quietest, the lightest or the most powerful. This guide takes a more practical approach. We look at the brands we actually stock, what each is known for, which kinds of rider they suit and what you can expect to pay, using real models and prices from our range.`,
       `No single brand is best for everyone. A brand that makes a superb cargo bike may not make the best mountain bike, and a budget brand can be the right call if you ride a few times a week. Use this guide to shortlist two or three brands, then compare specific models on the product pages.`,
@@ -66,6 +66,7 @@ export const BATCH_1: BlogPost[] = [
       `Browse the full range of [electric bikes for sale](/shop), pay by bank transfer, Osko or crypto to save 10%, and enjoy free delivery across Australia. Not sure where to start? Our [buying guide](/blog/best-electric-bike-australia-2026) matches bikes to riders.`,
       `Once you have a shortlist, follow our guide to [buying an electric bike online](/blog/buy-electric-bike-online-australia) for delivery times, warranty and the 10% payment discount.`,
       `Want to see the Trek range in detail? Read our guide to [Trek electric bikes for sale in Australia](/blog/trek-electric-bikes-for-sale-australia).`,
+      `Shopping by type rather than brand? See our [best electric mountain bikes in Australia](/blog/best-electric-mountain-bikes-australia), [best electric commuter bikes](/blog/best-electric-commuter-bikes-australia) and [best value electric bikes under $3,000](/blog/best-electric-bikes-under-3000-australia).`,
     ],
   },
   {
