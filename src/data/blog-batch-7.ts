@@ -64,7 +64,7 @@ export const BATCH_7: BlogPost[] = [
       `**Is the 10% discount on Trek bikes too?** Yes. It applies to your entire order when you pay by bank transfer, Osko or crypto.`,
       `## Get a free Trek recommendation`,
       `Not sure which model fits? [Send us a message](/contact) with your height, budget and what you want to use the bike for, and our team will recommend the best Trek for you. Or browse the full [Trek range](/shop/trek-electric-bikes), add your bike to the cart and check out in minutes. Our step-by-step guide to [buying an electric bike online](/blog/buy-electric-bike-online-australia) covers the whole process.`,
-      `Looking for family transport or trail riding? Compare the [best electric cargo bikes](/blog/best-electric-cargo-bikes-australia) and [best electric mountain bikes](/blog/best-electric-mountain-bikes-australia).`,
+      `Looking for family transport or trail riding? Compare the [best electric cargo bikes](/blog/electric-cargo-bike-family-guide) and [best electric mountain bikes](/blog/electric-mountain-bike-buying-guide).`,
     ],
   },
   {
@@ -216,7 +216,7 @@ export const BATCH_7: BlogPost[] = [
       `**Should I check with my doctor?** If you have a health condition, it is sensible to talk to your doctor about starting a new type of exercise.`,
       `## Get a free personal recommendation`,
       `Choosing a bike for comfort and safety is easier with a second opinion. [Message our team](/contact) with your height, budget and the kind of rides you want to do, and we will suggest two or three suitable models. When you are ready, browse the [full range of electric bikes](/shop), or read our step-by-step guide to [buying an electric bike online](/blog/buy-electric-bike-online-australia).`,
-      `A low frame helps too: see our [best step-through electric bikes in Australia](/blog/best-step-through-electric-bikes-australia).`,
+      `A low frame helps too: see our [best step-through electric bikes in Australia](/blog/step-through-electric-bike-guide).`,
     ],
   },
 ];

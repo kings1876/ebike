@@ -91,7 +91,7 @@ const CORE_POSTS: BlogPost[] = [
       '## How to choose between them',
       'Start with where you will ride most. If the answer is the road, pick a commuter or step-through. If it is trails, pick an eMTB. If space is the problem, pick a folder. Then set a budget, compare battery capacity and read the warranty terms. If you are unsure, [ask our team](/contact) what you will use it for and we will point you to a few bikes.',
       'Ready to order? Read our step-by-step guide to [buying an electric bike online](/blog/buy-electric-bike-online-australia), or see [electric road bikes for sale](/blog/electric-road-bikes-for-sale-australia) if you want a fast, light drop-bar bike.',
-      `Want the shortlist? See the [best value electric bikes under $3,000](/blog/best-electric-bikes-under-3000-australia), the [best electric commuter bikes](/blog/best-electric-commuter-bikes-australia) and the [best step-through electric bikes](/blog/best-step-through-electric-bikes-australia).`,
+      `Want the shortlist? See the [best value electric bikes under $3,000](/blog/best-electric-bikes-under-3000-australia), the [best electric commuter bikes](/blog/best-electric-commuter-bikes-australia) and the [best step-through electric bikes](/blog/step-through-electric-bike-guide).`,
     ],
   },
   {

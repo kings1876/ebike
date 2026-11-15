@@ -1,6 +1,46 @@
 {
   "redirects": [
     {
+      "source": "/blog/best-step-through-electric-bikes-australia/",
+      "destination": "/blog/step-through-electric-bike-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-step-through-electric-bikes-australia",
+      "destination": "/blog/step-through-electric-bike-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-electric-cargo-bikes-australia/",
+      "destination": "/blog/electric-cargo-bike-family-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-electric-cargo-bikes-australia",
+      "destination": "/blog/electric-cargo-bike-family-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-electric-mountain-bikes-australia/",
+      "destination": "/blog/electric-mountain-bike-buying-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-electric-mountain-bikes-australia",
+      "destination": "/blog/electric-mountain-bike-buying-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-folding-electric-bikes-australia/",
+      "destination": "/blog/folding-electric-bike-buying-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-folding-electric-bikes-australia",
+      "destination": "/blog/folding-electric-bike-buying-guide",
+      "permanent": true
+    },
+    {
       "source": "/:path(.*)",
       "has": [
         {

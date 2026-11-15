@@ -141,8 +141,8 @@ export const BATCH_8: BlogPost[] = [
       `**What if I choose wrong?** You have 30 days from delivery to ask for an exchange or refund.`,
       `## Not sure which one? Get a free quote`,
       `You can add a bike below to your order in one click, or send us the quote form with your height, budget and postcode and we will recommend a bike and send a delivered price. You can also [contact our team](/contact), browse the full [shop](/shop) or read our guide to [buying an electric bike online](/blog/buy-electric-bike-online-australia).`,
-      `Short on space? Our [best folding electric bikes in Australia](/blog/best-folding-electric-bikes-australia) guide compares the top compact options.`,
-      `Prefer an easy-mount frame? See the [best step-through electric bikes](/blog/best-step-through-electric-bikes-australia), or the [best electric commuter bikes](/blog/best-electric-commuter-bikes-australia) for the daily ride.`,
+      `Short on space? Our [best folding electric bikes in Australia](/blog/folding-electric-bike-buying-guide) guide compares the top compact options.`,
+      `Prefer an easy-mount frame? See the [best step-through electric bikes](/blog/step-through-electric-bike-guide), or the [best electric commuter bikes](/blog/best-electric-commuter-bikes-australia) for the daily ride.`,
     ],
   },
   {
