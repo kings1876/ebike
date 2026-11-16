@@ -122,12 +122,12 @@ export const MegaNav: React.FC = () => {
         onFocus={() => show(key)}
         aria-haspopup="true"
         aria-expanded={open === key}
-        className={`flex items-center gap-1 whitespace-nowrap py-3.5 text-[13px] font-medium transition-colors ${
+        className={`flex items-center gap-1 whitespace-nowrap py-3.5 text-[12px] xl:text-[13px] font-medium transition-colors ${
           open === key ? 'text-white' : 'text-slate-300 hover:text-white'
         }`}
       >
         {label}
-        <ChevronDown className={`w-3.5 h-3.5 transition-transform ${open === key ? 'rotate-180 text-emerald-400' : 'text-slate-500'}`} />
+        <ChevronDown className={`hidden xl:block w-3.5 h-3.5 transition-transform ${open === key ? 'rotate-180 text-emerald-400' : 'text-slate-500'}`} />
       </Link>
       {open === key && <span className="absolute left-0 right-0 bottom-0 h-0.5 bg-emerald-500" />}
     </div>
@@ -136,13 +136,13 @@ export const MegaNav: React.FC = () => {
   return (
     <div ref={rootRef} className="relative" onBlur={(e) => !e.currentTarget.contains(e.relatedTarget as Node) && setOpen(null)}>
       <nav aria-label="Product categories" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4">
-        <div className="flex items-center gap-x-5 xl:gap-x-6">
+        <div className="flex min-w-0 items-center gap-x-3 xl:gap-x-6">
           {data.map((c) => trigger(c.category, c.label, shopUrl(c.category)))}
           {trigger('__brands', 'Brands', '/shop')}
         </div>
         <Link
           to="/shop?sale=1"
-          className="hidden lg:flex items-center gap-1.5 shrink-0 rounded-md border border-rose-500/40 bg-rose-500/10 px-3 py-1.5 text-[12px] font-bold uppercase tracking-wide text-rose-300 hover:bg-rose-500/20 transition-colors"
+          className="hidden xl:flex items-center gap-1.5 shrink-0 rounded-md border border-rose-500/40 bg-rose-500/10 px-3 py-1.5 text-[12px] font-bold uppercase tracking-wide text-rose-300 hover:bg-rose-500/20 transition-colors"
         >
           <Flame className="w-3.5 h-3.5" />
           Sale ({SALE_COUNT})
