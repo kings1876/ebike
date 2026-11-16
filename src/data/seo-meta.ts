@@ -4,6 +4,7 @@ import { defaultSelection, findVariant } from './variants';
 import { EXTRA } from './seo-content';
 import { mergeDetail } from './catalogue';
 import { FAQ_ITEMS } from './faq';
+import { guidesForShop, homeGuides } from './guide-links';
 import { detailUrl } from './data-version';
 import type { ProductDetail } from './products-detail';
 import { SITE_URL, SITE_NAME, CATEGORY_SEO, COLLECTIONS, categoryPath, categoryFromSlug, collectionFromSlug } from './seo';
@@ -58,6 +59,12 @@ const STATIC: Record<string, Omit<RouteMeta, 'canonical'>> = {
 
 const NOINDEX_PREFIXES = ['/cart', '/checkout', '/admin', '/order'];
 
+/** Lowest listed price across the base price and variants (variants can be priced differently). */
+function fromPrice(p: { price: number; variants?: { price?: number }[] }): number {
+  const v = (p.variants ?? []).map((x) => x.price ?? 0).filter((n) => n > 0);
+  return Math.min(p.price, ...v);
+}
+
 export function getRouteMeta(pathname: string, details?: Record<string, ProductDetail>): RouteMeta {
   const path = pathname.length > 1 ? pathname.replace(/\/+$/, '') : pathname;
   const canonical = abs(path);
@@ -72,7 +79,7 @@ export function getRouteMeta(pathname: string, details?: Record<string, ProductD
       meta.jsonLd = [{ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: FAQ_ITEMS.map((f) => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }];
     }
     if (path === '/') {
-      meta.links = CATEGORIES_WITH_SUBCATEGORIES.map((c) => ({ href: categoryPath(c.category), label: CATEGORY_SEO[c.category]?.h1 ?? c.category }));
+      meta.links = CATEGORIES_WITH_SUBCATEGORIES.map((c) => ({ href: categoryPath(c.category), label: CATEGORY_SEO[c.category]?.h1 ?? c.category })).concat(homeGuides());
     }
     return meta;
   }
@@ -92,7 +99,7 @@ export function getRouteMeta(pathname: string, details?: Record<string, ProductD
         canonical,
         h1: copy.h1,
         text,
-        links: (cat ? items : []).slice(0, 24).map((p) => ({ href: `/product/${p.id}`, label: p.name })),
+        links: [...(cat ? items : []).slice(0, 24).map((p) => ({ href: `/product/${p.id}`, label: p.name })), ...guidesForShop(shop[1])],
         jsonLd: [
           breadcrumb([['Home', '/'], ['Shop', '/shop'], [copy.h1, path]]),
           ...(extra?.faq.length
@@ -114,7 +121,7 @@ export function getRouteMeta(pathname: string, details?: Record<string, ProductD
       if (title.length < 36) title = `${p.name} | Buy in Australia | ${SITE_NAME}`;
       return {
         title: clip(title, 60),
-        description: clip(`${p.name}: ${desc} Free delivery Australia-wide.`, 158),
+        description: clip(`${p.name} from $${fromPrice(p).toLocaleString('en-AU')}. ${desc} Free delivery Australia-wide, 2-year warranty.`, 158),
         image: firstImage ? imageUrlFor(firstImage) : undefined,
         // The product page opens on the first purchasable variant, whose photo can differ from images[0].
         preload: (() => {

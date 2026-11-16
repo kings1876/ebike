@@ -13,6 +13,8 @@ import {
 } from '../data/taxonomy';
 
 import { EXTRA } from '../data/seo-content';
+import { guidesForShop } from '../data/guide-links';
+import { RelatedGuides } from '../components/RelatedGuides';
 import { CATEGORY_SEO, categoryFromSlug, collectionFromSlug, categoryPath, categorySlug } from '../data/seo';
 
 const PAGE_SIZE = 12;
@@ -322,6 +324,7 @@ export const ShopPage: React.FC = () => {
               </dl>
             </section>
           )}
+          <RelatedGuides guides={guidesForShop(slug)} />
         </div>
       )}
 

@@ -32,3 +32,10 @@ for (const b of BLOG_POSTS) {
   console.log(b.slug.padEnd(42), String(words).padStart(5), 'h2', String(h2).padStart(2), 'links', String(links.length).padStart(2), 'title', m.title.length, 'desc', m.description.length, issues.length ? '  !! ' + issues.join('; ') : '  ok');
 }
 console.log(BLOG_POSTS.length + ' posts, ' + bad + ' with issues');
+
+// Static titles used by shop/home guide links must match real posts.
+import { TITLES } from '../src/data/guide-links';
+for (const [slug, title] of Object.entries(TITLES)) {
+  const p = BLOG_POSTS.find((b) => b.slug === slug);
+  if (!p || p.title !== title) { console.log(`guide-links title mismatch: ${slug}`); bad++; }
+}

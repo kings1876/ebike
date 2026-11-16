@@ -6,6 +6,8 @@ import { PRODUCTS, CATEGORIES_WITH_SUBCATEGORIES } from '../data/products';
 import { ProductCard } from '../components/ProductCard';
 import { FAQSection } from '../components/FAQSection';
 import { ReviewsSection } from '../components/ReviewsSection';
+import { RelatedGuides } from '../components/RelatedGuides';
+import { homeGuides } from '../data/guide-links';
 
 export const HomePage: React.FC = () => {
   const featuredProducts = PRODUCTS.slice(0, 6);
@@ -234,6 +236,10 @@ export const HomePage: React.FC = () => {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <RelatedGuides guides={homeGuides()} heading="Electric bike buying guides" />
       </section>
 
       {/* Frequently Asked Questions Section on Homepage */}
