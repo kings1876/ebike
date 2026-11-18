@@ -8,11 +8,13 @@ import { BlogQuoteForm } from '../components/BlogQuoteForm';
 import { ProductCard } from '../components/ProductCard';
 
 
-type Block = { type: 'h2' | 'p'; text: string } | { type: 'ul'; items: string[] };
+type Block = { type: 'h2' | 'p'; text: string } | { type: 'ul'; items: string[] } | { type: 'img'; alt: string; src: string };
 const toBlocks = (content: string[]): Block[] => {
   const out: Block[] = [];
   for (const line of content) {
-    if (line.startsWith('## ')) out.push({ type: 'h2', text: line.slice(3) });
+    const img = line.match(/^!\[([^\]]+)\]\((\/[^)]+)\)$/);
+    if (img) out.push({ type: 'img', alt: img[1], src: img[2] });
+    else if (line.startsWith('## ')) out.push({ type: 'h2', text: line.slice(3) });
     else if (/^(- |\d+\. )/.test(line)) {
       const last = out[out.length - 1];
       const item = line.replace(/^(- |\d+\. )/, '');
@@ -113,6 +115,20 @@ export const BlogPostPage: React.FC = () => {
         {blocks.map((b, i) =>
           b.type === 'h2' ? (
             <h2 key={i} className="text-xl sm:text-2xl font-bold text-slate-900 pt-4">{inline(b.text)}</h2>
+          ) : b.type === 'img' ? (
+            <figure key={i} className="my-2">
+              <img
+                src={b.src}
+                alt={b.alt}
+                width={720}
+                height={480}
+                loading="lazy"
+                decoding="async"
+                referrerPolicy="no-referrer"
+                className="w-full h-56 sm:h-72 object-contain bg-white rounded-xl border border-slate-200"
+              />
+              <figcaption className="mt-2 text-xs text-slate-500 text-center">{b.alt}</figcaption>
+            </figure>
           ) : b.type === 'ul' ? (
             <ul key={i} className="list-disc pl-6 space-y-2">{b.items.map((it, j) => <li key={j}>{inline(it)}</li>)}</ul>
           ) : (

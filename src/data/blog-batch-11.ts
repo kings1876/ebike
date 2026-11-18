@@ -56,6 +56,7 @@ export const BATCH_11: BlogPost[] = [
       `- A strong lock such as the [Kryptonite New-U Keeper U-Lock](/product/kryptonite-new-u-keeper-standard-u-lock) at $79.99.`,
       `- Lights, for example the [Infini Safety Front and Rear Light USB](/product/infini-safety-front-rear-light-usb) at $60.`,
       `Browse [e-bike parts and accessories](/shop/ebike-parts-accessories) and our [accessories guide](/blog/essential-ebike-accessories).`,
+      `Want to compare one brand in depth? Our [Kalkhoff buying guide](/blog/kalkhoff-electric-bikes-for-sale-australia) covers the Bosch-powered commuter range, and the [best electric bikes under $5,000](/blog/best-electric-bikes-under-5000-australia) guide compares commuters, folders and trail bikes at that budget.`,
       `## Delivery, warranty and returns`,
       `Every commuter e-bike ships free across Australia with tracked, insured freight. Metro areas usually take 2 to 5 business days and regional areas 4 to 9, as listed on our [shipping page](/shipping). Each bike carries a 2-year warranty on the frame, motor and controller, with 18 months on the battery, and you have 30 days from delivery to ask for an exchange or refund under our [refund policy](/refund).`,
       `## Save 10% on your order`,

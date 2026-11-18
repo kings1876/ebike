@@ -59,6 +59,7 @@ export const BATCH_8: BlogPost[] = [
       `Choose bank transfer, Osko or crypto at checkout and 10% comes off your entire order automatically. On a $2,499 TREK FX+ 2 that saves about $250, which pays for a helmet, a lock and lights. Our [payment guide](/blog/how-to-save-10-percent-crypto-osko) explains each option.`,
       `## Add the accessories`,
       `Order a [Trek Solstice Mips helmet](/product/trek-solstice-mips-bike-helmet) at $99.99 and an [OnGuard Pitbull eBike U-Lock](/product/onguard-ebike-8003e-pitbull-std-u-lock) at $76.99 with your bike. More choices are in [e-bike parts and accessories](/shop/ebike-parts-accessories), and our [accessories guide](/blog/essential-ebike-accessories) explains what to buy first.`,
+      `If your budget stretches a little further, our guide to the [best electric bikes under $5,000](/blog/best-electric-bikes-under-5000-australia) shows what the next price step adds, including Bosch mid-drive motors, carbon folders and compact cargo bikes.`,
       `## Is a cheaper e-bike a good idea? Insurance, theft and servicing`,
       `A lower price is not a compromise if the bike is compliant and well supported. Look for a recognised motor system, a clear warranty and a seller that will answer questions after the sale. Keep your receipt and serial number, ask your home contents insurer about theft cover, and book a service each year as our [maintenance checklist](/blog/ebike-maintenance-checklist) suggests.`,
       `## What happens when the battery runs flat?`,

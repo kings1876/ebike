@@ -22,22 +22,25 @@ export const TITLES: Record<string, string> = {
   'trek-electric-bikes-for-sale-australia': "Trek Electric Bikes for Sale in Australia",
   'essential-ebike-accessories': "Essential E-Bike Accessories: Helmets, Locks and Lights",
   'ebike-maintenance-checklist': "E-Bike Maintenance Checklist: Weekly, Monthly, Yearly",
+  'kalkhoff-electric-bikes-for-sale-australia': "Kalkhoff Electric Bikes for Sale in Australia",
+  'best-electric-bikes-under-5000-australia': "Best Electric Bikes Under $5,000 in Australia",
+  'bosch-electric-bikes-for-sale-australia': "Bosch E-Bikes for Sale in Australia: Motor Guide",
 };
 
 /** Buying guides linked from shop pages and the homepage, keyed by shop URL slug. Slugs must exist in BLOG_POSTS (checked by the build). */
 const BY_SHOP: Record<string, string[]> = {
-  'cheap-electric-bikes': ['best-electric-bikes-under-3000-australia', 'cheap-electric-bikes-australia-guide', 'best-electric-bikes-for-beginners-australia'],
+  'cheap-electric-bikes': ['best-electric-bikes-under-5000-australia', 'best-electric-bikes-under-3000-australia', 'cheap-electric-bikes-australia-guide', 'best-electric-bikes-for-beginners-australia'],
   'fat-tyre-electric-bikes': ['fat-tyre-electric-bikes-guide', 'best-electric-bike-australia-2026'],
   'step-through-electric-bikes': ['step-through-electric-bike-guide', 'electric-bikes-for-seniors-australia', 'best-electric-commuter-bikes-australia'],
-  'electric-mountain-bikes': ['electric-mountain-bike-buying-guide', 'best-electric-bikes-for-hills-australia', 'best-e-bike-brands-australia'],
-  'electric-commuter-bikes': ['best-electric-commuter-bikes-australia', 'commuting-by-ebike-guide', 'step-through-electric-bike-guide'],
+  'electric-mountain-bikes': ['electric-mountain-bike-buying-guide', 'bosch-electric-bikes-for-sale-australia', 'best-electric-bikes-for-hills-australia', 'best-e-bike-brands-australia'],
+  'electric-commuter-bikes': ['best-electric-commuter-bikes-australia', 'kalkhoff-electric-bikes-for-sale-australia', 'commuting-by-ebike-guide', 'step-through-electric-bike-guide'],
   'folding-electric-bikes': ['folding-electric-bike-buying-guide', 'commuting-by-ebike-guide'],
   'electric-cargo-bikes': ['electric-cargo-bike-family-guide', 'australian-ebike-laws-guide-2026'],
   'electric-trikes': ['electric-trike-for-adults-guide', 'electric-bikes-for-seniors-australia'],
   'electric-road-bikes': ['electric-road-bikes-for-sale-australia', 'best-e-bike-brands-australia'],
   'ebike-batteries-chargers': ['ebike-battery-guide-volts-amps-watt-hours', 'battery-care-tips-australian-climate'],
   'trek-electric-bikes': ['trek-electric-bikes-for-sale-australia', 'best-e-bike-brands-australia'],
-  'smartmotion-electric-bikes': ['best-e-bike-brands-australia', 'best-electric-bike-australia-2026'],
+  'smartmotion-electric-bikes': ['best-electric-bikes-under-5000-australia', 'best-e-bike-brands-australia', 'best-electric-bike-australia-2026'],
   'ebike-parts-accessories': ['essential-ebike-accessories', 'ebike-maintenance-checklist'],
 };
 

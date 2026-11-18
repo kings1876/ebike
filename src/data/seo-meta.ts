@@ -181,7 +181,7 @@ export function getRouteMeta(pathname: string, details?: Record<string, ProductD
           description: post.excerpt,
           datePublished: iso(post.date),
           dateModified: iso(post.updated ?? post.date),
-          image: heroSrc ? [imageUrlFor(heroSrc)] : undefined,
+          image: heroSrc || blogImageUrls(post.content).length ? [...(heroSrc ? [imageUrlFor(heroSrc)] : []), ...blogImageUrls(post.content)] : undefined,
           author: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
           publisher: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
           mainEntityOfPage: canonical,
@@ -195,7 +195,11 @@ export function getRouteMeta(pathname: string, details?: Record<string, ProductD
 }
 
 /** Strip block and link markup from a blog block, for the plain-text HTML snapshot. */
-export const plainBlock = (b: string) => b.replace(/^##\s+/, '').replace(/^-\s+/, '').replace(/\*\*/g, '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
+export const plainBlock = (b: string) => b.replace(/^!\[[^\]]*\]\([^)]*\)$/, '').replace(/^##\s+/, '').replace(/^-\s+/, '').replace(/\*\*/g, '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
+
+/** Absolute URLs of the inline photos (`![alt](/images/...)` lines) in a post. */
+export const blogImageUrls = (content: string[]) =>
+  content.flatMap((c) => { const m = c.match(/^!\[[^\]]*\]\((\/[^)]+)\)$/); return m ? [`${SITE_URL}${m[1]}`] : []; });
 
 export const imageUrlFor = (src: string) => {
   const url = src.startsWith('http') ? src : `${SITE_URL}${src.startsWith('/') ? '' : '/'}${src}`;

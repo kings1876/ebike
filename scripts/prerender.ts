@@ -6,8 +6,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { allIndexableRoutes, getRouteMeta, plainBlock, SITE_URL } from '../src/data/seo-meta';
+import { allIndexableRoutes, blogImageUrls, getRouteMeta, imageUrlFor, plainBlock, SITE_URL } from '../src/data/seo-meta';
 import { DETAILS } from '../src/data/products-detail';
+import { PRODUCTS } from '../src/data/products';
 import { BLOG_POSTS } from '../src/data/blogs';
 import { shareIcons, trimInteractionClasses } from './share-icons';
 
@@ -76,7 +77,16 @@ fs.writeFileSync(
 );
 
 const today = new Date().toISOString().slice(0, 10);
-const urls = routes.map((r) => `  <url><loc>${SITE_URL}${r === '/' ? '/' : r}</loc><lastmod>${today}</lastmod></url>`).join('\n');
-fs.writeFileSync(path.join(DIST, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`);
+// Blog posts also list their photos (hero + inline) in the sitemap so image search can find them.
+const sitemapImages = (r: string) => {
+  const post = r.match(/^\/blog\/([^/]+)$/) && BLOG_POSTS.find((b) => b.slug === r.split('/')[2]);
+  if (!post) return '';
+  const hero = post.heroProductId ? PRODUCTS.find((p) => p.id === post.heroProductId) : undefined;
+  const heroSrc = hero ? (hero.images?.length ? hero.images[0] : hero.imageUrl) : undefined;
+  const all = [...(heroSrc ? [imageUrlFor(heroSrc)] : []), ...blogImageUrls(post.content)];
+  return [...new Set(all)].map((u) => `<image:image><image:loc>${esc(u)}</image:loc></image:image>`).join('');
+};
+const urls = routes.map((r) => `  <url><loc>${SITE_URL}${r === '/' ? '/' : r}</loc><lastmod>${today}</lastmod>${sitemapImages(r)}</url>`).join('\n');
+fs.writeFileSync(path.join(DIST, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${urls}\n</urlset>\n`);
 
 console.log(`prerendered ${routes.length} routes + sitemap.xml`);
